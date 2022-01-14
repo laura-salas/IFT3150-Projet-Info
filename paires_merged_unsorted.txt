@@ -1,5 +1,3 @@
-/Users/laurasalas/PycharmProjects/pythonProject/venv/bin/python /Users/laurasalas/PycharmProjects/pythonProject/main.py
-
 abaissant abaissant
 abaissé abaissé
 abandon abandonn
