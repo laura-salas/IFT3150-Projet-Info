@@ -1,4 +1,3 @@
-abandonné	abandonnée
 abbé	abbesse
 accompagnateur	accompagnatrice
 accoucheur	accoucheuse
@@ -23,7 +22,6 @@ arnaqueur	arnaqueuse
 arrivant	arrivante
 artisan	artisane
 assistant	assistante
-assoiffé	assoiffée
 auditeur	auditrice
 auteur	auteure
 auto-stoppeur	auto-stoppeuse
@@ -52,7 +50,6 @@ bronzeur	bronzeuse
 buandier	buandière
 buteur	buteuse
 buveur	buveuse
-cabochard	cabocharde
 caissier	caissière
 calomniateur	calomniatrice
 cambrioleur	cambrioleuse
@@ -60,7 +57,6 @@ camionneur	camionneuse
 campeur	campeuse
 canard	cane
 candidat	candidate
-capricieux	capricieuse
 caravanier	caravanière
 casquettier	casquettière
 chaisier	chaisière
@@ -80,7 +76,6 @@ chevrier	chevrière
 chien	chienne
 chieur	chieuse
 chiffreur	chiffreuse
-chipoteur	chipoteuse
 chiqueur	chiqueuse
 chirurgien	chirurgienne
 chocolatier	chocolatière
@@ -91,7 +86,6 @@ citoyen	citoyenne
 client	cliente
 clochard	clocharde
 coiffeur	coiffeuse
-coléreux	coléreuse
 collaborateur	collaboratrice
 collectionneur	collectionneuse
 collégien	collégienne
@@ -114,7 +108,6 @@ cordonnier	cordonnière
 cornichon	cornichonne
 costumier	costumière
 coupeur	coupeuse
-courageux	courageuse
 coureur	coureuse
 coursier	coursière
 cousin	cousine
@@ -128,7 +121,6 @@ cultivateur	cultivatrice
 danseur	danseuse
 daron	daronne
 débitant	débitante
-déclarant	déclarante
 décorateur	décoratrice
 découpeur	découpeuse
 défenseur	défenseuse
@@ -184,18 +176,13 @@ expérimentateur	expérimentatrice
 exposant	exposante
 fabricant	fabricante
 facteur	factrice
-fautif	fautive
 festivalier	festivalière
 fiancé	fiancée
 filleul	filleule
 fondeur	fondeuse
 footballeur	footballeuse
-footeux	footeuse
 fouetteur	fouetteuse
 fournisseur	fournisseuse
-frisé	frisée
-gâcheur	gâcheuse
-gaspilleur	gaspilleuse
 gendarme	gendarmette
 géniteur	génitrice
 gérant	gérante
@@ -210,7 +197,6 @@ guichetier	guichetière
 habitant	habitante
 héritier	héritière
 héros	héroïne
-hétérosexuel	hétérosexuelle
 hospitalisé	hospitalisée
 hôte	hôtesse
 hypnotiseur	hypnotiseuse
@@ -308,8 +294,6 @@ priseur	priseuse
 professeur	professeure
 promeneur	promeneuse
 prophète	prophétesse
-puîné	puînée
-puni	punie
 questionneur	questionneuse
 raccommodeur	raccommodeuse
 raconteur	raconteuse
@@ -320,7 +304,6 @@ ravisseur	ravisseuse
 réalisateur	réalisatrice
 récoltant	récoltante
 récolteur	récolteuse
-réconciliateur	réconciliatrice
 recordman	recordwoman
 recruteur	recruteuse
 rédacteur	rédactrice
@@ -331,7 +314,6 @@ reporteur	reportrice
 représentant	représentante
 ressortissant	ressortissante
 restaurateur	restauratrice
-rhumatisant	rhumatisante
 riverain	riveraine
 riziculteur	rizicultrice
 rockeur	rockeuse
@@ -341,7 +323,6 @@ ronfleur	ronfleuse
 rugbyman	rugbywoman
 saoulard	saoularde
 sapeur-pompier	sapeuse-pompière
-savonnier	savonnière
 scieur	scieuse
 sculpteur	sculpteure
 sculpteur	sculptrice
@@ -351,25 +332,20 @@ serveur	serveuse
 shampouineur	shampouineuse
 singe	guenon
 skieur	skieuse
-soigneur	soigneuse
-soixante-huitard	soixante-huitarde
 soldat	soldate
 soudeur	soudeuse
 sous-préfet	sous-préfète
 spectateur	spectatrice
 sprinter	sprinteuse
-suppliant	suppliante
 surveillant	surveillante
 tailleur	tailleuse
 taulard	taularde
 téléspectateur	téléspectatrice
 tennisman	tenniswoman
-têtu	têtue
 tireur	tireuse
 tisseur	tisseuse
 toiletteur	toiletteuse
 toilier	toilière
-tousseur	tousseuse
 traducteur	traductrice
 trafiquant	trafiquante
 trésorier	trésorière

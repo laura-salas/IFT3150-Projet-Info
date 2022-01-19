@@ -16,18 +16,22 @@ def verify_order(pair):
         print("oh no!",pair)
 
 def verify_categ(pair, noms, adjs):
-    # regarder si le mot est listé comme adjectif et comme nom
-    if pair[0] in noms.values() and pair[0] in adjs.values():
+    # regarder si le mot est listé comme adjectif
+    # on retourne False si le mot est
+    # soit un adjectif, soit à la fois un nom et un adjectif
+
+    ''' niaisage
+    elif pair[1] in adjs.values():
         print("adjectif qui est aussi un nom!", pair)
         return False
-    elif pair[1] in noms.values() and pair[1] in adjs.values():
-        print("adjectif qui est aussi un nom!", pair)
+    '''
+
+
+    if pair[0] in adjs.values() or pair[1] in adjs.values():
+        print("nom qui est aussi un adjectif!", pair)
         return False
     else:
         return True
-
-def create_adj_pairs(adjs):
-    print("gf")
 
 # =============
 
@@ -41,7 +45,7 @@ def main():
 
     # pas sure que cette ligne soit necessaire
     lex.head()
-    '''
+
     noms = lex.loc[lex.cgram == 'NOM'].ortho.to_dict()
     adjs = lex.loc[lex.cgram == 'ADJ'].ortho.to_dict()
     print(noms.values())
@@ -52,7 +56,7 @@ def main():
     for line in lines:
         pair = line.split("\t")
         # Etape 1 : verifier l'ordre (MASC,FEM)
-        #verify_order(pair)
+        verify_order(pair)
         # Etape 2 : verifier que le mot est seulement un nom
         if(verify_categ(pair, noms, adjs)):
             good_pairs.append(line)
@@ -62,21 +66,17 @@ def main():
     f = open("paires-Lareau_cleaned.txt", "w")
     f.write('\n'.join(good_pairs))
     f.close()
-    '''
 
-    # Étape 3 : créer liste d'adjectifs réguliers
-    # dans adjs, regarder categ cgramortho pour verifier que c'est JUSTE adj
-    # trouver m, trouver f
-    # append
-    # write
-    adjs_reg = lex.loc[(lex.cgram == 'ADJ')&(lex.cgramortho == 'ADJ')&(lex.genre == 'f') & (lex.nblettres <= 4)&(lex.nombre == 's')]
-    for adj_reg in adjs_reg:
-        line = adj_reg.lemme+"\t"+adj_reg.ortho
-        adj_pairs.append(line)
-    #adjs_reg = adjs_list.loc[(adjs_list.cgramortho == 'ADJ')&(adjs_list.genre == 'f')].ortho.to_dict()
-    print(adjs_reg)
-    f = open("paires-Lareau_cleaned.txt", "w")
-    f.write('\n'.join(adj_pairs))
+    adjs_reg = lex.loc[(lex.cgram == 'ADJ')&(lex.cgramortho == 'ADJ')&(lex.genre == 'f') & (lex.nblettres <= 5)&(lex.nombre == 's')]
+    adjs_reg_m = adjs_reg.lemme.to_list()
+    adjs_reg_f = adjs_reg.ortho.to_list()
+    pairs_adjs = []
+    for i in range(len(adjs_reg)):
+        line = adjs_reg_m[i]+"\t"+adjs_reg_f[i]
+        pairs_adjs.append(line)
+    print("pairs_adjs:",pairs_adjs)
+    f = open("paires-adjs.txt", "w")
+    f.write('\n'.join(pairs_adjs))
     f.close()
 
 
