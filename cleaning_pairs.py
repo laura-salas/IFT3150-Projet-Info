@@ -15,7 +15,7 @@ def verify_order(pair):
     if pair[0][-1] == 'e':
         print("oh no!",pair)
 
-def verify_categ(pair, noms, adjs):
+def verify_categ(pair, adjs):
     # regarder si le mot est listé comme adjectif
     # on retourne False si le mot est
     # soit un adjectif, soit à la fois un nom et un adjectif
@@ -38,25 +38,25 @@ def main():
     # pas sure que cette ligne soit necessaire
     lex.head()
 
-    noms = lex.loc[lex.cgram == 'NOM'].ortho.to_dict()
+    #noms = lex.loc[lex.cgram == 'NOM'].ortho.to_dict()
     adjs = lex.loc[lex.cgram == 'ADJ'].ortho.to_dict()
-
+    '''
     good_pairs = []
 
     for line in lines:
         pair = line.split("\t")
-        # Etape 1 : verifier l'ordre (MASC,FEM) : ok
+        # verifie l'ordre (MASC,FEM) : ok
         # le programme print les paires qui pourraient
         # etre problematiques
         verify_order(pair)
-        # Etape 2 : verifier que le mot est seulement un nom
-        if(verify_categ(pair, noms, adjs)):
+        # verifie que le mot est seulement un nom
+        if(verify_categ(pair, adjs)):
             good_pairs.append(line)
     f = open("paires-Lareau_cleaned.txt", "w")
     f.write('\n'.join(good_pairs))
     f.close()
 
-
+    # cree paires d'adjectifs masc/fem pour comparaison
     adjs_reg = lex.loc[(lex.cgram == 'ADJ')&(lex.cgramortho == 'ADJ')&(lex.genre == 'f') & (lex.nblettres >= 5)&(lex.nombre == 's')]
     adjs_reg_m = adjs_reg.lemme.to_list()
     adjs_reg_f = adjs_reg.ortho.to_list()
@@ -67,6 +67,23 @@ def main():
             pairs_adjs.append(line)
     f = open("paires-adjs.txt", "w")
     f.write('\n'.join(pairs_adjs))
+    f.close()
+    '''
+
+    # cree paires de noms masc/fem
+    # seul problème : ne fonctionne pas bien pour les paires
+    # ou la forme au féminin est trop différente de celle
+    # du masculin (ex.: cheval - jument)
+    noms = lex.loc[(lex.cgram == 'NOM')&(lex.cgramortho == 'NOM')&(lex.genre == 'f') &(lex.nombre == 's')&(lex.lemme!=lex.ortho)]
+    noms_m = noms.lemme.to_list()
+    noms_f = noms.ortho.to_list()
+    pairs_noms = []
+    for i in range(len(noms)):
+        if verify_categ([noms_m[i],noms_f[i]], adjs):
+            line = noms_m[i]+"\t"+noms_f[i]
+            pairs_noms.append(line)
+    f = open("paires-st-jacques.txt", "w")
+    f.write('\n'.join(pairs_noms))
     f.close()
 
 
