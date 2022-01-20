@@ -19,14 +19,6 @@ def verify_categ(pair, noms, adjs):
     # regarder si le mot est listé comme adjectif
     # on retourne False si le mot est
     # soit un adjectif, soit à la fois un nom et un adjectif
-
-    ''' niaisage
-    elif pair[1] in adjs.values():
-        print("adjectif qui est aussi un nom!", pair)
-        return False
-    '''
-
-
     if pair[0] in adjs.values() or pair[1] in adjs.values():
         print("nom qui est aussi un adjectif!", pair)
         return False
@@ -48,33 +40,31 @@ def main():
 
     noms = lex.loc[lex.cgram == 'NOM'].ortho.to_dict()
     adjs = lex.loc[lex.cgram == 'ADJ'].ortho.to_dict()
-    print(noms.values())
-    print(adjs)
 
     good_pairs = []
 
     for line in lines:
         pair = line.split("\t")
-        # Etape 1 : verifier l'ordre (MASC,FEM)
+        # Etape 1 : verifier l'ordre (MASC,FEM) : ok
+        # le programme print les paires qui pourraient
+        # etre problematiques
         verify_order(pair)
         # Etape 2 : verifier que le mot est seulement un nom
         if(verify_categ(pair, noms, adjs)):
             good_pairs.append(line)
-    print("good_pairs:",good_pairs)
-
-
     f = open("paires-Lareau_cleaned.txt", "w")
     f.write('\n'.join(good_pairs))
     f.close()
 
-    adjs_reg = lex.loc[(lex.cgram == 'ADJ')&(lex.cgramortho == 'ADJ')&(lex.genre == 'f') & (lex.nblettres <= 5)&(lex.nombre == 's')]
+
+    adjs_reg = lex.loc[(lex.cgram == 'ADJ')&(lex.cgramortho == 'ADJ')&(lex.genre == 'f') & (lex.nblettres >= 5)&(lex.nombre == 's')]
     adjs_reg_m = adjs_reg.lemme.to_list()
     adjs_reg_f = adjs_reg.ortho.to_list()
     pairs_adjs = []
     for i in range(len(adjs_reg)):
-        line = adjs_reg_m[i]+"\t"+adjs_reg_f[i]
-        pairs_adjs.append(line)
-    print("pairs_adjs:",pairs_adjs)
+        if adjs_reg_m[i]!=adjs_reg_f[i]:
+            line = adjs_reg_m[i]+"\t"+adjs_reg_f[i]
+            pairs_adjs.append(line)
     f = open("paires-adjs.txt", "w")
     f.write('\n'.join(pairs_adjs))
     f.close()
