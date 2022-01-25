@@ -40,7 +40,7 @@ def main():
 
     #noms = lex.loc[lex.cgram == 'NOM'].ortho.to_dict()
     adjs = lex.loc[lex.cgram == 'ADJ'].ortho.to_dict()
-    '''
+
     good_pairs = []
 
     for line in lines:
@@ -49,6 +49,7 @@ def main():
         # le programme print les paires qui pourraient
         # etre problematiques
         verify_order(pair)
+    '''
         # verifie que le mot est seulement un nom
         if(verify_categ(pair, adjs)):
             good_pairs.append(line)
@@ -68,7 +69,7 @@ def main():
     f = open("paires-adjs.txt", "w")
     f.write('\n'.join(pairs_adjs))
     f.close()
-    '''
+
 
     # cree paires de noms masc/fem
     # seul problème : ne fonctionne pas bien pour les paires
@@ -85,7 +86,7 @@ def main():
     f = open("paires-st-jacques.txt", "w")
     f.write('\n'.join(pairs_noms))
     f.close()
-
+    '''
 
 if __name__ == '__main__':
     main()
