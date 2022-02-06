@@ -48,4 +48,4 @@ IFT3151-projet/
 
 ## Librairies utilisées
 
-Voir *RESSOURCES/requirements.txt*
+Voir *[RESSOURCES/requirements.txt](https://github.com/laura-salas/IFT3150-Projet-Info/blob/main/RESSOURCES/requirements.txt)*
