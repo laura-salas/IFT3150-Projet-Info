@@ -80,6 +80,7 @@ target/
 
 # IPython
 profile_default/
+
 ipython_config.py
 
 # pyenv
@@ -224,4 +225,6 @@ fabric.properties
 
 # fichier de modeles 
 TRAITEMENT/SAMPLES/CLEANED/models2/
+.model
+2000.txt.tt.*
 
