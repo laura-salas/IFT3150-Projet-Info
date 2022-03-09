@@ -8,10 +8,11 @@ def main():
     # python embeddings_analysis.py words_assigned.txt 2000.txt.tt.formes.model
     src_repere = sys.argv[1]
 
-    lines = open(src_repere, "r", encoding="utf-8").read().splitlines()
+    lines = open(src_repere, "r").read().splitlines()
     pairs = []
-    for line in lines:
+    for line in lines[1:]:
         pair = line.split("\t")[0].split(",")
+        print("pair:", pair)
         pairs.append((pair[0],pair[1]))
 
 
