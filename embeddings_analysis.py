@@ -12,27 +12,33 @@ def main():
     pairs = []
     for line in lines[1:]:
         pair = line.split("\t")[0].split(",")
-        print("pair:", pair)
         pairs.append((pair[0],pair[1]))
+
+    print("hello")
 
 
     model_name = sys.argv[2]
     # The model must be in the same dir as this .py
     model = Word2Vec.load(model_name)
+    word_vectors = model.wv
+    print("word_vectors:",word_vectors)
 
-    for pair in pairs:
+
+    #for pair in pairs:
         # Source :
         # https://radimrehurek.com/gensim/models/word2vec.html
-        vector_masc = model.wv[pair[0]]
-        vector_fem = model.wv[pair[1]]
-        sims_masc = model.wv.most_similar(pair[0], topn=10)
-        sims_fem = model.wv.most_similar(pair[1], topn=10)
+    #    vector_masc = model.wv[pair[0]]
+    #    vector_fem = model.wv[pair[1]]
+    #    sims_masc = model.wv.most_similar(pair[0], topn=10)
+    #    sims_fem = model.wv.most_similar(pair[1], topn=10)
 
 
-        f = open("result.txt", "a")
-        f.write(pair[0]+" : "+sims_masc)
-        f.write(pair[1]+" : "+sims_fem)
-        f.close()
+
+    #    f = open("result.txt", "a")
+    #    f.write(pair[0]+" : "+sims_masc)
+    #    f.write(pair[1]+" : "+sims_fem)
+    #    f.close()
+
 
 if __name__ == '__main__':
     main()
