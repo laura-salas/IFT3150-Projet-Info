@@ -1,0 +1,1280 @@
+
+absent_NOM :absent_ADJ,perdant_NOM,favori_NOM,vainqueur_NOM,absents_ADJ,absents_NOM,gagnant_NOM,argentier_NOM,absente_NOM,représenté_VER,
+absente_NOM :absente_ADJ,perdante_NOM,ravivée_VER,habituée_ADJ,absent_ADJ,championne_NOM,auréolée_VER,admiratrice_NOM,favorite_NOM,californienne_NOM,
+distance:0.3893241
+
+accompagnateur_NOM :musicien_NOM,guitariste_NOM,accompagnateurs_NOM,chauffeur_NOM,arrangeur_NOM,accordéoniste_NOM,pianiste_NOM,batteur_NOM,ami_NOM,interprète_NOM,
+accompagnatrice_NOM :jouannest_NAM,attitrée_VER,elisapie_NOM,boky_NAM,écrivaine_ADJ,yaroshevskaya_NAM,comédienne_NOM,choriste_NOM,chanteuse_NOM,interprète_NOM,
+distance:0.36108503
+
+accusé_NOM :munyaneza_NAM,procès_NOM,suspect_NOM,agresseur_NOM,accusé_ADJ,plaignante_NOM,malvo_NAM,accusée_NOM,détenu_NOM,prévenu_ADJ,
+accusée_NOM :accusé_NOM,plaignante_NOM,parasiris_NAM,ex-conjointe_NOM,plavsic_NAM,munyaneza_NAM,latimer_NAM,abella_NAM,actrice_NOM,agent-source_NOM,
+distance:0.5285039
+
+acteur_NOM :comédien_NOM,actrice_NOM,interprète_NOM,réalisateur_NOM,scénariste_NOM,personnage_NOM,cinéaste_NOM,humoriste_NOM,écrivain_NOM,musicien_NOM,
+actrice_NOM :comédienne_NOM,interprète_NOM,acteur_NOM,cotillard_NAM,chanteuse_NOM,réalisatrice_NOM,écrivaine_NOM,meryl_NAM,swinton_NAM,croze_NAM,
+distance:0.68287635
+
+administrateur_NOM :syndic_NOM,cip_NAM,technicien_NOM,cirp_NAM,cirp_NOM,ingénieur_NOM,clrp_NOM,roland-therrien_NAM,consultant_VER,secrétaire-trésorier_NOM,
+administratrice_NOM :directrice_NOM,consultante_NOM,présidente_NOM,éditrice_NOM,vice-présidente_NOM,directrice_ADJ,résidente_NOM,gérante_NOM,représentante_NOM,professeure_ADJ,
+distance:0.42517918
+
+admirateur_NOM :disciple_NOM,fervent_ADJ,ami_NOM,inspirateur_NOM,raconteur_NOM,inconditionnel_NOM,rusé_ADJ,écrivain_NOM,éminent_ADJ,émule_NOM,
+admiratrice_NOM :amie_NOM,confidente_NOM,idole_NOM,actrice_NOM,icône_NOM,fervente_ADJ,institutrice_NOM,starlette_NOM,aïeule_NOM,écrivaine_NOM,
+distance:0.4432952
+
+adolescent_NOM :garçon_NOM,adolescente_NOM,enfant_NOM,adolescent_ADJ,adulte_NOM,policier_NOM,fillette_NOM,étudiant_NOM,jeune_ADJ,gamin_NOM,
+adolescente_NOM :fillette_NOM,adolescent_NOM,fille_NOM,adolescente_ADJ,garçon_NOM,amie_NOM,prostituée_NOM,jeune_ADJ,mère_NOM,femme_NOM,
+distance:0.67534304
+
+africain_NOM :écrivain_NOM,idiome_NOM,arabe_NOM,innu_NOM,kabyle_ADJ,indien_ADJ,chao_INT,africain_ADJ,métissé_VER,obscur_ADJ,
+africaine_NOM :métisse_ADJ,rouquine_NOM,esseulée_ADJ,ingénue_ADJ,vieillie_VER,écolière_NOM,aïeule_NOM,afrobeat_ADJ,travestie_VER,afro-américaine_ADJ,
+distance:0.2828982
+
+aîné_NOM :étudiant_NOM,aînés_ADJ,adolescent_NOM,adulte_ADJ,enfant_NOM,garçon_NOM,cadet_NOM,adulte_NOM,frère_NOM,papa_NOM,
+aînée_NOM :cadette_NOM,adolescente_NOM,fide_NOM,adoptive_ADJ,cadette_ADJ,aînée_ADJ,amie_NOM,fille_NOM,serena_NAM,navratilova_NAM,
+distance:0.4376125
+
+allemand_NOM :allemand_ADJ,italien_NOM,espagnol_ADJ,roumain_NOM,autrichien_NOM,italien_ADJ,américain_NOM,espagnol_NOM,autrichien_ADJ,australien_NOM,
+allemande_NOM :allemande_ADJ,américaine_NOM,italienne_ADJ,concurrente_NOM,hilde_NAM,slave_ADJ,swinton_NAM,suédoise_ADJ,hollandaise_ADJ,héritière_NOM,
+distance:0.37830958
+
+allié_NOM :allié_VER,alliés_NOM,allié_ADJ,ami_NOM,ennemi_NOM,partenaire_NOM,interlocuteur_NOM,rival_NOM,leader_NOM,adversaire_NOM,
+alliée_NOM :alliée_VER,allié_NOM,ennemie_NOM,amie_NOM,têtue_ADJ,alliés_NOM,ambassadrice_NOM,confidente_NOM,amie_ADJ,sortante_ADJ,
+distance:0.5069566
+
+amant_NOM :amante_NOM,amoureuse_NOM,compagnon_NOM,mari_NOM,amour_NOM,amoureuse_ADJ,volage_ADJ,amie_NOM,ami_NOM,fiancé_NOM,
+amante_NOM :amant_NOM,amoureuse_NOM,amie_ADJ,divorcée_NOM,voyageuse_ADJ,passionnée_VER,amoureuse_ADJ,sensuelle_ADJ,passionnee_NOM,rouquine_ADJ,
+distance:0.627493
+
+amateur_NOM :amateurs_NOM,connaisseur_NOM,collectionneur_NOM,passionné_VER,féru_ADJ,musicien_NOM,adepte_NOM,néophyte_NOM,doué_VER,sport_NOM,
+amatrice_NOM :férue_ADJ,cherehe_NOM,47-55_NUM,raffinee_NOM,35-48_NUM,28-35_NUM,épicurienne_NOM,35-46_NUM,distinguée_ADJ,44-50_NUM,
+distance:0.4276641
+
+ambitieux_NOM :ambitieux_ADJ,objectif_NOM,objectif_ADJ,ambition_NOM,ambitieuse_ADJ,emballant_VER,audacieux_ADJ,avoué_NOM,aristocrate_NOM,décadent_ADJ,
+ambitieuse_ADJ :audacieuse_ADJ,ambitieux_ADJ,exigeante_ADJ,aboutie_VER,brillante_ADJ,cohérente_ADJ,réussie_VER,séduisante_ADJ,intéressante_ADJ,rassembleuse_ADJ,
+distance:0.430066
+
+américain_NOM :australien_NOM,américain_ADJ,allemand_NOM,australien_ADJ,militaire_NOM,européen_NOM,argentin_NOM,ginepri_NAM,robby_NAM,israélien_NOM,
+américaine_NOM :américaine_ADJ,australienne_ADJ,québécoise_NOM,rivale_NOM,serena_NOM,canadienne_NOM,californienne_NOM,française_NOM,allemande_ADJ,états-unienne_ADJ,
+distance:0.46112093
+
+ami_NOM :frère_NOM,ami_ADJ,copain_NOM,père_NOM,oncle_NOM,cousin_NOM,amie_NOM,collègue_NOM,amant_NOM,grand-père_NOM,
+amie_NOM :copine_NOM,fille_NOM,amie_ADJ,mère_NOM,épouse_NOM,femme_NOM,adolescente_NOM,compagne_NOM,maman_NOM,ami_NOM,
+distance:0.5839189
+
+amoureux_NOM :amoureux_ADJ,salut_NOM,amants_NOM,fou_NOM,amant_NOM,séducteurs_ADJ,copains_NOM,wildfire_NAM,musico_NOM,ohhh_NOM,
+amoureuse_NOM :amoureuse_ADJ,amant_NOM,amante_NOM,divorcée_NOM,amie_NOM,femme_NOM,amour_NOM,délurée_ADJ,musicienne_NOM,mignonne_NOM,
+distance:0.44301403
+
+ancien_NOM :anden_NOM,ex-premier_ADJ,ancien_ADJ,ex-pre-mier_ADJ,ex-premier_NOM,tex-premier_NAM,ex-chef_NOM,ex-chef_ADJ,anden_ADJ,ex-ministre_NOM,
+ancienne_NOM :ancienne_ADJ,américaine_NOM,ex-première_ADJ,benazir_NAM,rivale_NOM,bhutto_NAM,aïeule_NOM,rescapée_VER,espionne_NOM,devenue_VER,
+distance:0.2799785
+
+anglais_NOM :anglais_ADJ,français_NOM,groupe/privé_ADJ,prononciation_NOM,arabe_NOM,espagnol_NOM,inuktitut_NOM,m.ed_NAM,anglais_NAM,toefl_NAM,
+anglaise_NOM :anglaise_ADJ,-famous_ADJ,famous_NOM,i--famous_NOM,s.-t.f_ADJ,anglais_ADJ,portugaise_ADJ,italienne_NOM,players-_NAM,-cinéplex_NAM,
+distance:0.30061474
+
+animateur_NOM :animateur_ADJ,animateur-vedette_NOM,présentateur_NOM,humoriste_ADJ,humoriste_NOM,animatrice_NOM,comédien_NOM,ex-animateur_NOM,intervieweur_NOM,émission_NOM,
+animatrice_NOM :animatrice_ADJ,animateur_NOM,écrivaine_NOM,émission_NOM,comédienne_NOM,bazzo_NAM,présentatrice_NOM,radio-canada_NAM,journaliste_NOM,auteure_NOM,
+distance:0.5999181
+
+anormal_NOM :anormal_ADJ,delilah_NAM,pis._ABR,trouble_VER,gilmore_ADJ,skyland_NAM,cybersix_NAM,d-stroy_NAM,rien_ADV,grand-chose_NOM,
+anormale_ADJ :aberrante_ADJ,inquiétante_ADJ,incontrôlée_ADJ,inflammatoire_ADJ,exogène_ADJ,abdominale_ADJ,inhabituelle_ADJ,bénigne_ADJ,myéline_NOM,excessive_ADJ,
+distance:0.3022647
+
+anxieux_ADJ :nerveux_ADJ,dépressifs_ADJ,impulsifs_ADJ,agressifs_ADJ,angoissés_VER,craintifs_ADJ,inquiets_ADJ,déprimés_VER,méfiants_ADJ,émotifs_ADJ,
+anxieuse_ADJ :émerveillée_VER,craintive_ADJ,traumatisée_VER,angoissée_VER,frustrée_VER,éplorée_ADJ,effrayée_VER,contrariée_VER,désorganisée_VER,maltraitée_VER,
+distance:0.40614906
+
+assistant_NOM :ami_NOM,adjoint_NOM,acolyte_NOM,assistant_VER,mentor_NOM,oncle_NOM,frère_NOM,adaptateur_NOM,successeur_NOM,ingénieur_NOM,
+assistante_NOM :orthophoniste_NOM,recherchiste_NOM,stagiaire_NOM,infirmière_NOM,technicienne_NOM,tutrice_NOM,bachelière_NOM,eva_NAM,professeure_ADJ,inès_NAM,
+distance:0.43737456
+
+australien_NOM :ueyton_NAM,lleyton_NAM,roddick_NAM,hewitt_NAM,ginepri_NAM,federer_NAM,américain_NOM,kuerten_NAM,schalken_NAM,australien_ADJ,
+australienne_NOM :australienne_ADJ,autrichienne_NOM,américaine_NOM,hilde_NAM,meissnitzer_NAM,néo-zélandaise_ADJ,arndt_NAM,âgée_ADJ,japonaise_NOM,sud-africaine_NOM,
+distance:0.42257446
+
+auteur_NOM :écrivain_NOM,romancier_NOM,essayiste_NOM,fauteur_NOM,auteure_NOM,coauteur_NOM,historien_NOM,réalisateur_NOM,dramaturge_NOM,scénariste_NOM,
+auteure_NOM :écrivaine_NOM,romancière_NOM,écriture_NOM,au-teure_NOM,tauteure_NAM,auteure_VER,auleure_NOM,massicotle_NAM,auteu-re_NOM,sylvie_NAM,
+distance:0.5950262
+
+aventurier_NOM :aventurier_ADJ,explorateur_NOM,explorateur_ADJ,agaguk_NAM,misanthrope_ADJ,mégalomane_ADJ,aviateur_NOM,érudit_NOM,écrivain_NOM,sorcier_NOM,
+aventurière_NOM :aventurière_ADJ,nlp/tuck_NAM,condemn_NAM,nip/tuck_NAM,actors_NOM,balko_NAM,galactica_NAM,winch_NOM,actors_ADJ,..nerdz_NAM,
+distance:0.32120636
+
+avocat_NOM :avocats_NOM,criminaliste_NOM,kuebler_NAM,avocate_NOM,procureur_NOM,juriste_NOM,julius_NAM,m1_NAM,accusé_NOM,danson_NAM,
+avocate_NOM :avocat_NOM,procureure_NOM,représentante_NOM,adjointe_VER,liquidatrice_ADJ,trignac_NAM,avocats_NOM,deny_NAM,avocates_NOM,susan_NAM,
+distance:0.5533631
+
+bachelier_NOM :doctorant_VER,professeur_NOM,diplômé_VER,baccalauréat_NOM,étudiant_NOM,doctorat_NOM,actuariat_NOM,etudiante_NOM,émérite_ADJ,bachelière_NOM,
+bachelière_NOM :etudiante_NOM,agrégée_VER,diplômée_NOM,diplômée_VER,étudiante_NOM,professeure_VER,orthophonie_NOM,professeure_ADJ,éducatrice_ADJ,docteure_NOM,
+distance:0.49123883
+
+bavard_ADJ  (freq : ):rusé_ADJ (freq : ),loquace_ADJ,volubile_ADJ,contemplatif_ADJ,avare_ADJ,cabotin_ADJ,emphatique_ADJ,maladroit_ADJ,longuet_ADJ,insolent_ADJ,
+bavarde_ADJ :prétentieuse_ADJ,ennuyeuse_ADJ,invariable_ADJ,agaçante_ADJ,incisive_ADJ,pesante_ADJ,emphatique_ADJ,désorganisée_VER,mièvre_ADJ,redondante_ADJ,
+distance:0.41186187
+
+berger_NOM :guerrier_NOM,moutons_NOM,prénommé_VER,marchand_NOM,ivrogne_ADJ,ermite_NOM,girafe_NOM,esclave_NOM,musulman_NOM,chien_NOM,
+bergère_NOM :fille_NOM,orpheline_NOM,sirène_NOM,goélette_NOM,losfeld_NAM,amérindienne_NOM,jument_NOM,gouvernante_NOM,iphigénie_NAM,narratrice_NOM,
+distance:0.3701262
+
+bien-aimé_ADJ :époux_NOM,frère_NOM,petit-fils_NOM,épouse_NOM,fils_NOM,thérèse_NAM,gilberte_NAM,georgette_NAM,yvette_NAM,bien-aimée_ADJ,
+bien-aimée_NOM :mère_NOM,petite-fille_NOM,maîtresse_NOM,filleule_NOM,nièce_NOM,adorée_VER,belle-fille_NOM,adoptive_ADJ,servante_NOM,bien-aimée_ADJ,
+distance:0.42195308
+
+bienheureux_NOM :bienheureux_ADJ,canonisé_VER,béatifié_VER,dieu_NOM,dugua_NAM,médicis_NAM,perroquet_NOM,dieux_NOM,falar-deau_NAM,lénine_NOM,
+bienheureuse_ADJ :exaltée_VER,aveuglante_ADJ,bénie_ADJ,teresa_VER,fuyante_ADJ,religieuse_NOM,orgueilleuse_ADJ,bienfaisante_ADJ,grouillante_ADJ,triomphante_ADJ,
+distance:0.2392337
+
+blessé_NOM :blessés_NOM,blessé_VER,blessés_VER,grièvement_ADV,kamikaze_NOM,attentat-suicide_NOM,assaillant_NOM,blessés_ADJ,blesses_VER,soldat_NOM,
+blessée_ADJ :blessée_VER,éplorée_ADJ,mourante_ADJ,esseulée_ADJ,têtue_ADJ,névrosée_ADJ,souffrante_ADJ,contrariée_VER,guérie_VER,meurtrie_VER,
+distance:0.2207849
+
+blond_NOM :tribu.com_NAM,sournois_ADJ,tva_ABR,nikita_NOM,blond_ADJ,sucré-salé_NAM,labrèche_NAM,emma_NAM,nikita_VER,piment_NOM,
+blonde_NOM :blonde_ADJ,fille_NOM,femme_NOM,copine_NOM,maman_NOM,jolie_ADJ,rousse_NOM,mère_NOM,amie_NOM,compagne_NOM,
+distance:0.24207985
+
+boiteux_ADJ :roi_NOM,enchaîné_ADJ,orphelin_ADJ,dysfonctionnel_ADJ,mort-né_ADJ,feydeau_NAM,hasardeux_ADJ,risqué_VER,cygne_NOM,vilain_NOM,
+boiteuse_ADJ :redondante_ADJ,têtue_ADJ,amusante_ADJ,simpliste_ADJ,banale_ADJ,insatisfaisante_ADJ,ennuyante_ADJ,fastidieuse_ADJ,idiote_ADJ,caricaturale_ADJ,
+distance:0.3045519
+
+breton_ADJ :provençal_ADJ,chardon_NOM,français_ADJ,wapiti_NOM,parmentier_NOM,écossais_ADJ,bretonne_ADJ,poitou_NAM,cassoulet_NOM,marchand_ADJ,
+bretonne_ADJ :celtique_ADJ,marseillaise_ADJ,cajun_ADJ,provençale_ADJ,rôtie_VER,amérindienne_NOM,bordelaise_ADJ,antillaise_ADJ,normande_ADJ,maghrébine_ADJ,
+distance:0.41814953
+
+brun_NOM :blanc_ADJ,châtain_NOM,argenté_ADJ,noir_NOM,foncé_ADJ,mauve_NOM,brun_ADJ,gris_ADJ,noir_ADJ,pourpre_NOM,
+brune_NOM :mtlaise_NOM,châtain_NOM,châtaine_NOM,brunette_NOM,rousse_ADJ,brune_ADJ,épicurienne_NOM,mtiaise_NAM,mince_INT,40alne_ADJ,
+distance:0.33816993
+
+cadet_NOM :cadet_ADJ,fils_NOM,père_NOM,aîné_NOM,frère_NOM,garçon_NOM,grand-père_NOM,montoya_NAM,petit-fils_NOM,âgé_ADJ,
+cadette_NOM :aînée_NOM,cadette_ADJ,fille_NOM,mère_NOM,adolescente_NOM,éplorée_ADJ,âgée_ADJ,serena_NAM,aînée_ADJ,navratilova_NAM,
+distance:0.3929089
+
+campagnard_ADJ :andalou_ADJ,vallonné_VER,chalel_NOM,3c.c._ABR,mitais_VER,pisc_ADJ,italo-provençale_ADJ,authentique_ADJ,décontracté_ADJ,5cc_NAM,
+campagnarde_ADJ :entaillée_VER,perchée_VER,onctueuse_ADJ,sablonneuse_ADJ,goûteuse_ADJ,luxuriante_ADJ,longe_NOM,provençale_ADJ,rocheuse_ADJ,lardons_NOM,
+distance:0.406142
+
+canadien_NOM :tricolore_ADJ,devils_NOM,bruins_NAM,lemenu_NAM,koivu_NAM,lightning_NOM,halak_NAM,flyers_NOM,sabres_NOM,leafs_ADJ,
+canadienne_NOM :québécoise_NOM,canadienne_ADJ,montréalaise_NOM,américaine_NOM,presse_VER,ontarienne_NOM,curl_NAM,suédoise_NOM,url_ABR,nadienne_ADJ,
+distance:0.29963604
+
+canard_NOM :agneau_NOM,magret_NOM,jambon_NOM,poêlé_VER,rôti_NOM,rôti_VER,braisé_VER,foie_NOM,veau_NOM,pleurotes_NOM,
+cane_NOM :cane_VER,celte_NOM,chameo_NAM,canelr_NAM,l-q_NAM,caneir_NAM,centunono_NAM,eerie_NOM,l-q_NOM,116500_NUM,
+distance:0.21278057
+
+cancéreux_ADJ :patients_NOM,malades_NOM,asthmatiques_ADJ,diabétiques_ADJ,intestins_NOM,terminale_ADJ,implants_NOM,cardiaques_NOM,sidéens_NOM,rechutes_NOM,
+cancéreuse_ADJ :tumeur_NOM,septicémie_NOM,myéline_NOM,malformation_NOM,cirrhose_NOM,maligne_ADJ,pancréas_NOM,caillots_NOM,leucémie_NOM,osseuse_ADJ,
+distance:0.46534714
+
+candidat_NOM :candidate_NOM,investiture_NOM,parti_NOM,candidats_NOM,député_NOM,ex-candidat_NOM,candidat-vedette_NOM,chefferie_NOM,démocrate_ADJ,colistier_NOM,
+candidate_NOM :candidat_NOM,députée_VER,ex-candidate_NOM,sénatrice_NOM,candidates_NOM,candidats_NOM,cheffe_NOM,libérale_ADJ,vice-présidence_NOM,libérale_NOM,
+distance:0.71848994
+
+capricieux_ADJ :incestueux_ADJ,sinueux_ADJ,abrupts_ADJ,insouciant_ADJ,abruptes_ADJ,rusé_ADJ,tordus_VER,embruns_NOM,inhospitalier_ADJ,sablonneux_ADJ,
+capricieuse_ADJ :glaciale_ADJ,flamboyante_ADJ,ennuyante_ADJ,névrosée_ADJ,surannée_ADJ,étrange_ADJ,décadente_ADJ,têtue_ADJ,attachante_ADJ,ennuyeuse_ADJ,
+distance:0.38228106
+
+cavalier_NOM :cavalier_ADJ,rouler_VER,néon_NOM,millar_NAM,lamaze_NAM,bleu_ADJ,mouvoir_VER,mouton_NOM,demi-dieu_NOM,enfourcher_VER,
+cavalière_NOM :berlusconi_NAM,silvio_NAM,haider_NAM,lanoukovitch_NOM,fpô_NAM,wahid_NAM,louchtchenko_ADJ,fpoe_NAM,vojislav_NAM,bundestag_NAM,
+distance:0.20126441
+
+champion_NOM :vice-champion_NOM,vainqueur_NOM,ex-champion_NOM,championne_NOM,champions_NOM,recordman_NOM,septuple_ADJ,championnat_NOM,sextuple_ADJ,wbo_NAM,
+championne_NOM :médaillée_VER,tenante_NOM,vice-champion_NOM,favorite_NOM,joueuse_NOM,championnats_NOM,gagnante_NOM,felicien_NAM,champion_NOM,friesinger_NAM,
+distance:0.5672945
+
+chanteur_NOM :guitariste_NOM,musicien_NOM,chanteuse_NOM,comédien_NOM,batteur_NOM,rappeur_NOM,bassiste_NOM,auteur-compositeur-interprète_NOM,crooner_NOM,compositeur_NOM,
+chanteuse_NOM :comédienne_NOM,chanteur_NOM,actrice_NOM,chanson_NOM,danseuse_NOM,choriste_NOM,guitariste_NOM,chanteuses_NOM,romancière_NOM,cantatrice_NOM,
+distance:0.6624593
+
+chat_NOM :chien_NOM,lapin_NOM,souris_NOM,pelage_NOM,soulier_NOM,bébé_NOM,singe_NOM,loup_NOM,papa_NOM,cochon_NOM,
+chatte_NOM :fille_NOM,poupée_NOM,copine_NOM,voisine_NOM,maman_NOM,belle_NOM,pyjama_NOM,peau_NOM,blonde_NOM,fermière_NOM,
+distance:0.37074244
+
+châtelain_ADJ :vincent-guillaume_NAM,chariebois_NAM,marchand_ADJ,locas_NAM,pierre-olivier_NAM,lebeau_NAM,joubert_NAM,louis-olivier_NAM,godin_NOM,gauthier_NAM,
+châtelaine_NOM :magazines_NOM,éditrice_NOM,magazine_NOM,rédactrice_NOM,maclean's_NAM,revues_NOM,revue_NOM,chroniqueuse_NOM,ravary_NAM,gazette_NOM,
+distance:0.05614221
+
+chercheur_NOM :chercheur_ADJ,chercheuse_NOM,professeur_NOM,biologiste_NOM,biochimiste_NOM,politologue_NOM,géologue_NOM,microbiologiste_NOM,neurologue_NOM,physicien_NOM,
+chercheuse_NOM :chercheur_NOM,chercheure_NOM,chercheuse_ADJ,profes-seure_NOM,pro-fesseure_NOM,diététiste_NOM,épidémiologiste_NOM,biochimiste_NOM,docteure_NOM,bartha_NAM,
+distance:0.6815535
+
+chéri_NOM :papa_NOM,jeunot_NOM,namour_NOM,frère_NOM,préféré_NOM,père_NOM,cousin_NOM,copain_NOM,bobettes_NOM,papy_NOM,
+chérie_NOM :maman_NOM,chérie_VER,mère_NOM,fille_NOM,lolita_NAM,adoptive_ADJ,nellie_NOM,o.k._ABR,angoissée_VER,blonde_NOM,
+distance:0.3468286
+
+cheval_NOM :verrue_NOM,chien_NOM,troie_NAM,enfourcher_VER,âne_NOM,sabot_NOM,pelage_NOM,bonnet_NOM,dompteur_NOM,cordage_NOM,
+jument_NOM :esseulée_ADJ,guêpe_NOM,orpheline_NOM,trompe_NOM,fille_NOM,touffe_NOM,morsure_NOM,paupière_NOM,girafe_NOM,brouette_NOM,
+distance:0.3749904
+
+chien_NOM :chat_NOM,cheval_NOM,loup_NOM,chiens_NOM,bébé_NOM,père_NOM,animal_NOM,enfant_NOM,lapin_NOM,garçon_NOM,
+chienne_NOM :folle_NOM,crotte_NOM,fille_NOM,maîtresse_NOM,lutin_NOM,chien_NOM,bagnole_NOM,putain_NOM,bète_NOM,maman_NOM,
+distance:0.45393342
+
+chinois_NOM :chinois_ADJ,vietnamiens_NOM,russes_NAM,coréens_NOM,japonais_NOM,africains_NOM,européens_NOM,italiens_NOM,tibétains_NOM,asiatiques_NOM,
+chinoise_NOM :chinoise_ADJ,japonaise_NOM,chinoises_NOM,jie_NAM,wang_NAM,zheng_NAM,meng_NAM,zhang_NAM,yang_NAM,chinois_ADJ,
+distance:0.39748827
+
+chirurgien_NOM :médecin_NOM,cardiologue_NOM,oncologue_NOM,anesthésiste_NOM,psychiatre_NOM,docteur_NOM,chercheur_NOM,dr_NAM,pédiatre_NOM,radiologiste_NOM,
+chirurgienne_NOM :séropositive_ADJ,patiente_NOM,infirmière_NOM,chirurgien_NOM,médecin_NOM,pédiatrique_ADJ,patientes_NOM,clinique_NOM,séropositivité_NOM,sainte-justine_NAM,
+distance:0.5076151
+
+chrétien_NOM :chrétien_ADJ,harper_VER,fédéraliste_NOM,stephen_NAM,charest_NAM,ignatieff_NAM,politicien_NOM,libéral_NOM,jean_NAM,musulman_NOM,
+chrétienne_NOM :chrétienne_ADJ,musulmane_ADJ,musulmane_NOM,catholique_ADJ,religieuse_ADJ,canadienne-française_NOM,hindoue_ADJ,rationaliste_ADJ,islam_NOM,sclérosée_VER,
+distance:0.2639781
+
+citadin_NOM :citadin_ADJ,voyageur_NOM,grégaire_ADJ,solitaire_ADJ,cyclotourisme_NOM,omniscient_ADJ,décontracté_ADJ,rêveur_NOM,célibataire_NOM,émerveillé_VER,
+citadine_ADJ :multiculturelle_NOM,épanouie_VER,bourgeoise_ADJ,proprette_ADJ,rationaliste_ADJ,naive_ADJ,recluse_ADJ,idéalisation_NOM,décadente_ADJ,joyeuse_ADJ,
+distance:0.3118448
+
+citoyen_NOM :contribuable_NOM,individu_NOM,électeur_NOM,militant_ADJ,peuple_NOM,politicien_NOM,citoyens_NOM,consommateur_NOM,immigrant_NOM,fonctionnaire_NOM,
+citoyenne_NOM :participative_ADJ,démocratie_NOM,solidaire_ADJ,militante_ADJ,citoyen_NOM,democratic_NOM,inclusive_ADJ,démocratique_ADJ,féministe_ADJ,civique_ADJ,
+distance:0.5035793
+
+clandestin_NOM :passager_ADJ,navire_NOM,clandestin_ADJ,prisonnier_NOM,évadé_VER,voleur_NOM,espion_NOM,matelot_NOM,cadavre_NOM,embouti_VER,
+clandestine_ADJ :clandestin_ADJ,eta_NOM,islamiste_ADJ,illégale_ADJ,immigration_NOM,terroriste_ADJ,radicale_ADJ,clandestins_ADJ,basque_ADJ,émigration_NOM,
+distance:0.30198413
+
+client_NOM :consommateur_NOM,fournisseur_NOM,acheteur_NOM,clients_NOM,employeur_NOM,concurrent_NOM,cliente_NOM,utilisateur_NOM,patient_NOM,employé_NOM,
+cliente_NOM :client_NOM,copine_NOM,employée_NOM,mère_NOM,patiente_NOM,plaignante_NOM,caissière_NOM,homolka_NAM,passagère_NOM,amie_NOM,
+distance:0.52565473
+
+cochon_NOM :poisson_NOM,lapin_NOM,wapiti_NOM,ragoût_NOM,chèvre_NOM,chocolat_NOM,canard_NOM,tartare_NOM,rôti_VER,veau_NOM,
+truie_NOM :fermière_NOM,chou-fleur_NOM,mayonnaise_ADJ,boulette_NOM,baronne_NOM,cuite_NOM,nourrice_NOM,friandise_NOM,grillée_ADJ,longe_NOM,
+distance:0.3678556
+
+coiffeur_NOM :papa_NOM,maman_NOM,garagiste_NOM,oncle_NOM,vieil_ADJ,biblio_NOM,psy_NOM,tailleur_NOM,cordonnier_NOM,barbier_NOM,
+coiffeuse_NOM :servante_NOM,caissière_NOM,esseulée_ADJ,couturière_NOM,serveuse_NOM,mari_NOM,starlette_NOM,prostituée_VER,maîtresse_NOM,maman_NOM,
+distance:0.3773471
+
+collaborateur_NOM :collaboratrice_NOM,devoir_NOM,-le_ADJ,source_NOM,archambault^_NAM,¦_ADJ,www.ledevoir.com_NOM,correspondant_NOM,cinema_NAM,vitrine_NOM,
+collaboratrice_NOM :collaborateur_NOM,devoir_NOM,-le_ADJ,¦_ADJ,ruiz_NAM,carolyne_NAM,277-7558_NUM,www.ledevoir.com_NOM,det'oir_NOM,\_ADJ,
+distance:0.84545445
+
+combattant_NOM :criminel_NOM,prisonnier_NOM,soldat_NOM,terroriste_NOM,détenu_NOM,combattant_VER,militant_ADJ,rebelle_NOM,taliban_NOM,militant_VER,
+combattante_NOM :militante_ADJ,féministe_NOM,farhoud_NAM,têtue_ADJ,pasionaria_NOM,féministe_ADJ,humanité_NOM,battante_ADJ,comédienne_NOM,réalisatrice_NOM,
+distance:0.33964694
+
+comédien_NOM :metteur_NOM,acteur_NOM,musicien_NOM,dramaturge_NOM,réalisateur_NOM,chanteur_NOM,cinéaste_NOM,scénariste_NOM,humoriste_NOM,romancier_NOM,
+comédienne_NOM :actrice_NOM,chanteuse_NOM,réalisatrice_NOM,metteure_NOM,romancière_NOM,écrivaine_NOM,danseuse_NOM,interprète_NOM,comédien_NOM,dramaturge_NOM,
+distance:0.63610095
+
+commerçant_NOM :vendeur_NOM,paysan_NOM,employé_NOM,policier_NOM,client_NOM,garçon_NOM,marchand_NOM,chauffeur_NOM,restaurateur_NOM,commerçant_VER,
+commerçante_ADJ :artère_NOM,vüle_NOM,grouillante_ADJ,poussiéreuse_ADJ,fortifiée_VER,délabrée_VER,mégalopole_NOM,vieille_ADJ,proprette_ADJ,fréquentée_VER,
+distance:0.24854733
+
+compagnon_NOM :complice_NOM,compagne_NOM,amant_NOM,passionné_VER,complice_ADJ,n-ftim_NOM,55-65_NUM,aimant_VER,n-fam_NOM,55-62_NUM,
+compagne_NOM :compagnon_NOM,copine_NOM,amie_NOM,amie_ADJ,femme_NOM,complice_NOM,épouse_NOM,conjointe_NOM,amant_NOM,blonde_NOM,
+distance:0.6525086
+
+compositeur_NOM :musicien_NOM,pianiste_NOM,violoniste_NOM,guitariste_NOM,sculpteur_NOM,clarinettiste_NOM,saxophoniste_NOM,arrangeur_NOM,flûtiste_NOM,poète_NOM,
+compositrice_NOM :chanteuse_NOM,harpiste_NOM,yaroshevskaya_NAM,maboungou_NAM,saariaho_NAM,conteuse_NOM,danseuse_NOM,comédienne_NOM,soprano_NOM,keersmaeker_NAM,
+distance:0.47449517
+
+concepteur_NOM :créateur_NOM,designer_NOM,fabricant_NOM,scénographe_NOM,développeur_NOM,architecte_NOM,metteur_NOM,conceptrice_NOM,éclairagiste_NOM,cofondateur_NOM,
+conceptrice_NOM :directrice_NOM,créatrice_NOM,cofondatrice_NOM,eclairages_NAM,productrice_ADJ,compositrice_NOM,fondatrice_NOM,metteure_NOM,bematchez_NAM,morgenthaler_NAM,
+distance:0.48628503
+
+conducteur_NOM :passager_ADJ,volant_NOM,automobiliste_NOM,voiture_NOM,pare-brise_NOM,chauffeur_NOM,véhicule_NOM,conducteurs_NOM,policier_NOM,pilote_NOM,
+conductrice_NOM :fourgonnette_NOM,embouti_VER,fillette_NOM,policière_NOM,passagère_NOM,femme_NOM,camionnette_NOM,policier_NOM,voiture_NOM,banalisée_VER,
+distance:0.45340955
+
+conférencier_NOM :chercheur_ADJ,formateur_ADJ,colloque_NOM,invité_ADJ,chercheur_NOM,professeur_NOM,animateur_ADJ,expert-conseil_NOM,spécialiste_NOM,invité_VER,
+conférencière_NOM :animatrice_ADJ,professeure_VER,invitée_VER,professeure_NOM,agrégée_VER,pro-fesseure_NOM,chercheuse_NOM,consultante_ADJ,professeure_ADJ,chercheure_NOM,
+distance:0.42774543
+
+confident_NOM :tudors_NAM,wordgirl_NAM,etaik_NOM,artattack_NAM,©talk_NAM,boxerock_NAM,worldfocus_NAM,tonight_NOM,inews_NOM,ictv_NAM,
+confidente_NOM :amie_NOM,éplorée_ADJ,névrosée_ADJ,acariâtre_ADJ,baronne_NOM,fille_NOM,mère_NOM,délurée_ADJ,nourrice_NOM,manipulatrice_ADJ,
+distance:0.30916828
+
+conjoint_NOM :conjointe_NOM,ex-conjoint_NOM,époux_NOM,épouse_NOM,mari_NOM,beau-père_NOM,mère_NOM,ex-épouse_NOM,frère_NOM,handicapé_ADJ,
+conjointe_NOM :épouse_NOM,conjoint_NOM,mère_NOM,fille_NOM,époux_NOM,belle-mère_NOM,nièce_NOM,filleule_NOM,belle-fille_NOM,petite-fille_NOM,
+distance:0.6838588
+
+conseiller_NOM :conseiller_VER,conseillère_NOM,ex-conseiller_NOM,vice-président_NOM,représentant_NOM,conseillers_NOM,consultant_NOM,dirigeant_NOM,avocat_NOM,434$_ABR,
+conseillère_NOM :conseiller_VER,conseiller_NOM,présidente_NOM,vice-présidente_NOM,584$_ABR,consultante_NOM,agente_NOM,directrice_NOM,représentante_NOM,mairesse_NOM,
+distance:0.59299093
+
+conservateur_NOM :conservatrice_NOM,libéral_NOM,conservateur_ADJ,député_NOM,réformiste_NOM,conservatrice_ADJ,progressiste-conservateur_NOM,liberal_NOM,libéral_ADJ,organisateur_NOM,
+conservatrice_NOM :conservateur_NOM,conservatrice_ADJ,bondil_NAM,directrice_NOM,historienne_NOM,mbam_NAM,organisatrice_NOM,musée_NOM,députée_VER,rédactrice_NOM,
+distance:0.61063284
+
+consommateur_NOM :consommateurs_NOM,client_NOM,contribuable_NOM,investisseur_NOM,téléspectateur_NOM,utilisateur_NOM,citoyen_NOM,lecteur_NOM,consonunateurs_NOM,internaute_NOM,
+consommatrice_NOM :assoiffée_VER,exportatrice_ADJ,dépendante_ADJ,gaspillée_VER,angoissée_VER,réceptive_ADJ,mélangée_VER,sensibilisée_VER,potasse_NOM,consommatrices_NOM,
+distance:0.3329799
+
+conteur_NOM :comédien_NOM,musicien_NOM,romancier_NOM,écrivain_NOM,poète_NOM,raconteur_NOM,marionnettiste_NOM,conteurs_NOM,guitariste_NOM,poète_ADJ,
+conteuse_NOM :danseuse_NOM,comédienne_NOM,poétesse_NOM,yaroshevskaya_NAM,gouaille_NOM,romancière_NOM,chanteuse_NOM,écrivaine_NOM,compositrice_NOM,choriste_NOM,
+distance:0.49843186
+
+continental_ADJ :airlines_NOM,airlines_NAM,haute-vitesse_NOM,copieux_ADJ,nord-américain_ADJ,chautauqua_NAM,airlines_ADJ,northwest_NAM,shuttle_NAM,skyteam_NAM,
+continentale_ADJ :nord-américaine_ADJ,latine_ADJ,intégration_NOM,interprovinciales_ADJ,échede_NOM,ex-union_NOM,chine_NAM,europe_NAM,environnementale_ADJ,supranationale_ADJ,
+distance:0.27624124
+
+copain_NOM :frère_NOM,ami_NOM,père_NOM,camarade_NOM,oncle_NOM,garçon_NOM,papa_NOM,grand-père_NOM,cousin_NOM,amie_NOM,
+copine_NOM :amie_NOM,mère_NOM,maman_NOM,fille_NOM,voisine_NOM,blonde_NOM,compagne_NOM,amie_ADJ,fide_NOM,grand-mère_NOM,
+distance:0.5210508
+
+coréen_NOM :allemand_NOM,vietnamien_NOM,roumain_NOM,coréen_ADJ,espagnol_ADJ,persan_NOM,anglais_ADJ,suédois_NOM,russe_NOM,tchèque_NOM,
+coréenne_ADJ :japonaise_ADJ,chinoise_ADJ,allemande_ADJ,polonaise_ADJ,sud-coréenne_ADJ,nord-coréenne_ADJ,péninsule_NOM,danoise_ADJ,ukrainienne_ADJ,russe_ADJ,
+distance:0.3014025
+
+correspondant_NOM :journaliste_NOM,correspondant_VER,correspondante_NOM,chroniqueur_NOM,cameraman_NOM,diplomate_NOM,caméraman_NOM,collaborateur_NOM,commentateur_NOM,tafp_NAM,
+correspondante_NOM :correspondant_NOM,journaliste_NOM,chroniqueuse_NOM,écrivaine_NOM,correspondant_VER,romancière_NOM,déléguée_NOM,comédienne_NOM,hélène_NAM,poétesse_NOM,
+distance:0.5482563
+
+courageux_ADJ :audacieux_ADJ,orgueilleux_ADJ,lucide_ADJ,superstitieux_ADJ,valeureux_ADJ,mesquin_ADJ,exigeant_ADJ,héroïques_ADJ,rigoureux_ADJ,courageuse_ADJ,
+courageuse_ADJ :audacieuse_ADJ,têtue_ADJ,émouvante_ADJ,exigeante_ADJ,lucide_ADJ,douloureuse_ADJ,pieuse_ADJ,brillante_ADJ,caustique_ADJ,désespérée_ADJ,
+distance:0.49546474
+
+coureur_NOM :pilote_NOM,phonak_NAM,coureurs_NOM,cycliste_NOM,équipier_NOM,sprinter_NOM,bettini_NAM,cycliste_ADJ,sprinteur_NOM,vinokourov_NAM,
+coureuse_NOM :patineuse_NOM,skieuse_NOM,felicien_NAM,plongeuse_NOM,championne_NOM,nageuse_NOM,athlète_NOM,perdita_NAM,muenzer_NAM,skieur_NOM,
+distance:0.36130697
+
+cousin_NOM :frère_NOM,père_NOM,grand-père_NOM,fils_NOM,ami_NOM,oncle_NOM,neveu_NOM,demi-frère_NOM,petit-fils_NOM,copain_NOM,
+cousine_NOM :fille_NOM,mère_NOM,tante_NOM,nièce_NOM,belle-s_NOM,adoptive_ADJ,belle-mère_NOM,copine_NOM,amie_NOM,névrosée_ADJ,
+distance:0.5053518
+
+couturier_NOM :peintre_NOM,marionnettiste_NOM,styliste_NOM,créateur_NOM,ponti_NAM,comédien_NOM,lenôtre_NAM,costume_NOM,designer_NOM,vénitien_ADJ,
+couturière_NOM :comédienne_NOM,bouches_VER,dramaturge_NOM,danseuse_NOM,coiffeuse_NOM,esseulée_ADJ,chartreuse_NOM,fille_NOM,romancière_NOM,comtesse_NOM,
+distance:0.32952785
+
+créancier_NOM :créanciers_NOM,actionnaire_NOM,assureur_NOM,créanders_NOM,débiteur_NOM,créancière_NOM,failli_NOM,acheteur_NOM,prêteur_NOM,débiteur_ADJ,
+créancière_NOM :créanders_NOM,24*_ADJ,23*_ADJ,créanciers_NOM,28*_ADJ,27*_ADJ,assemblée_VER,2(x)9_ADJ,22*_ADJ,16*_ADJ,
+distance:0.47069013
+
+créateur_NOM :créateur_ADJ,musicien_NOM,artiste_NOM,compositeur_NOM,personnage_NOM,sculpteur_NOM,concepteur_NOM,raconteur_NOM,romancier_NOM,visionnaire_NOM,
+créatrice_NOM :styliste_NOM,conceptrice_NOM,créatrice_ADJ,créateur_NOM,inventivité_NOM,interprète_NOM,androgyne_ADJ,exubérante_ADJ,bédéiste_NOM,artiste_NOM,
+distance:0.5012
+
+criminel_NOM :criminels_NOM,violeur_NOM,délinquant_NOM,psychopathe_NOM,criminel_ADJ,combattant_NOM,terroriste_NOM,meurtre_NOM,viol_NOM,civil_NOM,
+criminelle_NOM :meurtrière_NOM,lesbienne_NOM,têtue_ADJ,névrosée_ADJ,comment..fait_NAM,adultère_ADJ,admiratrice_NOM,espionne_NOM,sous-culture_NOM,recluse_ADJ,
+distance:0.37902328
+
+croyant_NOM :athée_NOM,croyant_ADJ,prosélytisme_NOM,musulman_NOM,penseur_NOM,croyante_ADJ,nationaliste_NOM,politicien_NOM,dogmatique_ADJ,rationaliste_ADJ,
+croyante_ADJ :chrétienne_ADJ,croyant_ADJ,musulmane_ADJ,spirituelle_ADJ,agnostique_ADJ,désabusée_VER,pieuse_ADJ,séculière_ADJ,religieuse_ADJ,athée_ADJ,
+distance:0.48021066
+
+cuisinier_NOM :pâtissier_ADJ,barman_NOM,serveuse_NOM,pâtissier_NOM,médecin_NOM,menuisier_NOM,musicien_NOM,cuisiniers_NOM,cuistot_NOM,matelot_NOM,
+cuisinière_NOM :trigo_NOM,frigo_ADJ,tngo_NOM,irigo_NAM,poêle_NOM,fngo_NAM,fngo_NOM,lav.-vaiss_NOM,lav-vaiss_NOM,lav/vais_VER,
+distance:0.31077868
+
+curieux_NOM :visiteurs_NOM,curieux_ADJ,marcheurs_NOM,passants_NOM,badauds_NOM,amateurs_NOM,touristes_NOM,festivaliers_NOM,promeneurs_NOM,spectateurs_NOM,
+curieuse_NOM :raffinee_NOM,mmee_NOM,n-fam_NOM,n-ftim_NOM,55-60_NUM,40ame_ADJ,séneuse_ADJ,47-55_NUM,28-35_NUM,35-48_NUM,
+distance:0.18692182
+
+danseur_NOM :chorégraphe_NOM,musicien_NOM,danseuse_NOM,ballet_NOM,comédien_NOM,chorégraphie_NOM,interprète_NOM,compositeur_NOM,pianiste_NOM,artiste_NOM,
+danseuse_NOM :chorégraphe_NOM,comédienne_NOM,chanteuse_NOM,ballerine_NOM,danseur_NOM,danseurs_NOM,chorégraphie_NOM,interprète_NOM,conteuse_NOM,guillem_NAM,
+distance:0.63943547
+
+débiteur_NOM :débitrice_NOM,créancier_NOM,précitée_ADJ,créanciers_NOM,débiteurs_NOM,débiteur_ADJ,failli_NOM,d-haut_VER,cession_NOM,insolvable_ADJ,
+débitrice_NOM :précitée_ADJ,faillie_VER,débiteur_NOM,d-haut_VER,cession_NOM,débiteur_ADJ,débitrice_ADJ,présentes_NOM,28*_ADJ,créanciers_NOM,
+distance:0.58900815
+
+débrouillard_ADJ :insolent_ADJ,misanthrope_ADJ,fortuné_ADJ,compatissant_ADJ,introverti_ADJ,gentil_ADJ,poilu_ADJ,facétieux_ADJ,rusé_ADJ,futé_ADJ,
+débrouillarde_ADJ :n-fam_NOM,n-ftim_NOM,n-ton_NOM,compréhensive_ADJ,mi-sportive_ADJ,n-fumeuse_ADJ,28-35_NUM,40alne_NAM,55-60_NUM,aérobie_ADJ,
+distance:0.35160756
+
+débutant_ADJ :doué_ADJ,jardinier_ADJ,menuisier_NOM,anglais-français_VER,décrocheur_NOM,introverti_ADJ,anglais_ADJ,intermédiaire_ADJ,apprentissage_NOM,pédagogue_NOM,
+débutante_ADJ :comédienne_NOM,actrice_NOM,névrosée_ADJ,adolescente_ADJ,musicienne_NOM,choriste_NOM,danseuse_NOM,maman_NOM,habillée_VER,craquante_ADJ,
+distance:0.3154032
+
+défunt_NOM :délunt_NOM,défunte_NOM,liquidateur_NOM,successoral_ADJ,liquidatrice_NOM,inventaire_NOM,liquidateurs_NOM,biens_NOM,successoraux_ADJ,successorale_ADJ,
+défunte_NOM :défunt_NOM,délunt_NOM,liquidatrice_NOM,liquidateur_NOM,liquidateurs_NOM,inventaire_NOM,biens_NOM,successoral_ADJ,successoraux_ADJ,successorale_ADJ,
+distance:0.69713014
+
+délinquant_NOM :criminel_NOM,pédophile_NOM,récidiviste_NOM,contrevenant_NOM,adolescent_NOM,violeur_NOM,criminels_NOM,pédophile_ADJ,détenu_NOM,terroriste_NOM,
+délinquante_ADJ :insouciante_ADJ,politisée_VER,ennuyante_ADJ,têtue_ADJ,consentante_ADJ,déjantée_VER,rigolote_ADJ,désabusée_VER,rêveuse_ADJ,impertinente_ADJ,
+distance:0.3365418
+
+demandeur_NOM :demanderesse_NOM,requérante_ADJ,requérant_ADJ,demanderesse_NAM,défendeur_NOM,demanderesse_ADJ,-c-_NAM,demanderesse_ABR,détendeur_NOM,défendeurs_NOM,
+demanderesse_NOM :demanderesse_ADJ,requérante_ADJ,demanderesse_NAM,-vs-_NAM,demanderesse_VER,-c-_NAM,défenderesse_NOM,demanderesse_ABR,-vs-_ADJ,demandresse_NOM,
+distance:0.6349796
+
+destructeur_ADJ :violent_ADJ,dangereux_ADJ,dévastateur_ADJ,inhospitalier_ADJ,malveillant_ADJ,destructrice_ADJ,brutal_ADJ,menaçant_ADJ,irresponsable_ADJ,insensé_ADJ,
+destructrice_ADJ :meurtrière_ADJ,dangereuse_ADJ,brutale_ADJ,violente_ADJ,mortifère_ADJ,inhumaine_ADJ,cruelle_ADJ,insidieuse_ADJ,perverse_ADJ,dévastatrice_ADJ,
+distance:0.4934429
+
+détenteur_NOM :détentrice_NOM,titulaire_NOM,titulaire_ADJ,détient_VER,détenir_VER,vice-champion_NOM,détenteurs_NOM,étudiant_NOM,titulaires_NOM,détenez_VER,
+détentrice_NOM :détenteur_NOM,titulaire_ADJ,titulaire_NOM,détenir_VER,championne_NOM,détient_VER,médaillée_VER,favorite_NOM,nageuse_NOM,lauréate_NOM,
+distance:0.549635
+
+dieu_NOM :jésus_NAM,allah_NAM,prophète_NOM,dieux_NOM,christ_NOM,christ_NAM,incarné_ADJ,miséricorde_NOM,bouddha_NOM,divin_ADJ,
+déesse_NOM :prêtresse_NOM,divinité_NOM,touffe_NOM,héra_NAM,dieu_NOM,nymphe_NOM,nourrice_NOM,nourricière_ADJ,vénus_NAM,esseulée_ADJ,
+distance:0.48394182
+
+diplômé_NOM :diplômé_ADJ,514-489-3801_NUM,8hres/200$_ABR,ph.d_NAM,8hres200$_ABR,m.ed_NAM,toefl_NAM,étudiant_NOM,8hres_ABR,514-484-6089_NUM,
+diplômée_NOM :diplômée_VER,bachelière_NOM,etudiante_NOM,étudiante_NOM,agrégée_VER,funiversité_NAM,glendon_NOM,pro-fesseure_NOM,enseignante_NOM,ex-professeur_NOM,
+distance:0.39256272
+
+directeur_NOM :ex-directeur_NOM,général_ADJ,vice-président_NOM,coordonnateur_NOM,directrice_NOM,directeur_ADJ,président-directeur_NOM,general_ADJ,codirecteur_ADJ,directrice_ADJ,
+directrice_NOM :directrice_ADJ,coordonnatrice_NOM,présidente_NOM,présidente-directrice_NOM,ex-directrice_NOM,fondatrice_NOM,codirectrice_NOM,vice-présidente_NOM,cofondatrice_NOM,coprésidente_NOM,
+distance:0.563645
+
+dirigeant_NOM :président_NOM,leader_NOM,president_NOM,représentant_NOM,prérident_NOM,dirigeant_VER,ex-président_NOM,vice-président_NOM,patron_NOM,dirigeants_NOM,
+dirigeante_NOM :présidente_NOM,représentante_NOM,dirigeant_NOM,porte-parole_NOM,opposante_NOM,ex-présidente_NOM,pasionaria_NOM,cheffe_NOM,députée_VER,militante_ADJ,
+distance:0.5381632
+
+divorcé_NOM :divorcé_ADJ,n-fam_NOM,enfanls_NOM,27-37_NUM,5'h_NAM,n-ftim_NOM,divorcée_VER,5'b_NAM,mmee_NOM,mohammed_NOM,
+divorcée_NOM :raffinee_NOM,rouquine_NOM,mignonne_NOM,épicurienne_NOM,femme_NOM,fonceuse_ADJ,ricaneuse_ADJ,passionnee_NOM,rouquine_ADJ,aimante_ADJ,
+distance:0.46327305
+
+docteur_NOM :dr_NAM,psychiatre_NOM,médecin_NOM,chirurgien_NOM,cardiologue_NOM,microbiologiste_NOM,oncologue_NOM,neurologue_NOM,docteure_NOM,légiste_ADJ,
+docteure_NOM :agrégée_VER,bachelière_NOM,bartha_NAM,professeure_ADJ,chercheuse_NOM,chercheure_NOM,pro-fesseure_NOM,médecine_NOM,docteur_NOM,professeure_NOM,
+distance:0.5104521
+
+dominateur_ADJ :revanchard_ADJ,paternaliste_ADJ,corrompu_VER,calculateur_ADJ,doctrinaire_ADJ,arrogant_ADJ,centralisateur_ADJ,féodal_ADJ,fédéralisme_NOM,hautain_ADJ,
+dominatrice_ADJ :têtue_ADJ,névrosée_ADJ,acariâtre_ADJ,arrogante_ADJ,altière_ADJ,ignorante_ADJ,insouciante_ADJ,écartelée_VER,idéalisation_NOM,hargneuse_ADJ,
+distance:0.3326406
+
+douanier_NOM :douanier_ADJ,policier_NOM,douaniers_NOM,chauffeur_NOM,camionneur_NOM,matelot_NOM,cordonnier_NOM,médecin_NOM,soupçonneux_ADJ,passager_NOM,
+douanière_ADJ :supranationale_ADJ,schengen_NAM,libre-échange_NOM,libreéchange_NOM,confédérale_ADJ,euro-_ADJ,péenne_ADJ,ale-na_NAM,européenne_ADJ,aléna_NAM,
+distance:0.20505872
+
+écolier_NOM :adolescent_NOM,garçon_NOM,enfant_NOM,gamin_NOM,fillette_NOM,élève_NOM,enseignant_NOM,habit_NOM,ordinateur_NOM,soldat_NOM,
+écolière_NOM :fillette_NOM,orpheline_NOM,immigrante_NOM,fenune_NOM,fille_NOM,adolescente_NOM,indienne_NOM,kippa_NOM,musulmane_NOM,aïeule_NOM,
+distance:0.43640998
+
+écrivain_NOM :romancier_NOM,poète_NOM,essayiste_NOM,écrivaine_NOM,artiste_NOM,intellectuel_NOM,dramaturge_NOM,historien_NOM,auteur_NOM,philosophe_NOM,
+écrivaine_NOM :romancière_NOM,auteure_NOM,poétesse_NOM,écrivain_NOM,comédienne_NOM,écrivaine_ADJ,actrice_NOM,dramaturge_NOM,romancier_NOM,au-teure_NOM,
+distance:0.6944324
+
+éducateur_NOM :enseignant_NOM,pédagogue_NOM,éducatrice_NOM,éducateur_ADJ,orthopédagogue_NOM,intellectuel_NOM,médecin_NOM,horticulteur_NOM,pédiatre_NOM,formateur_NOM,
+éducatrice_NOM :infirmière_NOM,enseignante_NOM,intervenante_NOM,orthopédagogue_NOM,enseignant_NOM,éducateur_NOM,prostituée_NOM,garderie_NOM,orthophoniste_NOM,travailleuse_NOM,
+distance:0.4686634
+
+égal_ADJ :équivalent_ADJ,égale_ADJ,équivalant_VER,inférieur_ADJ,absolu_VER,absolu_ADJ,minimal_ADJ,égales_ADJ,minimum_NOM,legitime_ADJ,
+égale_ADJ :égal_ADJ,égales_ADJ,mène_VER,équivalente_ADJ,inférieure_ADJ,nécessaire_ADJ,buftalo_NAM,aulourd'hui_NAM,précisée_VER,élevée_VER,
+distance:0.46194467
+
+électeur_NOM :électeurs_NOM,élu_NOM,citoyen_NOM,électrice_NOM,électorat_NOM,internaute_NOM,candidat_NOM,voter_VER,usager_NOM,utilisateur_NOM,
+électrice_NOM :électeur_NOM,houda-pépin_NAM,cheffe_NOM,candidate_NOM,fédéraliste_NOM,élue_NOM,souverainiste_NOM,députée_VER,démocrate_NOM,élection_NOM,
+distance:0.50741625
+
+élu_NOM :député_NOM,candidat_NOM,électeur_NOM,politicien_NOM,parlementaire_NOM,maire_NOM,employé_NOM,représentant_NOM,citoyen_NOM,élu_VER,
+élue_NOM :élue_VER,élue_ADJ,députée_VER,réélue_VER,candidate_NOM,représentante_NOM,sortante_ADJ,nommée_VER,cheffe_NOM,pressentie_VER,
+distance:0.41389415
+
+empereur_NOM :roi_NOM,napoléon_NAM,otton_NAM,hérode_NAM,byzantin_ADJ,pharaon_NOM,zeus_NAM,tsar_NOM,noé_NOM,romain_ADJ,
+impératrice_NOM :empereur_NOM,princesse_NOM,neptunium_NOM,sissi_NAM,phèdre_NAM,amérindienne_NOM,actrice_NOM,maîtresse_NOM,prusse_NAM,aïeule_NOM,
+distance:0.46691763
+
+employé_NOM :employeur_NOM,travailleur_NOM,salarié_NOM,fonctionnaire_NOM,employée_NOM,policier_NOM,dirigeant_NOM,ouvrier_NOM,automobiliste_NOM,client_NOM,
+employée_NOM :employé_NOM,caissière_NOM,cliente_NOM,gérante_NOM,représentante_NOM,agente_NOM,copine_NOM,passagère_NOM,espionne_NOM,policière_NOM,
+distance:0.55490613
+
+ennemi_NOM :ennemi_ADJ,envahisseur_NOM,allié_NOM,ennemis_NOM,tyran_NOM,ennemie_NOM,idéologie_NOM,adversaire_NOM,oppresseur_NOM,ami_NOM,
+ennemie_NOM :ennemi_NOM,oppresseur_NOM,sacrée_ADJ,indignité_NOM,hyperpuissance_NOM,métaphore_NOM,alliée_NOM,infamie_NOM,incarnation_NOM,icône_NOM,
+distance:0.49763116
+
+enseignant_NOM :élève_NOM,étudiant_NOM,enseignant_VER,enseignante_NOM,éducateur_NOM,enseignement_NOM,instituteur_NOM,adolescent_NOM,parent_NOM,élèves_NOM,
+enseignante_NOM :enseignante_ADJ,étudiante_NOM,enseignant_NOM,infirmière_NOM,femme_NOM,institutrice_NOM,éducatrice_NOM,fenune_NOM,orthopédagogue_NOM,retraitée_NOM,
+distance:0.5869125
+
+entraîneur_NOM :entraineur_NOM,entraîneur-chef_NOM,entraineur-chef_NOM,habscheid_NAM,entraîneur-chef_ADJ,attaquant_NOM,ailier_NOM,ex-entraîneur_NOM,entraîneurs_NOM,gainey_NAM,
+entraîneuse_NOM :espionne_NOM,confidente_NOM,amie_NOM,actrice_NOM,comédienne_NOM,massothérapeute_NOM,petite-fille_NOM,aïeule_NOM,plongeuse_NOM,visiteuse_NOM,
+distance:0.38349995
+
+époux_NOM :épouse_NOM,conjoint_NOM,mari_NOM,beau-frère_NOM,conjointe_NOM,soeur_NOM,belle-soeur_NOM,fils_NOM,frère_NOM,nièce_NOM,
+épouse_NOM :époux_NOM,conjointe_NOM,mari_NOM,frère_NOM,mère_NOM,fils_NOM,beau-frère_NOM,nièce_NOM,fille_NOM,amie_NOM,
+distance:0.77568394
+
+espagnol_NOM :espagnol_ADJ,anglais_ADJ,italien_NOM,allemand_NOM,portugais_NOM,français_ADJ,arabe_NOM,roumain_NOM,catalan_NOM,anglais_NOM,
+espagnole_ADJ :italienne_ADJ,portugaise_ADJ,allemande_ADJ,française_ADJ,espagnol_ADJ,mexicaine_ADJ,japonaise_ADJ,néerlandaise_ADJ,hongroise_ADJ,chilienne_ADJ,
+distance:0.43332395
+
+espion_NOM :bandit_NOM,espionne_NOM,ex-agent_NOM,aviateur_NOM,escroc_NOM,prisonnier_NOM,soldat_NOM,espions_NOM,kgb_ABR,espionnage_NOM,
+espionne_NOM :meurtrière_NOM,prostituée_VER,entraîneuse_NOM,kidnappée_VER,actrice_NOM,confidente_NOM,espion_NOM,nourrice_NOM,héroïne_NOM,têtue_ADJ,
+distance:0.5085456
+
+états-unien_ADJ :américain_ADJ,étasunien_ADJ,mexicain_ADJ,hexagonal_ADJ,ontarien_ADJ,allemand_ADJ,anglo-saxon_ADJ,européen_ADJ,canadien_ADJ,ricain_NOM,
+états-unienne_ADJ :américaine_ADJ,étasunienne_ADJ,anglo-saxonne_ADJ,chinoise_ADJ,anglo-américaine_ADJ,mexicaine_ADJ,japonaise_ADJ,américaine_NOM,occidentale_ADJ,allemande_ADJ,
+distance:0.32439977
+
+étranger_NOM :étranger_ADJ,etranger_NOM,étranger_VER,individu_NOM,externe_NOM,reer_NOM,emprunt_NOM,institution_NOM,résidents_NOM,équivaloir_VER,
+étrangère_NOM :étrangère_ADJ,politique_NOM,têtue_ADJ,politique_ADJ,comparée_VER,doctorant_VER,chaire_NOM,sociologie_NOM,charles-philippe_NAM,ethnicité_NOM,
+distance:0.20570134
+
+étudiant_NOM :enseignant_NOM,élève_NOM,étudiant_VER,etudiant_NOM,étudiants_NOM,adolescent_NOM,étudiante_NOM,individu_NOM,immigrant_NOM,enfant_NOM,
+étudiante_NOM :enseignante_NOM,pro-fesseure_NOM,etudiante_NOM,étudiant_NOM,profes-seure_NOM,professeure_NOM,bachelière_NOM,adolescente_NOM,fille_NOM,diplômée_NOM,
+distance:0.5604503
+
+européen_NOM :européen_ADJ,américain_NOM,9.52_NUM,9,52_NUM,9.73_NUM,hsbgr_NAM,10,28_NUM,asiatique_NOM,12,92_NUM,14,19_NUM,
+européenne_NOM :européenne_ADJ,européen_ADJ,confédérale_ADJ,euro-_ADJ,péenne_ADJ,américaine_NOM,douanière_ADJ,italienne_NOM,supranationale_ADJ,confédéral_ADJ,
+distance:0.3473166
+
+extravagant_ADJ :caricatural_ADJ,insolent_ADJ,désespérant_ADJ,subtil_ADJ,foisonnant_ADJ,tapageur_ADJ,grandiloquent_ADJ,excentrique_NOM,bordélique_ADJ,monumental_ADJ,
+extravagante_ADJ :aguichante_ADJ,décadente_ADJ,suggestive_ADJ,irréelle_ADJ,rafraîchissante_ADJ,érudite_ADJ,étonnante_ADJ,touchante_ADJ,attachante_ADJ,impertinente_ADJ,
+distance:0.3193579
+
+familier_NOM :manichéen_ADJ,interpénétration_NOM,halluciné_VER,familier_ADJ,romancier_NOM,surréaliste_NOM,surréalisme_NOM,naturalisme_NOM,extraverti_ADJ,habitué_ADJ,
+familière_ADJ :familier_ADJ,singulière_ADJ,familiers_ADJ,surannée_ADJ,redondante_ADJ,caricaturale_ADJ,rébarbative_ADJ,proprette_ADJ,triviale_ADJ,paradoxale_ADJ,
+distance:0.37752974
+
+fautif_ADJ :fautifs_ADJ,mécontent_ADJ,stante_NAM,injurieux_ADJ,contrevenant_NOM,indemnisé_VER,infraction_NOM,criminel_NOM,abusif_ADJ,criminel_ADJ,
+fautive_ADJ :inexacte_ADJ,tatillonne_ADJ,biaisée_VER,incorrecte_ADJ,optionnelle_ADJ,elle-même_PRO,déficiente_ADJ,excessive_ADJ,imprécise_ADJ,négligente_ADJ,
+distance:0.36223257
+
+favori_NOM :favori_ADJ,vainqueur_NOM,favorite_NOM,favoris_NOM,rival_NOM,candidat_NOM,srichaphan_NAM,andreev_NAM,perdant_NOM,monfils_NAM,
+favorite_NOM :tenante_NOM,suissesse_NOM,favori_NOM,championne_NOM,favorite_ADJ,maleeva_NAM,jeyaseelan_NAM,hénin-hardenne_NAM,martina_NAM,jelena_NAM,
+distance:0.58877516
+
+fermier_NOM :agriculteur_NOM,éleveur_NOM,cultivateur_NOM,paysan_NOM,pêcheur_NOM,travailleur_NOM,sergent_NOM,schmeiser_NAM,chômeur_NOM,policier_NOM,
+fermière_NOM :rôtie_VER,pintade_NOM,perdrix_NOM,brochet_NOM,lardons_NOM,brandade_NOM,grillée_ADJ,amérindienne_NOM,endives_NOM,tatin_NOM,
+distance:0.4057428
+
+festivalier_NOM :festivalier_ADJ,fcmm_NAM,festival_NOM,goethe-institut_NOM,fta_NAM,badaud_NOM,ffm_NAM,fifem_NAM,fijm_NAM,culture-_NAM,
+festivalière_ADJ :cinématographique_ADJ,théâtrale_ADJ,estivale_ADJ,cinéphilique_ADJ,festive_ADJ,musicale_ADJ,effervescente_ADJ,cinéphilie_NOM,festivals_NOM,muséale_ADJ,
+distance:0.32772005
+
+fiancé_NOM :mari_NOM,frère_NOM,amant_NOM,grand-père_NOM,amie_NOM,père_NOM,ami_NOM,copain_NOM,épouse_NOM,ex-épouse_NOM,
+fiancée_NOM :mère_NOM,fille_NOM,copine_NOM,arsinée_NAM,fide_NOM,maman_NOM,belle-mère_NOM,épouse_NOM,éplorée_ADJ,petite-fille_NOM,
+distance:0.37890616
+
+filleul_NOM :belle-soeur_NOM,frère_NOM,petites-filles_NOM,arrière-petite-fille_NOM,filleule_NOM,neveu_NOM,belle-s_NOM,belles-soeurs_NOM,beau-frère_NOM,gilberte_NAM,
+filleule_NOM :belle-soeur_NOM,petites-nièces_NOM,petites-filles_NOM,arrière-petits-enfants_NOM,belles-soeurs_NOM,belle-s_NOM,belles-s_NOM,belle-fille_NOM,arrière-petite-fille_NOM,petite-fille_NOM,
+distance:0.60722345
+
+fondateur_NOM :cofondateur_NOM,président-fondateur_NOM,cofondateur_ADJ,fondateurs_NOM,président_NOM,patron_NOM,codirecteur_ADJ,ex-président_VER,ex-directeur_NOM,cofondateurs_NOM,
+fondatrice_NOM :cofondatrice_NOM,directrice_NOM,présidente_NOM,instigatrice_NOM,directrice_ADJ,fondateur_NOM,conceptrice_NOM,historienne_NOM,militante_ADJ,coprésidente_NOM,
+distance:0.515788
+
+formateur_NOM :éducateur_NOM,superviseur_NOM,éducateur_ADJ,professeur-chercheur_NOM,enseignant_NOM,expert-conseil_NOM,stagiaire_ADJ,ingénieur_NOM,programmeur_NOM,agent(e)_NOM,
+formatrice_NOM :mmee_NOM,30-55_NUM,50-55_NUM,50-65_NUM,52-62_NUM,n-ftim_NOM,55-60_NUM,35-46_NUM,45-56_NUM,longueuilloise_NAM,
+distance:0.31221092
+
+fou_NOM :fou_ADJ,amoureux_NOM,salaud_ADJ,affamé_ADJ,roi_NOM,gars_NOM,jeunot_NOM,raide_NOM,jackass_NAM,illuminé_NOM,
+folle_NOM :fille_NOM,esseulée_ADJ,chienne_NOM,femme_NOM,narratrice_NOM,putain_NOM,faucheuse_NOM,bourgeoise_NOM,sorcière_NOM,folie_NOM,
+distance:0.38994652
+
+français_NOM :anglais_ADJ,français_ADJ,anglais_NOM,bilinguisme_NOM,fiançais_VER,langue_NOM,langues_NOM,parlés_ADJ,espagnol_NOM,inuktitut_NOM,
+française_NOM :française_ADJ,américaine_NOM,québécoise_NOM,belge_NOM,néerlandaise_ADJ,suissesse_NOM,golovin_NAM,autrichienne_NOM,portugaise_ADJ,allemande_ADJ,
+distance:0.1662029
+
+frileux_NOM :fédéralistes_NOM,souverainistes_NOM,souverainistes_ADJ,fédéralistes_ADJ,frileux_ADJ,politiciens_NOM,progressistes_NOM,démagogues_NOM,naïfs_NOM,consonunateurs_NOM,
+frileuse_ADJ :méfiante_ADJ,complaisante_ADJ,sclérosée_VER,conciliante_ADJ,marginalisée_VER,indifférente_ADJ,permissive_ADJ,tatillonne_ADJ,malmenée_VER,intolérante_ADJ,
+distance:0.3004793
+
+fromager_NOM :fromagerie_NOM,chocolatier_NOM,pâtissier_NOM,mollé_NOM,fromager_ADJ,pied-de-vent_NOM,fromages_NOM,278-0008_NUM,chocolats_NOM,pâtisseries_NOM,
+fromagère_ADJ :agroalimentaire_ADJ,exportatrice_ADJ,lait_NOM,viticole_ADJ,bovine_ADJ,porcine_ADJ,laitière_ADJ,biocarburant_NOM,chevaline_ADJ,bordelaise_ADJ,
+distance:0.29778036
+
+fugitif_NOM :suspect_NOM,mladic_NAM,ratko_NAM,meurtrier_NOM,tyran_NOM,namouh_NAM,fugitif_ADJ,foday_NAM,ihsan_NAM,tortionnaire_NOM,
+fugitive_ADJ :scene._NAM,identity_NAM,mysterious_NAM,guys_NAM,|jeopardy_NAM,weakest_NAM,w-5_NAM,prejudice_NAM,exterminators_NOM,bachelorette_NAM,
+distance:0.23381197
+
+fumeur_NOM :non-fumeur_NOM,non-lumeur_NOM,stationnement_NOM,buveur_NOM,tumeur_NOM,non-tumeur_NOM,invétéré_ADJ,fumeurs_NOM,inutilisé_ADJ,espace_VER,
+fumeuse_ADJ :curieuse_ADJ,passionnée_VER,séduisante_ADJ,gentille_ADJ,ricaneuse_ADJ,rieuse_ADJ,extravertie_ADJ,distinguée_ADJ,joviale_ADJ,intelligente_ADJ,
+distance:0.28492948
+
+gagnant_NOM :perdant_NOM,vainqueur_NOM,gagnant_VER,remportera_VER,favori_NOM,finalistes_NOM,trophée_NOM,lauréat_NOM,gagnante_NOM,métrostar_NAM,
+gagnante_NOM :lauréate_NOM,championne_NOM,favorite_NOM,suissesse_NOM,torontoise_NAM,finaliste_NOM,friesinger_NAM,martina_NAM,dinara_NAM,vonn_NAM,
+distance:0.46572414
+
+gamin_NOM :garçon_NOM,adolescent_NOM,fillette_NOM,vieillard_NOM,matelot_NOM,bonhomme_NOM,quadragénaire_ADJ,lutin_NOM,barbu_NOM,prénommé_VER,
+gamine_NOM :fille_NOM,fillette_NOM,femme_NOM,délurée_ADJ,adolescente_NOM,prostituée_NOM,bourgeoise_NOM,ingénue_ADJ,mère_NOM,caissière_NOM,
+distance:0.43734458
+
+garant_NOM :garant_VER,garante_ADJ,gage_NOM,garants_ADJ,garantes_ADJ,ennemie_NOM,tributaire_ADJ,dépositaire_NOM,synonyme_ADJ,préoccupe_VER,
+garante_ADJ :gage_NOM,tributaire_ADJ,garants_ADJ,essentielle_ADJ,garant_NOM,dépourvue_VER,garantes_ADJ,synonyme_ADJ,garantit_VER,assujettie_VER,
+distance:0.46506795
+
+géant_NOM :géants_NOM,conglomérat_NOM,fabricant_NOM,équipementier_NOM,constructeur_NOM,concurrent_NOM,constructeur_ADJ,exploitant_NOM,télécoms_NOM,inbev_NAM,
+géante_NOM :gigantesque_ADJ,multicolore_ADJ,palissade_NOM,figurine_NOM,fameuse_ADJ,statue_NOM,accrochée_VER,grosse_ADJ,gerbe_NOM,étoilée_ADJ,
+distance:0.39325073
+
+général_NOM :général_ADJ,commandant_VER,particulier_NOM,néral_ADJ,commandant_NOM,gaulle_NAM,généra_VER,general_NOM,générai_VER,major-général_NOM,
+générale_ADJ :generale_ADJ,nérale_ADJ,présidente-directrice_NOM,directrice_NOM,gouverneure_NOM,iérald_NOM,vérificatrice_NOM,sheila_VER,gouver-neure_NOM,michaëlle_NAM,
+distance:0.2835244
+
+gentil_ADJ :intelligent_ADJ,drôle_ADJ,passionné_VER,loyal_ADJ,compréhensif_ADJ,enjoué_ADJ,débrouillard_ADJ,intello_NOM,fonceur_ADJ,attentionné_ADJ,
+gentille_ADJ :curieuse_ADJ,passionnée_VER,attentionnée_ADJ,jolie_ADJ,enjouée_ADJ,compréhensive_ADJ,attentionnée_VER,intello_NOM,joviale_ADJ,souriante_ADJ,
+distance:0.46348032
+
+gérant_NOM :gérant_VER,torborg_NAM,voltigeur_NOM,receveur_NOM,mckeon_NAM,entraîneur_NOM,lanceur_NOM,minaya_NAM,partant_NOM,premier-but_NOM,
+gérante_NOM :employée_NOM,caissière_NOM,directrice_NOM,serveuse_NOM,vendeuse_NOM,patronne_NOM,administratrice_NOM,agente_NOM,éditrice_NOM,présidente_NOM,
+distance:0.35344207
+
+gourmand_ADJ :gourmands_ADJ,gueuleton_NOM,frugal_ADJ,appétissant_ADJ,gastronomique_ADJ,gourmandes_ADJ,canard_NOM,fêtard_NOM,gastronome_NOM,crémeux_ADJ,
+gourmande_NOM :28-35_NUM,raffinee_NOM,amatrice_NOM,52-62_NUM,séneuse_ADJ,élancée_ADJ,distinguée_ADJ,épicurienne_NOM,cherehe_NOM,halte_VER,
+distance:0.23317909
+
+goûteur_NOM :bagout_NOM,séducteur_NOM,argan_NOM,conteur_NOM,sommelier_NOM,hedda_NAM,vigneron_NOM,chenin_NOM,narrateur_NOM,flacon_NOM,
+goûteuse_ADJ :onctueuse_ADJ,moelleuse_ADJ,assaisonnée_VER,fraîche_ADJ,crémeuse_ADJ,grillée_VER,goûteux_ADJ,épicée_VER,capiteuse_ADJ,goûteuses_ADJ,
+distance:0.31158003
+
+grec_NOM :latin_NOM,grec_ADJ,arabe_NOM,hébreu_NOM,dialecte_NOM,persan_NOM,hongrois_NOM,yiddish_NOM,allemand_NOM,inuktitut_NOM,
+grecque_NOM :grecque_ADJ,maleeva_NAM,hongroise_ADJ,schiavone_NAM,bulgare_ADJ,gadolinium_NOM,flavia_NAM,rubidium_NOM,italienne_ADJ,roumaine_ADJ,
+distance:0.23194428
+
+gros_NOM :gros_ADV,lke_VER,gros_ADJ,lkeo_NAM,crispin_NOM,crewoo_NAM,ike_NOM,crosoto_NAM,crew_NAM,ike_VER,
+grosse_NOM :grosse_ADJ,couleuvre_NOM,surprise_VER,frite_NOM,petite_ADJ,bête_ADJ,maudite_NOM,flaque_NOM,limonade_NOM,toune_NOM,
+distance:0.17337224
+
+habitant_NOM :habitant_VER,habitants_NOM,hectare_NOM,capita_VER,kilowatt_NOM,pnb_NOM,pib_NOM,moyenne_ADJ,moyenne_NOM,microgrammes_NOM,
+habitante_NOM :habitants_NOM,jala_NAM,résidante_ADJ,sdérot_NAM,philippine_ADJ,palestinienne_NOM,yonhap_NAM,basilan_NAM,somalienne_ADJ,itar-tass_NAM,
+distance:0.30269703
+
+habitué_ADJ :habitué_VER,inconditionnel_NOM,habituée_ADJ,organisateur_NOM,familier_NOM,invité_NOM,absent_ADJ,spécialiste_NOM,invétéré_VER,coproducteur_NOM,
+habituée_ADJ :spectatrice_NOM,habitué_ADJ,invitée_NOM,pionnière_NOM,observatrice_NOM,comédienne_NOM,directrice_NOM,absente_ADJ,productrice_NOM,marraine_NOM,
+distance:0.48214558
+
+handicapé_NOM :garçon_NOM,handicapé_ADJ,adolescent_NOM,autiste_NOM,autiste_ADJ,alcoolique_NOM,décrocheur_NOM,toxicomane_ADJ,homosexuel_NOM,quadragénaire_ADJ,
+handicapée_ADJ :handicapée_VER,autiste_ADJ,dépressive_ADJ,handicapé_ADJ,prostituée_VER,mère_NOM,âgée_ADJ,agressée_VER,personne_NOM,déficience_NOM,
+distance:0.44336438
+
+héritier_NOM :prince_NOM,héritière_NOM,roi_NOM,milliardaire_NOM,fondateur_NOM,successeur_NOM,cousin_NOM,inspirateur_NOM,père_NOM,richissime_ADJ,
+héritière_NOM :héritier_NOM,aristocratie_NOM,descendante_NOM,névrosée_ADJ,princesse_NOM,bourgeoise_ADJ,baronne_NOM,incarnation_NOM,adoptive_ADJ,égérie_NOM,
+distance:0.5660712
+
+héros_NOM :personnage_NOM,antihéros_NOM,personnages_NOM,narrateur_NOM,superman_NOM,idole_NOM,exploits_NOM,superhéros_NOM,père_NOM,légende_NOM,
+héroïne_NOM :adolescente_NOM,actrice_NOM,drogue_NOM,prostituée_NOM,narratrice_NOM,orpheline_NOM,morphine_NOM,ecstasy_NOM,personnage_NOM,bourgeoise_NOM,
+distance:0.3947166
+
+hétérosexuel_ADJ :hétérosexuelle_ADJ,homosexuel_ADJ,hétérosexuelles_ADJ,mariage_NOM,agnostique_ADJ,hétéro_ADJ,hétérosexualité_NOM,macho_NOM,malveillant_ADJ,matrimonial_ADJ,
+hétérosexuelle_ADJ :hétérosexuel_ADJ,ecclésiale_ADJ,homosexuelle_ADJ,hétérosexualité_NOM,séculière_ADJ,patriarcale_ADJ,idéalisée_VER,judéo-chrétienne_ADJ,mariage_NOM,sclérosée_VER,
+distance:0.524236
+
+heureux_NOM :lachapelle_ADJ,sénéchal-berthiaume_NAM,kachelle_NAM,leclerc_NOM,rachede_NAM,uchapelle_NAM,loli_NAM,rachelle_NAM,moniquelheureux_NAM,moniqueuheureux_NAM,
+heureuse_NOM :ricaneuse_ADJ,heureuse_ADJ,joyeuse_NOM,5'b_NAM,40alne_NAM,40alne_ADJ,épicurienne_NOM,sportive_NOM,séneuse_ADJ,divorcé_ADJ,
+distance:0.23371945
+
+hollandais_NOM :français_NAM,allemands_NAM,néerlandais_NOM,italiens_NOM,espagnols_NOM,irlandais_NOM,anglais_NAM,polonais_NOM,européens_NOM,japonais_NOM,
+hollandaise_ADJ :japonaise_ADJ,allemande_ADJ,chinoise_ADJ,néerlandaise_ADJ,hongroise_ADJ,polonaise_ADJ,grecque_ADJ,islandaise_ADJ,italienne_ADJ,indienne_ADJ,
+distance:0.35936198
+
+homosexuel_NOM :ivrogne_ADJ,alcoolique_NOM,prêtre_NOM,adolescent_NOM,homosexuel_ADJ,toxicomane_ADJ,politicien_NOM,alcoolique_ADJ,amant_NOM,garçon_NOM,
+homosexuelle_ADJ :homosexualité_NOM,homosexuels_NOM,homosexuelles_ADJ,homosexuels_ADJ,hétérosexuelle_ADJ,sexuelle_ADJ,mariage_NOM,religieuse_ADJ,juive_ADJ,gais_ADJ,
+distance:0.35525188
+
+hôte_NOM :tronomique_ADJ,table_NOM,souper_VER,invité_NOM,dîner_NOM,hôtes_NOM,déjeuner_NOM,hôtesse_NOM,nuitée_VER,apéritif_NOM,
+hôtesse_NOM :hôtesses_NOM,hôte_NOM,entraîneuse_NOM,invitée_NOM,employée_NOM,reine_NOM,serveuse_NOM,organisatrice_ADJ,représentante_NOM,fiancée_NOM,
+distance:0.45105705
+
+hôtelier_NOM :complexe_NOM,promoteur_NOM,hôtelier_ADJ,resorts_NOM,promoteur_ADJ,complexe_ADJ,multifonctionnel_ADJ,windigo_NAM,casino_NOM,condos_NOM,
+hôtelière_ADJ :touristique_ADJ,hôtels_NOM,hotels_NAM,paysagère_ADJ,commerciale_ADJ,hôtelier_ADJ,résidentielle_ADJ,resorts_NOM,boulangerie_NOM,rurale_ADJ,
+distance:0.2616819
+
+idiot_NOM :salaud_NOM,imbécile_NOM,vilain_NOM,introverti_ADJ,nazi_NOM,bandit_NOM,menteur_NOM,ivrogne_ADJ,étemel_NOM,assassin_NOM,
+idiote_ADJ :ennuyante_ADJ,naive_ADJ,saugrenue_ADJ,perverse_ADJ,superficielle_ADJ,têtue_ADJ,masochiste_ADJ,triviale_ADJ,désabusée_VER,voyante_ADJ,
+distance:0.25756243
+
+ignorant_ADJ :méprisant_ADJ,misanthrope_ADJ,orgueilleux_ADJ,masochiste_ADJ,arrogant_ADJ,ignorante_ADJ,inculte_ADJ,salaud_ADJ,offensant_ADJ,paranoïaque_ADJ,
+ignorante_ADJ :méprisée_VER,sclérosée_VER,corrompue_VER,intolérante_ADJ,naïve_ADJ,insouciante_ADJ,têtue_ADJ,prétentieuse_ADJ,consentante_ADJ,populace_NOM,
+distance:0.500215
+
+imaginatif_ADJ :inventif_ADJ,intelligent_ADJ,pénétrant_ADJ,extraverti_ADJ,déroutant_VER,insolent_ADJ,divertissant_ADJ,intuitif_ADJ,ludique_ADJ,taquin_ADJ,
+imaginative_ADJ :fonceuse_ADJ,séduisante_ADJ,extravertie_ADJ,sensuelle_ADJ,intelligente_ADJ,rythmée_ADJ,raffinee_NOM,attachante_ADJ,raffinée_VER,voyageuse_ADJ,
+distance:0.391926
+
+immortel_ADJ :trenet_NAM,orson_NAM,salaud_ADJ,génial_ADJ,lindbergh_NAM,enki_NAM,ingmar_NAM,cobain_NAM,satanique_ADJ,incarné_ADJ,
+immortelle_NOM :immortelle_ADJ,brightman_NAM,chanson-thème_NOM,craquante_ADJ,nougaro_NOM,can't_NAM,stupid_NAM,intro_NOM,goodbye_NAM,joss_NAM,
+distance:0.3177932
+
+impertinent_ADJ :tapageur_ADJ,insolent_ADJ,séducteur_ADJ,décapant_ADJ,cabotin_ADJ,mordant_ADJ,pénétrant_ADJ,incompris_ADJ,foisonnant_ADJ,misogyne_ADJ,
+impertinente_ADJ :irrévérencieuse_ADJ,érudite_ADJ,édifiante_ADJ,rythmée_ADJ,provocatrice_ADJ,rigolote_ADJ,incisive_ADJ,planante_ADJ,attachante_ADJ,extravagante_ADJ,
+distance:0.39307454
+
+inconnu_NOM :inconnu_ADJ,abîme_NOM,ombre_NOM,ennui_NOM,homme_NOM,aveugle_NOM,assassin_NOM,énergumène_NOM,univers_NOM,écrivain_NOM,
+inconnue_NOM :incertaine_ADJ,inconnue_ADJ,surprise_NOM,inquiétude_NOM,énigme_NOM,incertitude_NOM,favorite_NOM,inconnues_NOM,embûche_NOM,inquiète_ADJ,
+distance:0.3879435
+
+inconscient_NOM :imaginaire_ADJ,animalité_NOM,subconscient_NOM,indicible_NOM,univers_NOM,aléatoire_NOM,âme_NOM,irréalité_NOM,àme_NOM,transcendance_NOM,
+inconsciente_ADJ :obsessionnelle_ADJ,consentante_ADJ,puérile_ADJ,désolante_ADJ,têtue_ADJ,fuyante_ADJ,souffrante_ADJ,oppressante_ADJ,fantasmée_VER,imprécise_ADJ,
+distance:0.37744796
+
+indien_NOM :indien_ADJ,amérindien_NOM,immigrant_NOM,indiens_NOM,béret_NOM,musulman_NOM,pêcheur_NOM,esclave_NOM,africain_NOM,bandit_NOM,
+indienne_NOM :écolière_NOM,républicaine_NOM,indienne_ADJ,mexicaine_NOM,amérindienne_NOM,juive_NOM,américaine_NOM,afghane_NOM,actrice_NOM,australienne_NOM,
+distance:0.34679973
+
+industriel_NOM :industriel_ADJ,résidentiel_ADJ,entrepreneur_NOM,commercial_NOM,commercial_ADJ,ouvrier_NOM,arvida_NAM,terrien_ADJ,benedetti_NAM,4666_NUM,
+industrielle_NOM :répart_VER,5,48_NUM,can-valeur_NAM,clarington_NAM,budden_NAM,8,67_NUM,5.72_NUM,b-trés_VER,5,02_NUM,ethical_NOM,
+distance:0.19751611
+
+infirmier_NOM :médecin_NOM,infirmière_NOM,médical_ADJ,obstétrique_NOM,infirmières_NOM,soignant_ADJ,anesthésiste_NOM,personnel_NOM,psychiatre_NOM,médecins_NOM,
+infirmière_NOM :médecin_NOM,physiothérapeute_NOM,patiente_NOM,sage-femme_NOM,éducatrice_NOM,enseignante_NOM,éducatrice_ADJ,anesthésiste_NOM,infirmier_NOM,clinique_NOM,
+distance:0.5560997
+
+ingénieur_NOM :architecte_NOM,informaticien_NOM,agronome_NOM,ingénieure_NOM,physicien_NOM,mécanicien_ADJ,technicien_ADJ,technicien_NOM,consultant_NOM,fonctionnaire_NOM,
+ingénieure_NOM :ingénieur_NOM,fata_NAM,rosie_VER,professeure_ADJ,agrégée_VER,professeure_NOM,orthophoniste_NOM,bachelière_NOM,étudiante_NOM,agente_NOM,
+distance:0.52123475
+
+ingrat_ADJ :antipathique_ADJ,caricatural_ADJ,arrogant_ADJ,ambigu_ADJ,ombrageux_ADJ,névrosée_ADJ,stressant_ADJ,contre-emploi_NOM,intransigeant_ADJ,argan_NOM,
+ingrate_ADJ :tâche_NOM,ardue_ADJ,périlleuse_ADJ,paresseuse_ADJ,tâche_VER,exigeante_ADJ,cruelle_ADJ,rébarbative_ADJ,lourde_ADJ,délicate_ADJ,
+distance:0.4362489
+
+innocent_NOM :criminel_NOM,pédophile_NOM,violeur_NOM,nazi_NOM,orgueil_NOM,accusé_NOM,assassin_NOM,terroriste_NOM,atrocité_NOM,agresseur_NOM,
+innocente_ADJ :cruelle_ADJ,manipulatrice_ADJ,terrifiante_ADJ,névrosée_ADJ,choquante_ADJ,inoffensive_ADJ,émouvante_ADJ,immorale_ADJ,banale_ADJ,idiote_ADJ,
+distance:0.29373875
+
+instituteur_NOM :enseignant_NOM,garçon_NOM,adolescent_NOM,père_NOM,copain_NOM,écrivain_NOM,frère_NOM,grand-père_NOM,orphelin_NOM,alcoolique_ADJ,
+institutrice_NOM :fille_NOM,enseignante_NOM,adolescente_NOM,mère_NOM,orpheline_NOM,amie_NOM,fillette_NOM,adoptive_ADJ,aïeule_NOM,tille_NOM,
+distance:0.42703518
+
+intellectuel_NOM :penseur_NOM,écrivain_NOM,essayiste_NOM,historien_NOM,philosophe_NOM,romancier_NOM,politicien_NOM,polémiste_NOM,théologien_NOM,philosophe_ADJ,
+intellectuelle_NOM :divorcée_NOM,extravertie_ADJ,féministe_NOM,observatrice_NOM,rouquine_NOM,militante_ADJ,voyageuse_NOM,écrivaine_NOM,passionnée_VER,fonceuse_ADJ,
+distance:0.46876308
+
+invité_NOM :invitée_NOM,invités_NOM,animateur_NOM,invité_ADJ,invité_VER,honneur_NOM,hôte_NOM,humoriste_NOM,wallonie-bruxelles_ADJ,animateur_ADJ,
+invitée_NOM :invité_NOM,animatrice_NOM,invitée_VER,habituée_ADJ,carolyne_NOM,ambassadrice_NOM,animatrice_ADJ,carolyne_NAM,présidente_NOM,hôtesse_NOM,
+distance:0.6360319
+
+irlandais_NOM :irlandais_ADJ,allemands_NAM,ecossais_NAM,espagnols_NOM,anglais_NAM,polonais_NOM,italiens_NOM,hollandais_NOM,catalans_NOM,arméniens_ADJ,
+irlandaise_NOM :républicaine_ADJ,irlandaise_ADJ,armée_NOM,tira_VER,républicaine_NOM,eln_NAM,américaine_NOM,armée_VER,armée_ADJ,uck_NAM,
+distance:0.23563795
+
+italien_NOM :allemand_NOM,italien_ADJ,espagnol_NOM,espagnol_ADJ,portugais_NOM,roumain_NOM,camilleri_NAM,américain_NOM,portugais_ADJ,catalan_NOM,
+italienne_NOM :italienne_ADJ,américaine_NOM,espagnole_ADJ,italien_ADJ,allemande_ADJ,polonaise_ADJ,autrichienne_ADJ,portugaise_ADJ,québécoise_NOM,anglaise_NOM,
+distance:0.3725653
+
+japonais_NOM :japonais_ADJ,allemands_NAM,coréens_NOM,chinois_NOM,européens_NOM,italiens_NOM,néerlandais_NOM,américains_NOM,russes_NAM,chinois_ADJ,
+japonaise_NOM :sugiyama_NAM,chinoise_NOM,ippon_NOM,schnyder_NAM,suédoise_ADJ,likhovtseva_NAM,daniela_NAM,japonaise_ADJ,colombienne_NAM,flavia_NAM,
+distance:0.40705034
+
+joueur_NOM :attaquant_NOM,frappeur_NOM,lanceur_NOM,ailier_NOM,offensif_ADJ,quart-arrière_NOM,défenseur_NOM,vétéran_NOM,réserviste_NOM,voltigeur_NOM,
+joueuse_NOM :mauresmo_NAM,blainvilloise_NAM,wozniak_NAM,sharapova_NAM,jelena_NAM,jankovic_NAM,capriati_NAM,safina_NAM,clijsters_NAM,davenport_NAM,
+distance:0.4730779
+
+juif_NOM :juif_ADJ,musulman_NOM,nazi_NOM,juifs_NOM,immigrant_NOM,prêtre_NOM,musulman_ADJ,apatride_ADJ,errant_ADJ,juive_ADJ,
+juive_NOM :immigrante_NOM,juive_ADJ,fille_NOM,adolescente_NOM,polonaise_ADJ,orpheline_NOM,institutrice_NOM,adoptive_ADJ,mère_NOM,fillette_NOM,
+distance:0.41560456
+
+jumeau_NOM :jumeau_ADJ,frère_NOM,dénommé_VER,suicidé_NOM,personnage_NOM,demi-dieu_NOM,monstre_NOM,clone_NOM,héros_NOM,cadavre_NOM,
+jumelle_NOM :cousine_NOM,mère_NOM,accoucha_VER,préférée_NOM,nièce_NOM,carrosserie_NOM,jumelle_ADJ,prius_NAM,voisine_NOM,mazdas_NOM,
+distance:0.33982262
+
+laid_ADJ :macho_NOM,marrant_ADJ,prétentieux_ADJ,gênant_ADJ,amoral_ADJ,moche_ADJ,effrayant_ADJ,adroit_ADJ,excitant_ADJ,superficiel_ADJ,
+laide_ADJ :aide_NOM,taide_NAM,subvention_NOM,désorganisée_VER,travailleuse_ADJ,idiote_ADJ,créature_NOM,muselée_VER,mendier_VER,fragmentée_VER,
+distance:0.2292962
+
+laveur_NOM :faveur_NOM,raton_NOM,défaveur_NOM,demandant_VER,réclamant_VER,veur_NOM,brandissant_VER,prônant_VER,prononcés_VER,votant_NOM,
+laveuse_NOM :lave-vaisselle_NOM,sécheuse_ADJ,lav-sech_NOM,poêle_VER,lave-vais_VER,trigo_NOM,poêle_NOM,élec_ADJ,lav/sech_ADJ,réfrigérateur_NOM,
+distance:0.16583909
+
+lecteur_NOM :spectateur_NOM,auditeur_NOM,visiteur_NOM,téléspectateur_NOM,narrateur_NOM,lecteurs_NOM,voyageur_NOM,romancier_NOM,consommateur_NOM,utilisateur_NOM,
+lectrice_NOM :traductrice_NOM,comédienne_NOM,romancière_NOM,amie_NOM,journaliste_NOM,narratrice_NOM,chroniqueuse_NOM,poétesse_NOM,dame_NOM,confidente_NOM,
+distance:0.42594105
+
+libérateur_NOM :oppresseur_NOM,cicéron_NAM,négritude_NOM,despotique_ADJ,monarchique_ADJ,universalisme_NOM,nazi_NOM,héros_NOM,gaulle_NAM,messianisme_NOM,
+libératrice_ADJ :lassante_ADJ,relativiste_ADJ,signifiante_ADJ,ecclésiale_ADJ,subversive_ADJ,abstraite_ADJ,radicalité_NOM,réflexive_ADJ,agissante_ADJ,fallacieuse_ADJ,
+distance:0.30466762
+
+lièvre_NOM :perdrix_NOM,chevreuil_NOM,canard_NOM,fermière_NOM,cerf_NOM,wapiti_NOM,lapin_NOM,écureuil_NOM,sanglier_NOM,gibier_NOM,
+hase_NOM :base_NOM,pg_NOM,aaa_VER,eras_VER,tur_NOM,inflorescence_NOM,chapelure_NOM,asiate_ADJ,uport_NOM,4$_ADJ,
+distance:0.18843606
+
+lion_NOM :lion_NAM,tion_NOM,rat_NOM,1res_ADJ,or_NOM,louve_NOM,paon_NOM,ration_NOM,re_ADJ,patate_NOM,
+lionne_NOM :lululu_ADJ,chatte_NOM,commis/_NOM,corsaire_NOM,joke_NOM,femme_NOM,geronimo_NAM,guêpe_NOM,brune_NOM,violette_ADJ,
+distance:0.23415956
+
+loup_NOM :gouttière_NOM,chien_NOM,razmoket_NAM,godzilla_NAM,loups_NOM,bergerie_NOM,clueless_NAM,renard_NOM,bleu_ADJ,mcdowd_NAM,
+louve_NOM :palme_NOM,jutra_NAM,cannes_NAM,palme_VER,métrage_NOM,louis-delluc_NAM,bobine_NOM,statuette_NOM,césars_NOM,breillat_NAM,
+distance:0.34325668
+
+magistrat_NOM :juge_NOM,tribunal_NOM,procureur_NOM,garzon_NAM,policier_NOM,brunton_NAM,fonctionnaire_NOM,cassation_NOM,magistrats_NOM,moreno-ocampo_NAM,
+magistrate_NOM :juge_NOM,dalphond_NAM,procureure_NOM,magistrat_NOM,mclachlin_NAM,plaignante_NOM,garzon_NAM,cassation_NOM,silcoff_NAM,brunton_NAM,
+distance:0.49053892
+
+maître_NOM :maitre_VER,maîtres_NOM,maître_NAM,virtuose_NOM,chef-d_NOM,serviteur_NOM,incontesté_ADJ,maîtresse_NOM,sculpteur_NOM,roi_NOM,
+maîtresse_NOM :mère_NOM,bien-aimée_NOM,baronne_NOM,tante_NOM,amie_NOM,servante_NOM,épouse_NOM,bourgeoise_NOM,maîtresses_NOM,fille_NOM,
+distance:0.46057394
+
+majeur_NOM :majeur_ADJ,mineur_ADJ,sonate_NOM,dièse_VER,continuo_NOM,bémol_NOM,rondo_NOM,bwv_ABR,chaconne_NOM,mineur_NOM,
+majeure_NOM :dess_NAM,mineure_NOM,kinésiologie_NOM,baccalauréat_NOM,attestée_VER,maîtrise_NOM,théorie_NOM,professeur-e_NOM,maîtrises_NOM,linguistique_NOM,
+distance:0.20868748
+
+maladroit_ADJ :brouillon_ADJ,caricatural_ADJ,cabotin_ADJ,antipathique_ADJ,malhabile_ADJ,brillant_VER,gaffeur_NOM,convaincant_ADJ,opportuniste_ADJ,colérique_ADJ,
+maladroite_ADJ :manipulatrice_ADJ,timorée_ADJ,brouillonne_ADJ,simpliste_ADJ,alambiquée_VER,malhabile_ADJ,malheureuse_ADJ,naïve_ADJ,tortueuse_ADJ,superficielle_ADJ,
+distance:0.4893575
+
+malheureux_NOM :malheureux_ADJ,bourreaux_NOM,naufragés_NOM,malheur_NOM,paumés_NOM,héros_NOM,diables_NOM,gueux_NOM,envieux_NOM,envieux_ADJ,
+malheureuse_ADJ :maladroite_ADJ,douloureuse_ADJ,tragique_ADJ,désespérée_VER,malencontreuse_ADJ,mauvaise_ADJ,naïve_ADJ,désespérée_ADJ,triste_ADJ,malheureux_ADJ,
+distance:0.27163374
+
+malin_NOM :dieu_NOM,matin_NOM,proverbe_NOM,dingue_ADJ,diable_NOM,pauvre_NOM,prénommé_VER,bougre_NOM,perroquet_NOM,théologien_NOM,
+maligne_ADJ :tumeur_NOM,cancéreuse_ADJ,malformation_NOM,rectum_NOM,cirrhose_NOM,ablation_NOM,larynx_NOM,jaunisse_NOM,abdominale_ADJ,côlon_NOM,
+distance:0.18760616
+
+mangeur_NOM :reptile_ADJ,dompteur_NOM,pissenlit_NOM,carnivore_ADJ,porc-épic_NOM,reptile_NOM,tibo_NAM,carnivores_ADJ,prunier_NOM,condiment_NOM,
+mangeuse_NOM :bactérie_NOM,creutzfeldt-jakob_NAM,clostridium_NAM,infectieuse_ADJ,intoxication_NOM,coli_NOM,crohn_NAM,syphilis_NOM,gastro-entérite_NOM,morsure_NOM,
+distance:0.3385191
+
+marchand_NOM :collectionneur_NOM,vendeur_NOM,antiquaire_NOM,revendeur_NOM,commerçant_NOM,négociant_NOM,berger_NOM,restaurateur_NOM,importateur_NOM,marchand_ADJ,
+marchande_ADJ :valeur_NOM,commerciale_ADJ,nominale_ADJ,logique_NOM,locative_ADJ,4100$_NAM,libellée_VER,intrinsèque_ADJ,râleur_NOM,celled_NOM,
+distance:0.19159079
+
+méchant_NOM :vilain_NOM,cynique_ADJ,brute_NOM,pauvre_NOM,fasciste_NOM,dégueulasse_ADJ,personnage_NOM,démagogue_NOM,cow-boy_NOM,salaud_NOM,
+méchante_ADJ :sorcière_NOM,cruelle_ADJ,moche_ADJ,stupide_ADJ,bête_ADJ,grosse_ADJ,idiote_ADJ,prétentieuse_ADJ,museau_NOM,vicieuse_ADJ,
+distance:0.3792059
+
+meilleur_ADJ :meilleure_ADJ,pire_ADJ,meilleurs_ADJ,oscar_NOM,mauvais_ADJ,trophée_NOM,meilleures_ADJ,kechiche_NAM,gagnant_VER,merveilleux_ADJ,
+meilleure_ADJ :meilleur_ADJ,bonne_ADJ,excellente_ADJ,mauvaise_ADJ,meilleures_ADJ,adéquate_ADJ,optimale_ADJ,pire_ADJ,avantageuse_ADJ,intéressante_ADJ,
+distance:0.62912536
+
+meurtrier_NOM :suspect_NOM,meurtriers_NOM,meurtre_NOM,tueur_NOM,violeur_NOM,policier_NOM,ravisseur_NOM,assassin_NOM,pédophile_NOM,terroriste_NOM,
+meurtrière_NOM :espionne_NOM,traquée_VER,névrosée_ADJ,criminelle_NOM,fuyante_ADJ,ensanglantée_VER,manipulatrice_ADJ,esseulée_ADJ,consentante_ADJ,gillain_NAM,
+distance:0.40525952
+
+mexicain_NOM :mexicain_ADJ,péruvien_NOM,benicio_NAM,carlos_NAM,inarritu_NAM,brésilien_NAM,reygadas_NAM,gael_NAM,colombien_NAM,antonio_NAM,
+mexicaine_NOM :brésilienne_ADJ,lôpez_NAM,mexicaine_ADJ,paz_NAM,gauche_ADJ,indienne_NOM,fmln_NAM,obrador_NAM,espagnole_ADJ,cruz_NAM,
+distance:0.33199355
+
+mineur_NOM :mineur_ADJ,adolescent_NOM,récidiviste_NOM,majeur_NOM,prémédité_VER,mineurs_NOM,viol_NOM,sonate_NOM,continuo_NOM,schumann_NOM,
+mineure_NOM :adolescente_NOM,étudiante_NOM,attouchements_NOM,majeure_NOM,counseling_NOM,inculpée_VER,non-coupable_ADJ,agression_NOM,inconduite_NOM,sexuels_ADJ,
+distance:0.3590604
+
+mort_NOM :disparition_NOM,pendaison_NOM,mort_VER,mourir_VER,condamnation_NOM,assassinat_NOM,décapitation_NOM,meurtre_NOM,commuée_VER,noyade_NOM,
+morte_NOM :fillette_NOM,meurtrière_NOM,mère_NOM,narratrice_NOM,fide_NOM,blessée_ADJ,consentante_ADJ,confidente_NOM,ensanglantée_VER,mamie_NOM,
+distance:0.4184983
+
+mouton_NOM :tremblante_NOM,lapin_NOM,bovin_NOM,vache_NOM,roquefort_NOM,cochon_NOM,wapiti_NOM,singe_NOM,chèvre_NOM,moutons_NOM,
+brebis_NOM :chèvre_NOM,dolly_NAM,carottes_NOM,fumé_ADJ,moutons_NOM,poêlé_VER,agneau_NOM,fromage_NOM,wapiti_NOM,pied-de-vent_NOM,
+distance:0.4359991
+
+muet_NOM :baroque_NOM,kurosawa_NAM,opératique_ADJ,kieslowski_NAM,film-culte_NOM,berio_NAM,compositeur_NOM,wajda_NAM,nèg_NOM,fassbinder_NAM,
+muette_ADJ :silencieuse_ADJ,muet_ADJ,restée_VER,absente_ADJ,impuissante_ADJ,collée_VER,confuse_ADJ,manipulatrice_ADJ,sourde_ADJ,discrète_ADJ,
+distance:0.18543303
+
+musicien_NOM :compositeur_NOM,chanteur_NOM,guitariste_NOM,pianiste_NOM,comédien_NOM,artiste_NOM,batteur_NOM,créateur_NOM,trompettiste_NOM,saxophoniste_NOM,
+musicienne_NOM :chanteuse_NOM,comédienne_NOM,choriste_NOM,femme_NOM,musicien_NOM,interprète_NOM,amoureuse_NOM,artiste_ADJ,enseignante_ADJ,conteuse_NOM,
+distance:0.526961
+
+musulman_NOM :musulman_ADJ,politicien_NOM,dignitaire_NOM,juif_NOM,terroriste_NOM,militaire_NOM,séparatiste_NOM,soldat_NOM,social-démocrate_NOM,policier_NOM,
+musulmane_NOM :musulmane_ADJ,chrétienne_NOM,immigrante_NOM,féministe_NOM,croyante_ADJ,théocratie_NOM,agnostique_ADJ,écolière_NOM,amara_NAM,afghane_NOM,
+distance:0.4514313
+
+nageur_NOM :sprinter_NOM,athlète_NOM,médaillé_VER,plongeur_NOM,nageur_ADJ,thorpe_NAM,sprinteur_NOM,joueur_NOM,golfeur_NOM,usain_NAM,
+nageuse_NOM :athlète_NOM,plongeuse_NOM,skieuse_NOM,coureuse_NOM,âgée_ADJ,synchronisée_VER,patineuse_NOM,gymnaste_NOM,felicien_NAM,joueuse_NOM,
+distance:0.42422202
+
+néerlandais_NOM :français_NAM,suédois_NOM,allemands_NAM,danois_NAM,néerlandais_ADJ,russes_NAM,polonais_NOM,japonais_NOM,suisses_NOM,australiens_NOM,
+néerlandaise_ADJ :allemande_ADJ,suédoise_ADJ,autrichienne_ADJ,danoise_ADJ,australienne_ADJ,italienne_ADJ,espagnole_ADJ,belge_ADJ,norvégienne_ADJ,néerlandais_ADJ,
+distance:0.43187648
+
+nippon_ADJ :japonais_ADJ,indien_ADJ,chinois_ADJ,allemand_ADJ,italien_ADJ,coréen_ADJ,brésilien_ADJ,mexicain_ADJ,danois_ADJ,japonaise_ADJ,
+nippone_ADJ :japonaise_ADJ,chinoise_ADJ,américaine_ADJ,suédoise_ADJ,nipponne_ADJ,thaïlandaise_ADJ,indienne_ADJ,allemande_ADJ,mexicaine_ADJ,sud-coréenne_ADJ,
+distance:0.42779222
+
+nord-américain_NOM :légume_NOM,coloc_NOM,hollywoodien_ADJ,contort_ADJ,cosmopolite_ADJ,bougre_NOM,psy_NOM,cinéphile_NOM,fx35_NAM,sportif_NOM,
+nord-américaine_ADJ :mondiale_ADJ,montréalaise_ADJ,japonaise_ADJ,québécoise_ADJ,chinoise_ADJ,continentale_ADJ,américaine_ADJ,états-unienne_ADJ,musicale_ADJ,japonaise_VER,
+distance:0.23674653
+
+nord-coréen_ADJ :pyongyang_NAM,iranien_ADJ,jong_NAM,nucléaire_ADJ,nord-coréenne_ADJ,iran_NAM,téhéran_NAM,balistiques_ADJ,nucléaires_ADJ,sud-coréen_ADJ,
+nord-coréenne_ADJ :pyongyang_NAM,kcna_NAM,nord-coréen_ADJ,iranienne_ADJ,yonhap_NAM,nucléaire_ADJ,téhéran_NAM,irakienne_ADJ,sud-coréenne_ADJ,séoul_NAM,
+distance:0.5697653
+
+nouveau_NOM :nouveau_ADJ,kent_NAM,ancien_NOM,harmonia_VER,tharaud_NAM,cd_ABR,mls/sia_NOM,mullova_NAM,philips_NAM,juin-juillet_NOM,
+nouvelle_NOM :nouvelle_ADJ,dernière_NOM,revue_NOM,bonne_NOM,petite_NOM,transaction_NOM,concurrente_NOM,muse_NOM,sonata_NOM,nouvede_NOM,
+distance:0.19423443
+
+nul_ADJ :aucun_PRO,personne_ADV,nulle_ADJ,rien_NOM,doute_NOM,rien_ADV,seul_ADJ,quel_PRO,jamais_ADV,certitude_NOM,
+nulle_ADJ :nul_ADJ,rien_NOM,pareil_ADV,jamais_ADV,aucune_PRO,ailleurs_ADV,insignifiante_ADJ,autre_ADJ,partout_ADV,pratiquement_ADV,
+distance:0.4569279
+
+observateur_NOM :écrivain_NOM,journaliste_NOM,préfacier_NOM,chroniqueur_NOM,diplomate_NOM,historien_NOM,commentateur_NOM,philosophe_NOM,essayiste_NOM,juriste_NOM,
+observatrice_NOM :spectatrice_NOM,intellectuelle_NOM,habituée_ADJ,représentante_NOM,réalisatrice_NOM,féministe_NOM,experte_ADJ,observateur_NOM,consultante_ADJ,comédienne_NOM,
+distance:0.43679807
+
+occidental_NOM :occidental_ADJ,virus_NOM,occident_NAM,trieste_NAM,occidentale_ADJ,ebola_NOM,hallucination_NOM,affamé_ADJ,imaginaire_ADJ,nihilisme_NOM,
+occidentale_NOM :occidentale_ADJ,islamisme_NOM,féodale_ADJ,laïcité_NOM,démocratie_NOM,islamisation_NOM,rationaliste_ADJ,idéologie_NOM,théocratie_NOM,islam_NOM,
+distance:0.26124498
+
+occupant_NOM :occupante_ADJ,occupants_NOM,propriétaire_NOM,envahisseur_NOM,ennemi_NOM,sioniste_ADJ,immeuble_NOM,oppresseur_NOM,occupation_NOM,armée_NOM,
+occupante_ADJ :interposition_NOM,israël_NAM,is-raël_NAM,hezbollah_NAM,hébreu_ADJ,lsraël_ADJ,chebaa_NAM,occupant_NOM,sioniste_ADJ,hamas_NOM,
+distance:0.46883488
+
+opposant_NOM :adversaire_NOM,rival_NOM,raila_VER,opposant_VER,allié_NOM,ex-vice-président_NOM,candidat_NOM,ultranationaliste_NOM,ultraconservateur_ADJ,yoweri_NAM,
+opposante_NOM :opposante_ADJ,suu_NAM,kyi_NAM,birmane_ADJ,aung_NAM,rangoun_NAM,junte_NOM,rangoon_NAM,shirin_NAM,ebadi_NAM,
+distance:0.42009407
+
+organisateur_NOM :organisateur_ADJ,organisatrice_NOM,ex-député_NOM,chef_NOM,argentier_NOM,coprésident_NOM,ex-directeur_NOM,animateur_NOM,conservateur_NOM,ancien_ADJ,
+organisatrice_NOM :organisateur_NOM,organisatrice_ADJ,instigatrice_NOM,présidente_NOM,coordonnatrice_NOM,directrice_NOM,coprésidente_NOM,historienne_NOM,intervenante_NOM,organisatrices_NOM,
+distance:0.56484663
+
+orgueilleux_ADJ :peureux_ADJ,superstitieux_ADJ,imbu_VER,vaniteux_ADJ,courageux_ADJ,arrogant_ADJ,incompris_ADJ,rusé_ADJ,rusé_VER,manipulateur_ADJ,
+orgueilleuse_ADJ :idéalisation_NOM,désabusée_VER,têtue_ADJ,névrosée_ADJ,timorée_ADJ,ignorante_ADJ,conquérante_ADJ,impudique_ADJ,souffrante_ADJ,coquetterie_NOM,
+distance:0.3481492
+
+original_NOM :original_ADJ,copie_NOM,copie_VER,photocopie_NOM,exemplaire_NOM,inédit_NOM,fac-similé_NOM,soumission/bordereau_NOM,3°_ABR,divertissant_ADJ,
+originale_ADJ :sous-titrée_VER,version_NOM,sous-titres_NOM,musicale_ADJ,sonore_ADJ,inédite_ADJ,280$_NAM,géniale_ADJ,i--famous_NOM,brillante_ADJ,
+distance:0.31100193
+
+orphelin_NOM :garçon_NOM,adolescent_NOM,orphelin_ADJ,enfant_NOM,homme_NOM,instituteur_NOM,ivrogne_ADJ,héros_NOM,amant_NOM,orpheline_NOM,
+orpheline_NOM :esseulée_ADJ,fenune_NOM,fille_NOM,adolescente_NOM,fillette_NOM,mère_NOM,bourgeoise_NOM,femme_NOM,narratrice_NOM,institutrice_NOM,
+distance:0.44081295
+
+ours_NOM :phoque_NOM,polaires_ADJ,singes_NOM,loups_NOM,caribous_NOM,polaire_ADJ,éléphants_NOM,phoques_NOM,zèbres_NOM,renard_NOM,
+ourse_NOM :marie-sissi_NAM,fred-dy_NAM,ourse_NAM,bestiole_NOM,ménagerie_NOM,narratrice_NOM,sissi_NAM,wallander_NAM,zabou_NAM,auteure_NOM,
+distance:0.17395693
+
+ouvrier_NOM :travailleur_NOM,employé_NOM,ouvrier_ADJ,agriculteur_NOM,politicien_NOM,chômeur_NOM,bûcheron_NOM,éleveur_NOM,camionneur_NOM,menuisier_NOM,
+ouvrière_NOM :prostituée_NOM,caissière_NOM,névrosée_ADJ,mourante_ADJ,femme_NOM,fenune_NOM,mère_NOM,prostituée_VER,institutrice_NOM,immigrante_NOM,
+distance:0.44159946
+
+parent_NOM :enfant_NOM,enseignant_NOM,handicapé_ADJ,garçon_NOM,père_NOM,conjoint_NOM,élève_NOM,parents_NOM,autiste_ADJ,patient_NOM,
+parente_NOM :cousine_NOM,nourrice_NOM,céans_ADV,mère_NOM,religieuse_NOM,jaunisse_NOM,femelle_NOM,fillette_NOM,acariâtre_ADJ,rubidium_NOM,
+distance:0.3742525
+
+paresseux_NOM :paresseux_ADJ,peureux_ADJ,vaniteux_ADJ,incompétents_ADJ,arboricole_ADJ,adorables_ADJ,snobs_NOM,grimpante_ADJ,bourgeois_NOM,menteurs_ADJ,
+paresseuse_ADJ :lassante_ADJ,mièvre_ADJ,têtue_ADJ,nonchalante_ADJ,glaciale_ADJ,douce-amère_NOM,cruelle_ADJ,ennuyante_ADJ,lascive_ADJ,ennuyeuse_ADJ,
+distance:0.3269413
+
+participant_NOM :citoyen_NOM,employé_NOM,travailleur_NOM,étudiant_NOM,participants_NOM,observateur_NOM,intervenant_NOM,fonctionnaire_NOM,cotisant_NOM,employeur_NOM,
+participante_NOM :houda-pépin_NAM,spectatrice_NOM,participait_VER,admiratrice_NOM,employée_NOM,joueuse_NOM,passagère_NOM,enseignante_NOM,réceptive_ADJ,participants_NOM,
+distance:0.37533826
+
+passager_NOM :passagers_NOM,passager_ADJ,conducteur_NOM,automobiliste_NOM,voyageurs_NOM,chauffeur_NOM,présumément_NOM,équipage_NOM,traversier_NOM,avion_NOM,
+passagère_NOM :fillette_NOM,policière_NOM,conductrice_NOM,embouti_VER,éplorée_ADJ,fille_NOM,adolescente_NOM,employée_NOM,mère_NOM,passager_ADJ,
+distance:0.4272085
+
+passant_NOM :passant_VER,auberges_NOM,sirotant_VER,souriant_VER,chauffeur_NOM,écolier_NOM,badaud_NOM,matelot_NOM,rutilant_ADJ,policier_NOM,
+passante_ADJ :bande_NOM,télédistribution_NOM,téléchargement_NOM,sans-fil_NOM,wi-fi_NAM,connexion_NOM,analogique_ADJ,câble_NOM,débit_NOM,optique_ADJ,
+distance:0.12399787
+
+patient_NOM :patient_ADJ,médecin_NOM,patients_NOM,patiente_NOM,malade_NOM,médicament_NOM,nouveau-né_NOM,ophtalmologiste_NOM,médication_NOM,médical_ADJ,
+patiente_NOM :patient_NOM,médecin_NOM,infirmière_NOM,séropositive_ADJ,mère_NOM,chirurgienne_NOM,patientes_NOM,patients_NOM,chimiothérapie_NOM,prostituée_NOM,
+distance:0.63695186
+
+patineur_NOM :athlète_NOM,joueur_NOM,skieur_NOM,attaquant_NOM,natif_ADJ,sprinter_NOM,hockeyeur_NOM,ailier_NOM,pominville_NAM,entraîneur_NOM,
+patineuse_NOM :coureuse_NOM,klassen_NAM,skieuse_NOM,médaillée_VER,championne_NOM,plongeuse_NOM,catriona_NAM,patineuses_NOM,athlète_NOM,muenzer_NAM,
+distance:0.46945763
+
+patron_NOM :président_NOM,pdg_NOM,president_NOM,p.-d.g_NOM,ex-patron_NOM,président-directeur_NOM,dirigeant_NOM,vice-président_NOM,fondateur_NOM,prérident_NOM,
+patronne_NOM :directrice_NOM,présidente_NOM,ambassadrice_NOM,patron_NOM,mère_NOM,représentante_NOM,gérante_NOM,maman_NOM,dirigeante_NOM,interviewée_VER,
+distance:0.46891093
+
+paysan_NOM :fermier_NOM,commerçant_NOM,grand-père_NOM,garçon_NOM,policier_NOM,cultivateur_NOM,paysan_ADJ,bûcheron_NOM,cow-boy_NOM,vieillard_NOM,
+paysanne_ADJ :islet-sur-mer_NOM,upa_NAM,union_NOM,tunion_NAM,lunion_NOM,bové_NAM,biologique_ADJ,upa_ABR,salami_NOM,equiterre_NOM,
+distance:0.2834055
+
+perdant_NOM :gagnant_NOM,gagnant_VER,favori_NOM,perdant_VER,vainqueur_NOM,absent_NOM,perdante_NOM,perdants_NOM,victorieux_ADJ,fédéraliste_NOM,
+perdante_NOM :favorite_NOM,perdant_NOM,absente_NOM,gagnante_NOM,victorieuse_ADJ,sortante_ADJ,habituée_ADJ,spectatrice_NOM,favori_NOM,grandie_VER,
+distance:0.47044274
+
+petit_NOM :vistaact_NAM,3,77_NUM,p'tit_NOM,1259.63_NUM,,42_NUM,salaud_NOM,11,89_NUM,reptile_NOM,:$_ABR,clone_NOM,
+petite_NOM :fille_NOM,cousine_NOM,vieille_NOM,créature_NOM,voisine_NOM,tante_NOM,bibitte_NOM,machine_NOM,petite_ADJ,lesbienne_NOM,
+distance:0.25375593
+
+pharmacien_NOM :médecin_NOM,physiothérapeute_NOM,pharmaciens_NOM,dentiste_NOM,omnipraticien_NOM,psychologue_NOM,infirmière_NOM,pharmacie_NOM,patient_NOM,chirurgien_NOM,
+pharmacienne_NOM :sage-femme_NOM,infirmière_NOM,conjointe_NOM,radiologiste_NOM,pédopsychiatre_NOM,boulet_NOM,patiente_NOM,psychothérapeute_NOM,intervenante_NOM,assermentée_VER,
+distance:0.28949857
+
+piéton_NOM :piétons_NOM,automobilistes_NOM,automobiliste_NOM,piétons_ADJ,piéton_ADJ,conducteur_NOM,routière_ADJ,tramway_NOM,covoiturage_NOM,piétonnier_ADJ,
+piétonne_ADJ :piétonnière_ADJ,artère_NOM,commerçante_ADJ,lucien-l'allier_NAM,grouillante_ADJ,intersection_NOM,achalandée_VER,sanguinet_NAM,paysagère_ADJ,piétonnier_ADJ,
+distance:0.2925286
+
+pleureur_ADJ :bouleau_NOM,pàp_NAM,peuplier_NOM,geordie_NAM,wigwam_NOM,oiseau_NOM,orangé_NOM,écu_NOM,aubergine_NOM,balustrade_NOM,
+pleureuse_ADJ :622-0642_NUM,coudres_NOM,île-aux-coudres_NOM,isle_NOM,roche_NOM,697-8566_NUM,www.battures.ca_NOM,1-877-688-5201_NUM,-800-463-6283_NUM,1-800-668-8234_NUM,
+distance:0.17590353
+
+plongeur_NOM :nageur_ADJ,nageur_NOM,despatie_NAM,athlète_NOM,plongeuse_NOM,plongeurs_NOM,haltérophile_NOM,skieur_NOM,sprinter_NOM,capitaine_NOM,
+plongeuse_NOM :heymans_NAM,skieuse_NOM,nageuse_NOM,athlète_NOM,coureuse_NOM,benfeito_NAM,patineuse_NOM,joueuse_NOM,meaghan_NAM,championne_NOM,
+distance:0.48972765
+
+poète_NOM :poète_ADJ,écrivain_NOM,romancier_NOM,dramaturge_NOM,peintre_NOM,musicien_NOM,philosophe_NOM,poème_NOM,compositeur_NOM,sculpteur_NOM,
+poétesse_NOM :écrivaine_NOM,romancière_NOM,comédienne_NOM,écrivaine_ADJ,conteuse_NOM,poète_NOM,chanteuse_NOM,écrivain_NOM,historienne_NOM,danseuse_NOM,
+distance:0.54943436
+
+policier_NOM :policier_ADJ,soldat_NOM,police_NOM,enquêteur_NOM,policiers_NOM,suspect_NOM,chauffeur_NOM,manifestant_NOM,pompier_NOM,tireur_NOM,
+policière_NOM :policier_NOM,enceinte_ADJ,passagère_NOM,femme_NOM,conductrice_NOM,esseulée_ADJ,fillette_NOM,employée_NOM,enseignante_NOM,prostituée_NOM,
+distance:0.54371494
+
+politicien_NOM :politicien_ADJ,libéral_NOM,intellectuel_NOM,souverainiste_NOM,démagogue_NOM,nationaliste_NOM,candidat_NOM,écrivain_NOM,militant_ADJ,social-démocrate_NOM,
+politicienne_NOM :militante_ADJ,politicienne_ADJ,pasionaria_NOM,candidate_NOM,féministe_NOM,comédienne_NOM,libérale_NOM,politicien_NOM,aguerrie_VER,acariâtre_ADJ,
+distance:0.4722718
+
+porc_NOM :viande_NOM,volaille_NOM,poulet_NOM,maïs_NOM,rôti_NOM,saumon_NOM,pommes_NOM,bétail_NOM,lait_NOM,foie_NOM,
+truie_NOM :fermière_NOM,chou-fleur_NOM,mayonnaise_ADJ,boulette_NOM,baronne_NOM,cuite_NOM,nourrice_NOM,friandise_NOM,grillée_ADJ,longe_NOM,
+distance:0.3292489
+
+portugais_NOM :portugais_ADJ,espagnols_NOM,italien_NOM,brésiliens_NAM,espagnol_ADJ,espagnol_NOM,suédois_NOM,néerlandais_NOM,italiens_NOM,polonais_NOM,
+portugaise_ADJ :italienne_ADJ,espagnole_ADJ,brésilienne_ADJ,mexicaine_ADJ,française_ADJ,indienne_ADJ,suédoise_ADJ,chinoise_ADJ,japonaise_ADJ,polonaise_ADJ,
+distance:0.43803373
+
+poulet_NOM :viande_NOM,agneau_NOM,riz_NOM,volaille_NOM,porc_NOM,crevettes_NOM,rôti_NOM,canard_NOM,soja_NOM,jambon_NOM,
+poulette_NOM :chartrand_NAM,falar-deau_NAM,dansereau_NAM,boujenah_NAM,rôti_ADJ,graton_NOM,dujardin_NAM,char-trand_NAM,bematchez_NAM,blain_NAM,
+distance:0.36139753
+
+président_NOM :president_NOM,prérident_NOM,vice-président_NOM,sident_NOM,ex-président_NOM,president_VER,dirigeant_NOM,président-directeur_NOM,patron_NOM,ex-président_VER,
+présidente_NOM :ex-présidente_NOM,directrice_NOM,vice-présidente_NOM,représentante_NOM,coprésidente_NOM,présidente-directrice_NOM,coordonnatrice_NOM,fondatrice_NOM,cofondatrice_NOM,conseillère_NOM,
+distance:0.5125225
+
+prêtre_NOM :évêque_NOM,diocèse_NOM,théologien_NOM,pasteur_NOM,père_NOM,curé_NOM,vicaire_NOM,catholique_ADJ,jésuite_NOM,garçon_NOM,
+prêtresse_NOM :héra_NAM,déesse_NOM,esseulée_ADJ,starlette_NOM,chanteuse_NOM,gracile_ADJ,cithare_NOM,amérindienne_NOM,aïeule_NOM,comédienne_NOM,
+distance:0.3121287
+
+prince_NOM :roi_NOM,héritier_NOM,princesse_NOM,saoud_NAM,camilla_NAM,charles_NAM,abdallah_NAM,souverain_NOM,fahd_NAM,neveu_NOM,
+princesse_NOM :fille_NOM,reine_NOM,comtesse_NOM,mère_NOM,sorcière_NOM,duchesse_NOM,maman_NOM,fée_NOM,prince_NOM,elisabeth_NAM,
+distance:0.516479
+
+principal_NOM :intéressé_ADJ,principal_ADJ,couru_VER,montant_NOM,dirigeant_NOM,racheté_VER,principale_NOM,recteur_ADJ,premier_NOM,relationniste_NOM,
+principale_NOM :principale_ADJ,intéressée_ADJ,présidente_NOM,directrice_NOM,munroe-blum_NAM,dirigeante_NOM,heather_NAM,docteure_NOM,elle-même_PRO,davida_NAM,
+distance:0.34816423
+
+prisonnier_NOM :détenu_NOM,évadé_VER,combattant_NOM,emprisonné_VER,soldat_NOM,torturé_VER,prisonniers_NOM,mutilé_VER,capturé_VER,criminel_NOM,
+prisonnière_NOM :coincée_VER,enfermée_VER,rescapée_VER,immigrante_NOM,dépressive_ADJ,jalouse_ADJ,confidente_NOM,empêtrée_VER,figée_VER,éplorée_ADJ,
+distance:0.44313052
+
+producteur_NOM :producteur_ADJ,exportateur_NOM,distributeur_NOM,fournisseur_NOM,distributeur_ADJ,exportateur_ADJ,fabricant_NOM,producteurs_NOM,diffuseur_NOM,réalisateur_NOM,
+productrice_NOM :productrice_ADJ,comédienne_NOM,réalisatrice_NOM,cinémaginaire_NAM,actrice_NOM,fabienne_NAM,scénariste_NOM,monteuse_NOM,coproducteur_NOM,écrivaine_NOM,
+distance:0.4707486
+
+professeur_NOM :agrégé_VER,professeure_NOM,chercheur_ADJ,sociologie_NOM,émérite_ADJ,chercheur_NOM,professeur-chercheur_NOM,politologue_NOM,université_NOM,doctorant_VER,
+professeure_NOM :professeur_NOM,pro-fesseure_NOM,professeure_NAM,agrégée_VER,agrégé_VER,professeure_ADJ,sociologie_NOM,profes-seure_NOM,professeure_VER,agrégé_NOM,
+distance:0.75992507
+
+professionnel_NOM :professionnel_ADJ,58-65_NUM,retraité_NOM,n-ftim_NOM,40aine_ADJ,soaine_NAM,5t1_ABR,découlant_VER,intègre_ADJ,enseignant_NOM,
+professionnelle_NOM :jolie_ADJ,retraitée_NOM,50aine_ADJ,5'2_NUM,5'4_NUM,soaine_NOM,célibataire_ADJ,enjouée_ADJ,5'5_NUM,cultivée_ADJ,
+distance:0.4049545
+
+promis_NOM :promis_VER,consentis_VER,proposé_VER,consenti_VER,carte-soleil_NOM,débloqués_VER,réitéré_VER,accordé_NOM,promesses_NOM,lancé_NOM,
+promise_ADJ :promise_VER,annoncée_VER,promises_VER,espérée_VER,honnie_VER,terre_NOM,attendue_VER,réclamée_VER,promis_VER,consentie_VER,
+distance:0.296309
+
+protecteur_NOM :protecteur_ADJ,protectrice_NOM,coroner_NOM,vérificateur_NOM,espionnes_NOM,caméléon_NOM,files/anthologie_NOM,ombudsman_NOM,..nerdz_NAM,citoyen_NOM,
+protectrice_NOM :champoux-lesage_NAM,protecteur_NOM,ramq_NAM,couillard_ADJ,mulroney-johnson_NAM,conunission_NOM,fiiq_NAM,conunission_NAM,houda-pepin_NAM,vérificateur_NOM,
+distance:0.46331313
+
+protégé_NOM :frère_NOM,cousin_NOM,successeur_NOM,ami_NOM,coéquipier_NOM,rival_NOM,prédécesseur_NOM,berezovski_NAM,père_NOM,spéculateur_NOM,
+protégée_NOM :fille_NOM,adoptive_ADJ,confidente_NOM,chanteuse_NOM,cousine_NOM,mère_NOM,belle-fille_NOM,adorée_VER,épouse_NOM,bien-aimée_NOM,
+distance:0.36772284
+
+protestant_NOM :protestant_VER,paisley_NAM,unioniste_ADJ,trimble_NAM,catholique_ADJ,sinn_NAM,dup_NAM,unionistes_NOM,uup_NAM,fein_NAM,
+protestante_ADJ :catholique_ADJ,religieuse_ADJ,musulmane_ADJ,chrétienne_ADJ,juive_ADJ,catholiques_ADJ,protestants_NOM,protestantes_ADJ,presbytérienne_ADJ,protestants_ADJ,
+distance:0.4558378
+
+provocateur_NOM :iconoclaste_ADJ,facétieux_ADJ,impénitent_ADJ,nazi_NOM,polémiste_NOM,esthète_ADJ,iconoclaste_NOM,anarchiste_NOM,romancier_NOM,académicien_NOM,
+provocatrice_ADJ :prétentieuse_ADJ,subversive_ADJ,impertinente_ADJ,obsessive_ADJ,répétitive_ADJ,méprisante_ADJ,dérangeante_ADJ,iconoclaste_ADJ,réductrice_ADJ,provocation_NOM,
+distance:0.36985597
+
+québécois_NOM :canadiens_NOM,québécoises_NOM,francophones_NOM,ontariens_NOM,souverainistes_NOM,anglophones_NOM,albertains_NAM,péquistes_NOM,fédéralistes_NOM,américains_NOM,
+québécoise_NOM :montréalaise_NOM,canadienne_NOM,québécoise_ADJ,américaine_NOM,française_NOM,montréalaise_ADJ,comédienne_NOM,ontarienne_NOM,militante_ADJ,française_ADJ,
+distance:0.3693833
+
+rat_NOM :palmiste_NOM,musqué_ADJ,rats_NOM,renard_NOM,chat_NOM,es*_NOM,am*_NAM,chien_NOM,reptile_ADJ,rm_NOM,
+rate_NOM :rate_VER,pnme_NAM,enhance_NAM,prune_ADJ,premlp_NOM,dilater_VER,nuque_NOM,foie_NOM,prune_NOM,raie_VER,
+distance:0.26153138
+
+réalisateur_NOM :cinéaste_NOM,scénariste_NOM,film_NOM,comédien_NOM,acteur_NOM,métrage_NOM,documentariste_NOM,documentaire_NOM,photographe_NOM,coscénariste_NOM,
+réalisatrice_NOM :comédienne_NOM,cinéaste_NOM,actrice_NOM,romancière_NOM,réalisateur_NOM,productrice_NOM,scénariste_NOM,chanteuse_NOM,documentariste_NOM,auteure_NOM,
+distance:0.60362935
+
+rédacteur_NOM :rédactrice_NOM,descôteaux_NAM,chef_NOM,directeur_NOM,descoteaux_NAM,vice-présidente_NOM,bernard_NAM,jean-robert_NAM,dois_VER,beauregard_NAM,
+rédactrice_NOM :rédacteur_NOM,vice-présidente_NOM,éditrice_NOM,directrice_NOM,recherchiste_NOM,descôteaux_NAM,consultante_NOM,descoteaux_NAM,châtelaine_NOM,chef_NOM,
+distance:0.65120906
+
+religieux_NOM :clergé_NOM,religieux_ADJ,prêtres_NOM,laïcs_NOM,catholiques_ADJ,chrétiens_NOM,christianisme_NOM,catholique_ADJ,catholicisme_NOM,religieuses_ADJ,
+religieuse_NOM :mère_NOM,gouvernante_NOM,adoptive_ADJ,parente_NOM,amérindienne_NOM,marie-madeleine_NAM,otton_NAM,catholique_ADJ,prélat_NOM,chaste_ADJ,
+distance:0.37728965
+
+remplaçant_NOM :successeur_NOM,succéder_VER,remplacement_NOM,remplacer_VER,adjoint_NOM,remplacé_VER,prédécesseur_NOM,nommé_VER,remplaçants_NOM,succédera_VER,
+remplaçante_NOM :yaris_NOM,professeure_ADJ,choriste_NOM,protégée_NOM,devancière_NOM,sous-compacte_NOM,sonata_NOM,affublée_VER,mazdas_NOM,créatrice_NOM,
+distance:0.3230857
+
+réparateur_ADJ :sommeil_NOM,gâtez_VER,nutritif_ADJ,obsessionnel_ADJ,oisiveté_NOM,désabusé_ADJ,breuvage_NOM,salvateur_ADJ,indispensable_NOM,psy_NOM,
+réparatrice_ADJ :réductrice_ADJ,relativiste_ADJ,réflexive_ADJ,coercitive_ADJ,normative_ADJ,lascive_ADJ,vertueuse_ADJ,signifiante_ADJ,obsessive_ADJ,dégradante_ADJ,
+distance:0.09679264
+
+représentant_NOM :dirigeant_NOM,porte-parole_NOM,représentants_NOM,prérident_NOM,représentante_NOM,représentant_VER,vice-président_NOM,conseiller_NOM,président_NOM,ambassadeur_NOM,
+représentante_NOM :présidente_NOM,représentant_NOM,dirigeante_NOM,porte-parole_NOM,directrice_NOM,coordonnatrice_NOM,ambassadrice_NOM,coprésidente_NOM,conseillère_NOM,avocate_NOM,
+distance:0.57045037
+
+républicain_NOM :démocrate_NOM,républicain_ADJ,sénateur_NOM,démocrate_ADJ,mccain_NAM,romney_NAM,kerry_NAM,républicaine_ADJ,colistier_NOM,gore_NAM,
+républicaine_NOM :républicaine_ADJ,démocrate_ADJ,radicale_NOM,fmln_NAM,hillary_NAM,démocrate_NOM,unionistes_ADJ,unioniste_ADJ,gauche_ADJ,républicain_ADJ,
+distance:0.3795991
+
+résidant_ADJ :résidant_VER,domicilié_VER,domiciliée_VER,domiciliés_VER,copropriétaires_NOM,résidé_VER,résidante_ADJ,musulman_NOM,habitait_VER,résident_VER,
+résidante_ADJ :résidente_NOM,résidant_VER,députée_VER,militante_ADJ,âgée_ADJ,féministe_NOM,agente_NOM,habitante_NOM,avocate_NOM,élue_NOM,
+distance:0.41390058
+
+résident_NOM :réfugié_VER,citoyenneté_NOM,citoyen_NOM,statut_NOM,résidente_NOM,résidents_NOM,nationalité_NOM,permanent_ADJ,médecin_NOM,résidant_VER,
+résidente_NOM :résidante_ADJ,résident_NOM,administratrice_NOM,tutrice_NOM,danseuse_NOM,handicapée_ADJ,âgée_ADJ,résidant_VER,travailleuse_NOM,hospitalisée_VER,
+distance:0.4749723
+
+rêveur_NOM :rêveur_ADJ,humaniste_NOM,carriériste_NOM,idéaliste_NOM,idéaliste_ADJ,inculte_ADJ,penseur_NOM,intellectuel_NOM,farceur_NOM,contemplatif_ADJ,
+rêveuse_ADJ :rouquine_NOM,ricaneuse_ADJ,n-fumeuse_ADJ,rieuse_ADJ,n-fam_NOM,châtaine_ADJ,mi-sportive_ADJ,élancée_ADJ,curieuse_ADJ,blonds_ADJ,
+distance:0.3664194
+
+rieur_NOM :rieur_ADJ,hleury_NAM,raffiné_VER,47-55_NUM,n-lun_NOM,mi-sportif_ADJ,bruis_VER,n-ton_NOM,mince_INT,cherehe_NOM,
+rieuse_ADJ :n-fumeuse_ADJ,curieuse_ADJ,sensuelle_ADJ,enjouée_ADJ,passionnée_VER,n-fam_NOM,ricaneuse_ADJ,compréhensive_ADJ,élancée_ADJ,joviale_ADJ,
+distance:0.25818098
+
+rigolo_ADJ :provocant_ADJ,séduisant_ADJ,réjouissant_ADJ,décapant_ADJ,cabotin_ADJ,fascinant_ADJ,amusant_ADJ,coquin_ADJ,subtil_ADJ,instructif_ADJ,
+rigolote_ADJ :amusante_ADJ,irrévérencieuse_ADJ,impertinente_ADJ,déjantée_VER,mièvre_ADJ,grinçante_ADJ,décalée_VER,caricaturale_ADJ,fascinante_ADJ,délicieuse_ADJ,
+distance:0.44297457
+
+rival_NOM :adversaire_NOM,concurrent_NOM,rival_ADJ,opposant_NOM,favori_NOM,rivale_NOM,successeur_NOM,allié_NOM,coéquipier_NOM,prédécesseur_NOM,
+rivale_NOM :concurrente_NOM,rival_NOM,américaine_NOM,rivale_ADJ,californienne_NOM,schett_NAM,adversaire_NOM,rivales_NOM,candidate_NOM,concurrent_NOM,
+distance:0.52838826
+
+riverain_ADJ :zoné_VER,redéveloppement_NOM,ouareau_NAM,parc_NOM,bowker_NAM,monorail_NOM,île-des-s_NOM,baignable_ADJ,rivière_NOM,aménagé_VER,
+riveraine_ADJ :riveraines_ADJ,remblais_NOM,humides_ADJ,inondable_ADJ,végétation_NOM,déboisement_NOM,septiques_ADJ,inondables_ADJ,tourbière_NOM,cheptels_NOM,
+distance:0.29717553
+
+roi_NOM :prince_NOM,gyanendra_NAM,reine_NOM,empereur_NOM,fahd_NAM,souverain_NOM,abdallah_NAM,pharaon_NOM,héritier_NOM,royaume_NOM,
+reine_NOM :souveraine_NOM,roi_NOM,elizabeth_NAM,elisabeth_NAM,reine_NAM,princesse_NOM,majesté_NOM,gouver-neure_NOM,duchesse_NOM,gouverneure_NOM,
+distance:0.57607967
+
+romancier_NOM :écrivain_NOM,poète_NOM,essayiste_NOM,dramaturge_NOM,philosophe_NOM,poète_ADJ,cinéaste_NOM,narrateur_NOM,scénariste_NOM,romancière_NOM,
+romancière_NOM :écrivaine_NOM,poétesse_NOM,comédienne_NOM,auteure_NOM,romancier_NOM,écrivain_NOM,au-teure_NOM,dramaturge_NOM,réalisatrice_NOM,poète_NOM,
+distance:0.64343405
+
+roux_NOM :roux_ADJ,vdl2_NAM,durand_NAM,forrester_NAM,wolton_NAM,dumas_NAM,moustachu_ADJ,teint_NOM,chenin_NOM,tisseyre_NAM,
+rousse_NOM :blonde_ADJ,rousse_ADJ,châtaine_ADJ,5'5'\_ABR,blonde_NOM,5t\_ABR,5'6'\_ABR,5'5_NUM,5'3_NUM,50alne_NAM,
+distance:0.1854515
+
+saint_NOM :saint_ADJ,jean-sur-richelieu_NAM,sur-richelieu_NOM,industriel,saint_NAM,baptiste_NAM,samt_NAM,industrielsaint-jean_NAM,industriel.saint_NAM,sl-jean_NAM,ormeaux_NOM,
+sainte_ADJ :najaf_NAM,jihad_NOM,médine_NAM,sainte-_NAM,adèle_NAM,najaf_NOM,saintes_ADJ,martyrs_NOM,nadjaf_NOM,saint_ADJ,
+distance:0.34657243
+
+savant_NOM :philosophe_NOM,romancier_NOM,physicien_NOM,écrivain_NOM,penseur_NOM,poète_NOM,philosophe_ADJ,essayiste_NOM,mathématicien_NOM,historien_NOM,
+savante_ADJ :rythmée_ADJ,érudite_ADJ,entraînante_ADJ,instrumentale_ADJ,mâtinée_VER,formaliste_ADJ,cartésienne_ADJ,signifiante_ADJ,rigoureuse_ADJ,musicale_ADJ,
+distance:0.32684368
+
+sénateur_NOM :démocrate_ADJ,républicain_ADJ,mccain_NAM,républicain_NOM,démocrate_NOM,hagel_NAM,ex-sénateur_NOM,schumer_NAM,lugar_NAM,ex-gouverneur_NOM,
+sénatrice_NOM :hillary_NAM,hervieux-payette_NAM,députée_VER,rodham_NAM,candidate_NOM,clinton_NAM,palin_NAM,démocrate_ADJ,libérale_ADJ,ex-première_ADJ,
+distance:0.50604564
+
+serveur_NOM :serveurs_NOM,progiciel_NOM,ordinateur_NOM,xp_NAM,utilisateur_NOM,windows_NOM,portable_ADJ,navigateur_NOM,windows_NAM,netscape_NOM,
+serveuse_NOM :prostituée_NOM,copine_NOM,maman_NOM,caissière_NOM,narratrice_NOM,cuisinier_NOM,fille_NOM,chanteuse_NOM,réceptionniste_NOM,mère_NOM,
+distance:0.3562862
+
+sinistré_ADJ :aerien_ADJ,léthargique_ADJ,durement_ADV,fragilisé_VER,ralentissement_NOM,plombée_VER,laminé_VER,saturé_VER,paralysant_VER,fouet_NOM,
+sinistrée_ADJ :dévastée_VER,délabrée_VER,région_NOM,dévastés_VER,densément_ADV,localité_NOM,tropicale_ADJ,capitale_NOM,fortifiée_VER,nouvelle-orléans_NOM,
+distance:0.40526375
+
+skieur_NOM :svindal_NAM,athlète_NOM,patineur_NOM,cycliste_NOM,walchhofer_NAM,super-combiné_NOM,slalom_NOM,skieuse_NOM,kvitfjell_NAM,saint-moritz_NAM,
+skieuse_NOM :cavagnoud_NAM,athlète_NOM,brydon_NAM,gerg_NAM,goetschl_NAM,schild_NAM,plongeuse_NOM,coureuse_NOM,jeanson_NAM,lenzerheide_NAM,
+distance:0.54451305
+
+soldat_NOM :policier_NOM,caporal_NOM,soldats_NOM,manifestant_NOM,militaire_NOM,milicien_NOM,caporal-chef_NOM,adolescent_NOM,commandant_NOM,prisonnier_NOM,
+soldate_NOM :sgrena_NAM,zahra_VER,adolescente_NOM,fillette_NOM,giuliana_NAM,incarcérée_VER,soldat_NOM,photojournaliste_NOM,palestinienne_NOM,afghane_NOM,
+distance:0.49342898
+
+sourd_NOM :oreille_NOM,épanchement_NOM,aveugle_NOM,sanglot_NOM,apoplexie_NOM,linceul_NOM,ennui_NOM,affamé_ADJ,sifflement_NOM,sourd_ADJ,
+sourde_ADJ :sourd_ADJ,oreille_NOM,rage_NOM,insensible_ADJ,écho_NOM,muette_ADJ,latente_ADJ,résonner_VER,silencieuse_ADJ,indifférente_ADJ,
+distance:0.3523211
+
+spectateur_NOM :visiteur_NOM,lecteur_NOM,téléspectateur_NOM,auditeur_NOM,narrateur_NOM,personnage_NOM,protagoniste_NOM,créateur_NOM,narratif_ADJ,badaud_NOM,
+spectatrice_NOM :amusée_VER,observatrice_NOM,tragicomédie_NOM,interlocutrice_NOM,frustrée_VER,comédienne_NOM,gênée_VER,réalisatrice_NOM,habituée_ADJ,têtue_ADJ,
+distance:0.43793178
+
+sportif_NOM :invétéré_ADJ,sportif_ADJ,honnête_NOM,athlète_NOM,divorcé_NOM,costaud_NOM,intello_NOM,politicien_NOM,golfeur_NOM,amateur_NOM,
+sportive_NOM :épicurienne_NOM,curieuse_NOM,ricaneuse_ADJ,distinguée_ADJ,40alne_ADJ,30-55_NUM,extravertie_ADJ,roadster_NOM,n-ftim_NOM,28-35_NUM,
+distance:0.31959194
+
+sprinter_NOM :sprinteur_NOM,nageur_NOM,athlète_NOM,asafa_NAM,usain_NAM,surin_NOM,vice-champion_NOM,coureur_NOM,gatlin_NAM,patineur_NOM,
+sprinteuse_NOM :patineuse_NOM,championne_NOM,marion_NAM,coureuse_NOM,australienne_ADJ,friesinger_NAM,disqualifiée_VER,médaillée_VER,anissina_NAM,hilde_NAM,
+distance:0.43813202
+
+sud-américain_ADJ :latino-américain_ADJ,continent_NOM,brésilien_ADJ,latine_ADJ,nord-américain_ADJ,africain_ADJ,mercosur_NAM,mexicain_ADJ,européen_ADJ,asiatique_ADJ,
+sud-américaine_ADJ :cubaine_ADJ,brésilienne_ADJ,andine_ADJ,mexicaine_ADJ,latino-américaine_ADJ,vénézuélienne_ADJ,africaine_ADJ,espagnole_ADJ,portugaise_ADJ,latine_ADJ,
+distance:0.4133538
+
+sud-coréen_NOM :wawrinka_NAM,compatriote_NOM,ahn_NAM,sjeng_NAM,coréen_ADJ,yevgeny_NAM,6-3,6-3_NUM,schalken_NAM,massu_NAM,kim_NAM,
+sud-coréenne_ADJ :yonhap_NAM,iranienne_ADJ,japonaise_ADJ,suédoise_ADJ,kyodo_NAM,brésilienne_ADJ,irna_NAM,chinoise_ADJ,nord-coréenne_ADJ,américaine_ADJ,
+distance:0.27420577
+
+suédois_NOM :néerlandais_NOM,suédois_ADJ,danois_NAM,finlandais_NOM,tchèques_NOM,australiens_NOM,andreev_NAM,bjorkman_NAM,russes_NAM,suisses_NOM,
+suédoise_NOM :autrichienne_NOM,suédoise_ADJ,anja_NAM,gerg_NAM,paerson_NAM,marlies_NAM,goetschl_NAM,skieuse_NOM,poutiainen_NAM,schild_NAM,
+distance:0.33105522
+
+suisse_NOM :suisse_NAM,suisse_ADJ,810$_ABR,romande_ADJ,drachme_NOM,belge_ADJ,belge_NOM,deutsche_NAM,italienne_ADJ,haib_NAM,
+suissesse_NOM :martina_NAM,schnyder_NAM,hingis_NAM,clijsters_NAM,jelena_NAM,conchita_NAM,mauresmo_NAM,safina_NAM,jankovic_NAM,golovin_NAM,
+distance:0.3116283
+
+sujet_NOM :sujet_ADJ,propos_NOM,concernant_VER,question_NOM,questionné_VER,sujets_NOM,débat_NOM,thème_NOM,questionnement_NOM,commentaire_NOM,
+sujette_ADJ :assujettie_VER,soumise_VER,assujetti_VER,sujettes_ADJ,subordonnée_VER,subordonné_VER,attribuable_ADJ,approbation_NOM,liée_VER,tributaire_ADJ,
+distance:0.26985422
+
+supérieur_NOM :subalternes_NOM,superviseur_NOM,ex-conjointe_NOM,hiérarchique_ADJ,mari_NOM,prédécesseur_NOM,successeur_NOM,père_NOM,agresseur_NOM,conjoint_NOM,
+supérieure_NOM :bon-conseil_NAM,vice-rectrice_NOM,yvette_NAM,directrice_NOM,bachelière_NOM,mère_NOM,agrégée_VER,madame_NOM,belle-s_NOM,congrégation_NOM,
+distance:0.33141547
+
+survivant_NOM :survivant_VER,rescapé_NOM,rescapé_VER,survivants_NOM,terrible_ADJ,cataclysme_NOM,orphelin_NOM,soldat_NOM,accident_NOM,traumatisme_NOM,
+survivante_NOM :fillette_NOM,rescapée_VER,adolescente_NOM,victime_NOM,fille_NOM,mère_NOM,maltraitée_VER,orpheline_NOM,adoptive_ADJ,éplorée_ADJ,
+distance:0.42411444
+
+suspect_NOM :suspects_NOM,policier_NOM,meurtrier_NOM,tireur_NOM,khafagy_NAM,ressam_NAM,présumé_VER,namouh_NAM,détenu_NOM,malvo_NAM,
+suspecte_ADJ :dangereuse_ADJ,confuse_ADJ,mystérieuse_ADJ,nauséabonde_ADJ,étrange_ADJ,inquiétante_ADJ,suspecte_VER,superflue_ADJ,suspect_ADJ,encombrante_ADJ,
+distance:0.3331462
+
+tailleur_NOM :blouson_NOM,costume_NOM,pantalon_NOM,vêtue_VER,turban_NOM,chemise_NOM,béret_NOM,brodée_VER,habillé_VER,pull_NOM,
+tailleuse_NOM :sijie_NAM,balzac_NAM,dai_NAM,allende_VER,geisha_NOM,grasset_NOM,actes_VER,-format_ADJ,grasset_ADJ,servante_NOM,
+distance:0.24870339
+
+terrien_ADJ :frère_NOM,illuminé_NOM,rusé_ADJ,mafioso_NOM,taciturne_ADJ,délinquant_ADJ,mystérieux_ADJ,ivrogne_ADJ,brigand_NOM,prénommé_VER,
+terrienne_ADJ :mâtinée_VER,enivrante_ADJ,puissante_ADJ,agissante_ADJ,fuyante_ADJ,capiteuse_ADJ,primitive_ADJ,érudite_ADJ,personnification_NOM,vivifiante_ADJ,
+distance:0.38657743
+
+têtu_ADJ :brochu_NAM,poliquin_NAM,galant_ADJ,beauchemin_NAM,gagnon_NAM,desgagné_NAM,létour-neau_NAM,tibo_NAM,leblanc_NAM,bergeron_NOM,
+têtue_ADJ :naive_ADJ,conquérante_ADJ,courageuse_ADJ,fantasmée_VER,angoissée_VER,désincarnée_VER,névrosée_ADJ,manipulatrice_ADJ,dominatrice_ADJ,fuyante_ADJ,
+distance:0.26274124
+
+traducteur_NOM :romancier_NOM,poète_NOM,traductrice_NOM,dramaturge_NOM,écrivain_NOM,musicien_NOM,illustrateur_NOM,traduction_NOM,journaliste_NOM,auteur_NOM,
+traductrice_NOM :écrivaine_ADJ,comédienne_NOM,romancière_NOM,écrivaine_NOM,traducteur_NOM,lectrice_NOM,poétesse_NOM,confidente_NOM,dramaturge_NOM,musicienne_NOM,
+distance:0.51609075
+
+travailleur_NOM :travailleur_ADJ,employé_NOM,salarié_NOM,ouvrier_NOM,agriculteur_NOM,médecin_NOM,enseignant_NOM,camionneur_NOM,travailleuse_NOM,chômeur_NOM,
+travailleuse_NOM :travailleuse_ADJ,infirmière_NOM,intervenante_NOM,travailleur_NOM,femme_NOM,enseignante_NOM,étudiante_NOM,fille_NOM,monoparentale_ADJ,féministe_NOM,
+distance:0.49605402
+
+tueur_NOM :tireur_NOM,meurtrier_NOM,tueurs_NOM,prédateur_NOM,assassin_NOM,suspect_NOM,détectives_NOM,policier_NOM,violeur_NOM,22h40_NAM,
+tueuse_NOM :n-lun_NOM,n-ton_NOM,mince_INT,extravertie_ADJ,48-58_NUM,40alne_NAM,compréhensive_ADJ,35-46_NUM,attentionnée_ADJ,36-45_NUM,
+distance:0.4041525
+
+turc_NOM :turc_ADJ,irakien_NOM,ceyhan_NAM,kurde_NOM,allemand_NOM,tadjik_ADJ,américain_NOM,espagnol_ADJ,persan_NOM,nouri_NAM,
+turque_ADJ :libanaise_ADJ,israélienne_ADJ,kurde_ADJ,iranienne_ADJ,turc_ADJ,irakienne_ADJ,macédonienne_ADJ,allemande_ADJ,syrienne_ADJ,italienne_ADJ,
+distance:0.29629636
+
+vagabond_NOM :stoïque_ADJ,romancier_NOM,personnage_NOM,lutin_NOM,narrateur_NOM,écrivain_NOM,affamé_ADJ,vagabond_ADJ,blafard_ADJ,séducteur_NOM,
+vagabonde_ADJ :méditative_ADJ,jaunâtre_ADJ,poétique_NOM,éthérée_ADJ,mâtinée_VER,incarnée_ADJ,exaltée_VER,kaléidoscopique_ADJ,mélancolie_NOM,contemporanéité_NOM,
+distance:0.4805748
+
+végétarien_ADJ :n-fiim_NOM,authentique_ADJ,végétariens_ADJ,mince_INT,aimanl_ADJ,cinoche_NOM,avoine_NOM,aime_VER,passionné_VER,cultivateur_NOM,
+végétarienne_ADJ :végétarisme_NOM,sushis_NOM,raisonnée_ADJ,cuisine_NOM,végétariens_ADJ,fondue_NOM,salades_NOM,marabout_NOM,gourmande_ADJ,emballante_ADJ,
+distance:0.40504733
+
+vendeur_NOM :vendeur_ADJ,marchand_NOM,commerçant_NOM,revendeur_NOM,vendeurs_NOM,acheteur_NOM,client_NOM,fournisseur_NOM,producteur_NOM,gestionnaire_NOM,
+vendeuse_NOM :caissière_NOM,copine_NOM,serveuse_NOM,amie_NOM,admiratrice_NOM,starlette_NOM,employée_NOM,confidente_NOM,gérante_NOM,blonde_NOM,
+distance:0.4252723
+
+vérificateur_NOM :vérificatrice_NOM,dge_NAM,lobbyisme_NOM,vérification_NOM,vérificateurs_NOM,rapport_NOM,ombudsman_NOM,dgf_NAM,dgeq_NAM,solliciteur_NOM,
+vérificatrice_NOM :sheila_VER,vérificateur_NOM,grc_NAM,gomery_NAM,zaccardelli_ADJ,zaccardelli_NAM,vérification_NOM,fraser_VER,grc_NOM,gendarmerie_NOM,
+distance:0.6883399
+
+veuf_NOM :veuf_ADJ,veuve_ADJ,divorcée_NOM,divorcée_VER,femme_NOM,épouse_NOM,célibataire_ADJ,amant_NOM,ans_NOM,mignonne_NOM,
+veuve_NOM :veuve_ADJ,femme_NOM,fille_NOM,amant_NOM,épouse_NOM,amoureuse_NOM,divorcée_NOM,mère_NOM,fenune_NOM,compagne_NOM,
+distance:0.37901697
+
+vieux_NOM :vieux_ADJ,grincheux_ADJ,514.845.5545_NUM,pote_ADJ,papy_NOM,petits_NOM,style_NOM,vieil_ADJ,copains_NOM,amoureux_NOM,
+vieille_NOM :vieille_ADJ,fille_NOM,coccinelle_NOM,catapulte_NOM,petite_NOM,caravane_NOM,roulotte_NOM,fide_NOM,camionnette_NOM,proprette_ADJ,
+distance:0.34727845
+
+vilain_NOM :bandit_NOM,méchant_NOM,caricatural_ADJ,personnage_NOM,arriviste_NOM,salaud_NOM,antihéros_NOM,paranoïaque_ADJ,séducteur_NOM,machiavélique_ADJ,
+vilaine_ADJ :mauvaise_ADJ,jambe_NOM,dure_ADJ,affreuse_ADJ,pourrie_VER,vicieuse_ADJ,cassée_ADJ,nasale_ADJ,calvitie_NOM,capricieuse_ADJ,
+distance:0.32217622
+
+villageois_NOM :paysans_NOM,civils_NOM,afghans_NOM,géorgiens_NOM,irakiens_NOM,tchétchènes_NOM,afghans_ADJ,survivants_NOM,talibans_NOM,chiites_NOM,
+villageoise_ADJ :recluse_ADJ,tourmentée_VER,délabrée_VER,dysfonctionnelle_ADJ,pieuse_ADJ,ravissante_ADJ,criminelle_NOM,habitée_ADJ,esseulée_ADJ,mourante_ADJ,
+distance:0.2753139
+
+visiteur_NOM :spectateur_NOM,lecteur_NOM,badaud_NOM,visiteurs_NOM,téléspectateur_NOM,narrateur_NOM,voyageur_NOM,quidam_NOM,artiste_NOM,auditeur_NOM,
+visiteuse_NOM :employée_NOM,entraîneuse_NOM,visiteur_NOM,équipe_NOM,figurine_NOM,compatissante_ADJ,bondée_ADJ,accroche_NOM,soucoupe_NOM,excitation_NOM,
+distance:0.4335664
+
+vivant_NOM :domicilié_VER,domiciliée_VER,résidant_VER,vivant_VER,vivant_ADJ,demeurant_ADJ,demeurant_VER,rivant_VER,résidé_VER,feue_ADJ,
+vivante_ADJ :fraîche_ADJ,singulière_ADJ,vibrante_ADJ,vivifiante_ADJ,colorée_VER,sereine_ADJ,fascinante_ADJ,mystérieuse_ADJ,vivant_ADJ,réconfortante_ADJ,
+distance:0.31731167
+
+voisin_NOM :voisin_ADJ,voisins_NOM,cousin_NOM,voisine_NOM,copain_NOM,voisinage_NOM,oncle_NOM,vis-à-vis_NOM,père_NOM,ami_NOM,
+voisine_NOM :copine_NOM,mère_NOM,fille_NOM,amie_NOM,grand-mère_NOM,cousine_NOM,voisine_ADJ,voisin_NOM,blonde_NOM,maman_NOM,
+distance:0.5123428
+
+voyageur_NOM :voyageur_ADJ,touriste_NOM,lecteur_NOM,voyage_NOM,visiteur_NOM,marcheur_NOM,narrateur_NOM,citoyen_NOM,aventurier_ADJ,poète_NOM,
+voyageuse_NOM :voyageuse_ADJ,retraitée_NOM,raffinee_NOM,épicurienne_NOM,ricaneuse_ADJ,55-62_NUM,divorcée_NOM,amoureuse_ADJ,amoureuse_NOM,rouquine_NOM,
+distance:0.33582753
+
+voyant_NOM :voyant_VER,écoutant_VER,regardant_VER,entendant_VER,lisant_VER,apercevant_VER,écoutant_NOM,là-haut_ADV,soudain_ADV,disant_VER,
+voyante_ADJ :idiote_ADJ,aguichante_ADJ,surannée_ADJ,névrosée_ADJ,hystérique_ADJ,souffrante_ADJ,évanescente_ADJ,coquetterie_NOM,confuse_ADJ,pieuse_ADJ,
+distance:0.3345032

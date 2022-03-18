@@ -11,7 +11,9 @@ SETUP:
 """
 import spacy
 nlp = spacy.load("fr_core_news_sm")  # loader un corpus (small) de textes et nouvelles en francais
-
+WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
+MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
+RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
 # pour output dans le fichier texte
 from contextlib import redirect_stdout
 
