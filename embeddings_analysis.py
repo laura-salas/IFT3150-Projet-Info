@@ -56,6 +56,7 @@ def find_sim(model, complete_key):
 
 def calculate_distance(model, complete_key_masc,complete_key_fem):
     dist = model.wv.similarity(complete_key_masc,complete_key_fem)
+    #TODO: faire une fonction pour écrire dans le fichier
     f = open("result.txt", "a")
     f.write('\ndistance:'+str(dist)+'\n')
     f.close()
@@ -73,7 +74,9 @@ def get_score_sim(model, complete_key_masc,complete_key_fem):
 
 def process_pairs(model, pairs, vocab):
     nb_paires = 0
+    # table des distances pour chaque paire
     dist_tab=[]
+    # table des scores de similarité pour chaque paire
     score_sim_tab=[]
     for pair in pairs:
         key_masc = pair[0]
@@ -82,8 +85,9 @@ def process_pairs(model, pairs, vocab):
         complete_key_masc = find_cat_key(key_masc,vocab)
         complete_key_fem = find_cat_key(key_fem,vocab)
 
-
+        #TODO : vérifier que les deux clés sont dans la meme POS aussi
         if complete_key_masc is not None and complete_key_fem is not None:
+            #TODO : lemmatiser le key fem pour comparer le string avec le key masc
             score_sim = get_score_sim(model, complete_key_masc, complete_key_fem)
             dist = calculate_distance(model, complete_key_masc,complete_key_fem)
             nb_paires += 1
@@ -93,8 +97,8 @@ def process_pairs(model, pairs, vocab):
     print("nb_paires:",nb_paires)
     dist_avg = sum(dist_tab)/len(dist_tab)
     print("distance moyenne:", dist_avg)
-    dist_avg = sum(score_sim_tab)/len(score_sim_tab)
-    print("score sim moyen:",dist_avg)
+    score_sim_avg = sum(score_sim_tab)/len(score_sim_tab)
+    print("score sim moyen:",score_sim_avg)
 
 def compare_model(comparing_model):
     pass
@@ -109,11 +113,13 @@ def main():
     lines_repere = open(src_repere, "r").read().splitlines()
 
 
-
     model_name = MODEL_PATH
     model = Word2Vec.load(model_name)
     vocab = model.wv.index_to_key
-    write_vocab(vocab)
+    write_vocab(None)
+    #write_vocab(vocab)
+
+    # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_names(lines_repere), vocab)
     # appel de fonctions pour étudier des paires d'adjectifs
