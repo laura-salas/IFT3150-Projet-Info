@@ -122,14 +122,8 @@ def main():
     model = Word2Vec.load(model_name)
     vocab = model.wv.index_to_key
     write_vocab(vocab)
-    #process_pairs(model, find_names(lines_repere), vocab)
-    process_pairs(model, find_adjs(lines_repere), vocab)
-
-
-    # brouillon
-    ## compare_model
-    comparing_model = Word2Vec.load(comparing_model_name)
-    #process_pairs(model, pairs)
+    process_pairs(model, find_names(lines_repere), vocab)
+    #process_pairs(model, find_adjs(lines_repere), vocab)
 
 
 
