@@ -3,12 +3,10 @@ from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 import sys
 import matplotlib.pyplot as plt
-#WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
-WORDS_ASSIGNED_PATH = "words_assigned.txt"
-#MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
-MODEL_PATH = "2000.txt.tt.formes.model"
-#RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
-RESULT_PATH = "result.txt"
+# todo : je dois reorganiser mes paths
+WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
+MODEL_PATH = "TRAITEMENT/MODEL/2000.txt.tt.formes.model"
+RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
 def find_names(lines):
     pairs = []
     for line in lines[1:]:
@@ -67,12 +65,6 @@ def get_score_sim(model, complete_key_masc,complete_key_fem):
     sims_m = set([s[0] for s in find_sim(model, complete_key_masc)])
     sims_f = [s[0] for s in find_sim(model, complete_key_fem)]
     score = 0
-    '''
-    print(complete_key_masc)
-    print("sims_m:",sims_m)
-    print(complete_key_fem)
-    print("sims_f:",sims_f)
-    '''
     for sim_f in sims_f:
         if sim_f in sims_m:
             score += 1
@@ -122,7 +114,9 @@ def main():
     model = Word2Vec.load(model_name)
     vocab = model.wv.index_to_key
     write_vocab(vocab)
+    # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_names(lines_repere), vocab)
+    # appel de fonctions pour étudier des paires d'adjectifs
     #process_pairs(model, find_adjs(lines_repere), vocab)
 
 
