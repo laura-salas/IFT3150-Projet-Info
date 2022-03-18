@@ -1,12 +1,13 @@
+import sys
+import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
-import sys
-import matplotlib.pyplot as plt
-# todo : je dois reorganiser mes paths
+
 WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
-MODEL_PATH = "TRAITEMENT/MODEL/2000.txt.tt.formes.model"
+MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
 RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
+
 def find_names(lines):
     pairs = []
     for line in lines[1:]:
@@ -102,7 +103,6 @@ def main():
     # examples of command used to call this program :
     # python embeddings_analysis.py words_assigned.txt 2000.txt.tt.formes.model
     # python embeddings_analysis.py paires-adjs.txt 2000.txt.tt.formes.model
-    # python embeddings_analysis.py words_assigned.txt 1990.txt.tt.formes.model
     # src_repere = sys.argv[1]
     # model_name = sys.argv[2]
     src_repere = WORDS_ASSIGNED_PATH
