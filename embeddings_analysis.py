@@ -4,127 +4,211 @@ from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 
+# PATHS #
+# Contains the reference words along with their POS and other info about each of them
 WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
+# The path to the current Gensym model
 MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
+# The ouput path
 RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
+# Sample vocabulary to provide
+SAMPLE_VOCAB = "sample_vocab.txt"
 
-def find_names(lines):
-    pairs = []
-    for line in lines[1:]:
-        pair = line.split("\t")[0].split(", ")
-        pairs.append((pair[0],pair[1]))
-    return pairs
-
-def find_adjs(lines):
-    pairs = []
-    for line in lines[1:]:
-        pair = line.split("\t")
-        pairs.append((pair[0],pair[1]))
-    return pairs
-
-def write_vocab(vocab):
-    if vocab is not None:
-        textfile = open("sample_vocab.txt", "w")
-        for element in vocab[:1000]:
-            textfile.write(element + "\n")
-        textfile.close()
+# CONSTANTS #
+VOCAB_N = 1000
+SIMILAR_WORDS_TO_GET = 10
 
 
-def find_cat_key(key,vocab):
-    if key+'_NOM' in vocab:
-        return key+'_NOM'
-    elif key+'_ADJ' in vocab:
-        return key+'_ADJ'
-    else:
-        return None
+def write_file(file_name: str, content: str, mode="w") -> None:
+    """
+    Write string to a file
+
+    :param file_name: file to write on
+    :param content: the content (as a string)
+    :param mode: Specifies the mode in which the file is opened, defaults to "w" if left empty
+    """
+    f = open(file_name, mode)
+    f.write(content)
+    f.close()
 
 
-def find_sim(model, complete_key):
+def find_nouns(text: [str]) -> [([str], [str])]:
+    """
+    Find nouns in the provided text
+
+    :param text: the text to go through
+    :return: a list of sets that contain the fem and masc nouns
+    """
+    return [(line.split("\t")[0].split(", ")[0],
+             line.split("\t")[0].split(", ")[1])
+            for line in text[1:]]
+
+
+def find_adjectives(text: [str]) -> [(str, str)]:
+    """
+    Find adjectives in the provided text
+
+    :param text: the text to go through
+    :return: a list of sets that contain the fem and masc adjectives
+    """
+    return [(line.split("\t")[0],
+             line.split("\t")[1])
+            for line in text[1:]]
+
+
+def write_vocab(vocab: [str] = None) -> None:
+    """
+    If found any vocab in the model, write it to file
+
+    :param vocab: (optional) vocab from model
+    :return:
+    """
+
+    # TODO: régler le bug de pourquoi ca réécrit par dessus le fichier si on re-roule le code\
+    #  sans vider le fichier de result: peut-être le vider\
+    #  a chaque fois?
+    write_file(RESULT_PATH, "", "w")
+
+    write_file(SAMPLE_VOCAB,
+               "".join(element + "\n" for element in vocab[:VOCAB_N]),
+               "w") \
+        if vocab is not None else ""
+
+
+def assign_POS_key(key: str, vocab: str):
+    """
+    Find key in vocabulary and assign POS (either ADJ or NOM (noun))
+    #TODO: est-ce qu'on peut renommer NOM à NOUN?
+
+    :param key: word to find
+    :param vocab: vocabulary to look through
+    :return: vocab word if found, along with its POS (format: word_POS)
+    """
+    return key + '_NOM' if key + '_NOM' in vocab \
+        else key + '_ADJ' if key + '_ADJ' in vocab \
+        else None
+
+
+def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
+    """
+    Find neighbours of similar words
+
+    :param model: input WordVec model
+    :param word_key: the word to search the neighbours for
+    :return: search result, "The most similar entries as a `(keys, best_rows, scores)`
+                    tuple."
+
     # Source :
     # https://radimrehurek.com/gensim/models/word2vec.html
-    vector = model.wv[complete_key]
+    """
+
+    vector = model.wv[word_key]
+
     # get other similar words
-    sims = model.wv.most_similar(complete_key, topn=10)
-    f = open(RESULT_PATH, "a")
-    f.write("\n"+complete_key+" :")
-    #~mots utilisés dans un contexte similaire au mot cible
-    for sim in sims:
-        f.write(sim[0]+',')
-    f.close()
-    return sims
+    similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
+
+    write_file(RESULT_PATH, "\n" + word_key + " :", "a")
+
+    # words used in a similar context as the target
+    write_file(RESULT_PATH, "".join(sim[0] + "," for sim in similar_neighbours), "a")
+
+    return similar_neighbours
 
 
-def calculate_distance(model, complete_key_masc,complete_key_fem):
-    dist = model.wv.similarity(complete_key_masc,complete_key_fem)
-    #TODO: faire une fonction pour écrire dans le fichier
-    f = open("result.txt", "a")
-    f.write('\ndistance:'+str(dist)+'\n')
-    f.close()
+def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, int)]:
+    """
+    Calculate distance vector between masculine and feminine word
+    (both words deriving same lemma)
+
+    :param model: model to get the distance from
+    :param word_key_masc: masculine word
+    :param word_key_fem: feminine word
+    :return: "If fileid is specified, just the score for the two ngrams; otherwise,
+                 list of tuples of fileids and scores."
+    """
+    dist = model.wv.similarity(word_key_masc, word_key_fem)
+    write_file(RESULT_PATH, '\ndistance:' + str(dist) + '\n', "a")
     return dist
 
 
-def get_score_sim(model, complete_key_masc,complete_key_fem):
-    sims_m = set([s[0] for s in find_sim(model, complete_key_masc)])
-    sims_f = [s[0] for s in find_sim(model, complete_key_fem)]
-    score = 0
-    for sim_f in sims_f:
-        if sim_f in sims_m:
-            score += 1
+def get_similarity_score(model, complete_key_masc, complete_key_fem):
+    """
+    Get the similarity score between the masculine and feminine of a word (sharing same
+    root lemma)
+    TODO: better define the similarity score and ask ourselves if this is the best method
+
+    :param model:
+    :param complete_key_masc:
+    :param complete_key_fem:
+    :return:
+    """
+    sims_m = set([s[0] for s in find_similar_neighbours(model, complete_key_masc)])
+    sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
+
+    score = sum([1 if sim_f in sims_m else 0 for sim_f in sims_f])
+
     return score
 
+
 def process_pairs(model, pairs, vocab):
-    nb_paires = 0
-    # table des distances pour chaque paire
-    dist_tab=[]
-    # table des scores de similarité pour chaque paire
-    score_sim_tab=[]
+    """
+    model
+    :param model:
+    :param pairs:
+    :param vocab:
+    :return:
+    """
+    pairs_amount = 0
+    # array of distances for each pair
+    distances = []
+    # array of similarity scores for each pair
+    similarity_scores = []
+
     for pair in pairs:
         key_masc = pair[0]
         key_fem = pair[1]
 
-        complete_key_masc = find_cat_key(key_masc,vocab)
-        complete_key_fem = find_cat_key(key_fem,vocab)
+        word_key_masc = assign_POS_key(key_masc, vocab)
+        word_key_fem = assign_POS_key(key_fem, vocab)
 
-        #TODO : vérifier que les deux clés sont dans la meme POS aussi
-        if complete_key_masc is not None and complete_key_fem is not None:
-            #TODO : lemmatiser le key fem pour comparer le string avec le key masc
-            score_sim = get_score_sim(model, complete_key_masc, complete_key_fem)
-            dist = calculate_distance(model, complete_key_masc,complete_key_fem)
-            nb_paires += 1
-            dist_tab.append(dist)
-            score_sim_tab.append(score_sim)
+        # TODO : vérifier que les deux clés sont dans la meme POS aussi
+        if word_key_masc is not None and word_key_fem is not None:
+            # TODO : lemmatiser le key fem pour comparer le string avec le key masc
 
-    print("nb_paires:",nb_paires)
-    dist_avg = sum(dist_tab)/len(dist_tab)
+            similarity_score = get_similarity_score(model, word_key_masc, word_key_fem)
+            distance = calculate_distance(model, word_key_masc, word_key_fem)
+            pairs_amount += 1
+            distances.append(distance)
+            similarity_scores.append(similarity_score)
+
+    print("pairs_amount:", pairs_amount)
+    dist_avg = sum(distances) / len(distances)
     print("distance moyenne:", dist_avg)
-    score_sim_avg = sum(score_sim_tab)/len(score_sim_tab)
-    print("score sim moyen:",score_sim_avg)
+    similarity_score_avg = sum(similarity_scores) / len(similarity_scores)
+    print("score sim moyen:", similarity_score_avg)
+
 
 def compare_model(comparing_model):
     pass
 
+
 def main():
     # examples of command used to call this program :
-    # python embeddings_analysis.py words_assigned.txt 2000.txt.tt.formes.model
-    # python embeddings_analysis.py paires-adjs.txt 2000.txt.tt.formes.model
-    # src_repere = sys.argv[1]
+    # src_reference = sys.argv[1]
     # model_name = sys.argv[2]
-    src_repere = WORDS_ASSIGNED_PATH
-    lines_repere = open(src_repere, "r").read().splitlines()
 
+    lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
-    model_name = MODEL_PATH
-    model = Word2Vec.load(model_name)
+    model = Word2Vec.load(MODEL_PATH)
     vocab = model.wv.index_to_key
-    write_vocab(None)
-    #write_vocab(vocab)
+    write_vocab()
+    # write_vocab(vocab)
 
     # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
-    process_pairs(model, find_names(lines_repere), vocab)
+    process_pairs(model, find_nouns(lines_reference), vocab)
     # appel de fonctions pour étudier des paires d'adjectifs
-    #process_pairs(model, find_adjs(lines_repere), vocab)
-
+    # process_pairs(model, find_adjs(lines_reference), vocab)
 
 
 if __name__ == '__main__':
