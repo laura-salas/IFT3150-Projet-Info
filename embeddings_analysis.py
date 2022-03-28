@@ -1,5 +1,5 @@
 import sys
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
@@ -106,8 +106,9 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
 
     # get other similar words
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
-
-    write_file(RESULT_PATH, "\n" + word_key + " :", "a")
+    # TODO: verifier si la frequence c'est le count ou le %
+    word_count = model.wv.get_vecattr(word_key, "count")
+    write_file(RESULT_PATH, "\n" + word_key +"(f="+word_count +") :", "a")
 
     # words used in a similar context as the target
     write_file(RESULT_PATH, "".join(sim[0] + "," for sim in similar_neighbours), "a")
