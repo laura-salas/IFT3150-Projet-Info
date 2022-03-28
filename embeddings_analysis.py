@@ -88,6 +88,11 @@ def assign_POS_key(key: str, vocab: str):
         else key + '_ADJ' if key + '_ADJ' in vocab \
         else None
 
+def lemme(word):
+    lemme = ""
+    # voir code assign_infos.py
+    return lemme
+
 
 def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     """
@@ -108,10 +113,10 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
     # TODO: verifier si la frequence c'est le count ou le %
     word_count = model.wv.get_vecattr(word_key, "count")
-    write_file(RESULT_PATH, "\n" + word_key +"(f="+word_count +") :", "a")
+    write_file(RESULT_PATH, "\n" + word_key +" (f="+str(word_count)+") : ", "a")
 
     # words used in a similar context as the target
-    write_file(RESULT_PATH, "".join(sim[0] + "," for sim in similar_neighbours), "a")
+    write_file(RESULT_PATH, " ".join(sim[0]+" (f="+str(model.wv.get_vecattr(sim[0], "count")) + ")," for sim in similar_neighbours), "a")
 
     return similar_neighbours
 
@@ -146,7 +151,19 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     sims_m = set([s[0] for s in find_similar_neighbours(model, complete_key_masc)])
     sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
 
-    score = sum([1 if sim_f in sims_m else 0 for sim_f in sims_f])
+    # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
+    score1 = sum([1 if sim_f in sims_m else 0 for sim_f in sims_f])
+    write_file(RESULT_PATH, '\n\nscore de similarité pure :' + str(score1) + '\n', "a")
+
+    # score de similarité basé sur l'équivalence "lemmatique" entre les sims_f et les sims_m
+    # pseudocode
+    # faire un set de lemmes associés aux sims_m et un set de lemmes associés aux sims_f
+    lemmes_sims_m = [lemme(sim_m) for sim_m in sims_m]
+    # pour un lemme donné, si il est présent dans les sets de lemmes de sims_m et de sims_f
+    # examiner le nombre de sims_m/sims_f associés au lemme et prendr le plus petit des deux
+
+    score2 = 0
+    write_file(RESULT_PATH, '\nscore de similarité lemmatisé :' + str(score2) + '\n', "a")
 
     return score
 
@@ -189,14 +206,7 @@ def process_pairs(model, pairs, vocab):
     print("score sim moyen:", similarity_score_avg)
 
 
-def compare_model(comparing_model):
-    pass
-
-
 def main():
-    # examples of command used to call this program :
-    # src_reference = sys.argv[1]
-    # model_name = sys.argv[2]
 
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
