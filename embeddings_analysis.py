@@ -3,6 +3,7 @@ import sys
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
+from lemmatizer.py import lemmatize
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -158,7 +159,8 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     # score de similarité basé sur l'équivalence "lemmatique" entre les sims_f et les sims_m
     # pseudocode
     # faire un set de lemmes associés aux sims_m et un set de lemmes associés aux sims_f
-    lemmes_sims_m = [lemme(sim_m) for sim_m in sims_m]
+    # TODO : finir lemmatizer
+    lemmes_sims_m = [lemmatizer.lemmatize(sim_m) for sim_m in sims_m]
     # pour un lemme donné, si il est présent dans les sets de lemmes de sims_m et de sims_f
     # examiner le nombre de sims_m/sims_f associés au lemme et prendr le plus petit des deux
 
