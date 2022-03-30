@@ -21,10 +21,10 @@ def lemmatize(word_pos):
     pos = word_pos_tab[1]
     lex = pd.read_csv('http://www.lexique.org/databases/Lexique382/Lexique382.tsv', sep='\t')
     lex.head()
+    lex = lex[['ortho','lemme','cgram']]
     word_infos = lex[(lex.ortho == word) & (lex.cgram==pos)]
-    if word_infos.size == 1:
-        #TODO : trouver comment accéder au lemme
-        lemme = word_infos.lemme+pos
+    if word_infos.shape[0]== 1:
+        lemme = word_infos.lemme.to_string(index=False)+"_"+pos
     else:
         lemme = word_pos
     return lemme
@@ -35,7 +35,7 @@ def main():
 
     src_path = ""
     #read_src(src_path)
-    print(lemmatize('absentes_ADJ'))
+    lemmatize('absentes_ADJ')
 
     # pseudocode lemmatizer
     # lire input

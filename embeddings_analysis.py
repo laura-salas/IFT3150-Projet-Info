@@ -3,7 +3,8 @@ import sys
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
-from lemmatizer.py import lemmatize
+from lemmatizer import lemmatize
+from collections import Counter
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -154,17 +155,22 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
 
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
     score1 = sum([1 if sim_f in sims_m else 0 for sim_f in sims_f])
-    write_file(RESULT_PATH, '\n\nscore de similarité pure :' + str(score1) + '\n', "a")
+    write_file(RESULT_PATH, '\n\nscore de similarité pure : ' + str(score1) + '\n', "a")
 
     # score de similarité basé sur l'équivalence "lemmatique" entre les sims_f et les sims_m
     # pseudocode
     # faire un set de lemmes associés aux sims_m et un set de lemmes associés aux sims_f
-    # TODO : finir lemmatizer
-    lemmes_sims_m = [lemmatizer.lemmatize(sim_m) for sim_m in sims_m]
-    # pour un lemme donné, si il est présent dans les sets de lemmes de sims_m et de sims_f
-    # examiner le nombre de sims_m/sims_f associés au lemme et prendr le plus petit des deux
-
     score2 = 0
+    lemmes_sims_m = Counter([lemmatize(sim_m) for sim_m in sims_m])
+    lemmes_sims_f = Counter([lemmatize(sim_f) for sim_f in sims_f])
+    for lemme_sims_m in lemmes_sims_m.keys():
+        # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
+        if lemme_sims_m in lemmes_sims_f.keys():
+            # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
+            score2+=min(lemmes_sims_m[lemme_sims_m],lemmes_sims_f[lemme_sims_m])
+
+    # ex. de noms problematiques :  absent_NOM vs absent_ADJ lemme de favorite = favorite
+    # todo : choisir quoi faire avec ca; peut-etre score3
     write_file(RESULT_PATH, '\nscore de similarité lemmatisé :' + str(score2) + '\n', "a")
 
     return score
