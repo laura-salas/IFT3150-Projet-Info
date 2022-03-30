@@ -3,5 +3,3 @@ absent_NOM (f=260) : absent_ADJ (f=1301), perdant_NOM (f=536), favori_NOM (f=135
 absente_NOM (f=149) : absente_ADJ (f=549), perdante_NOM (f=66), ravivée_VER (f=69), habituée_ADJ (f=88), absent_ADJ (f=1301), championne_NOM (f=2141), auréolée_VER (f=53), admiratrice_NOM (f=67), favorite_NOM (f=470), californienne_NOM (f=57),
 
 score de similarité pure : 1
-
-score de similarité lemmatisé :3

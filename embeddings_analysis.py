@@ -161,8 +161,15 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     # pseudocode
     # faire un set de lemmes associés aux sims_m et un set de lemmes associés aux sims_f
     score2 = 0
-    lemmes_sims_m = Counter([lemmatize(sim_m) for sim_m in sims_m])
-    lemmes_sims_f = Counter([lemmatize(sim_f) for sim_f in sims_f])
+    l_s_m = []
+    for sim_m in sims_m:
+        l_s_m.append(lemmatize(sim_m))
+    lemmes_sims_m = Counter(l[0] for l in l_s_m)
+    l_s_f = []
+    for sim_f in sims_f:
+        l_s_f.append(lemmatize(sim_f))
+    lemmes_sims_m = Counter(l[0] for l in l_s_m)
+    lemmes_sims_f = Counter(l[0] for l in l_s_f)
     for lemme_sims_m in lemmes_sims_m.keys():
         # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
         if lemme_sims_m in lemmes_sims_f.keys():
@@ -171,7 +178,20 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
 
     # ex. de noms problematiques :  absent_NOM vs absent_ADJ lemme de favorite = favorite
     # todo : choisir quoi faire avec ca; peut-etre score3
-    write_file(RESULT_PATH, '\nscore de similarité lemmatisé :' + str(score2) + '\n', "a")
+    write_file(RESULT_PATH, '\nscore de similarité lemmatisé (avec pos) :' + str(score2) + '\n', "a")
+
+    score3 = 0
+    lemmes_sims_m = Counter(l[1] for l in l_s_m)
+    lemmes_sims_f = Counter(l[1] for l in l_s_f)
+    for lemme_sims_m in lemmes_sims_m.keys():
+        # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
+        if lemme_sims_m in lemmes_sims_f.keys():
+            # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
+            score3+=min(lemmes_sims_m[lemme_sims_m],lemmes_sims_f[lemme_sims_m])
+
+    # ex. de noms problematiques :  absent_NOM vs absent_ADJ lemme de favorite = favorite
+    # todo : choisir quoi faire avec ca; peut-etre score3
+    write_file(RESULT_PATH, '\nscore de similarité lemmatisé :' + str(score3) + '\n', "a")
 
     return score
 
