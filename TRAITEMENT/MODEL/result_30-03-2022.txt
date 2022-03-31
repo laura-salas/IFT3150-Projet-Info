@@ -1,0 +1,1728 @@
+
+absent_NOM (f=260) : absent_ADJ (f=1301), perdant_NOM (f=536), favori_NOM (f=1356), vainqueur_NOM (f=5448), absents_ADJ (f=779), absents_NOM (f=262), gagnant_NOM (f=1268), argentier_NOM (f=160), absente_NOM (f=149), représenté_VER (f=2266),
+absente_NOM (f=149) : absente_ADJ (f=549), perdante_NOM (f=66), ravivée_VER (f=69), habituée_ADJ (f=88), absent_ADJ (f=1301), championne_NOM (f=2141), auréolée_VER (f=53), admiratrice_NOM (f=67), favorite_NOM (f=470), californienne_NOM (f=57),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.3893241
+
+
+accompagnateur_NOM (f=422) : musicien_NOM (f=2911), guitariste_NOM (f=1544), accompagnateurs_NOM (f=245), chauffeur_NOM (f=1673), arrangeur_NOM (f=142), accordéoniste_NOM (f=245), pianiste_NOM (f=3645), batteur_NOM (f=853), ami_NOM (f=8706), interprète_NOM (f=2762),
+accompagnatrice_NOM (f=60) : jouannest_NAM (f=55), attitrée_VER (f=55), elisapie_NOM (f=63), boky_NAM (f=73), écrivaine_ADJ (f=185), yaroshevskaya_NAM (f=70), comédienne_NOM (f=2453), choriste_NOM (f=118), chanteuse_NOM (f=3476), interprète_NOM (f=2762),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.36108503
+
+
+acteur_NOM (f=6072) : comédien_NOM (f=3750), actrice_NOM (f=3324), interprète_NOM (f=2762), réalisateur_NOM (f=5909), scénariste_NOM (f=1354), personnage_NOM (f=10856), cinéaste_NOM (f=10830), humoriste_NOM (f=631), écrivain_NOM (f=11328), musicien_NOM (f=2911),
+actrice_NOM (f=3324) : comédienne_NOM (f=2453), interprète_NOM (f=2762), acteur_NOM (f=6072), cotillard_NAM (f=117), chanteuse_NOM (f=3476), réalisatrice_NOM (f=1034), écrivaine_NOM (f=1308), meryl_NAM (f=198), swinton_NAM (f=79), croze_NAM (f=309),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 4
+distance:0.68287635
+
+
+administrateur_NOM (f=3159) : syndic_NOM (f=10997), cip_NAM (f=401), technicien_NOM (f=845), cirp_NAM (f=1569), cirp_NOM (f=389), ingénieur_NOM (f=2215), clrp_NOM (f=104), roland-therrien_NAM (f=131), consultant_VER (f=1106), secrétaire-trésorier_NOM (f=111),
+administratrice_NOM (f=147) : directrice_NOM (f=8981), consultante_NOM (f=114), présidente_NOM (f=11695), éditrice_NOM (f=371), vice-présidente_NOM (f=5160), directrice_ADJ (f=7803), résidente_NOM (f=143), gérante_NOM (f=143), représentante_NOM (f=871), professeure_ADJ (f=89),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.42517918
+
+
+admirateur_NOM (f=380) : disciple_NOM (f=357), fervent_ADJ (f=546), ami_NOM (f=8706), inspirateur_NOM (f=61), raconteur_NOM (f=55), inconditionnel_NOM (f=78), rusé_ADJ (f=60), écrivain_NOM (f=11328), éminent_ADJ (f=479), émule_NOM (f=170),
+admiratrice_NOM (f=67) : amie_NOM (f=2268), confidente_NOM (f=76), idole_NOM (f=696), actrice_NOM (f=3324), icône_NOM (f=942), fervente_ADJ (f=168), institutrice_NOM (f=203), starlette_NOM (f=63), aïeule_NOM (f=64), écrivaine_NOM (f=1308),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4432952
+
+
+adolescent_NOM (f=1377) : garçon_NOM (f=3640), adolescente_NOM (f=818), enfant_NOM (f=20735), adolescent_ADJ (f=650), adulte_NOM (f=1181), policier_NOM (f=2440), fillette_NOM (f=1159), étudiant_NOM (f=2823), jeune_ADJ (f=40169), gamin_NOM (f=371),
+adolescente_NOM (f=818) : fillette_NOM (f=1159), adolescent_NOM (f=1377), fille_NOM (f=13723), adolescente_ADJ (f=424), garçon_NOM (f=3640), amie_NOM (f=2268), prostituée_NOM (f=327), jeune_ADJ (f=40169), mère_NOM (f=15333), femme_NOM (f=36350),
+
+score de similarité pure : 3
+score de similarité lemmatisée : 5
+distance:0.67534304
+
+
+africain_NOM (f=166) : écrivain_NOM (f=11328), idiome_NOM (f=105), arabe_NOM (f=426), innu_NOM (f=73), kabyle_ADJ (f=60), indien_ADJ (f=2627), chao_INT (f=254), africain_ADJ (f=1744), métissé_VER (f=135), obscur_ADJ (f=759),
+africaine_NOM (f=95) : métisse_ADJ (f=189), rouquine_NOM (f=59), esseulée_ADJ (f=50), ingénue_ADJ (f=94), vieillie_VER (f=58), écolière_NOM (f=51), aïeule_NOM (f=64), afrobeat_ADJ (f=61), travestie_VER (f=91), afro-américaine_ADJ (f=135),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.2828982
+
+
+allemand_NOM (f=1500) : allemand_ADJ (f=6770), italien_NOM (f=464), espagnol_ADJ (f=6814), roumain_NOM (f=91), autrichien_NOM (f=204), italien_ADJ (f=6372), américain_NOM (f=4437), espagnol_NOM (f=687), autrichien_ADJ (f=1366), australien_NOM (f=504),
+allemande_NOM (f=76) : allemande_ADJ (f=4116), américaine_NOM (f=2533), italienne_ADJ (f=3728), concurrente_NOM (f=211), hilde_NAM (f=66), slave_ADJ (f=238), swinton_NAM (f=79), suédoise_ADJ (f=863), hollandaise_ADJ (f=159), héritière_NOM (f=390),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.37830958
+
+
+amant_NOM (f=1395) : amante_NOM (f=340), amoureuse_NOM (f=439), compagnon_NOM (f=3103), mari_NOM (f=5893), amour_NOM (f=28629), amoureuse_ADJ (f=3978), volage_ADJ (f=89), amie_NOM (f=2268), ami_NOM (f=8706), fiancé_NOM (f=159),
+amante_NOM (f=340) : amant_NOM (f=1395), amoureuse_NOM (f=439), amie_ADJ (f=777), divorcée_NOM (f=63), voyageuse_ADJ (f=144), passionnée_VER (f=3310), amoureuse_ADJ (f=3978), sensuelle_ADJ (f=1479), passionnee_NOM (f=71), rouquine_ADJ (f=50),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 3
+distance:0.627493
+
+
+amateur_NOM (f=3400) : amateurs_NOM (f=6862), connaisseur_NOM (f=134), collectionneur_NOM (f=729), passionné_VER (f=3757), féru_ADJ (f=267), musicien_NOM (f=2911), adepte_NOM (f=751), néophyte_NOM (f=348), doué_VER (f=324), sport_NOM (f=14063),
+amatrice_NOM (f=58) : férue_ADJ (f=80), cherehe_NOM (f=91), 47-55_NUM (f=59), raffinee_NOM (f=52), 35-48_NUM (f=110), 28-35_NUM (f=64), épicurienne_NOM (f=50), 35-46_NUM (f=50), distinguée_ADJ (f=338), 44-50_NUM (f=63),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4276641
+
+
+ambitieux_NOM (f=140) : ambitieux_ADJ (f=2536), objectif_NOM (f=15157), objectif_ADJ (f=4307), ambition_NOM (f=2309), ambitieuse_ADJ (f=660), emballant_VER (f=66), audacieux_ADJ (f=1526), avoué_NOM (f=161), aristocrate_NOM (f=109), décadent_ADJ (f=105),
+ambitieuse_ADJ (f=660) : audacieuse_ADJ (f=868), ambitieux_ADJ (f=2536), exigeante_ADJ (f=821), aboutie_VER (f=88), brillante_ADJ (f=1344), cohérente_ADJ (f=795), réussie_VER (f=987), séduisante_ADJ (f=665), intéressante_ADJ (f=3505), rassembleuse_ADJ (f=113),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.430066
+
+
+ami_NOM (f=8706) : frère_NOM (f=8089), ami_ADJ (f=1326), copain_NOM (f=797), père_NOM (f=22943), oncle_NOM (f=1529), cousin_NOM (f=910), amie_NOM (f=2268), collègue_NOM (f=5491), amant_NOM (f=1395), grand-père_NOM (f=1318),
+amie_NOM (f=2268) : copine_NOM (f=591), fille_NOM (f=13723), amie_ADJ (f=777), mère_NOM (f=15333), épouse_NOM (f=7159), femme_NOM (f=36350), adolescente_NOM (f=818), compagne_NOM (f=2387), maman_NOM (f=2382), ami_NOM (f=8706),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.5839189
+
+
+amoureux_NOM (f=2316) : amoureux_ADJ (f=3045), salut_NOM (f=2761), amants_NOM (f=911), fou_NOM (f=1273), amant_NOM (f=1395), séducteurs_ADJ (f=110), copains_NOM (f=827), wildfire_NAM (f=111), musico_NOM (f=485), ohhh_NOM (f=128),
+amoureuse_NOM (f=439) : amoureuse_ADJ (f=3978), amant_NOM (f=1395), amante_NOM (f=340), divorcée_NOM (f=63), amie_NOM (f=2268), femme_NOM (f=36350), amour_NOM (f=28629), délurée_ADJ (f=67), musicienne_NOM (f=535), mignonne_NOM (f=65),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.44301403
+
+
+ancien_NOM (f=476) : anden_NOM (f=182), ex-premier_ADJ (f=1123), ancien_ADJ (f=41572), ex-pre-mier_ADJ (f=80), ex-premier_NOM (f=144), tex-premier_NAM (f=61), ex-chef_NOM (f=451), ex-chef_ADJ (f=61), anden_ADJ (f=404), ex-ministre_NOM (f=1622),
+ancienne_NOM (f=405) : ancienne_ADJ (f=11878), américaine_NOM (f=2533), ex-première_ADJ (f=115), benazir_NAM (f=415), rivale_NOM (f=784), bhutto_NAM (f=752), aïeule_NOM (f=64), rescapée_VER (f=61), espionne_NOM (f=68), devenue_VER (f=8129),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.2799785
+
+
+anglais_NOM (f=236) : anglais_ADJ (f=24738), français_NOM (f=740), groupe/privé_ADJ (f=67), prononciation_NOM (f=405), arabe_NOM (f=426), espagnol_NOM (f=687), inuktitut_NOM (f=101), m.ed_NAM (f=90), anglais_NAM (f=2101), toefl_NAM (f=942),
+anglaise_NOM (f=467) : anglaise_ADJ (f=4614), -famous_ADJ (f=50), famous_NOM (f=292), i--famous_NOM (f=59), s.-t.f_ADJ (f=81), anglais_ADJ (f=24738), portugaise_ADJ (f=491), italienne_NOM (f=443), players-_NAM (f=51), -cinéplex_NAM (f=94),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.30061474
+
+
+animateur_NOM (f=2970) : animateur_ADJ (f=580), animateur-vedette_NOM (f=71), présentateur_NOM (f=319), humoriste_ADJ (f=472), humoriste_NOM (f=631), animatrice_NOM (f=676), comédien_NOM (f=3750), ex-animateur_NOM (f=67), intervieweur_NOM (f=85), émission_NOM (f=16271),
+animatrice_NOM (f=676) : animatrice_ADJ (f=669), animateur_NOM (f=2970), écrivaine_NOM (f=1308), émission_NOM (f=16271), comédienne_NOM (f=2453), bazzo_NAM (f=636), présentatrice_NOM (f=121), radio-canada_NAM (f=18806), journaliste_NOM (f=13495), auteure_NOM (f=3898),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 4
+distance:0.5999181
+
+
+anormal_NOM (f=153) : anormal_ADJ (f=497), delilah_NAM (f=409), pis._ABR (f=99), trouble_VER (f=294), gilmore_ADJ (f=60), skyland_NAM (f=62), cybersix_NAM (f=131), d-stroy_NAM (f=72), rien_ADV (f=50723), grand-chose_NOM (f=2297),
+anormale_ADJ (f=192) : aberrante_ADJ (f=110), inquiétante_ADJ (f=1144), incontrôlée_ADJ (f=136), inflammatoire_ADJ (f=87), exogène_ADJ (f=66), abdominale_ADJ (f=85), inhabituelle_ADJ (f=507), bénigne_ADJ (f=111), myéline_NOM (f=58), excessive_ADJ (f=1234),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3022647
+
+
+anxieux_ADJ (f=306) : nerveux_ADJ (f=1744), dépressifs_ADJ (f=129), impulsifs_ADJ (f=55), agressifs_ADJ (f=410), angoissés_VER (f=77), craintifs_ADJ (f=112), inquiets_ADJ (f=1782), déprimés_VER (f=152), méfiants_ADJ (f=175), émotifs_ADJ (f=128),
+anxieuse_ADJ (f=57) : émerveillée_VER (f=67), craintive_ADJ (f=54), traumatisée_VER (f=107), angoissée_VER (f=86), frustrée_VER (f=92), éplorée_ADJ (f=56), effrayée_VER (f=51), contrariée_VER (f=63), désorganisée_VER (f=73), maltraitée_VER (f=51),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.40614906
+
+
+assistant_NOM (f=407) : ami_NOM (f=8706), adjoint_NOM (f=1503), acolyte_NOM (f=114), assistant_VER (f=553), mentor_NOM (f=872), oncle_NOM (f=1529), frère_NOM (f=8089), adaptateur_NOM (f=66), successeur_NOM (f=2904), ingénieur_NOM (f=2215),
+assistante_NOM (f=422) : orthophoniste_NOM (f=58), recherchiste_NOM (f=92), stagiaire_NOM (f=167), infirmière_NOM (f=1756), technicienne_NOM (f=96), tutrice_NOM (f=65), bachelière_NOM (f=50), eva_NAM (f=682), professeure_ADJ (f=89), inès_NAM (f=145),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.43737456
+
+
+australien_NOM (f=504) : ueyton_NAM (f=257), lleyton_NAM (f=226), roddick_NAM (f=1358), hewitt_NAM (f=1452), ginepri_NAM (f=84), federer_NAM (f=2395), américain_NOM (f=4437), kuerten_NAM (f=820), schalken_NAM (f=98), australien_ADJ (f=2049),
+australienne_NOM (f=115) : australienne_ADJ (f=939), autrichienne_NOM (f=126), américaine_NOM (f=2533), hilde_NAM (f=66), meissnitzer_NAM (f=65), néo-zélandaise_ADJ (f=109), arndt_NAM (f=55), âgée_ADJ (f=2378), japonaise_NOM (f=400), sud-africaine_NOM (f=93),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.42257446
+
+
+auteur_NOM (f=26411) : écrivain_NOM (f=11328), romancier_NOM (f=2193), essayiste_NOM (f=1118), fauteur_NOM (f=256), auteure_NOM (f=3898), coauteur_NOM (f=381), historien_NOM (f=3365), réalisateur_NOM (f=5909), dramaturge_NOM (f=1569), scénariste_NOM (f=1354),
+auteure_NOM (f=3898) : écrivaine_NOM (f=1308), romancière_NOM (f=1251), écriture_NOM (f=10240), au-teure_NOM (f=188), tauteure_NAM (f=88), auteure_VER (f=113), auleure_NOM (f=155), massicotle_NAM (f=73), auteu-re_NOM (f=102), sylvie_NAM (f=8789),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.5950262
+
+
+avocat_NOM (f=12774) : avocats_NOM (f=9392), criminaliste_NOM (f=125), kuebler_NAM (f=57), avocate_NOM (f=2048), procureur_NOM (f=5978), juriste_NOM (f=783), julius_NAM (f=498), m1_NAM (f=598), accusé_NOM (f=1706), danson_NAM (f=61),
+avocate_NOM (f=2048) : avocat_NOM (f=12774), procureure_NOM (f=357), représentante_NOM (f=871), adjointe_VER (f=1697), liquidatrice_ADJ (f=219), trignac_NAM (f=89), avocats_NOM (f=9392), deny_NAM (f=63), avocates_NOM (f=103), susan_NAM (f=1601),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.5533631
+
+
+bavard_ADJ (f=380) : rusé_ADJ (f=60), loquace_ADJ (f=258), volubile_ADJ (f=191), contemplatif_ADJ (f=137), avare_ADJ (f=391), cabotin_ADJ (f=93), emphatique_ADJ (f=77), maladroit_ADJ (f=288), longuet_ADJ (f=73), insolent_ADJ (f=79),
+bavarde_ADJ (f=107) : prétentieuse_ADJ (f=105), ennuyeuse_ADJ (f=199), invariable_ADJ (f=58), agaçante_ADJ (f=85), incisive_ADJ (f=124), pesante_ADJ (f=149), emphatique_ADJ (f=77), désorganisée_VER (f=73), mièvre_ADJ (f=124), redondante_ADJ (f=57),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.41186187
+
+
+bienheureux_NOM (f=85) : bienheureux_ADJ (f=187), canonisé_VER (f=77), béatifié_VER (f=58), dieu_NOM (f=10730), dugua_NAM (f=59), médicis_NAM (f=265), perroquet_NOM (f=233), dieux_NOM (f=1331), falar-deau_NAM (f=53), lénine_NOM (f=60),
+bienheureuse_ADJ (f=54) : exaltée_VER (f=87), aveuglante_ADJ (f=79), bénie_ADJ (f=50), teresa_VER (f=112), fuyante_ADJ (f=71), religieuse_NOM (f=145), orgueilleuse_ADJ (f=51), bienfaisante_ADJ (f=52), grouillante_ADJ (f=92), triomphante_ADJ (f=177),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.2392337
+
+
+blond_NOM (f=764) : tribu.com_NAM (f=78), sournois_ADJ (f=472), tva_ABR (f=14634), nikita_NOM (f=149), blond_ADJ (f=736), sucré-salé_NAM (f=88), labrèche_NAM (f=541), emma_NAM (f=906), nikita_VER (f=74), piment_NOM (f=735),
+blonde_NOM (f=1097) : blonde_ADJ (f=1990), fille_NOM (f=13723), femme_NOM (f=36350), copine_NOM (f=591), maman_NOM (f=2382), jolie_ADJ (f=7108), rousse_NOM (f=325), mère_NOM (f=15333), amie_NOM (f=2268), compagne_NOM (f=2387),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.24207985
+
+
+boiteux_ADJ (f=352) : roi_NOM (f=6405), enchaîné_ADJ (f=89), orphelin_ADJ (f=357), dysfonctionnel_ADJ (f=79), mort-né_ADJ (f=80), feydeau_NAM (f=128), hasardeux_ADJ (f=212), risqué_VER (f=1135), cygne_NOM (f=262), vilain_NOM (f=156),
+boiteuse_ADJ (f=141) : redondante_ADJ (f=57), têtue_ADJ (f=52), amusante_ADJ (f=538), simpliste_ADJ (f=735), banale_ADJ (f=905), insatisfaisante_ADJ (f=82), ennuyante_ADJ (f=63), fastidieuse_ADJ (f=108), idiote_ADJ (f=68), caricaturale_ADJ (f=200),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3045519
+
+
+breton_ADJ (f=331) : provençal_ADJ (f=144), chardon_NOM (f=53), français_ADJ (f=57295), wapiti_NOM (f=60), parmentier_NOM (f=99), écossais_ADJ (f=815), bretonne_ADJ (f=134), poitou_NAM (f=50), cassoulet_NOM (f=116), marchand_ADJ (f=1642),
+bretonne_ADJ (f=134) : celtique_ADJ (f=248), marseillaise_ADJ (f=50), cajun_ADJ (f=118), provençale_ADJ (f=127), rôtie_VER (f=61), amérindienne_NOM (f=57), bordelaise_ADJ (f=52), antillaise_ADJ (f=160), normande_ADJ (f=145), maghrébine_ADJ (f=146),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.41814953
+
+
+brun_NOM (f=282) : blanc_ADJ (f=11446), châtain_NOM (f=103), argenté_ADJ (f=68), noir_NOM (f=2861), foncé_ADJ (f=374), mauve_NOM (f=60), brun_ADJ (f=1273), gris_ADJ (f=1721), noir_ADJ (f=12560), pourpre_NOM (f=77),
+brune_NOM (f=233) : mtlaise_NOM (f=488), châtain_NOM (f=103), châtaine_NOM (f=146), brunette_NOM (f=204), rousse_ADJ (f=410), brune_ADJ (f=866), épicurienne_NOM (f=50), mtiaise_NAM (f=66), mince_INT (f=123), 40alne_ADJ (f=65),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.33816993
+
+
+cadet_NOM (f=319) : cadet_ADJ (f=329), fils_NOM (f=17101), père_NOM (f=22943), aîné_NOM (f=591), frère_NOM (f=8089), garçon_NOM (f=3640), grand-père_NOM (f=1318), montoya_NAM (f=607), petit-fils_NOM (f=626), âgé_ADJ (f=6386),
+cadette_NOM (f=255) : aînée_NOM (f=218), cadette_ADJ (f=145), fille_NOM (f=13723), mère_NOM (f=15333), adolescente_NOM (f=818), éplorée_ADJ (f=56), âgée_ADJ (f=2378), serena_NAM (f=943), aînée_ADJ (f=282), navratilova_NAM (f=252),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3929089
+
+
+campagnard_ADJ (f=151) : andalou_ADJ (f=78), vallonné_VER (f=63), chalel_NOM (f=55), 3c.c._ABR (f=64), mitais_VER (f=52), pisc_ADJ (f=106), italo-provençale_ADJ (f=58), authentique_ADJ (f=4748), décontracté_ADJ (f=94), 5cc_NAM (f=54),
+campagnarde_ADJ (f=116) : entaillée_VER (f=71), perchée_VER (f=147), onctueuse_ADJ (f=95), sablonneuse_ADJ (f=88), goûteuse_ADJ (f=136), luxuriante_ADJ (f=121), longe_NOM (f=58), provençale_ADJ (f=127), rocheuse_ADJ (f=83), lardons_NOM (f=54),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.406142
+
+
+canadien_NOM (f=20402) : tricolore_ADJ (f=2589), devils_NOM (f=1581), bruins_NAM (f=1970), lemenu_NAM (f=1296), koivu_NAM (f=2349), lightning_NOM (f=280), halak_NAM (f=534), flyers_NOM (f=1292), sabres_NOM (f=1990), leafs_ADJ (f=807),
+canadienne_NOM (f=2072) : québécoise_NOM (f=1704), canadienne_ADJ (f=88403), montréalaise_NOM (f=1198), américaine_NOM (f=2533), presse_VER (f=19843), ontarienne_NOM (f=179), curl_NAM (f=54), suédoise_NOM (f=142), url_ABR (f=103), nadienne_ADJ (f=64),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.29963604
+
+
+canard_NOM (f=1901) : agneau_NOM (f=1121), magret_NOM (f=172), jambon_NOM (f=543), poêlé_VER (f=104), rôti_NOM (f=98), rôti_VER (f=210), braisé_VER (f=128), foie_NOM (f=1824), veau_NOM (f=1768), pleurotes_NOM (f=52),
+cane_NOM (f=190) : cane_VER (f=84), celte_NOM (f=88), chameo_NAM (f=92), canelr_NAM (f=65), l-q_NAM (f=276), caneir_NAM (f=131), centunono_NAM (f=87), eerie_NOM (f=60), l-q_NOM (f=66), 116500_NUM (f=70),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.21278057
+
+
+candidat_NOM (f=17704) : candidate_NOM (f=3726), investiture_NOM (f=2600), parti_NOM (f=81885), candidats_NOM (f=16333), député_NOM (f=14227), ex-candidat_NOM (f=111), candidat-vedette_NOM (f=243), chefferie_NOM (f=750), démocrate_ADJ (f=6383), colistier_NOM (f=318),
+candidate_NOM (f=3726) : candidat_NOM (f=17704), députée_VER (f=3431), ex-candidate_NOM (f=70), sénatrice_NOM (f=708), candidates_NOM (f=1442), candidats_NOM (f=16333), cheffe_NOM (f=54), libérale_ADJ (f=5296), vice-présidence_NOM (f=551), libérale_NOM (f=195),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.71848994
+
+
+capricieux_ADJ (f=174) : incestueux_ADJ (f=101), sinueux_ADJ (f=191), abrupts_ADJ (f=58), insouciant_ADJ (f=97), abruptes_ADJ (f=79), rusé_ADJ (f=60), tordus_VER (f=132), embruns_NOM (f=75), inhospitalier_ADJ (f=57), sablonneux_ADJ (f=66),
+capricieuse_ADJ (f=120) : glaciale_ADJ (f=173), flamboyante_ADJ (f=272), ennuyante_ADJ (f=63), névrosée_ADJ (f=58), surannée_ADJ (f=83), étrange_ADJ (f=3588), décadente_ADJ (f=77), têtue_ADJ (f=52), attachante_ADJ (f=331), ennuyeuse_ADJ (f=199),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.38228106
+
+
+champion_NOM (f=7936) : vice-champion_NOM (f=96), vainqueur_NOM (f=5448), ex-champion_NOM (f=96), championne_NOM (f=2141), champions_NOM (f=2548), recordman_NOM (f=109), septuple_ADJ (f=194), championnat_NOM (f=6707), sextuple_ADJ (f=113), wbo_NAM (f=54),
+championne_NOM (f=2141) : médaillée_VER (f=626), tenante_NOM (f=206), vice-champion_NOM (f=96), favorite_NOM (f=470), joueuse_NOM (f=1257), championnats_NOM (f=3837), gagnante_NOM (f=570), felicien_NAM (f=169), champion_NOM (f=7936), friesinger_NAM (f=74),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.5672945
+
+
+chanteur_NOM (f=4958) : guitariste_NOM (f=1544), musicien_NOM (f=2911), chanteuse_NOM (f=3476), comédien_NOM (f=3750), batteur_NOM (f=853), rappeur_NOM (f=276), bassiste_NOM (f=469), auteur-compositeur-interprète_NOM (f=289), crooner_NOM (f=170), compositeur_NOM (f=3813),
+chanteuse_NOM (f=3476) : comédienne_NOM (f=2453), chanteur_NOM (f=4958), actrice_NOM (f=3324), chanson_NOM (f=9874), danseuse_NOM (f=1152), choriste_NOM (f=118), guitariste_NOM (f=1544), chanteuses_NOM (f=448), romancière_NOM (f=1251), cantatrice_NOM (f=331),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.6624593
+
+
+chat_NOM (f=2303) : chien_NOM (f=3819), lapin_NOM (f=790), souris_NOM (f=1786), pelage_NOM (f=72), soulier_NOM (f=150), bébé_NOM (f=2769), singe_NOM (f=540), loup_NOM (f=2036), papa_NOM (f=2167), cochon_NOM (f=955),
+chatte_NOM (f=212) : fille_NOM (f=13723), poupée_NOM (f=456), copine_NOM (f=591), voisine_NOM (f=838), maman_NOM (f=2382), belle_NOM (f=197), pyjama_NOM (f=145), peau_NOM (f=8109), blonde_NOM (f=1097), fermière_NOM (f=78),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.37074244
+
+
+chercheur_NOM (f=3864) : chercheur_ADJ (f=1431), chercheuse_NOM (f=785), professeur_NOM (f=21847), biologiste_NOM (f=857), biochimiste_NOM (f=90), politologue_NOM (f=1808), géologue_NOM (f=219), microbiologiste_NOM (f=138), neurologue_NOM (f=149), physicien_NOM (f=394),
+chercheuse_NOM (f=785) : chercheur_NOM (f=3864), chercheure_NOM (f=274), chercheuse_ADJ (f=334), profes-seure_NOM (f=90), pro-fesseure_NOM (f=94), diététiste_NOM (f=102), épidémiologiste_NOM (f=110), biochimiste_NOM (f=90), docteure_NOM (f=123), bartha_NAM (f=53),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.6815535
+
+
+cheval_NOM (f=3343) : verrue_NOM (f=52), chien_NOM (f=3819), troie_NAM (f=329), enfourcher_VER (f=60), âne_NOM (f=520), sabot_NOM (f=99), pelage_NOM (f=72), bonnet_NOM (f=465), dompteur_NOM (f=52), cordage_NOM (f=111),
+jument_NOM (f=60) : esseulée_ADJ (f=50), guêpe_NOM (f=97), orpheline_NOM (f=78), trompe_NOM (f=122), fille_NOM (f=13723), touffe_NOM (f=83), morsure_NOM (f=89), paupière_NOM (f=51), girafe_NOM (f=91), brouette_NOM (f=53),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3749904
+
+
+chien_NOM (f=3819) : chat_NOM (f=2303), cheval_NOM (f=3343), loup_NOM (f=2036), chiens_NOM (f=3383), bébé_NOM (f=2769), père_NOM (f=22943), animal_NOM (f=2216), enfant_NOM (f=20735), lapin_NOM (f=790), garçon_NOM (f=3640),
+chienne_NOM (f=226) : folle_NOM (f=255), crotte_NOM (f=67), fille_NOM (f=13723), maîtresse_NOM (f=1422), lutin_NOM (f=58), chien_NOM (f=3819), bagnole_NOM (f=135), putain_NOM (f=149), bète_NOM (f=54), maman_NOM (f=2382),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.45393342
+
+
+chinois_NOM (f=1148) : chinois_ADJ (f=8692), vietnamiens_NOM (f=225), russes_NAM (f=2264), coréens_NOM (f=222), japonais_NOM (f=1603), africains_NOM (f=728), européens_NOM (f=3000), italiens_NOM (f=1015), tibétains_NOM (f=356), asiatiques_NOM (f=300),
+chinoise_NOM (f=468) : chinoise_ADJ (f=3500), japonaise_NOM (f=400), chinoises_NOM (f=264), jie_NAM (f=78), wang_NAM (f=727), zheng_NAM (f=83), meng_NAM (f=52), zhang_NAM (f=470), yang_NAM (f=377), chinois_ADJ (f=8692),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.39748827
+
+
+chirurgien_NOM (f=557) : médecin_NOM (f=8581), cardiologue_NOM (f=205), oncologue_NOM (f=60), anesthésiste_NOM (f=70), psychiatre_NOM (f=859), docteur_NOM (f=4396), chercheur_NOM (f=3864), dr_NAM (f=11320), pédiatre_NOM (f=255), radiologiste_NOM (f=64),
+chirurgienne_NOM (f=137) : séropositive_ADJ (f=98), patiente_NOM (f=394), infirmière_NOM (f=1756), chirurgien_NOM (f=557), médecin_NOM (f=8581), pédiatrique_ADJ (f=156), patientes_NOM (f=362), clinique_NOM (f=2865), séropositivité_NOM (f=72), sainte-justine_NAM (f=1221),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.5076151
+
+
+citadin_NOM (f=61) : citadin_ADJ (f=65), voyageur_NOM (f=1071), grégaire_ADJ (f=101), solitaire_ADJ (f=1109), cyclotourisme_NOM (f=64), omniscient_ADJ (f=61), décontracté_ADJ (f=94), rêveur_NOM (f=164), célibataire_NOM (f=499), émerveillé_VER (f=142),
+citadine_ADJ (f=71) : multiculturelle_NOM (f=66), épanouie_VER (f=180), bourgeoise_ADJ (f=374), proprette_ADJ (f=54), rationaliste_ADJ (f=50), naive_ADJ (f=126), recluse_ADJ (f=50), idéalisation_NOM (f=55), décadente_ADJ (f=77), joyeuse_ADJ (f=994),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3118448
+
+
+citoyen_NOM (f=6656) : contribuable_NOM (f=766), individu_NOM (f=4483), électeur_NOM (f=1235), militant_ADJ (f=1216), peuple_NOM (f=15842), politicien_NOM (f=1857), citoyens_NOM (f=27947), consommateur_NOM (f=3354), immigrant_NOM (f=620), fonctionnaire_NOM (f=2687),
+citoyenne_NOM (f=2034) : participative_ADJ (f=608), démocratie_NOM (f=14826), solidaire_ADJ (f=3158), militante_ADJ (f=1497), citoyen_NOM (f=6656), democratic_NOM (f=52), inclusive_ADJ (f=272), démocratique_ADJ (f=14339), féministe_ADJ (f=1244), civique_ADJ (f=1495),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.5035793
+
+
+clandestin_NOM (f=56) : passager_ADJ (f=836), navire_NOM (f=2705), clandestin_ADJ (f=397), prisonnier_NOM (f=1324), évadé_VER (f=54), voleur_NOM (f=406), espion_NOM (f=487), matelot_NOM (f=51), cadavre_NOM (f=659), embouti_VER (f=50),
+clandestine_ADJ (f=490) : clandestin_ADJ (f=397), eta_NOM (f=963), islamiste_ADJ (f=2747), illégale_ADJ (f=1971), immigration_NOM (f=9665), terroriste_ADJ (f=4146), radicale_ADJ (f=1761), clandestins_ADJ (f=589), basque_ADJ (f=1480), émigration_NOM (f=285),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.30198413
+
+
+client_NOM (f=5287) : consommateur_NOM (f=3354), fournisseur_NOM (f=2171), acheteur_NOM (f=1489), clients_NOM (f=13230), employeur_NOM (f=4269), concurrent_NOM (f=1832), cliente_NOM (f=406), utilisateur_NOM (f=641), patient_NOM (f=1626), employé_NOM (f=2359),
+cliente_NOM (f=406) : client_NOM (f=5287), copine_NOM (f=591), employée_NOM (f=603), mère_NOM (f=15333), patiente_NOM (f=394), plaignante_NOM (f=128), caissière_NOM (f=96), homolka_NAM (f=475), passagère_NOM (f=58), amie_NOM (f=2268),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.52565473
+
+
+cochon_NOM (f=955) : poisson_NOM (f=3073), lapin_NOM (f=790), wapiti_NOM (f=60), ragoût_NOM (f=197), chèvre_NOM (f=675), chocolat_NOM (f=2610), canard_NOM (f=1901), tartare_NOM (f=136), rôti_VER (f=210), veau_NOM (f=1768),
+truie_NOM (f=59) : fermière_NOM (f=78), chou-fleur_NOM (f=54), mayonnaise_ADJ (f=63), boulette_NOM (f=59), baronne_NOM (f=71), cuite_NOM (f=58), nourrice_NOM (f=86), friandise_NOM (f=63), grillée_ADJ (f=90), longe_NOM (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3678556
+
+
+coiffeur_NOM (f=269) : papa_NOM (f=2167), maman_NOM (f=2382), garagiste_NOM (f=116), oncle_NOM (f=1529), vieil_ADJ (f=1655), biblio_NOM (f=55), psy_NOM (f=325), tailleur_NOM (f=217), cordonnier_NOM (f=53), barbier_NOM (f=300),
+coiffeuse_NOM (f=111) : servante_NOM (f=178), caissière_NOM (f=96), esseulée_ADJ (f=50), couturière_NOM (f=148), serveuse_NOM (f=383), mari_NOM (f=5893), starlette_NOM (f=63), prostituée_VER (f=70), maîtresse_NOM (f=1422), maman_NOM (f=2382),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.3773471
+
+
+collaborateur_NOM (f=8308) : collaboratrice_NOM (f=3485), devoir_NOM (f=260509), -le_ADJ (f=1124), source_NOM (f=26096), archambault^_NAM (f=67), ¦_ADJ (f=15507), www.ledevoir.com_NOM (f=4623), correspondant_NOM (f=1297), cinema_NAM (f=1577), vitrine_NOM (f=2597),
+collaboratrice_NOM (f=3485) : collaborateur_NOM (f=8308), devoir_NOM (f=260509), -le_ADJ (f=1124), ¦_ADJ (f=15507), ruiz_NAM (f=2231), carolyne_NAM (f=351), 277-7558_NUM (f=310), www.ledevoir.com_NOM (f=4623), det'oir_NOM (f=85), \_ADJ (f=3908),
+
+score de similarité pure : 4
+score de similarité lemmatisée : 4
+distance:0.84545445
+
+
+combattant_NOM (f=529) : criminel_NOM (f=831), prisonnier_NOM (f=1324), soldat_NOM (f=3364), terroriste_NOM (f=708), détenu_NOM (f=551), combattant_VER (f=366), militant_ADJ (f=1216), rebelle_NOM (f=374), taliban_NOM (f=287), militant_VER (f=1831),
+combattante_NOM (f=53) : militante_ADJ (f=1497), féministe_NOM (f=240), farhoud_NAM (f=95), têtue_ADJ (f=52), pasionaria_NOM (f=55), féministe_ADJ (f=1244), humanité_NOM (f=7302), battante_ADJ (f=194), comédienne_NOM (f=2453), réalisatrice_NOM (f=1034),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.33964694
+
+
+compagnon_NOM (f=3103) : complice_NOM (f=1261), compagne_NOM (f=2387), amant_NOM (f=1395), passionné_VER (f=3757), complice_ADJ (f=1458), n-ftim_NOM (f=61), 55-65_NUM (f=379), aimant_VER (f=4555), n-fam_NOM (f=63), 55-62_NUM (f=127),
+compagne_NOM (f=2387) : compagnon_NOM (f=3103), copine_NOM (f=591), amie_NOM (f=2268), amie_ADJ (f=777), femme_NOM (f=36350), complice_NOM (f=1261), épouse_NOM (f=7159), conjointe_NOM (f=1217), amant_NOM (f=1395), blonde_NOM (f=1097),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 2
+distance:0.6525086
+
+
+compositeur_NOM (f=3813) : musicien_NOM (f=2911), pianiste_NOM (f=3645), violoniste_NOM (f=1069), guitariste_NOM (f=1544), sculpteur_NOM (f=908), clarinettiste_NOM (f=183), saxophoniste_NOM (f=672), arrangeur_NOM (f=142), flûtiste_NOM (f=198), poète_NOM (f=3933),
+compositrice_NOM (f=142) : chanteuse_NOM (f=3476), harpiste_NOM (f=55), yaroshevskaya_NAM (f=70), maboungou_NAM (f=64), saariaho_NAM (f=55), conteuse_NOM (f=190), danseuse_NOM (f=1152), comédienne_NOM (f=2453), soprano_NOM (f=2212), keersmaeker_NAM (f=89),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.47449517
+
+
+concepteur_NOM (f=740) : créateur_NOM (f=2008), designer_NOM (f=1466), fabricant_NOM (f=2892), scénographe_NOM (f=255), développeur_NOM (f=118), architecte_NOM (f=4021), metteur_NOM (f=3721), conceptrice_NOM (f=117), éclairagiste_NOM (f=73), cofondateur_NOM (f=651),
+conceptrice_NOM (f=117) : directrice_NOM (f=8981), créatrice_NOM (f=188), cofondatrice_NOM (f=164), eclairages_NAM (f=61), productrice_ADJ (f=421), compositrice_NOM (f=142), fondatrice_NOM (f=864), metteure_NOM (f=463), bematchez_NAM (f=66), morgenthaler_NAM (f=99),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.48628503
+
+
+conducteur_NOM (f=963) : passager_ADJ (f=836), volant_NOM (f=2332), automobiliste_NOM (f=377), voiture_NOM (f=11750), pare-brise_NOM (f=180), chauffeur_NOM (f=1673), véhicule_NOM (f=7603), conducteurs_NOM (f=870), policier_NOM (f=2440), pilote_NOM (f=3997),
+conductrice_NOM (f=62) : fourgonnette_NOM (f=192), embouti_VER (f=50), fillette_NOM (f=1159), policière_NOM (f=183), passagère_NOM (f=58), femme_NOM (f=36350), camionnette_NOM (f=460), policier_NOM (f=2440), voiture_NOM (f=11750), banalisée_VER (f=95),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 3
+distance:0.45340955
+
+
+confident_NOM (f=216) : tudors_NAM (f=66), wordgirl_NAM (f=103), etaik_NOM (f=78), artattack_NAM (f=59), ©talk_NAM (f=86), boxerock_NAM (f=51), worldfocus_NAM (f=235), tonight_NOM (f=90), inews_NOM (f=63), ictv_NAM (f=54),
+confidente_NOM (f=76) : amie_NOM (f=2268), éplorée_ADJ (f=56), névrosée_ADJ (f=58), acariâtre_ADJ (f=59), baronne_NOM (f=71), fille_NOM (f=13723), mère_NOM (f=15333), délurée_ADJ (f=67), nourrice_NOM (f=86), manipulatrice_ADJ (f=56),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.30916828
+
+
+conjoint_NOM (f=1729) : conjointe_NOM (f=1217), ex-conjoint_NOM (f=66), époux_NOM (f=2133), épouse_NOM (f=7159), mari_NOM (f=5893), beau-père_NOM (f=285), mère_NOM (f=15333), ex-épouse_NOM (f=130), frère_NOM (f=8089), handicapé_ADJ (f=72),
+conjointe_NOM (f=1217) : épouse_NOM (f=7159), conjoint_NOM (f=1729), mère_NOM (f=15333), fille_NOM (f=13723), époux_NOM (f=2133), belle-mère_NOM (f=343), nièce_NOM (f=385), filleule_NOM (f=74), belle-fille_NOM (f=160), petite-fille_NOM (f=337),
+
+score de similarité pure : 3
+score de similarité lemmatisée : 3
+distance:0.6838588
+
+
+conservateur_NOM (f=1208) : conservatrice_NOM (f=322), libéral_NOM (f=711), conservateur_ADJ (f=16720), député_NOM (f=14227), réformiste_NOM (f=81), conservatrice_ADJ (f=2915), progressiste-conservateur_NOM (f=78), liberal_NOM (f=51), libéral_ADJ (f=27712), organisateur_NOM (f=1290),
+conservatrice_NOM (f=322) : conservateur_NOM (f=1208), conservatrice_ADJ (f=2915), bondil_NAM (f=90), directrice_NOM (f=8981), historienne_NOM (f=552), mbam_NAM (f=560), organisatrice_NOM (f=204), musée_NOM (f=21888), députée_VER (f=3431), rédactrice_NOM (f=446),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 4
+distance:0.61063284
+
+
+consommateur_NOM (f=3354) : consommateurs_NOM (f=12426), client_NOM (f=5287), contribuable_NOM (f=766), investisseur_NOM (f=2611), téléspectateur_NOM (f=400), utilisateur_NOM (f=641), citoyen_NOM (f=6656), lecteur_NOM (f=6336), consonunateurs_NOM (f=54), internaute_NOM (f=483),
+consommatrice_NOM (f=95) : assoiffée_VER (f=62), exportatrice_ADJ (f=65), dépendante_ADJ (f=300), gaspillée_VER (f=53), angoissée_VER (f=86), réceptive_ADJ (f=71), mélangée_VER (f=95), sensibilisée_VER (f=55), potasse_NOM (f=51), consommatrices_NOM (f=78),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.3329799
+
+
+conteur_NOM (f=843) : comédien_NOM (f=3750), musicien_NOM (f=2911), romancier_NOM (f=2193), écrivain_NOM (f=11328), poète_NOM (f=3933), raconteur_NOM (f=55), marionnettiste_NOM (f=102), conteurs_NOM (f=440), guitariste_NOM (f=1544), poète_ADJ (f=2350),
+conteuse_NOM (f=190) : danseuse_NOM (f=1152), comédienne_NOM (f=2453), poétesse_NOM (f=203), yaroshevskaya_NAM (f=70), gouaille_NOM (f=71), romancière_NOM (f=1251), chanteuse_NOM (f=3476), écrivaine_NOM (f=1308), compositrice_NOM (f=142), choriste_NOM (f=118),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.49843186
+
+
+continental_ADJ (f=1060) : airlines_NOM (f=78), airlines_NAM (f=2583), haute-vitesse_NOM (f=69), copieux_ADJ (f=381), nord-américain_ADJ (f=2426), chautauqua_NAM (f=54), airlines_ADJ (f=111), northwest_NAM (f=294), shuttle_NAM (f=61), skyteam_NAM (f=93),
+continentale_ADJ (f=921) : nord-américaine_ADJ (f=1877), latine_ADJ (f=4476), intégration_NOM (f=8718), interprovinciales_ADJ (f=64), échede_NOM (f=50), ex-union_NOM (f=56), chine_NAM (f=21827), europe_NAM (f=32301), environnementale_ADJ (f=3052), supranationale_ADJ (f=69),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.27624124
+
+
+copain_NOM (f=797) : frère_NOM (f=8089), ami_NOM (f=8706), père_NOM (f=22943), camarade_NOM (f=412), oncle_NOM (f=1529), garçon_NOM (f=3640), papa_NOM (f=2167), grand-père_NOM (f=1318), cousin_NOM (f=910), amie_NOM (f=2268),
+copine_NOM (f=591) : amie_NOM (f=2268), mère_NOM (f=15333), maman_NOM (f=2382), fille_NOM (f=13723), voisine_NOM (f=838), blonde_NOM (f=1097), compagne_NOM (f=2387), amie_ADJ (f=777), fide_NOM (f=60), grand-mère_NOM (f=1907),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.5210508
+
+
+correspondant_NOM (f=1297) : journaliste_NOM (f=13495), correspondant_VER (f=2703), correspondante_NOM (f=203), chroniqueur_NOM (f=3678), cameraman_NOM (f=63), diplomate_NOM (f=2237), caméraman_NOM (f=253), collaborateur_NOM (f=8308), commentateur_NOM (f=544), tafp_NAM (f=124),
+correspondante_NOM (f=203) : correspondant_NOM (f=1297), journaliste_NOM (f=13495), chroniqueuse_NOM (f=421), écrivaine_NOM (f=1308), correspondant_VER (f=2703), romancière_NOM (f=1251), déléguée_NOM (f=97), comédienne_NOM (f=2453), hélène_NAM (f=12021), poétesse_NOM (f=203),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 2
+distance:0.5482563
+
+
+courageux_ADJ (f=1005) : audacieux_ADJ (f=1526), orgueilleux_ADJ (f=124), lucide_ADJ (f=1239), superstitieux_ADJ (f=68), valeureux_ADJ (f=225), mesquin_ADJ (f=139), exigeant_ADJ (f=952), héroïques_ADJ (f=169), rigoureux_ADJ (f=1496), courageuse_ADJ (f=444),
+courageuse_ADJ (f=444) : audacieuse_ADJ (f=868), têtue_ADJ (f=52), émouvante_ADJ (f=656), exigeante_ADJ (f=821), lucide_ADJ (f=1239), douloureuse_ADJ (f=893), pieuse_ADJ (f=73), brillante_ADJ (f=1344), caustique_ADJ (f=271), désespérée_ADJ (f=143),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.49546474
+
+
+coureur_NOM (f=1604) : pilote_NOM (f=3997), phonak_NAM (f=95), coureurs_NOM (f=1745), cycliste_NOM (f=611), équipier_NOM (f=194), sprinter_NOM (f=269), bettini_NAM (f=53), cycliste_ADJ (f=1186), sprinteur_NOM (f=89), vinokourov_NAM (f=187),
+coureuse_NOM (f=71) : patineuse_NOM (f=205), skieuse_NOM (f=356), felicien_NAM (f=169), plongeuse_NOM (f=141), championne_NOM (f=2141), nageuse_NOM (f=142), athlète_NOM (f=2826), perdita_NAM (f=81), muenzer_NAM (f=63), skieur_NOM (f=411),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.36130697
+
+
+cousin_NOM (f=910) : frère_NOM (f=8089), père_NOM (f=22943), grand-père_NOM (f=1318), fils_NOM (f=17101), ami_NOM (f=8706), oncle_NOM (f=1529), neveu_NOM (f=768), demi-frère_NOM (f=131), petit-fils_NOM (f=626), copain_NOM (f=797),
+cousine_NOM (f=402) : fille_NOM (f=13723), mère_NOM (f=15333), tante_NOM (f=789), nièce_NOM (f=385), belle-s_NOM (f=393), adoptive_ADJ (f=105), belle-mère_NOM (f=343), copine_NOM (f=591), amie_NOM (f=2268), névrosée_ADJ (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.5053518
+
+
+criminel_NOM (f=831) : criminels_NOM (f=1776), violeur_NOM (f=81), délinquant_NOM (f=216), psychopathe_NOM (f=177), criminel_ADJ (f=2713), combattant_NOM (f=529), terroriste_NOM (f=708), meurtre_NOM (f=5154), viol_NOM (f=1193), civil_NOM (f=443),
+criminelle_NOM (f=67) : meurtrière_NOM (f=53), lesbienne_NOM (f=53), têtue_ADJ (f=52), névrosée_ADJ (f=58), comment..fait_NAM (f=66), adultère_ADJ (f=85), admiratrice_NOM (f=67), espionne_NOM (f=68), sous-culture_NOM (f=57), recluse_ADJ (f=50),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.37902328
+
+
+croyant_NOM (f=217) : athée_NOM (f=83), croyant_ADJ (f=60), prosélytisme_NOM (f=199), musulman_NOM (f=195), penseur_NOM (f=815), croyante_ADJ (f=94), nationaliste_NOM (f=261), politicien_NOM (f=1857), dogmatique_ADJ (f=275), rationaliste_ADJ (f=50),
+croyante_ADJ (f=94) : chrétienne_ADJ (f=1915), croyant_ADJ (f=60), musulmane_ADJ (f=2106), spirituelle_ADJ (f=1554), agnostique_ADJ (f=97), désabusée_VER (f=75), pieuse_ADJ (f=73), séculière_ADJ (f=54), religieuse_ADJ (f=5662), athée_ADJ (f=252),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.48021066
+
+
+curieux_NOM (f=270) : visiteurs_NOM (f=6480), curieux_ADJ (f=4717), marcheurs_NOM (f=230), passants_NOM (f=860), badauds_NOM (f=228), amateurs_NOM (f=6862), touristes_NOM (f=4509), festivaliers_NOM (f=677), promeneurs_NOM (f=147), spectateurs_NOM (f=7166),
+curieuse_NOM (f=96) : raffinee_NOM (f=52), mmee_NOM (f=54), n-fam_NOM (f=63), n-ftim_NOM (f=61), 55-60_NUM (f=84), 40ame_ADJ (f=51), séneuse_ADJ (f=59), 47-55_NUM (f=59), 28-35_NUM (f=64), 35-48_NUM (f=110),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.18692182
+
+
+danseur_NOM (f=1141) : chorégraphe_NOM (f=4002), musicien_NOM (f=2911), danseuse_NOM (f=1152), ballet_NOM (f=3071), comédien_NOM (f=3750), chorégraphie_NOM (f=1665), interprète_NOM (f=2762), compositeur_NOM (f=3813), pianiste_NOM (f=3645), artiste_NOM (f=12626),
+danseuse_NOM (f=1152) : chorégraphe_NOM (f=4002), comédienne_NOM (f=2453), chanteuse_NOM (f=3476), ballerine_NOM (f=120), danseur_NOM (f=1141), danseurs_NOM (f=3390), chorégraphie_NOM (f=1665), interprète_NOM (f=2762), conteuse_NOM (f=190), guillem_NAM (f=50),
+
+score de similarité pure : 3
+score de similarité lemmatisée : 3
+distance:0.63943547
+
+
+demandeur_NOM (f=2309) : demanderesse_NOM (f=6195), requérante_ADJ (f=1254), requérant_ADJ (f=565), demanderesse_NAM (f=1911), défendeur_NOM (f=3416), demanderesse_ADJ (f=2836), -c-_NAM (f=362), demanderesse_ABR (f=499), détendeur_NOM (f=1084), défendeurs_NOM (f=815),
+demanderesse_NOM (f=6195) : demanderesse_ADJ (f=2836), requérante_ADJ (f=1254), demanderesse_NAM (f=1911), -vs-_NAM (f=947), demanderesse_VER (f=270), -c-_NAM (f=362), défenderesse_NOM (f=12827), demanderesse_ABR (f=499), -vs-_ADJ (f=108), demandresse_NOM (f=51),
+
+score de similarité pure : 5
+score de similarité lemmatisée : 5
+distance:0.6349796
+
+
+destructeur_ADJ (f=264) : violent_ADJ (f=1901), dangereux_ADJ (f=5260), dévastateur_ADJ (f=688), inhospitalier_ADJ (f=57), malveillant_ADJ (f=58), destructrice_ADJ (f=244), brutal_ADJ (f=917), menaçant_ADJ (f=284), irresponsable_ADJ (f=1088), insensé_ADJ (f=311),
+destructrice_ADJ (f=244) : meurtrière_ADJ (f=890), dangereuse_ADJ (f=1990), brutale_ADJ (f=1107), violente_ADJ (f=1569), mortifère_ADJ (f=79), inhumaine_ADJ (f=149), cruelle_ADJ (f=593), insidieuse_ADJ (f=203), perverse_ADJ (f=193), dévastatrice_ADJ (f=317),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.4934429
+
+
+directeur_NOM (f=61728) : ex-directeur_NOM (f=550), général_ADJ (f=55273), vice-président_NOM (f=11496), coordonnateur_NOM (f=1531), directrice_NOM (f=8981), directeur_ADJ (f=8111), président-directeur_NOM (f=1670), general_ADJ (f=703), codirecteur_ADJ (f=94), directrice_ADJ (f=7803),
+directrice_NOM (f=8981) : directrice_ADJ (f=7803), coordonnatrice_NOM (f=718), présidente_NOM (f=11695), présidente-directrice_NOM (f=349), ex-directrice_NOM (f=81), fondatrice_NOM (f=864), codirectrice_NOM (f=80), vice-présidente_NOM (f=5160), cofondatrice_NOM (f=164), coprésidente_NOM (f=144),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 7
+distance:0.563645
+
+
+dirigeant_NOM (f=3534) : président_NOM (f=112671), leader_NOM (f=9960), president_NOM (f=1644), représentant_NOM (f=3872), prérident_NOM (f=72), dirigeant_VER (f=1265), ex-président_NOM (f=1326), vice-président_NOM (f=11496), patron_NOM (f=7085), dirigeants_NOM (f=17633),
+dirigeante_NOM (f=239) : présidente_NOM (f=11695), représentante_NOM (f=871), dirigeant_NOM (f=3534), porte-parole_NOM (f=30555), opposante_NOM (f=132), ex-présidente_NOM (f=119), pasionaria_NOM (f=55), cheffe_NOM (f=54), députée_VER (f=3431), militante_ADJ (f=1497),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.5381632
+
+
+docteur_NOM (f=4396) : dr_NAM (f=11320), psychiatre_NOM (f=859), médecin_NOM (f=8581), chirurgien_NOM (f=557), cardiologue_NOM (f=205), microbiologiste_NOM (f=138), oncologue_NOM (f=60), neurologue_NOM (f=149), docteure_NOM (f=123), légiste_ADJ (f=70),
+docteure_NOM (f=123) : agrégée_VER (f=52), bachelière_NOM (f=50), bartha_NAM (f=53), professeure_ADJ (f=89), chercheuse_NOM (f=785), chercheure_NOM (f=274), pro-fesseure_NOM (f=94), médecine_NOM (f=8363), docteur_NOM (f=4396), professeure_NOM (f=3451),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.5104521
+
+
+dominateur_ADJ (f=104) : revanchard_ADJ (f=90), paternaliste_ADJ (f=207), corrompu_VER (f=522), calculateur_ADJ (f=57), doctrinaire_ADJ (f=87), arrogant_ADJ (f=383), centralisateur_ADJ (f=253), féodal_ADJ (f=72), fédéralisme_NOM (f=3379), hautain_ADJ (f=122),
+dominatrice_ADJ (f=55) : têtue_ADJ (f=52), névrosée_ADJ (f=58), acariâtre_ADJ (f=59), arrogante_ADJ (f=175), altière_ADJ (f=53), ignorante_ADJ (f=79), insouciante_ADJ (f=95), écartelée_VER (f=65), idéalisation_NOM (f=55), hargneuse_ADJ (f=57),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.3326406
+
+
+ennemi_NOM (f=2389) : ennemi_ADJ (f=1012), envahisseur_NOM (f=132), allié_NOM (f=1577), ennemis_NOM (f=1684), tyran_NOM (f=299), ennemie_NOM (f=83), idéologie_NOM (f=2152), adversaire_NOM (f=6147), oppresseur_NOM (f=53), ami_NOM (f=8706),
+ennemie_NOM (f=83) : ennemi_NOM (f=2389), oppresseur_NOM (f=53), sacrée_ADJ (f=1232), indignité_NOM (f=54), hyperpuissance_NOM (f=50), métaphore_NOM (f=1145), alliée_NOM (f=197), infamie_NOM (f=97), incarnation_NOM (f=940), icône_NOM (f=942),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.49763116
+
+
+enseignant_NOM (f=1624) : élève_NOM (f=3010), étudiant_NOM (f=2823), enseignant_VER (f=1384), enseignante_NOM (f=811), éducateur_NOM (f=188), enseignement_NOM (f=19538), instituteur_NOM (f=199), adolescent_NOM (f=1377), parent_NOM (f=1738), élèves_NOM (f=13367),
+enseignante_NOM (f=811) : enseignante_ADJ (f=755), étudiante_NOM (f=904), enseignant_NOM (f=1624), infirmière_NOM (f=1756), femme_NOM (f=36350), institutrice_NOM (f=203), éducatrice_NOM (f=155), fenune_NOM (f=91), orthopédagogue_NOM (f=94), retraitée_NOM (f=460),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.5869125
+
+
+espagnol_NOM (f=687) : espagnol_ADJ (f=6814), anglais_ADJ (f=24738), italien_NOM (f=464), allemand_NOM (f=1500), portugais_NOM (f=537), français_ADJ (f=57295), arabe_NOM (f=426), roumain_NOM (f=91), catalan_NOM (f=51), anglais_NOM (f=236),
+espagnole_ADJ (f=2705) : italienne_ADJ (f=3728), portugaise_ADJ (f=491), allemande_ADJ (f=4116), française_ADJ (f=28618), espagnol_ADJ (f=6814), mexicaine_ADJ (f=1287), japonaise_ADJ (f=1559), néerlandaise_ADJ (f=714), hongroise_ADJ (f=326), chilienne_ADJ (f=564),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 5
+distance:0.43332395
+
+
+espion_NOM (f=487) : bandit_NOM (f=144), espionne_NOM (f=68), ex-agent_NOM (f=59), aviateur_NOM (f=93), escroc_NOM (f=135), prisonnier_NOM (f=1324), soldat_NOM (f=3364), espions_NOM (f=515), kgb_ABR (f=303), espionnage_NOM (f=1009),
+espionne_NOM (f=68) : meurtrière_NOM (f=53), prostituée_VER (f=70), entraîneuse_NOM (f=58), kidnappée_VER (f=78), actrice_NOM (f=3324), confidente_NOM (f=76), espion_NOM (f=487), nourrice_NOM (f=86), héroïne_NOM (f=2037), têtue_ADJ (f=52),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.5085456
+
+
+extravagant_ADJ (f=179) : caricatural_ADJ (f=171), insolent_ADJ (f=79), désespérant_ADJ (f=69), subtil_ADJ (f=900), foisonnant_ADJ (f=62), tapageur_ADJ (f=53), grandiloquent_ADJ (f=52), excentrique_NOM (f=67), bordélique_ADJ (f=51), monumental_ADJ (f=413),
+extravagante_ADJ (f=123) : aguichante_ADJ (f=52), décadente_ADJ (f=77), suggestive_ADJ (f=55), irréelle_ADJ (f=99), rafraîchissante_ADJ (f=228), érudite_ADJ (f=73), étonnante_ADJ (f=2162), touchante_ADJ (f=573), attachante_ADJ (f=331), impertinente_ADJ (f=57),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3193579
+
+
+fautif_ADJ (f=203) : fautifs_ADJ (f=314), mécontent_ADJ (f=283), stante_NAM (f=56), injurieux_ADJ (f=90), contrevenant_NOM (f=82), indemnisé_VER (f=59), infraction_NOM (f=1747), criminel_NOM (f=831), abusif_ADJ (f=394), criminel_ADJ (f=2713),
+fautive_ADJ (f=117) : inexacte_ADJ (f=80), tatillonne_ADJ (f=60), biaisée_VER (f=97), incorrecte_ADJ (f=87), optionnelle_ADJ (f=81), elle-même_PRO (f=7141), déficiente_ADJ (f=443), excessive_ADJ (f=1234), imprécise_ADJ (f=116), négligente_ADJ (f=54),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.36223257
+
+
+favori_NOM (f=1356) : favori_ADJ (f=1119), vainqueur_NOM (f=5448), favorite_NOM (f=470), favoris_NOM (f=1058), rival_NOM (f=2603), candidat_NOM (f=17704), srichaphan_NAM (f=113), andreev_NAM (f=79), perdant_NOM (f=536), monfils_NAM (f=66),
+favorite_NOM (f=470) : tenante_NOM (f=206), suissesse_NOM (f=497), favori_NOM (f=1356), championne_NOM (f=2141), favorite_ADJ (f=592), maleeva_NAM (f=96), jeyaseelan_NAM (f=68), hénin-hardenne_NAM (f=54), martina_NAM (f=773), jelena_NAM (f=262),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.58877516
+
+
+filleul_NOM (f=64) : belle-soeur_NOM (f=127), frère_NOM (f=8089), petites-filles_NOM (f=110), arrière-petite-fille_NOM (f=74), filleule_NOM (f=74), neveu_NOM (f=768), belle-s_NOM (f=393), belles-soeurs_NOM (f=304), beau-frère_NOM (f=588), gilberte_NAM (f=83),
+filleule_NOM (f=74) : belle-soeur_NOM (f=127), petites-nièces_NOM (f=79), petites-filles_NOM (f=110), arrière-petits-enfants_NOM (f=382), belles-soeurs_NOM (f=304), belle-s_NOM (f=393), belles-s_NOM (f=558), belle-fille_NOM (f=160), arrière-petite-fille_NOM (f=74), petite-fille_NOM (f=337),
+
+score de similarité pure : 5
+score de similarité lemmatisée : 3
+distance:0.60722345
+
+
+fondateur_NOM (f=5378) : cofondateur_NOM (f=651), président-fondateur_NOM (f=244), cofondateur_ADJ (f=56), fondateurs_NOM (f=1987), président_NOM (f=112671), patron_NOM (f=7085), codirecteur_ADJ (f=94), ex-président_VER (f=352), ex-directeur_NOM (f=550), cofondateurs_NOM (f=144),
+fondatrice_NOM (f=864) : cofondatrice_NOM (f=164), directrice_NOM (f=8981), présidente_NOM (f=11695), instigatrice_NOM (f=121), directrice_ADJ (f=7803), fondateur_NOM (f=5378), conceptrice_NOM (f=117), historienne_NOM (f=552), militante_ADJ (f=1497), coprésidente_NOM (f=144),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.515788
+
+
+formateur_NOM (f=82) : éducateur_NOM (f=188), superviseur_NOM (f=234), éducateur_ADJ (f=83), professeur-chercheur_NOM (f=78), enseignant_NOM (f=1624), expert-conseil_NOM (f=93), stagiaire_ADJ (f=96), ingénieur_NOM (f=2215), programmeur_NOM (f=95), agent(e)_NOM (f=51),
+formatrice_NOM (f=50) : mmee_NOM (f=54), 30-55_NUM (f=57), 50-55_NUM (f=147), 50-65_NUM (f=127), 52-62_NUM (f=55), n-ftim_NOM (f=61), 55-60_NUM (f=84), 35-46_NUM (f=50), 45-56_NUM (f=61), longueuilloise_NAM (f=78),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.31221092
+
+
+fou_NOM (f=1273) : fou_ADJ (f=4247), amoureux_NOM (f=2316), salaud_ADJ (f=68), affamé_ADJ (f=61), roi_NOM (f=6405), gars_NOM (f=7634), jeunot_NOM (f=78), raide_NOM (f=62), jackass_NAM (f=333), illuminé_NOM (f=82),
+folle_NOM (f=255) : fille_NOM (f=13723), esseulée_ADJ (f=50), chienne_NOM (f=226), femme_NOM (f=36350), narratrice_NOM (f=627), putain_NOM (f=149), faucheuse_NOM (f=118), bourgeoise_NOM (f=138), sorcière_NOM (f=661), folie_NOM (f=3858),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.38994652
+
+
+frileux_NOM (f=58) : fédéralistes_NOM (f=1118), souverainistes_NOM (f=3235), souverainistes_ADJ (f=1106), fédéralistes_ADJ (f=818), frileux_ADJ (f=455), politiciens_NOM (f=5531), progressistes_NOM (f=355), démagogues_NOM (f=85), naïfs_NOM (f=68), consonunateurs_NOM (f=54),
+frileuse_ADJ (f=145) : méfiante_ADJ (f=52), complaisante_ADJ (f=155), sclérosée_VER (f=57), conciliante_ADJ (f=124), marginalisée_VER (f=104), indifférente_ADJ (f=199), permissive_ADJ (f=59), tatillonne_ADJ (f=60), malmenée_VER (f=288), intolérante_ADJ (f=57),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3004793
+
+
+fugitif_NOM (f=90) : suspect_NOM (f=885), mladic_NAM (f=235), ratko_NAM (f=131), meurtrier_NOM (f=373), tyran_NOM (f=299), namouh_NAM (f=61), fugitif_ADJ (f=73), foday_NAM (f=79), ihsan_NAM (f=54), tortionnaire_NOM (f=82),
+fugitive_ADJ (f=145) : scene._NAM (f=66), identity_NAM (f=71), mysterious_NAM (f=54), guys_NAM (f=233), |jeopardy_NAM (f=67), weakest_NAM (f=127), w-5_NAM (f=74), prejudice_NAM (f=52), exterminators_NOM (f=52), bachelorette_NAM (f=50),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.23381197
+
+
+fumeur_NOM (f=553) : non-fumeur_NOM (f=785), non-lumeur_NOM (f=97), stationnement_NOM (f=7084), buveur_NOM (f=98), tumeur_NOM (f=634), non-tumeur_NOM (f=207), invétéré_ADJ (f=73), fumeurs_NOM (f=1022), inutilisé_ADJ (f=54), espace_VER (f=449),
+fumeuse_ADJ (f=128) : curieuse_ADJ (f=1838), passionnée_VER (f=3310), séduisante_ADJ (f=665), gentille_ADJ (f=690), ricaneuse_ADJ (f=62), rieuse_ADJ (f=401), extravertie_ADJ (f=60), distinguée_ADJ (f=338), joviale_ADJ (f=236), intelligente_ADJ (f=1827),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.28492948
+
+
+gagnant_NOM (f=1268) : perdant_NOM (f=536), vainqueur_NOM (f=5448), gagnant_VER (f=3382), remportera_VER (f=222), favori_NOM (f=1356), finalistes_NOM (f=1605), trophée_NOM (f=2192), lauréat_NOM (f=2658), gagnante_NOM (f=570), métrostar_NAM (f=119),
+gagnante_NOM (f=570) : lauréate_NOM (f=531), championne_NOM (f=2141), favorite_NOM (f=470), suissesse_NOM (f=497), torontoise_NAM (f=182), finaliste_NOM (f=579), friesinger_NAM (f=74), martina_NAM (f=773), dinara_NAM (f=151), vonn_NAM (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.46572414
+
+
+gamin_NOM (f=371) : garçon_NOM (f=3640), adolescent_NOM (f=1377), fillette_NOM (f=1159), vieillard_NOM (f=357), matelot_NOM (f=51), bonhomme_NOM (f=647), quadragénaire_ADJ (f=55), lutin_NOM (f=58), barbu_NOM (f=50), prénommé_VER (f=64),
+gamine_NOM (f=134) : fille_NOM (f=13723), fillette_NOM (f=1159), femme_NOM (f=36350), délurée_ADJ (f=67), adolescente_NOM (f=818), prostituée_NOM (f=327), bourgeoise_NOM (f=138), ingénue_ADJ (f=94), mère_NOM (f=15333), caissière_NOM (f=96),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.43734458
+
+
+garant_NOM (f=234) : garant_VER (f=683), garante_ADJ (f=205), gage_NOM (f=689), garants_ADJ (f=96), garantes_ADJ (f=51), ennemie_NOM (f=83), tributaire_ADJ (f=456), dépositaire_NOM (f=214), synonyme_ADJ (f=789), préoccupe_VER (f=1461),
+garante_ADJ (f=205) : gage_NOM (f=689), tributaire_ADJ (f=456), garants_ADJ (f=96), essentielle_ADJ (f=3161), garant_NOM (f=234), dépourvue_VER (f=287), garantes_ADJ (f=51), synonyme_ADJ (f=789), garantit_VER (f=1302), assujettie_VER (f=269),
+
+score de similarité pure : 5
+score de similarité lemmatisée : 6
+distance:0.46506795
+
+
+gentil_ADJ (f=1261) : intelligent_ADJ (f=2260), drôle_ADJ (f=5595), passionné_VER (f=3757), loyal_ADJ (f=483), compréhensif_ADJ (f=486), enjoué_ADJ (f=620), débrouillard_ADJ (f=59), intello_NOM (f=1147), fonceur_ADJ (f=74), attentionné_ADJ (f=530),
+gentille_ADJ (f=690) : curieuse_ADJ (f=1838), passionnée_VER (f=3310), attentionnée_ADJ (f=334), jolie_ADJ (f=7108), enjouée_ADJ (f=1383), compréhensive_ADJ (f=258), attentionnée_VER (f=271), intello_NOM (f=1147), joviale_ADJ (f=236), souriante_ADJ (f=1313),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 3
+distance:0.46348032
+
+
+gourmand_ADJ (f=863) : gourmands_ADJ (f=895), gueuleton_NOM (f=50), frugal_ADJ (f=59), appétissant_ADJ (f=79), gastronomique_ADJ (f=2166), gourmandes_ADJ (f=367), canard_NOM (f=1901), fêtard_NOM (f=53), gastronome_NOM (f=129), crémeux_ADJ (f=87),
+gourmande_NOM (f=50) : 28-35_NUM (f=64), raffinee_NOM (f=52), amatrice_NOM (f=58), 52-62_NUM (f=55), séneuse_ADJ (f=59), élancée_ADJ (f=76), distinguée_ADJ (f=338), épicurienne_NOM (f=50), cherehe_NOM (f=91), halte_VER (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.23317909
+
+
+grec_NOM (f=430) : latin_NOM (f=726), grec_ADJ (f=1388), arabe_NOM (f=426), hébreu_NOM (f=310), dialecte_NOM (f=216), persan_NOM (f=74), hongrois_NOM (f=55), yiddish_NOM (f=318), allemand_NOM (f=1500), inuktitut_NOM (f=101),
+grecque_NOM (f=138) : grecque_ADJ (f=1572), maleeva_NAM (f=96), hongroise_ADJ (f=326), schiavone_NAM (f=92), bulgare_ADJ (f=494), gadolinium_NOM (f=50), flavia_NAM (f=84), rubidium_NOM (f=88), italienne_ADJ (f=3728), roumaine_ADJ (f=463),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.23194428
+
+
+gros_NOM (f=1536) : gros_ADV (f=2096), lke_VER (f=395), gros_ADJ (f=21920), lkeo_NAM (f=61), crispin_NOM (f=136), crewoo_NAM (f=51), ike_NOM (f=109), crosoto_NAM (f=110), crew_NAM (f=2042), ike_VER (f=65),
+grosse_NOM (f=321) : grosse_ADJ (f=5580), couleuvre_NOM (f=74), surprise_VER (f=2184), frite_NOM (f=81), petite_ADJ (f=33782), bête_ADJ (f=1409), maudite_NOM (f=118), flaque_NOM (f=63), limonade_NOM (f=66), toune_NOM (f=174),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.17337224
+
+
+habitant_NOM (f=1208) : habitant_VER (f=1405), habitants_NOM (f=10914), hectare_NOM (f=295), capita_VER (f=271), kilowatt_NOM (f=63), pnb_NOM (f=113), pib_NOM (f=5425), moyenne_ADJ (f=9475), moyenne_NOM (f=9178), microgrammes_NOM (f=61),
+habitante_NOM (f=94) : habitants_NOM (f=10914), jala_NAM (f=78), résidante_ADJ (f=209), sdérot_NAM (f=51), philippine_ADJ (f=170), palestinienne_NOM (f=168), yonhap_NAM (f=56), basilan_NAM (f=58), somalienne_ADJ (f=129), itar-tass_NAM (f=133),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.30269703
+
+
+heureux_NOM (f=1870) : lachapelle_ADJ (f=84), sénéchal-berthiaume_NAM (f=97), kachelle_NAM (f=66), leclerc_NOM (f=98), rachede_NAM (f=60), uchapelle_NAM (f=66), loli_NAM (f=141), rachelle_NAM (f=1690), moniquelheureux_NAM (f=66), moniqueuheureux_NAM (f=61),
+heureuse_NOM (f=75) : ricaneuse_ADJ (f=62), heureuse_ADJ (f=3020), joyeuse_NOM (f=74), 5'b_NAM (f=51), 40alne_NAM (f=59), 40alne_ADJ (f=65), épicurienne_NOM (f=50), sportive_NOM (f=164), séneuse_ADJ (f=59), divorcé_ADJ (f=51),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.23371945
+
+
+hollandais_NOM (f=118) : français_NAM (f=11369), allemands_NAM (f=1553), néerlandais_NOM (f=599), italiens_NOM (f=1015), espagnols_NOM (f=632), irlandais_NOM (f=549), anglais_NAM (f=2101), polonais_NOM (f=486), européens_NOM (f=3000), japonais_NOM (f=1603),
+hollandaise_ADJ (f=159) : japonaise_ADJ (f=1559), allemande_ADJ (f=4116), chinoise_ADJ (f=3500), néerlandaise_ADJ (f=714), hongroise_ADJ (f=326), polonaise_ADJ (f=640), grecque_ADJ (f=1572), islandaise_ADJ (f=129), italienne_ADJ (f=3728), indienne_ADJ (f=1687),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 4
+distance:0.35936198
+
+
+homosexuel_NOM (f=187) : ivrogne_ADJ (f=85), alcoolique_NOM (f=94), prêtre_NOM (f=1742), adolescent_NOM (f=1377), homosexuel_ADJ (f=981), toxicomane_ADJ (f=83), politicien_NOM (f=1857), alcoolique_ADJ (f=296), amant_NOM (f=1395), garçon_NOM (f=3640),
+homosexuelle_ADJ (f=376) : homosexualité_NOM (f=1348), homosexuels_NOM (f=1269), homosexuelles_ADJ (f=324), homosexuels_ADJ (f=937), hétérosexuelle_ADJ (f=69), sexuelle_ADJ (f=6149), mariage_NOM (f=8974), religieuse_ADJ (f=5662), juive_ADJ (f=2938), gais_ADJ (f=1938),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.35525188
+
+
+idiot_NOM (f=180) : salaud_NOM (f=117), imbécile_NOM (f=158), vilain_NOM (f=156), introverti_ADJ (f=59), nazi_NOM (f=79), bandit_NOM (f=144), menteur_NOM (f=266), ivrogne_ADJ (f=85), étemel_NOM (f=66), assassin_NOM (f=436),
+idiote_ADJ (f=68) : ennuyante_ADJ (f=63), naive_ADJ (f=126), saugrenue_ADJ (f=142), perverse_ADJ (f=193), superficielle_ADJ (f=324), têtue_ADJ (f=52), masochiste_ADJ (f=69), triviale_ADJ (f=50), désabusée_VER (f=75), voyante_ADJ (f=61),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.25756243
+
+
+ignorant_ADJ (f=98) : méprisant_ADJ (f=118), misanthrope_ADJ (f=77), orgueilleux_ADJ (f=124), masochiste_ADJ (f=69), arrogant_ADJ (f=383), ignorante_ADJ (f=79), inculte_ADJ (f=117), salaud_ADJ (f=68), offensant_ADJ (f=53), paranoïaque_ADJ (f=183),
+ignorante_ADJ (f=79) : méprisée_VER (f=65), sclérosée_VER (f=57), corrompue_VER (f=156), intolérante_ADJ (f=57), naïve_ADJ (f=368), insouciante_ADJ (f=95), têtue_ADJ (f=52), prétentieuse_ADJ (f=105), consentante_ADJ (f=63), populace_NOM (f=63),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.500215
+
+
+imaginatif_ADJ (f=186) : inventif_ADJ (f=316), intelligent_ADJ (f=2260), pénétrant_ADJ (f=59), extraverti_ADJ (f=61), déroutant_VER (f=130), insolent_ADJ (f=79), divertissant_ADJ (f=136), intuitif_ADJ (f=100), ludique_ADJ (f=1427), taquin_ADJ (f=122),
+imaginative_ADJ (f=179) : fonceuse_ADJ (f=62), séduisante_ADJ (f=665), extravertie_ADJ (f=60), sensuelle_ADJ (f=1479), intelligente_ADJ (f=1827), rythmée_ADJ (f=56), raffinee_NOM (f=52), attachante_ADJ (f=331), raffinée_VER (f=1024), voyageuse_ADJ (f=144),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.391926
+
+
+immortel_ADJ (f=127) : trenet_NAM (f=301), orson_NAM (f=95), salaud_ADJ (f=68), génial_ADJ (f=928), lindbergh_NAM (f=110), enki_NAM (f=71), ingmar_NAM (f=166), cobain_NAM (f=105), satanique_ADJ (f=53), incarné_ADJ (f=56),
+immortelle_NOM (f=69) : immortelle_ADJ (f=105), brightman_NAM (f=65), chanson-thème_NOM (f=64), craquante_ADJ (f=95), nougaro_NOM (f=52), can't_NAM (f=130), stupid_NAM (f=76), intro_NOM (f=122), goodbye_NAM (f=124), joss_NAM (f=90),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3177932
+
+
+impertinent_ADJ (f=108) : tapageur_ADJ (f=53), insolent_ADJ (f=79), séducteur_ADJ (f=114), décapant_ADJ (f=89), cabotin_ADJ (f=93), mordant_ADJ (f=93), pénétrant_ADJ (f=59), incompris_ADJ (f=137), foisonnant_ADJ (f=62), misogyne_ADJ (f=97),
+impertinente_ADJ (f=57) : irrévérencieuse_ADJ (f=72), érudite_ADJ (f=73), édifiante_ADJ (f=120), rythmée_ADJ (f=56), provocatrice_ADJ (f=128), rigolote_ADJ (f=99), incisive_ADJ (f=124), planante_ADJ (f=56), attachante_ADJ (f=331), extravagante_ADJ (f=123),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.39307454
+
+
+inconnu_NOM (f=1123) : inconnu_ADJ (f=1822), abîme_NOM (f=471), ombre_NOM (f=7043), ennui_NOM (f=1561), homme_NOM (f=56221), aveugle_NOM (f=601), assassin_NOM (f=436), énergumène_NOM (f=53), univers_NOM (f=14307), écrivain_NOM (f=11328),
+inconnue_NOM (f=396) : incertaine_ADJ (f=775), inconnue_ADJ (f=1635), surprise_NOM (f=6455), inquiétude_NOM (f=4216), énigme_NOM (f=900), incertitude_NOM (f=2810), favorite_NOM (f=470), inconnues_NOM (f=193), embûche_NOM (f=75), inquiète_ADJ (f=1288),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.3879435
+
+
+inconscient_NOM (f=565) : imaginaire_ADJ (f=4362), animalité_NOM (f=69), subconscient_NOM (f=57), indicible_NOM (f=131), univers_NOM (f=14307), aléatoire_NOM (f=61), âme_NOM (f=7766), irréalité_NOM (f=80), àme_NOM (f=193), transcendance_NOM (f=347),
+inconsciente_ADJ (f=169) : obsessionnelle_ADJ (f=89), consentante_ADJ (f=63), puérile_ADJ (f=59), désolante_ADJ (f=160), têtue_ADJ (f=52), fuyante_ADJ (f=71), souffrante_ADJ (f=106), oppressante_ADJ (f=52), fantasmée_VER (f=52), imprécise_ADJ (f=116),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.37744796
+
+
+indien_NOM (f=437) : indien_ADJ (f=2627), amérindien_NOM (f=80), immigrant_NOM (f=620), indiens_NOM (f=1768), béret_NOM (f=114), musulman_NOM (f=195), pêcheur_NOM (f=339), esclave_NOM (f=448), africain_NOM (f=166), bandit_NOM (f=144),
+indienne_NOM (f=159) : écolière_NOM (f=51), républicaine_NOM (f=70), indienne_ADJ (f=1687), mexicaine_NOM (f=122), amérindienne_NOM (f=57), juive_NOM (f=146), américaine_NOM (f=2533), afghane_NOM (f=64), actrice_NOM (f=3324), australienne_NOM (f=115),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.34679973
+
+
+industriel_NOM (f=428) : industriel_ADJ (f=5811), résidentiel_ADJ (f=5838), entrepreneur_NOM (f=3414), commercial_NOM (f=421), commercial_ADJ (f=11092), ouvrier_NOM (f=469), arvida_NAM (f=135), terrien_ADJ (f=87), benedetti_NAM (f=51), 4666_NUM (f=65),
+industrielle_NOM (f=162) : répart_VER (f=61), 5,48_NUM (f=89), can-valeur_NAM (f=78), clarington_NAM (f=303), budden_NAM (f=73), 8,67_NUM (f=51), 5.72_NUM (f=79), b-trés_VER (f=94), 5,02_NUM (f=154), ethical_NOM (f=53),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.19751611
+
+
+ingrat_ADJ (f=287) : antipathique_ADJ (f=89), caricatural_ADJ (f=171), arrogant_ADJ (f=383), ambigu_ADJ (f=449), ombrageux_ADJ (f=53), névrosée_ADJ (f=58), stressant_ADJ (f=98), contre-emploi_NOM (f=75), intransigeant_ADJ (f=205), argan_NOM (f=50),
+ingrate_ADJ (f=150) : tâche_NOM (f=8024), ardue_ADJ (f=555), périlleuse_ADJ (f=346), paresseuse_ADJ (f=83), tâche_VER (f=200), exigeante_ADJ (f=821), cruelle_ADJ (f=593), rébarbative_ADJ (f=54), lourde_ADJ (f=3494), délicate_ADJ (f=2220),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4362489
+
+
+innocent_NOM (f=189) : criminel_NOM (f=831), pédophile_NOM (f=116), violeur_NOM (f=81), nazi_NOM (f=79), orgueil_NOM (f=820), accusé_NOM (f=1706), assassin_NOM (f=436), terroriste_NOM (f=708), atrocité_NOM (f=87), agresseur_NOM (f=542),
+innocente_ADJ (f=286) : cruelle_ADJ (f=593), manipulatrice_ADJ (f=56), terrifiante_ADJ (f=196), névrosée_ADJ (f=58), choquante_ADJ (f=173), inoffensive_ADJ (f=152), émouvante_ADJ (f=656), immorale_ADJ (f=123), banale_ADJ (f=905), idiote_ADJ (f=68),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.29373875
+
+
+instituteur_NOM (f=199) : enseignant_NOM (f=1624), garçon_NOM (f=3640), adolescent_NOM (f=1377), père_NOM (f=22943), copain_NOM (f=797), écrivain_NOM (f=11328), frère_NOM (f=8089), grand-père_NOM (f=1318), orphelin_NOM (f=238), alcoolique_ADJ (f=296),
+institutrice_NOM (f=203) : fille_NOM (f=13723), enseignante_NOM (f=811), adolescente_NOM (f=818), mère_NOM (f=15333), orpheline_NOM (f=78), amie_NOM (f=2268), fillette_NOM (f=1159), adoptive_ADJ (f=105), aïeule_NOM (f=64), tille_NOM (f=239),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.42703518
+
+
+intellectuel_NOM (f=1579) : penseur_NOM (f=815), écrivain_NOM (f=11328), essayiste_NOM (f=1118), historien_NOM (f=3365), philosophe_NOM (f=2629), romancier_NOM (f=2193), politicien_NOM (f=1857), polémiste_NOM (f=257), théologien_NOM (f=418), philosophe_ADJ (f=657),
+intellectuelle_NOM (f=156) : divorcée_NOM (f=63), extravertie_ADJ (f=60), féministe_NOM (f=240), observatrice_NOM (f=110), rouquine_NOM (f=59), militante_ADJ (f=1497), voyageuse_NOM (f=194), écrivaine_NOM (f=1308), passionnée_VER (f=3310), fonceuse_ADJ (f=62),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.46876308
+
+
+irlandais_NOM (f=549) : irlandais_ADJ (f=1162), allemands_NAM (f=1553), ecossais_NAM (f=324), espagnols_NOM (f=632), anglais_NAM (f=2101), polonais_NOM (f=486), italiens_NOM (f=1015), hollandais_NOM (f=118), catalans_NOM (f=149), arméniens_ADJ (f=276),
+irlandaise_NOM (f=172) : républicaine_ADJ (f=1645), irlandaise_ADJ (f=624), armée_NOM (f=19620), tira_VER (f=682), républicaine_NOM (f=70), eln_NAM (f=67), américaine_NOM (f=2533), armée_VER (f=1483), armée_ADJ (f=994), uck_NAM (f=245),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.23563795
+
+
+italien_NOM (f=464) : allemand_NOM (f=1500), italien_ADJ (f=6372), espagnol_NOM (f=687), espagnol_ADJ (f=6814), portugais_NOM (f=537), roumain_NOM (f=91), camilleri_NAM (f=64), américain_NOM (f=4437), portugais_ADJ (f=931), catalan_NOM (f=51),
+italienne_NOM (f=443) : italienne_ADJ (f=3728), américaine_NOM (f=2533), espagnole_ADJ (f=2705), italien_ADJ (f=6372), allemande_ADJ (f=4116), polonaise_ADJ (f=640), autrichienne_ADJ (f=881), portugaise_ADJ (f=491), québécoise_NOM (f=1704), anglaise_NOM (f=467),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 5
+distance:0.3725653
+
+
+japonais_NOM (f=1603) : japonais_ADJ (f=4068), allemands_NAM (f=1553), coréens_NOM (f=222), chinois_NOM (f=1148), européens_NOM (f=3000), italiens_NOM (f=1015), néerlandais_NOM (f=599), américains_NOM (f=17324), russes_NAM (f=2264), chinois_ADJ (f=8692),
+japonaise_NOM (f=400) : sugiyama_NAM (f=109), chinoise_NOM (f=468), ippon_NOM (f=83), schnyder_NAM (f=112), suédoise_ADJ (f=863), likhovtseva_NAM (f=63), daniela_NAM (f=196), japonaise_ADJ (f=1559), colombienne_NAM (f=61), flavia_NAM (f=84),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.40705034
+
+
+joueur_NOM (f=13711) : attaquant_NOM (f=2061), frappeur_NOM (f=744), lanceur_NOM (f=1298), ailier_NOM (f=1007), offensif_ADJ (f=748), quart-arrière_NOM (f=534), défenseur_NOM (f=5540), vétéran_NOM (f=2680), réserviste_NOM (f=315), voltigeur_NOM (f=767),
+joueuse_NOM (f=1257) : mauresmo_NAM (f=1093), blainvilloise_NAM (f=69), wozniak_NAM (f=626), sharapova_NAM (f=620), jelena_NAM (f=262), jankovic_NAM (f=284), capriati_NAM (f=777), safina_NAM (f=286), clijsters_NAM (f=605), davenport_NAM (f=728),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4730779
+
+
+juif_NOM (f=665) : juif_ADJ (f=3187), musulman_NOM (f=195), nazi_NOM (f=79), juifs_NOM (f=3254), immigrant_NOM (f=620), prêtre_NOM (f=1742), musulman_ADJ (f=2240), apatride_ADJ (f=60), errant_ADJ (f=89), juive_ADJ (f=2938),
+juive_NOM (f=146) : immigrante_NOM (f=94), juive_ADJ (f=2938), fille_NOM (f=13723), adolescente_NOM (f=818), polonaise_ADJ (f=640), orpheline_NOM (f=78), institutrice_NOM (f=203), adoptive_ADJ (f=105), mère_NOM (f=15333), fillette_NOM (f=1159),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.41560456
+
+
+jumeau_NOM (f=144) : jumeau_ADJ (f=127), frère_NOM (f=8089), dénommé_VER (f=384), suicidé_NOM (f=50), personnage_NOM (f=10856), demi-dieu_NOM (f=56), monstre_NOM (f=1175), clone_NOM (f=521), héros_NOM (f=7008), cadavre_NOM (f=659),
+jumelle_NOM (f=97) : cousine_NOM (f=402), mère_NOM (f=15333), accoucha_VER (f=50), préférée_NOM (f=126), nièce_NOM (f=385), carrosserie_NOM (f=301), jumelle_ADJ (f=95), prius_NAM (f=250), voisine_NOM (f=838), mazdas_NOM (f=50),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.33982262
+
+
+laid_ADJ (f=387) : macho_NOM (f=286), marrant_ADJ (f=110), prétentieux_ADJ (f=312), gênant_ADJ (f=315), amoral_ADJ (f=58), moche_ADJ (f=222), effrayant_ADJ (f=176), adroit_ADJ (f=51), excitant_ADJ (f=192), superficiel_ADJ (f=368),
+laide_ADJ (f=341) : aide_NOM (f=38891), taide_NAM (f=121), subvention_NOM (f=3589), désorganisée_VER (f=73), travailleuse_ADJ (f=75), idiote_ADJ (f=68), créature_NOM (f=615), muselée_VER (f=71), mendier_VER (f=65), fragmentée_VER (f=198),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.2292962
+
+
+laveur_NOM (f=255) : faveur_NOM (f=17767), raton_NOM (f=198), défaveur_NOM (f=178), demandant_VER (f=3231), réclamant_VER (f=1449), veur_NOM (f=52), brandissant_VER (f=594), prônant_VER (f=478), prononcés_VER (f=1039), votant_NOM (f=72),
+laveuse_NOM (f=504) : lave-vaisselle_NOM (f=432), sécheuse_ADJ (f=329), lav-sech_NOM (f=51), poêle_VER (f=53), lave-vais_VER (f=149), trigo_NOM (f=67), poêle_NOM (f=2140), élec_ADJ (f=93), lav/sech_ADJ (f=220), réfrigérateur_NOM (f=429),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.16583909
+
+
+lecteur_NOM (f=6336) : spectateur_NOM (f=3665), auditeur_NOM (f=490), visiteur_NOM (f=1573), téléspectateur_NOM (f=400), narrateur_NOM (f=1567), lecteurs_NOM (f=8952), voyageur_NOM (f=1071), romancier_NOM (f=2193), consommateur_NOM (f=3354), utilisateur_NOM (f=641),
+lectrice_NOM (f=382) : traductrice_NOM (f=239), comédienne_NOM (f=2453), romancière_NOM (f=1251), amie_NOM (f=2268), journaliste_NOM (f=13495), narratrice_NOM (f=627), chroniqueuse_NOM (f=421), poétesse_NOM (f=203), dame_NOM (f=5880), confidente_NOM (f=76),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.42594105
+
+
+lion_NOM (f=2340) : lion_NAM (f=1184), tion_NOM (f=5152), rat_NOM (f=931), 1res_ADJ (f=233), or_NOM (f=42298), louve_NOM (f=145), paon_NOM (f=79), ration_NOM (f=547), re_ADJ (f=1150), patate_NOM (f=397),
+lionne_NOM (f=153) : lululu_ADJ (f=52), chatte_NOM (f=212), commis/_NOM (f=56), corsaire_NOM (f=55), joke_NOM (f=52), femme_NOM (f=36350), geronimo_NAM (f=80), guêpe_NOM (f=97), brune_NOM (f=233), violette_ADJ (f=328),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.23415956
+
+
+loup_NOM (f=2036) : gouttière_NOM (f=105), chien_NOM (f=3819), razmoket_NAM (f=125), godzilla_NAM (f=143), loups_NOM (f=872), bergerie_NOM (f=128), clueless_NAM (f=218), renard_NOM (f=779), bleu_ADJ (f=5055), mcdowd_NAM (f=54),
+louve_NOM (f=145) : palme_NOM (f=1571), jutra_NAM (f=1139), cannes_NAM (f=3981), palme_VER (f=77), métrage_NOM (f=4049), louis-delluc_NAM (f=70), bobine_NOM (f=122), statuette_NOM (f=307), césars_NOM (f=205), breillat_NAM (f=126),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.34325668
+
+
+magistrat_NOM (f=1026) : juge_NOM (f=19367), tribunal_NOM (f=16061), procureur_NOM (f=5978), garzon_NAM (f=125), policier_NOM (f=2440), brunton_NAM (f=57), fonctionnaire_NOM (f=2687), cassation_NOM (f=130), magistrats_NOM (f=757), moreno-ocampo_NAM (f=57),
+magistrate_NOM (f=104) : juge_NOM (f=19367), dalphond_NAM (f=70), procureure_NOM (f=357), magistrat_NOM (f=1026), mclachlin_NAM (f=192), plaignante_NOM (f=128), garzon_NAM (f=125), cassation_NOM (f=130), silcoff_NAM (f=70), brunton_NAM (f=57),
+
+score de similarité pure : 4
+score de similarité lemmatisée : 5
+distance:0.49053892
+
+
+majeur_NOM (f=485) : majeur_ADJ (f=7742), mineur_ADJ (f=2118), sonate_NOM (f=1190), dièse_VER (f=59), continuo_NOM (f=61), bémol_NOM (f=916), rondo_NOM (f=156), bwv_ABR (f=54), chaconne_NOM (f=62), mineur_NOM (f=174),
+majeure_NOM (f=127) : dess_NAM (f=76), mineure_NOM (f=145), kinésiologie_NOM (f=82), baccalauréat_NOM (f=2345), attestée_VER (f=68), maîtrise_NOM (f=7391), théorie_NOM (f=4340), professeur-e_NOM (f=56), maîtrises_NOM (f=147), linguistique_NOM (f=248),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.20868748
+
+
+maladroit_ADJ (f=288) : brouillon_ADJ (f=213), caricatural_ADJ (f=171), cabotin_ADJ (f=93), antipathique_ADJ (f=89), malhabile_ADJ (f=128), brillant_VER (f=1446), gaffeur_NOM (f=54), convaincant_ADJ (f=909), opportuniste_ADJ (f=319), colérique_ADJ (f=130),
+maladroite_ADJ (f=265) : manipulatrice_ADJ (f=56), timorée_ADJ (f=59), brouillonne_ADJ (f=99), simpliste_ADJ (f=735), alambiquée_VER (f=81), malhabile_ADJ (f=128), malheureuse_ADJ (f=585), naïve_ADJ (f=368), tortueuse_ADJ (f=58), superficielle_ADJ (f=324),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.4893575
+
+
+malheureux_NOM (f=233) : malheureux_ADJ (f=1691), bourreaux_NOM (f=329), naufragés_NOM (f=123), malheur_NOM (f=2263), paumés_NOM (f=63), héros_NOM (f=7008), diables_NOM (f=224), gueux_NOM (f=56), envieux_NOM (f=61), envieux_ADJ (f=69),
+malheureuse_ADJ (f=585) : maladroite_ADJ (f=265), douloureuse_ADJ (f=893), tragique_ADJ (f=2491), désespérée_VER (f=354), malencontreuse_ADJ (f=131), mauvaise_ADJ (f=7627), naïve_ADJ (f=368), désespérée_ADJ (f=143), triste_ADJ (f=4511), malheureux_ADJ (f=1691),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.27163374
+
+
+malin_NOM (f=162) : dieu_NOM (f=10730), matin_NOM (f=22062), proverbe_NOM (f=361), dingue_ADJ (f=107), diable_NOM (f=2964), pauvre_NOM (f=651), prénommé_VER (f=64), bougre_NOM (f=91), perroquet_NOM (f=233), théologien_NOM (f=418),
+maligne_ADJ (f=113) : tumeur_NOM (f=634), cancéreuse_ADJ (f=122), malformation_NOM (f=54), rectum_NOM (f=71), cirrhose_NOM (f=51), ablation_NOM (f=170), larynx_NOM (f=78), jaunisse_NOM (f=56), abdominale_ADJ (f=85), côlon_NOM (f=177),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.18760616
+
+
+mangeur_NOM (f=113) : reptile_ADJ (f=64), dompteur_NOM (f=52), pissenlit_NOM (f=79), carnivore_ADJ (f=66), porc-épic_NOM (f=66), reptile_NOM (f=61), tibo_NAM (f=237), carnivores_ADJ (f=70), prunier_NOM (f=50), condiment_NOM (f=64),
+mangeuse_NOM (f=71) : bactérie_NOM (f=1211), creutzfeldt-jakob_NAM (f=75), clostridium_NAM (f=88), infectieuse_ADJ (f=124), intoxication_NOM (f=229), coli_NOM (f=304), crohn_NAM (f=56), syphilis_NOM (f=78), gastro-entérite_NOM (f=55), morsure_NOM (f=89),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.3385191
+
+
+marchand_NOM (f=967) : collectionneur_NOM (f=729), vendeur_NOM (f=1175), antiquaire_NOM (f=155), revendeur_NOM (f=87), commerçant_NOM (f=363), négociant_NOM (f=64), berger_NOM (f=243), restaurateur_NOM (f=144), importateur_NOM (f=213), marchand_ADJ (f=1642),
+marchande_ADJ (f=1143) : valeur_NOM (f=38228), commerciale_ADJ (f=4580), nominale_ADJ (f=357), logique_NOM (f=6100), locative_ADJ (f=109), 4100$_NAM (f=58), libellée_VER (f=80), intrinsèque_ADJ (f=386), râleur_NOM (f=54), celled_NOM (f=351),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.19159079
+
+
+meilleur_ADJ (f=29096) : meilleure_ADJ (f=16857), pire_ADJ (f=12492), meilleurs_ADJ (f=13371), oscar_NOM (f=2252), mauvais_ADJ (f=10205), trophée_NOM (f=2192), meilleures_ADJ (f=6216), kechiche_NAM (f=69), gagnant_VER (f=3382), merveilleux_ADJ (f=2722),
+meilleure_ADJ (f=16857) : meilleur_ADJ (f=29096), bonne_ADJ (f=45622), excellente_ADJ (f=6213), mauvaise_ADJ (f=7627), meilleures_ADJ (f=6216), adéquate_ADJ (f=973), optimale_ADJ (f=630), pire_ADJ (f=12492), avantageuse_ADJ (f=468), intéressante_ADJ (f=3505),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 4
+distance:0.62912536
+
+
+mexicain_NOM (f=200) : mexicain_ADJ (f=1711), péruvien_NOM (f=51), benicio_NAM (f=77), carlos_NAM (f=3790), inarritu_NAM (f=56), brésilien_NAM (f=1221), reygadas_NAM (f=59), gael_NAM (f=118), colombien_NAM (f=382), antonio_NAM (f=2906),
+mexicaine_NOM (f=122) : brésilienne_ADJ (f=1190), lôpez_NAM (f=156), mexicaine_ADJ (f=1287), paz_NAM (f=584), gauche_ADJ (f=14793), indienne_NOM (f=159), fmln_NAM (f=51), obrador_NAM (f=361), espagnole_ADJ (f=2705), cruz_NAM (f=874),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.33199355
+
+
+mineur_NOM (f=174) : mineur_ADJ (f=2118), adolescent_NOM (f=1377), récidiviste_NOM (f=121), majeur_NOM (f=485), prémédité_VER (f=298), mineurs_NOM (f=463), viol_NOM (f=1193), sonate_NOM (f=1190), continuo_NOM (f=61), schumann_NOM (f=89),
+mineure_NOM (f=145) : adolescente_NOM (f=818), étudiante_NOM (f=904), attouchements_NOM (f=84), majeure_NOM (f=127), counseling_NOM (f=55), inculpée_VER (f=93), non-coupable_ADJ (f=58), agression_NOM (f=2032), inconduite_NOM (f=106), sexuels_ADJ (f=1699),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.3590604
+
+
+mort_NOM (f=32411) : disparition_NOM (f=5552), pendaison_NOM (f=226), mort_VER (f=4324), mourir_VER (f=4356), condamnation_NOM (f=2325), assassinat_NOM (f=3164), décapitation_NOM (f=121), meurtre_NOM (f=5154), commuée_VER (f=64), noyade_NOM (f=214),
+morte_NOM (f=115) : fillette_NOM (f=1159), meurtrière_NOM (f=53), mère_NOM (f=15333), narratrice_NOM (f=627), fide_NOM (f=60), blessée_ADJ (f=130), consentante_ADJ (f=63), confidente_NOM (f=76), ensanglantée_VER (f=50), mamie_NOM (f=174),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4184983
+
+
+mouton_NOM (f=794) : tremblante_NOM (f=84), lapin_NOM (f=790), bovin_NOM (f=55), vache_NOM (f=2713), roquefort_NOM (f=113), cochon_NOM (f=955), wapiti_NOM (f=60), singe_NOM (f=540), chèvre_NOM (f=675), moutons_NOM (f=620),
+brebis_NOM (f=511) : chèvre_NOM (f=675), dolly_NAM (f=264), carottes_NOM (f=467), fumé_ADJ (f=147), moutons_NOM (f=620), poêlé_VER (f=104), agneau_NOM (f=1121), fromage_NOM (f=2522), wapiti_NOM (f=60), pied-de-vent_NOM (f=50),
+
+score de similarité pure : 3
+score de similarité lemmatisée : 3
+distance:0.4359991
+
+
+muet_NOM (f=58) : baroque_NOM (f=283), kurosawa_NAM (f=80), opératique_ADJ (f=56), kieslowski_NAM (f=92), film-culte_NOM (f=66), berio_NAM (f=116), compositeur_NOM (f=3813), wajda_NAM (f=95), nèg_NOM (f=66), fassbinder_NAM (f=137),
+muette_ADJ (f=409) : silencieuse_ADJ (f=781), muet_ADJ (f=950), restée_VER (f=1567), absente_ADJ (f=549), impuissante_ADJ (f=218), collée_VER (f=333), confuse_ADJ (f=345), manipulatrice_ADJ (f=56), sourde_ADJ (f=748), discrète_ADJ (f=1299),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.18543303
+
+
+musicien_NOM (f=2911) : compositeur_NOM (f=3813), chanteur_NOM (f=4958), guitariste_NOM (f=1544), pianiste_NOM (f=3645), comédien_NOM (f=3750), artiste_NOM (f=12626), batteur_NOM (f=853), créateur_NOM (f=2008), trompettiste_NOM (f=446), saxophoniste_NOM (f=672),
+musicienne_NOM (f=535) : chanteuse_NOM (f=3476), comédienne_NOM (f=2453), choriste_NOM (f=118), femme_NOM (f=36350), musicien_NOM (f=2911), interprète_NOM (f=2762), amoureuse_NOM (f=439), artiste_ADJ (f=4338), enseignante_ADJ (f=755), conteuse_NOM (f=190),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.526961
+
+
+musulman_NOM (f=195) : musulman_ADJ (f=2240), politicien_NOM (f=1857), dignitaire_NOM (f=252), juif_NOM (f=665), terroriste_NOM (f=708), militaire_NOM (f=127), séparatiste_NOM (f=73), soldat_NOM (f=3364), social-démocrate_NOM (f=82), policier_NOM (f=2440),
+musulmane_NOM (f=80) : musulmane_ADJ (f=2106), chrétienne_NOM (f=72), immigrante_NOM (f=94), féministe_NOM (f=240), croyante_ADJ (f=94), théocratie_NOM (f=99), agnostique_ADJ (f=97), écolière_NOM (f=51), amara_NAM (f=103), afghane_NOM (f=64),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.4514313
+
+
+nageur_NOM (f=241) : sprinter_NOM (f=269), athlète_NOM (f=2826), médaillé_VER (f=783), plongeur_NOM (f=249), nageur_ADJ (f=100), thorpe_NAM (f=313), sprinteur_NOM (f=89), joueur_NOM (f=13711), golfeur_NOM (f=624), usain_NAM (f=64),
+nageuse_NOM (f=142) : athlète_NOM (f=2826), plongeuse_NOM (f=141), skieuse_NOM (f=356), coureuse_NOM (f=71), âgée_ADJ (f=2378), synchronisée_VER (f=298), patineuse_NOM (f=205), gymnaste_NOM (f=147), felicien_NAM (f=169), joueuse_NOM (f=1257),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.42422202
+
+
+nippon_ADJ (f=443) : japonais_ADJ (f=4068), indien_ADJ (f=2627), chinois_ADJ (f=8692), allemand_ADJ (f=6770), italien_ADJ (f=6372), coréen_ADJ (f=388), brésilien_ADJ (f=1876), mexicain_ADJ (f=1711), danois_ADJ (f=787), japonaise_ADJ (f=1559),
+nippone_ADJ (f=295) : japonaise_ADJ (f=1559), chinoise_ADJ (f=3500), américaine_ADJ (f=40672), suédoise_ADJ (f=863), nipponne_ADJ (f=107), thaïlandaise_ADJ (f=210), indienne_ADJ (f=1687), allemande_ADJ (f=4116), mexicaine_ADJ (f=1287), sud-coréenne_ADJ (f=208),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 5
+distance:0.42779222
+
+
+nouveau_NOM (f=186) : nouveau_ADJ (f=85474), kent_NAM (f=1720), ancien_NOM (f=476), harmonia_VER (f=186), tharaud_NAM (f=90), cd_ABR (f=5131), mls/sia_NOM (f=101), mullova_NAM (f=72), philips_NAM (f=140), juin-juillet_NOM (f=52),
+nouvelle_NOM (f=185) : nouvelle_ADJ (f=75099), dernière_NOM (f=1247), revue_NOM (f=7444), bonne_NOM (f=462), petite_NOM (f=125), transaction_NOM (f=7254), concurrente_NOM (f=211), muse_NOM (f=637), sonata_NOM (f=53), nouvede_NOM (f=88),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.19423443
+
+
+nul_ADJ (f=5592) : aucun_PRO (f=36838), personne_ADV (f=9283), nulle_ADJ (f=3941), rien_NOM (f=20814), doute_NOM (f=27548), rien_ADV (f=50723), seul_ADJ (f=33640), quel_PRO (f=20918), jamais_ADV (f=73570), certitude_NOM (f=1870),
+nulle_ADJ (f=3941) : nul_ADJ (f=5592), rien_NOM (f=20814), pareil_ADV (f=332), jamais_ADV (f=73570), aucune_PRO (f=39707), ailleurs_ADV (f=46283), insignifiante_ADJ (f=202), autre_ADJ (f=138382), partout_ADV (f=19200), pratiquement_ADV (f=4939),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 4
+distance:0.4569279
+
+
+observateur_NOM (f=1622) : écrivain_NOM (f=11328), journaliste_NOM (f=13495), préfacier_NOM (f=51), chroniqueur_NOM (f=3678), diplomate_NOM (f=2237), historien_NOM (f=3365), commentateur_NOM (f=544), philosophe_NOM (f=2629), essayiste_NOM (f=1118), juriste_NOM (f=783),
+observatrice_NOM (f=110) : spectatrice_NOM (f=106), intellectuelle_NOM (f=156), habituée_ADJ (f=88), représentante_NOM (f=871), réalisatrice_NOM (f=1034), féministe_NOM (f=240), experte_ADJ (f=323), observateur_NOM (f=1622), consultante_ADJ (f=135), comédienne_NOM (f=2453),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.43679807
+
+
+occidental_NOM (f=193) : occidental_ADJ (f=1889), virus_NOM (f=5923), occident_NAM (f=3898), trieste_NAM (f=50), occidentale_ADJ (f=2149), ebola_NOM (f=62), hallucination_NOM (f=59), affamé_ADJ (f=61), imaginaire_ADJ (f=4362), nihilisme_NOM (f=191),
+occidentale_NOM (f=140) : occidentale_ADJ (f=2149), islamisme_NOM (f=467), féodale_ADJ (f=94), laïcité_NOM (f=1677), démocratie_NOM (f=14826), islamisation_NOM (f=79), rationaliste_ADJ (f=50), idéologie_NOM (f=2152), théocratie_NOM (f=99), islam_NOM (f=4262),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.26124498
+
+
+occupant_NOM (f=533) : occupante_ADJ (f=104), occupants_NOM (f=948), propriétaire_NOM (f=7221), envahisseur_NOM (f=132), ennemi_NOM (f=2389), sioniste_ADJ (f=271), immeuble_NOM (f=7168), oppresseur_NOM (f=53), occupation_NOM (f=7415), armée_NOM (f=19620),
+occupante_ADJ (f=104) : interposition_NOM (f=99), israël_NAM (f=20703), is-raël_NAM (f=54), hezbollah_NAM (f=3173), hébreu_ADJ (f=1270), lsraël_ADJ (f=79), chebaa_NAM (f=66), occupant_NOM (f=533), sioniste_ADJ (f=271), hamas_NOM (f=1865),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.46883488
+
+
+opposant_NOM (f=863) : adversaire_NOM (f=6147), rival_NOM (f=2603), raila_VER (f=65), opposant_VER (f=1619), allié_NOM (f=1577), ex-vice-président_NOM (f=50), candidat_NOM (f=17704), ultranationaliste_NOM (f=56), ultraconservateur_ADJ (f=51), yoweri_NAM (f=52),
+opposante_NOM (f=132) : opposante_ADJ (f=52), suu_NAM (f=474), kyi_NAM (f=524), birmane_ADJ (f=299), aung_NAM (f=380), rangoun_NAM (f=122), junte_NOM (f=940), rangoon_NAM (f=249), shirin_NAM (f=183), ebadi_NAM (f=237),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.42009407
+
+
+organisateur_NOM (f=1290) : organisateur_ADJ (f=1050), organisatrice_NOM (f=204), ex-député_NOM (f=162), chef_NOM (f=90582), argentier_NOM (f=160), coprésident_NOM (f=706), ex-directeur_NOM (f=550), animateur_NOM (f=2970), conservateur_NOM (f=1208), ancien_ADJ (f=41572),
+organisatrice_NOM (f=204) : organisateur_NOM (f=1290), organisatrice_ADJ (f=151), instigatrice_NOM (f=121), présidente_NOM (f=11695), coordonnatrice_NOM (f=718), directrice_NOM (f=8981), coprésidente_NOM (f=144), historienne_NOM (f=552), intervenante_NOM (f=96), organisatrices_NOM (f=78),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.56484663
+
+
+orgueilleux_ADJ (f=124) : peureux_ADJ (f=113), superstitieux_ADJ (f=68), imbu_VER (f=98), vaniteux_ADJ (f=98), courageux_ADJ (f=1005), arrogant_ADJ (f=383), incompris_ADJ (f=137), rusé_ADJ (f=60), rusé_VER (f=60), manipulateur_ADJ (f=133),
+orgueilleuse_ADJ (f=51) : idéalisation_NOM (f=55), désabusée_VER (f=75), têtue_ADJ (f=52), névrosée_ADJ (f=58), timorée_ADJ (f=59), ignorante_ADJ (f=79), conquérante_ADJ (f=68), impudique_ADJ (f=84), souffrante_ADJ (f=106), coquetterie_NOM (f=109),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3481492
+
+
+original_NOM (f=450) : original_ADJ (f=3871), copie_NOM (f=11640), copie_VER (f=233), photocopie_NOM (f=227), exemplaire_NOM (f=1035), inédit_NOM (f=173), fac-similé_NOM (f=101), soumission/bordereau_NOM (f=77), 3°_ABR (f=70), divertissant_ADJ (f=136),
+originale_ADJ (f=5124) : sous-titrée_VER (f=113), version_NOM (f=15767), sous-titres_NOM (f=968), musicale_ADJ (f=6308), sonore_ADJ (f=4381), inédite_ADJ (f=1162), 280$_NAM (f=60), géniale_ADJ (f=346), i--famous_NOM (f=59), brillante_ADJ (f=1344),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.31100193
+
+
+orphelin_NOM (f=238) : garçon_NOM (f=3640), adolescent_NOM (f=1377), orphelin_ADJ (f=357), enfant_NOM (f=20735), homme_NOM (f=56221), instituteur_NOM (f=199), ivrogne_ADJ (f=85), héros_NOM (f=7008), amant_NOM (f=1395), orpheline_NOM (f=78),
+orpheline_NOM (f=78) : esseulée_ADJ (f=50), fenune_NOM (f=91), fille_NOM (f=13723), adolescente_NOM (f=818), fillette_NOM (f=1159), mère_NOM (f=15333), bourgeoise_NOM (f=138), femme_NOM (f=36350), narratrice_NOM (f=627), institutrice_NOM (f=203),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.44081295
+
+
+ours_NOM (f=2752) : phoque_NOM (f=476), polaires_ADJ (f=331), singes_NOM (f=539), loups_NOM (f=872), caribous_NOM (f=401), polaire_ADJ (f=531), éléphants_NOM (f=447), phoques_NOM (f=817), zèbres_NOM (f=52), renard_NOM (f=779),
+ourse_NOM (f=108) : marie-sissi_NAM (f=102), fred-dy_NAM (f=82), ourse_NAM (f=232), bestiole_NOM (f=57), ménagerie_NOM (f=111), narratrice_NOM (f=627), sissi_NAM (f=80), wallander_NAM (f=98), zabou_NAM (f=55), auteure_NOM (f=3898),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.17395693
+
+
+parent_NOM (f=1738) : enfant_NOM (f=20735), enseignant_NOM (f=1624), handicapé_ADJ (f=72), garçon_NOM (f=3640), père_NOM (f=22943), conjoint_NOM (f=1729), élève_NOM (f=3010), parents_NOM (f=21546), autiste_ADJ (f=128), patient_NOM (f=1626),
+parente_NOM (f=92) : cousine_NOM (f=402), nourrice_NOM (f=86), céans_ADV (f=91), mère_NOM (f=15333), religieuse_NOM (f=145), jaunisse_NOM (f=56), femelle_NOM (f=144), fillette_NOM (f=1159), acariâtre_ADJ (f=59), rubidium_NOM (f=88),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3742525
+
+
+paresseux_NOM (f=167) : paresseux_ADJ (f=419), peureux_ADJ (f=113), vaniteux_ADJ (f=98), incompétents_ADJ (f=206), arboricole_ADJ (f=63), adorables_ADJ (f=60), snobs_NOM (f=88), grimpante_ADJ (f=67), bourgeois_NOM (f=634), menteurs_ADJ (f=63),
+paresseuse_ADJ (f=83) : lassante_ADJ (f=57), mièvre_ADJ (f=124), têtue_ADJ (f=52), nonchalante_ADJ (f=51), glaciale_ADJ (f=173), douce-amère_NOM (f=97), cruelle_ADJ (f=593), ennuyante_ADJ (f=63), lascive_ADJ (f=53), ennuyeuse_ADJ (f=199),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3269413
+
+
+participant_NOM (f=454) : citoyen_NOM (f=6656), employé_NOM (f=2359), travailleur_NOM (f=1561), étudiant_NOM (f=2823), participants_NOM (f=6109), observateur_NOM (f=1622), intervenant_NOM (f=319), fonctionnaire_NOM (f=2687), cotisant_NOM (f=87), employeur_NOM (f=4269),
+participante_NOM (f=80) : houda-pépin_NAM (f=52), spectatrice_NOM (f=106), participait_VER (f=1124), admiratrice_NOM (f=67), employée_NOM (f=603), joueuse_NOM (f=1257), passagère_NOM (f=58), enseignante_NOM (f=811), réceptive_ADJ (f=71), participants_NOM (f=6109),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.37533826
+
+
+passant_NOM (f=461) : passant_VER (f=10437), auberges_NOM (f=707), sirotant_VER (f=123), souriant_VER (f=839), chauffeur_NOM (f=1673), écolier_NOM (f=145), badaud_NOM (f=56), matelot_NOM (f=51), rutilant_ADJ (f=51), policier_NOM (f=2440),
+passante_ADJ (f=227) : bande_NOM (f=11365), télédistribution_NOM (f=91), téléchargement_NOM (f=663), sans-fil_NOM (f=614), wi-fi_NAM (f=51), connexion_NOM (f=555), analogique_ADJ (f=182), câble_NOM (f=2094), débit_NOM (f=1200), optique_ADJ (f=972),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.12399787
+
+
+patient_NOM (f=1626) : patient_ADJ (f=2446), médecin_NOM (f=8581), patients_NOM (f=7910), patiente_NOM (f=394), malade_NOM (f=402), médicament_NOM (f=2891), nouveau-né_NOM (f=242), ophtalmologiste_NOM (f=62), médication_NOM (f=434), médical_ADJ (f=3388),
+patiente_NOM (f=394) : patient_NOM (f=1626), médecin_NOM (f=8581), infirmière_NOM (f=1756), séropositive_ADJ (f=98), mère_NOM (f=15333), chirurgienne_NOM (f=137), patientes_NOM (f=362), patients_NOM (f=7910), chimiothérapie_NOM (f=334), prostituée_NOM (f=327),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 4
+distance:0.63695186
+
+
+patineur_NOM (f=461) : athlète_NOM (f=2826), joueur_NOM (f=13711), skieur_NOM (f=411), attaquant_NOM (f=2061), natif_ADJ (f=480), sprinter_NOM (f=269), hockeyeur_NOM (f=274), ailier_NOM (f=1007), pominville_NAM (f=70), entraîneur_NOM (f=7486),
+patineuse_NOM (f=205) : coureuse_NOM (f=71), klassen_NAM (f=368), skieuse_NOM (f=356), médaillée_VER (f=626), championne_NOM (f=2141), plongeuse_NOM (f=141), catriona_NAM (f=81), patineuses_NOM (f=54), athlète_NOM (f=2826), muenzer_NAM (f=63),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.46945763
+
+
+patron_NOM (f=7085) : président_NOM (f=112671), pdg_NOM (f=132), president_NOM (f=1644), p.-d.g_NOM (f=5005), ex-patron_NOM (f=147), président-directeur_NOM (f=1670), dirigeant_NOM (f=3534), vice-président_NOM (f=11496), fondateur_NOM (f=5378), prérident_NOM (f=72),
+patronne_NOM (f=443) : directrice_NOM (f=8981), présidente_NOM (f=11695), ambassadrice_NOM (f=290), patron_NOM (f=7085), mère_NOM (f=15333), représentante_NOM (f=871), gérante_NOM (f=143), maman_NOM (f=2382), dirigeante_NOM (f=239), interviewée_VER (f=148),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.46891093
+
+
+paysan_NOM (f=360) : fermier_NOM (f=390), commerçant_NOM (f=363), grand-père_NOM (f=1318), garçon_NOM (f=3640), policier_NOM (f=2440), cultivateur_NOM (f=87), paysan_ADJ (f=233), bûcheron_NOM (f=165), cow-boy_NOM (f=403), vieillard_NOM (f=357),
+paysanne_ADJ (f=1000) : islet-sur-mer_NOM (f=61), upa_NAM (f=1281), union_NOM (f=23785), tunion_NAM (f=182), lunion_NOM (f=106), bové_NAM (f=389), biologique_ADJ (f=2767), upa_ABR (f=87), salami_NOM (f=134), equiterre_NOM (f=66),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.2834055
+
+
+perdant_NOM (f=536) : gagnant_NOM (f=1268), gagnant_VER (f=3382), favori_NOM (f=1356), perdant_VER (f=941), vainqueur_NOM (f=5448), absent_NOM (f=260), perdante_NOM (f=66), perdants_NOM (f=696), victorieux_ADJ (f=789), fédéraliste_NOM (f=198),
+perdante_NOM (f=66) : favorite_NOM (f=470), perdant_NOM (f=536), absente_NOM (f=149), gagnante_NOM (f=570), victorieuse_ADJ (f=728), sortante_ADJ (f=408), habituée_ADJ (f=88), spectatrice_NOM (f=106), favori_NOM (f=1356), grandie_VER (f=52),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 4
+distance:0.47044274
+
+
+petit_NOM (f=101) : vistaact_NAM (f=63), 3,77_NUM (f=89), p'tit_NOM (f=205), 1259.63_NUM (f=83), ,42_NUM (f=71), salaud_NOM (f=117), 11,89_NUM (f=94), reptile_NOM (f=61), :$_ABR (f=159), clone_NOM (f=521),
+petite_NOM (f=125) : fille_NOM (f=13723), cousine_NOM (f=402), vieille_NOM (f=314), créature_NOM (f=615), voisine_NOM (f=838), tante_NOM (f=789), bibitte_NOM (f=101), machine_NOM (f=6075), petite_ADJ (f=33782), lesbienne_NOM (f=53),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.25375593
+
+
+pharmacien_NOM (f=522) : médecin_NOM (f=8581), physiothérapeute_NOM (f=62), pharmaciens_NOM (f=1243), dentiste_NOM (f=551), omnipraticien_NOM (f=73), psychologue_NOM (f=1386), infirmière_NOM (f=1756), pharmacie_NOM (f=1112), patient_NOM (f=1626), chirurgien_NOM (f=557),
+pharmacienne_NOM (f=91) : sage-femme_NOM (f=210), infirmière_NOM (f=1756), conjointe_NOM (f=1217), radiologiste_NOM (f=64), pédopsychiatre_NOM (f=76), boulet_NOM (f=1363), patiente_NOM (f=394), psychothérapeute_NOM (f=132), intervenante_NOM (f=96), assermentée_VER (f=63),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.28949857
+
+
+pleureur_ADJ (f=56) : bouleau_NOM (f=194), pàp_NAM (f=118), peuplier_NOM (f=63), geordie_NAM (f=79), wigwam_NOM (f=62), oiseau_NOM (f=2013), orangé_NOM (f=76), écu_NOM (f=65), aubergine_NOM (f=136), balustrade_NOM (f=82),
+pleureuse_ADJ (f=112) : 622-0642_NUM (f=96), coudres_NOM (f=175), île-aux-coudres_NOM (f=120), isle_NOM (f=285), roche_NOM (f=825), 697-8566_NUM (f=55), www.battures.ca_NOM (f=83), 1-877-688-5201_NUM (f=80), -800-463-6283_NUM (f=60), 1-800-668-8234_NUM (f=120),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.17590353
+
+
+plongeur_NOM (f=249) : nageur_ADJ (f=100), nageur_NOM (f=241), despatie_NAM (f=1006), athlète_NOM (f=2826), plongeuse_NOM (f=141), plongeurs_NOM (f=419), haltérophile_NOM (f=57), skieur_NOM (f=411), sprinter_NOM (f=269), capitaine_NOM (f=4249),
+plongeuse_NOM (f=141) : heymans_NAM (f=555), skieuse_NOM (f=356), nageuse_NOM (f=142), athlète_NOM (f=2826), coureuse_NOM (f=71), benfeito_NAM (f=110), patineuse_NOM (f=205), joueuse_NOM (f=1257), meaghan_NAM (f=76), championne_NOM (f=2141),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.48972765
+
+
+politicien_NOM (f=1857) : politicien_ADJ (f=461), libéral_NOM (f=711), intellectuel_NOM (f=1579), souverainiste_NOM (f=1012), démagogue_NOM (f=69), nationaliste_NOM (f=261), candidat_NOM (f=17704), écrivain_NOM (f=11328), militant_ADJ (f=1216), social-démocrate_NOM (f=82),
+politicienne_NOM (f=154) : militante_ADJ (f=1497), politicienne_ADJ (f=171), pasionaria_NOM (f=55), candidate_NOM (f=3726), féministe_NOM (f=240), comédienne_NOM (f=2453), libérale_NOM (f=195), politicien_NOM (f=1857), aguerrie_VER (f=88), acariâtre_ADJ (f=59),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.4722718
+
+
+porc_NOM (f=1671) : viande_NOM (f=2912), volaille_NOM (f=784), poulet_NOM (f=1741), maïs_NOM (f=1060), rôti_NOM (f=98), saumon_NOM (f=1706), pommes_NOM (f=2186), bétail_NOM (f=747), lait_NOM (f=6720), foie_NOM (f=1824),
+truie_NOM (f=59) : fermière_NOM (f=78), chou-fleur_NOM (f=54), mayonnaise_ADJ (f=63), boulette_NOM (f=59), baronne_NOM (f=71), cuite_NOM (f=58), nourrice_NOM (f=86), friandise_NOM (f=63), grillée_ADJ (f=90), longe_NOM (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3292489
+
+
+portugais_NOM (f=537) : portugais_ADJ (f=931), espagnols_NOM (f=632), italien_NOM (f=464), brésiliens_NAM (f=392), espagnol_ADJ (f=6814), espagnol_NOM (f=687), suédois_NOM (f=712), néerlandais_NOM (f=599), italiens_NOM (f=1015), polonais_NOM (f=486),
+portugaise_ADJ (f=491) : italienne_ADJ (f=3728), espagnole_ADJ (f=2705), brésilienne_ADJ (f=1190), mexicaine_ADJ (f=1287), française_ADJ (f=28618), indienne_ADJ (f=1687), suédoise_ADJ (f=863), chinoise_ADJ (f=3500), japonaise_ADJ (f=1559), polonaise_ADJ (f=640),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 4
+distance:0.43803373
+
+
+poulet_NOM (f=1741) : viande_NOM (f=2912), agneau_NOM (f=1121), riz_NOM (f=1693), volaille_NOM (f=784), porc_NOM (f=1671), crevettes_NOM (f=628), rôti_NOM (f=98), canard_NOM (f=1901), soja_NOM (f=449), jambon_NOM (f=543),
+poulette_NOM (f=67) : chartrand_NAM (f=1439), falar-deau_NAM (f=53), dansereau_NAM (f=660), boujenah_NAM (f=103), rôti_ADJ (f=53), graton_NOM (f=187), dujardin_NAM (f=96), char-trand_NAM (f=60), bematchez_NAM (f=66), blain_NAM (f=326),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.36139753
+
+
+prince_NOM (f=4055) : roi_NOM (f=6405), héritier_NOM (f=952), princesse_NOM (f=1037), saoud_NAM (f=84), camilla_NAM (f=111), charles_NAM (f=11456), abdallah_NAM (f=896), souverain_NOM (f=557), fahd_NAM (f=82), neveu_NOM (f=768),
+princesse_NOM (f=1037) : fille_NOM (f=13723), reine_NOM (f=3273), comtesse_NOM (f=318), mère_NOM (f=15333), sorcière_NOM (f=661), duchesse_NOM (f=147), maman_NOM (f=2382), fée_NOM (f=496), prince_NOM (f=4055), elisabeth_NAM (f=924),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.516479
+
+
+principal_NOM (f=916) : intéressé_ADJ (f=1062), principal_ADJ (f=17319), couru_VER (f=982), montant_NOM (f=14031), dirigeant_NOM (f=3534), racheté_VER (f=900), principale_NOM (f=535), recteur_ADJ (f=978), premier_NOM (f=7701), relationniste_NOM (f=202),
+principale_NOM (f=535) : principale_ADJ (f=9945), intéressée_ADJ (f=312), présidente_NOM (f=11695), directrice_NOM (f=8981), munroe-blum_NAM (f=157), dirigeante_NOM (f=239), heather_NAM (f=543), docteure_NOM (f=123), elle-même_PRO (f=7141), davida_NAM (f=67),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.34816423
+
+
+producteur_NOM (f=3706) : producteur_ADJ (f=1549), exportateur_NOM (f=305), distributeur_NOM (f=1441), fournisseur_NOM (f=2171), distributeur_ADJ (f=481), exportateur_ADJ (f=123), fabricant_NOM (f=2892), producteurs_NOM (f=12148), diffuseur_NOM (f=888), réalisateur_NOM (f=5909),
+productrice_NOM (f=329) : productrice_ADJ (f=421), comédienne_NOM (f=2453), réalisatrice_NOM (f=1034), cinémaginaire_NAM (f=60), actrice_NOM (f=3324), fabienne_NAM (f=598), scénariste_NOM (f=1354), monteuse_NOM (f=50), coproducteur_NOM (f=93), écrivaine_NOM (f=1308),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.4707486
+
+
+professeur_NOM (f=21847) : agrégé_VER (f=265), professeure_NOM (f=3451), chercheur_ADJ (f=1431), sociologie_NOM (f=2133), émérite_ADJ (f=796), chercheur_NOM (f=3864), professeur-chercheur_NOM (f=78), politologue_NOM (f=1808), université_NOM (f=61177), doctorant_VER (f=94),
+professeure_NOM (f=3451) : professeur_NOM (f=21847), pro-fesseure_NOM (f=94), professeure_NAM (f=188), agrégée_VER (f=52), agrégé_VER (f=265), professeure_ADJ (f=89), sociologie_NOM (f=2133), profes-seure_NOM (f=90), professeure_VER (f=115), agrégé_NOM (f=177),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 5
+distance:0.75992507
+
+
+professionnel_NOM (f=2491) : professionnel_ADJ (f=11141), 58-65_NUM (f=144), retraité_NOM (f=817), n-ftim_NOM (f=61), 40aine_ADJ (f=1310), soaine_NAM (f=1518), 5t1_ABR (f=53), découlant_VER (f=2066), intègre_ADJ (f=967), enseignant_NOM (f=1624),
+professionnelle_NOM (f=1753) : jolie_ADJ (f=7108), retraitée_NOM (f=460), 50aine_ADJ (f=1165), 5'2_NUM (f=979), 5'4_NUM (f=1679), soaine_NOM (f=445), célibataire_ADJ (f=1283), enjouée_ADJ (f=1383), 5'5_NUM (f=2533), cultivée_ADJ (f=1451),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.4049545
+
+
+promis_NOM (f=90) : promis_VER (f=10047), consentis_VER (f=1050), proposé_VER (f=7796), consenti_VER (f=1339), carte-soleil_NOM (f=53), débloqués_VER (f=125), réitéré_VER (f=2058), accordé_NOM (f=63), promesses_NOM (f=4674), lancé_NOM (f=105),
+promise_ADJ (f=791) : promise_VER (f=523), annoncée_VER (f=4787), promises_VER (f=562), espérée_VER (f=112), honnie_VER (f=108), terre_NOM (f=24428), attendue_VER (f=2635), réclamée_VER (f=581), promis_VER (f=10047), consentie_VER (f=331),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.296309
+
+
+protecteur_NOM (f=715) : protecteur_ADJ (f=468), protectrice_NOM (f=177), coroner_NOM (f=1695), vérificateur_NOM (f=3018), espionnes_NOM (f=61), caméléon_NOM (f=489), files/anthologie_NOM (f=152), ombudsman_NOM (f=736), ..nerdz_NAM (f=81), citoyen_NOM (f=6656),
+protectrice_NOM (f=177) : champoux-lesage_NAM (f=53), protecteur_NOM (f=715), ramq_NAM (f=892), couillard_ADJ (f=5084), mulroney-johnson_NAM (f=63), conunission_NOM (f=103), fiiq_NAM (f=354), conunission_NAM (f=59), houda-pepin_NAM (f=124), vérificateur_NOM (f=3018),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.46331313
+
+
+protestant_NOM (f=100) : protestant_VER (f=537), paisley_NAM (f=124), unioniste_ADJ (f=150), trimble_NAM (f=243), catholique_ADJ (f=5781), sinn_NAM (f=434), dup_NAM (f=82), unionistes_NOM (f=80), uup_NAM (f=73), fein_NAM (f=84),
+protestante_ADJ (f=432) : catholique_ADJ (f=5781), religieuse_ADJ (f=5662), musulmane_ADJ (f=2106), chrétienne_ADJ (f=1915), juive_ADJ (f=2938), catholiques_ADJ (f=3004), protestants_NOM (f=383), protestantes_ADJ (f=195), presbytérienne_ADJ (f=60), protestants_ADJ (f=457),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.4558378
+
+
+provocateur_NOM (f=85) : iconoclaste_ADJ (f=298), facétieux_ADJ (f=88), impénitent_ADJ (f=146), nazi_NOM (f=79), polémiste_NOM (f=257), esthète_ADJ (f=55), iconoclaste_NOM (f=55), anarchiste_NOM (f=133), romancier_NOM (f=2193), académicien_NOM (f=55),
+provocatrice_ADJ (f=128) : prétentieuse_ADJ (f=105), subversive_ADJ (f=145), impertinente_ADJ (f=57), obsessive_ADJ (f=71), répétitive_ADJ (f=176), méprisante_ADJ (f=158), dérangeante_ADJ (f=254), iconoclaste_ADJ (f=298), réductrice_ADJ (f=254), provocation_NOM (f=1008),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.36985597
+
+
+rat_NOM (f=931) : palmiste_NOM (f=51), musqué_ADJ (f=186), rats_NOM (f=622), renard_NOM (f=779), chat_NOM (f=2303), es*_NOM (f=74), am*_NAM (f=68), chien_NOM (f=3819), reptile_ADJ (f=64), rm_NOM (f=903),
+rate_NOM (f=302) : rate_VER (f=831), pnme_NAM (f=191), enhance_NAM (f=62), prune_ADJ (f=176), premlp_NOM (f=134), dilater_VER (f=50), nuque_NOM (f=175), foie_NOM (f=1824), prune_NOM (f=191), raie_VER (f=85),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.26153138
+
+
+religieux_NOM (f=1595) : clergé_NOM (f=928), religieux_ADJ (f=8361), prêtres_NOM (f=1532), laïcs_NOM (f=144), catholiques_ADJ (f=3004), chrétiens_NOM (f=1339), christianisme_NOM (f=1094), catholique_ADJ (f=5781), catholicisme_NOM (f=752), religieuses_ADJ (f=4287),
+religieuse_NOM (f=145) : mère_NOM (f=15333), gouvernante_NOM (f=94), adoptive_ADJ (f=105), parente_NOM (f=92), amérindienne_NOM (f=57), marie-madeleine_NAM (f=128), otton_NAM (f=87), catholique_ADJ (f=5781), prélat_NOM (f=164), chaste_ADJ (f=79),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.37728965
+
+
+rieur_NOM (f=61) : rieur_ADJ (f=456), hleury_NAM (f=78), raffiné_VER (f=757), 47-55_NUM (f=59), n-lun_NOM (f=57), mi-sportif_ADJ (f=65), bruis_VER (f=65), n-ton_NOM (f=66), mince_INT (f=123), cherehe_NOM (f=91),
+rieuse_ADJ (f=401) : n-fumeuse_ADJ (f=116), curieuse_ADJ (f=1838), sensuelle_ADJ (f=1479), enjouée_ADJ (f=1383), passionnée_VER (f=3310), n-fam_NOM (f=63), ricaneuse_ADJ (f=62), compréhensive_ADJ (f=258), élancée_ADJ (f=76), joviale_ADJ (f=236),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 4
+distance:0.25818098
+
+
+rigolo_ADJ (f=245) : provocant_ADJ (f=166), séduisant_ADJ (f=402), réjouissant_ADJ (f=245), décapant_ADJ (f=89), cabotin_ADJ (f=93), fascinant_ADJ (f=1077), amusant_ADJ (f=653), coquin_ADJ (f=167), subtil_ADJ (f=900), instructif_ADJ (f=338),
+rigolote_ADJ (f=99) : amusante_ADJ (f=538), irrévérencieuse_ADJ (f=72), impertinente_ADJ (f=57), déjantée_VER (f=90), mièvre_ADJ (f=124), grinçante_ADJ (f=171), décalée_VER (f=128), caricaturale_ADJ (f=200), fascinante_ADJ (f=927), délicieuse_ADJ (f=572),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.44297457
+
+
+rival_NOM (f=2603) : adversaire_NOM (f=6147), concurrent_NOM (f=1832), rival_ADJ (f=509), opposant_NOM (f=863), favori_NOM (f=1356), rivale_NOM (f=784), successeur_NOM (f=2904), allié_NOM (f=1577), coéquipier_NOM (f=1809), prédécesseur_NOM (f=2243),
+rivale_NOM (f=784) : concurrente_NOM (f=211), rival_NOM (f=2603), américaine_NOM (f=2533), rivale_ADJ (f=277), californienne_NOM (f=57), schett_NAM (f=78), adversaire_NOM (f=6147), rivales_NOM (f=322), candidate_NOM (f=3726), concurrent_NOM (f=1832),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 4
+distance:0.52838826
+
+
+riverain_ADJ (f=143) : zoné_VER (f=133), redéveloppement_NOM (f=74), ouareau_NAM (f=56), parc_NOM (f=28974), bowker_NAM (f=121), monorail_NOM (f=71), île-des-s_NOM (f=50), baignable_ADJ (f=60), rivière_NOM (f=7074), aménagé_VER (f=1720),
+riveraine_ADJ (f=186) : riveraines_ADJ (f=313), remblais_NOM (f=57), humides_ADJ (f=1379), inondable_ADJ (f=130), végétation_NOM (f=639), déboisement_NOM (f=226), septiques_ADJ (f=136), inondables_ADJ (f=99), tourbière_NOM (f=104), cheptels_NOM (f=258),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.29717553
+
+
+roi_NOM (f=6405) : prince_NOM (f=4055), gyanendra_NAM (f=61), reine_NOM (f=3273), empereur_NOM (f=1143), fahd_NAM (f=82), souverain_NOM (f=557), abdallah_NAM (f=896), pharaon_NOM (f=190), héritier_NOM (f=952), royaume_NOM (f=2466),
+reine_NOM (f=3273) : souveraine_NOM (f=125), roi_NOM (f=6405), elizabeth_NAM (f=2487), elisabeth_NAM (f=924), reine_NAM (f=811), princesse_NOM (f=1037), majesté_NOM (f=737), gouver-neure_NOM (f=70), duchesse_NOM (f=147), gouverneure_NOM (f=1212),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.57607967
+
+
+roux_NOM (f=144) : roux_ADJ (f=913), vdl2_NAM (f=71), durand_NAM (f=1146), forrester_NAM (f=206), wolton_NAM (f=71), dumas_NAM (f=1590), moustachu_ADJ (f=63), teint_NOM (f=260), chenin_NOM (f=58), tisseyre_NAM (f=133),
+rousse_NOM (f=325) : blonde_ADJ (f=1990), rousse_ADJ (f=410), châtaine_ADJ (f=1124), 5'5'\_ABR (f=70), blonde_NOM (f=1097), 5t\_ABR (f=95), 5'6'\_ABR (f=71), 5'5_NUM (f=2533), 5'3_NUM (f=1265), 50alne_NAM (f=70),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.1854515
+
+
+saint_NOM (f=526) : saint_ADJ (f=8321), jean-sur-richelieu_NAM (f=118), sur-richelieu_NOM (f=55), industriel,saint_NAM (f=136), baptiste_NAM (f=376), samt_NAM (f=59), industrielsaint-jean_NAM (f=65), industriel.saint_NAM (f=289), sl-jean_NAM (f=60), ormeaux_NOM (f=295),
+sainte_ADJ (f=2875) : najaf_NAM (f=254), jihad_NOM (f=144), médine_NAM (f=51), sainte-_NAM (f=351), adèle_NAM (f=377), najaf_NOM (f=473), saintes_ADJ (f=140), martyrs_NOM (f=752), nadjaf_NOM (f=61), saint_ADJ (f=8321),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.34657243
+
+
+savant_NOM (f=327) : philosophe_NOM (f=2629), romancier_NOM (f=2193), physicien_NOM (f=394), écrivain_NOM (f=11328), penseur_NOM (f=815), poète_NOM (f=3933), philosophe_ADJ (f=657), essayiste_NOM (f=1118), mathématicien_NOM (f=242), historien_NOM (f=3365),
+savante_ADJ (f=471) : rythmée_ADJ (f=56), érudite_ADJ (f=73), entraînante_ADJ (f=58), instrumentale_ADJ (f=482), mâtinée_VER (f=50), formaliste_ADJ (f=58), cartésienne_ADJ (f=63), signifiante_ADJ (f=67), rigoureuse_ADJ (f=1227), musicale_ADJ (f=6308),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.32684368
+
+
+serveur_NOM (f=791) : serveurs_NOM (f=696), progiciel_NOM (f=226), ordinateur_NOM (f=4718), xp_NAM (f=308), utilisateur_NOM (f=641), windows_NOM (f=305), portable_ADJ (f=1166), navigateur_NOM (f=339), windows_NAM (f=1565), netscape_NOM (f=104),
+serveuse_NOM (f=383) : prostituée_NOM (f=327), copine_NOM (f=591), maman_NOM (f=2382), caissière_NOM (f=96), narratrice_NOM (f=627), cuisinier_NOM (f=594), fille_NOM (f=13723), chanteuse_NOM (f=3476), réceptionniste_NOM (f=151), mère_NOM (f=15333),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3562862
+
+
+skieur_NOM (f=411) : svindal_NAM (f=97), athlète_NOM (f=2826), patineur_NOM (f=461), cycliste_NOM (f=611), walchhofer_NAM (f=65), super-combiné_NOM (f=55), slalom_NOM (f=1677), skieuse_NOM (f=356), kvitfjell_NAM (f=61), saint-moritz_NAM (f=189),
+skieuse_NOM (f=356) : cavagnoud_NAM (f=104), athlète_NOM (f=2826), brydon_NAM (f=273), gerg_NAM (f=78), goetschl_NAM (f=193), schild_NAM (f=128), plongeuse_NOM (f=141), coureuse_NOM (f=71), jeanson_NAM (f=589), lenzerheide_NAM (f=56),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.54451305
+
+
+soldat_NOM (f=3364) : policier_NOM (f=2440), caporal_NOM (f=558), soldats_NOM (f=16897), manifestant_NOM (f=213), militaire_NOM (f=127), milicien_NOM (f=69), caporal-chef_NOM (f=50), adolescent_NOM (f=1377), commandant_NOM (f=1990), prisonnier_NOM (f=1324),
+soldate_NOM (f=79) : sgrena_NAM (f=51), zahra_VER (f=62), adolescente_NOM (f=818), fillette_NOM (f=1159), giuliana_NAM (f=64), incarcérée_VER (f=52), soldat_NOM (f=3364), photojournaliste_NOM (f=95), palestinienne_NOM (f=168), afghane_NOM (f=64),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.49342898
+
+
+sourd_NOM (f=113) : oreille_NOM (f=3510), épanchement_NOM (f=57), aveugle_NOM (f=601), sanglot_NOM (f=50), apoplexie_NOM (f=68), linceul_NOM (f=71), ennui_NOM (f=1561), affamé_ADJ (f=61), sifflement_NOM (f=55), sourd_ADJ (f=486),
+sourde_ADJ (f=748) : sourd_ADJ (f=486), oreille_NOM (f=3510), rage_NOM (f=2652), insensible_ADJ (f=437), écho_NOM (f=3826), muette_ADJ (f=409), latente_ADJ (f=173), résonner_VER (f=327), silencieuse_ADJ (f=781), indifférente_ADJ (f=199),
+
+score de similarité pure : 2
+score de similarité lemmatisée : 2
+distance:0.3523211
+
+
+spectateur_NOM (f=3665) : visiteur_NOM (f=1573), lecteur_NOM (f=6336), téléspectateur_NOM (f=400), auditeur_NOM (f=490), narrateur_NOM (f=1567), personnage_NOM (f=10856), protagoniste_NOM (f=358), créateur_NOM (f=2008), narratif_ADJ (f=400), badaud_NOM (f=56),
+spectatrice_NOM (f=106) : amusée_VER (f=141), observatrice_NOM (f=110), tragicomédie_NOM (f=58), interlocutrice_NOM (f=56), frustrée_VER (f=92), comédienne_NOM (f=2453), gênée_VER (f=154), réalisatrice_NOM (f=1034), habituée_ADJ (f=88), têtue_ADJ (f=52),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.43793178
+
+
+sportif_NOM (f=309) : invétéré_ADJ (f=73), sportif_ADJ (f=4778), honnête_NOM (f=104), athlète_NOM (f=2826), divorcé_NOM (f=54), costaud_NOM (f=69), intello_NOM (f=1147), politicien_NOM (f=1857), golfeur_NOM (f=624), amateur_NOM (f=3400),
+sportive_NOM (f=164) : épicurienne_NOM (f=50), curieuse_NOM (f=96), ricaneuse_ADJ (f=62), distinguée_ADJ (f=338), 40alne_ADJ (f=65), 30-55_NUM (f=57), extravertie_ADJ (f=60), roadster_NOM (f=82), n-ftim_NOM (f=61), 28-35_NUM (f=64),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.31959194
+
+
+sprinter_NOM (f=269) : sprinteur_NOM (f=89), nageur_NOM (f=241), athlète_NOM (f=2826), asafa_NAM (f=64), usain_NAM (f=64), surin_NOM (f=350), vice-champion_NOM (f=96), coureur_NOM (f=1604), gatlin_NAM (f=131), patineur_NOM (f=461),
+sprinteuse_NOM (f=81) : patineuse_NOM (f=205), championne_NOM (f=2141), marion_NAM (f=1234), coureuse_NOM (f=71), australienne_ADJ (f=939), friesinger_NAM (f=74), disqualifiée_VER (f=75), médaillée_VER (f=626), anissina_NAM (f=57), hilde_NAM (f=66),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.43813202
+
+
+suisse_NOM (f=229) : suisse_NAM (f=9385), suisse_ADJ (f=3377), 810$_ABR (f=55), romande_ADJ (f=108), drachme_NOM (f=512), belge_ADJ (f=3940), belge_NOM (f=631), deutsche_NAM (f=1200), italienne_ADJ (f=3728), haib_NAM (f=95),
+suissesse_NOM (f=497) : martina_NAM (f=773), schnyder_NAM (f=112), hingis_NAM (f=896), clijsters_NAM (f=605), jelena_NAM (f=262), conchita_NAM (f=114), mauresmo_NAM (f=1093), safina_NAM (f=286), jankovic_NAM (f=284), golovin_NAM (f=92),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3116283
+
+
+sujet_NOM (f=30413) : sujet_ADJ (f=3286), propos_NOM (f=24982), concernant_VER (f=10451), question_NOM (f=75916), questionné_VER (f=516), sujets_NOM (f=7198), débat_NOM (f=25110), thème_NOM (f=9410), questionnement_NOM (f=994), commentaire_NOM (f=3696),
+sujette_ADJ (f=333) : assujettie_VER (f=269), soumise_VER (f=2323), assujetti_VER (f=292), sujettes_ADJ (f=151), subordonnée_VER (f=129), subordonné_VER (f=113), attribuable_ADJ (f=2501), approbation_NOM (f=4149), liée_VER (f=5092), tributaire_ADJ (f=456),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.26985422
+
+
+survivant_NOM (f=324) : survivant_VER (f=226), rescapé_NOM (f=109), rescapé_VER (f=149), survivants_NOM (f=1226), terrible_ADJ (f=2723), cataclysme_NOM (f=185), orphelin_NOM (f=238), soldat_NOM (f=3364), accident_NOM (f=5708), traumatisme_NOM (f=513),
+survivante_NOM (f=131) : fillette_NOM (f=1159), rescapée_VER (f=61), adolescente_NOM (f=818), victime_NOM (f=7540), fille_NOM (f=13723), mère_NOM (f=15333), maltraitée_VER (f=51), orpheline_NOM (f=78), adoptive_ADJ (f=105), éplorée_ADJ (f=56),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.42411444
+
+
+suspect_NOM (f=885) : suspects_NOM (f=1519), policier_NOM (f=2440), meurtrier_NOM (f=373), tireur_NOM (f=589), khafagy_NAM (f=67), ressam_NAM (f=412), présumé_VER (f=1840), namouh_NAM (f=61), détenu_NOM (f=551), malvo_NAM (f=57),
+suspecte_ADJ (f=446) : dangereuse_ADJ (f=1990), confuse_ADJ (f=345), mystérieuse_ADJ (f=921), nauséabonde_ADJ (f=50), étrange_ADJ (f=3588), inquiétante_ADJ (f=1144), suspecte_VER (f=72), superflue_ADJ (f=114), suspect_ADJ (f=896), encombrante_ADJ (f=99),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3331462
+
+
+tailleur_NOM (f=217) : blouson_NOM (f=59), costume_NOM (f=1244), pantalon_NOM (f=554), vêtue_VER (f=338), turban_NOM (f=216), chemise_NOM (f=895), béret_NOM (f=114), brodée_VER (f=66), habillé_VER (f=357), pull_NOM (f=71),
+tailleuse_NOM (f=88) : sijie_NAM (f=138), balzac_NAM (f=534), dai_NAM (f=153), allende_VER (f=68), geisha_NOM (f=134), grasset_NOM (f=197), actes_VER (f=112), -format_ADJ (f=51), grasset_ADJ (f=721), servante_NOM (f=178),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.24870339
+
+
+terrien_ADJ (f=87) : frère_NOM (f=8089), illuminé_NOM (f=82), rusé_ADJ (f=60), mafioso_NOM (f=51), taciturne_ADJ (f=138), délinquant_ADJ (f=167), mystérieux_ADJ (f=1441), ivrogne_ADJ (f=85), brigand_NOM (f=64), prénommé_VER (f=64),
+terrienne_ADJ (f=66) : mâtinée_VER (f=50), enivrante_ADJ (f=94), puissante_ADJ (f=2247), agissante_ADJ (f=70), fuyante_ADJ (f=71), capiteuse_ADJ (f=60), primitive_ADJ (f=207), érudite_ADJ (f=73), personnification_NOM (f=65), vivifiante_ADJ (f=74),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.38657743
+
+
+traducteur_NOM (f=876) : romancier_NOM (f=2193), poète_NOM (f=3933), traductrice_NOM (f=239), dramaturge_NOM (f=1569), écrivain_NOM (f=11328), musicien_NOM (f=2911), illustrateur_NOM (f=323), traduction_NOM (f=5619), journaliste_NOM (f=13495), auteur_NOM (f=26411),
+traductrice_NOM (f=239) : écrivaine_ADJ (f=185), comédienne_NOM (f=2453), romancière_NOM (f=1251), écrivaine_NOM (f=1308), traducteur_NOM (f=876), lectrice_NOM (f=382), poétesse_NOM (f=203), confidente_NOM (f=76), dramaturge_NOM (f=1569), musicienne_NOM (f=535),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 2
+distance:0.51609075
+
+
+travailleur_NOM (f=1561) : travailleur_ADJ (f=310), employé_NOM (f=2359), salarié_NOM (f=337), ouvrier_NOM (f=469), agriculteur_NOM (f=405), médecin_NOM (f=8581), enseignant_NOM (f=1624), camionneur_NOM (f=147), travailleuse_NOM (f=359), chômeur_NOM (f=234),
+travailleuse_NOM (f=359) : travailleuse_ADJ (f=75), infirmière_NOM (f=1756), intervenante_NOM (f=96), travailleur_NOM (f=1561), femme_NOM (f=36350), enseignante_NOM (f=811), étudiante_NOM (f=904), fille_NOM (f=13723), monoparentale_ADJ (f=356), féministe_NOM (f=240),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.49605402
+
+
+tueur_NOM (f=1627) : tireur_NOM (f=589), meurtrier_NOM (f=373), tueurs_NOM (f=586), prédateur_NOM (f=276), assassin_NOM (f=436), suspect_NOM (f=885), détectives_NOM (f=733), policier_NOM (f=2440), violeur_NOM (f=81), 22h40_NAM (f=77),
+tueuse_NOM (f=92) : n-lun_NOM (f=57), n-ton_NOM (f=66), mince_INT (f=123), extravertie_ADJ (f=60), 48-58_NUM (f=117), 40alne_NAM (f=59), compréhensive_ADJ (f=258), 35-46_NUM (f=50), attentionnée_ADJ (f=334), 36-45_NUM (f=83),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4041525
+
+
+turc_NOM (f=226) : turc_ADJ (f=1416), irakien_NOM (f=422), ceyhan_NAM (f=55), kurde_NOM (f=119), allemand_NOM (f=1500), tadjik_ADJ (f=61), américain_NOM (f=4437), espagnol_ADJ (f=6814), persan_NOM (f=74), nouri_NAM (f=84),
+turque_ADJ (f=1048) : libanaise_ADJ (f=1249), israélienne_ADJ (f=6226), kurde_ADJ (f=1107), iranienne_ADJ (f=1542), turc_ADJ (f=1416), irakienne_ADJ (f=3747), macédonienne_ADJ (f=154), allemande_ADJ (f=4116), syrienne_ADJ (f=717), italienne_ADJ (f=3728),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 4
+distance:0.29629636
+
+
+vagabond_NOM (f=84) : stoïque_ADJ (f=102), romancier_NOM (f=2193), personnage_NOM (f=10856), lutin_NOM (f=58), narrateur_NOM (f=1567), écrivain_NOM (f=11328), affamé_ADJ (f=61), vagabond_ADJ (f=81), blafard_ADJ (f=50), séducteur_NOM (f=154),
+vagabonde_ADJ (f=52) : méditative_ADJ (f=111), jaunâtre_ADJ (f=55), poétique_NOM (f=269), éthérée_ADJ (f=78), mâtinée_VER (f=50), incarnée_ADJ (f=67), exaltée_VER (f=87), kaléidoscopique_ADJ (f=50), mélancolie_NOM (f=745), contemporanéité_NOM (f=71),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4805748
+
+
+vendeur_NOM (f=1175) : vendeur_ADJ (f=455), marchand_NOM (f=967), commerçant_NOM (f=363), revendeur_NOM (f=87), vendeurs_NOM (f=1246), acheteur_NOM (f=1489), client_NOM (f=5287), fournisseur_NOM (f=2171), producteur_NOM (f=3706), gestionnaire_NOM (f=2460),
+vendeuse_NOM (f=129) : caissière_NOM (f=96), copine_NOM (f=591), serveuse_NOM (f=383), amie_NOM (f=2268), admiratrice_NOM (f=67), starlette_NOM (f=63), employée_NOM (f=603), confidente_NOM (f=76), gérante_NOM (f=143), blonde_NOM (f=1097),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4252723
+
+
+veuf_NOM (f=180) : veuf_ADJ (f=304), veuve_ADJ (f=900), divorcée_NOM (f=63), divorcée_VER (f=268), femme_NOM (f=36350), épouse_NOM (f=7159), célibataire_ADJ (f=1283), amant_NOM (f=1395), ans_NOM (f=278886), mignonne_NOM (f=65),
+veuve_NOM (f=816) : veuve_ADJ (f=900), femme_NOM (f=36350), fille_NOM (f=13723), amant_NOM (f=1395), épouse_NOM (f=7159), amoureuse_NOM (f=439), divorcée_NOM (f=63), mère_NOM (f=15333), fenune_NOM (f=91), compagne_NOM (f=2387),
+
+score de similarité pure : 5
+score de similarité lemmatisée : 4
+distance:0.37901697
+
+
+vieux_NOM (f=5070) : vieux_ADJ (f=12969), grincheux_ADJ (f=119), 514.845.5545_NUM (f=714), pote_ADJ (f=57), papy_NOM (f=53), petits_NOM (f=3771), style_NOM (f=12796), vieil_ADJ (f=1655), copains_NOM (f=827), amoureux_NOM (f=2316),
+vieille_NOM (f=314) : vieille_ADJ (f=7039), fille_NOM (f=13723), coccinelle_NOM (f=107), catapulte_NOM (f=96), petite_NOM (f=125), caravane_NOM (f=587), roulotte_NOM (f=351), fide_NOM (f=60), camionnette_NOM (f=460), proprette_ADJ (f=54),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 2
+distance:0.34727845
+
+
+vilain_NOM (f=156) : bandit_NOM (f=144), méchant_NOM (f=365), caricatural_ADJ (f=171), personnage_NOM (f=10856), arriviste_NOM (f=51), salaud_NOM (f=117), antihéros_NOM (f=164), paranoïaque_ADJ (f=183), séducteur_NOM (f=154), machiavélique_ADJ (f=164),
+vilaine_ADJ (f=190) : mauvaise_ADJ (f=7627), jambe_NOM (f=1088), dure_ADJ (f=2427), affreuse_ADJ (f=100), pourrie_VER (f=73), vicieuse_ADJ (f=79), cassée_ADJ (f=85), nasale_ADJ (f=50), calvitie_NOM (f=87), capricieuse_ADJ (f=120),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.32217622
+
+
+villageois_NOM (f=583) : paysans_NOM (f=1482), civils_NOM (f=4141), afghans_NOM (f=1300), géorgiens_NOM (f=113), irakiens_NOM (f=3005), tchétchènes_NOM (f=286), afghans_ADJ (f=1697), survivants_NOM (f=1226), talibans_NOM (f=7165), chiites_NOM (f=1161),
+villageoise_ADJ (f=59) : recluse_ADJ (f=50), tourmentée_VER (f=198), délabrée_VER (f=61), dysfonctionnelle_ADJ (f=130), pieuse_ADJ (f=73), ravissante_ADJ (f=227), criminelle_NOM (f=67), habitée_ADJ (f=57), esseulée_ADJ (f=50), mourante_ADJ (f=58),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.2753139
+
+
+visiteur_NOM (f=1573) : spectateur_NOM (f=3665), lecteur_NOM (f=6336), badaud_NOM (f=56), visiteurs_NOM (f=6480), téléspectateur_NOM (f=400), narrateur_NOM (f=1567), voyageur_NOM (f=1071), quidam_NOM (f=243), artiste_NOM (f=12626), auditeur_NOM (f=490),
+visiteuse_NOM (f=59) : employée_NOM (f=603), entraîneuse_NOM (f=58), visiteur_NOM (f=1573), équipe_NOM (f=58608), figurine_NOM (f=57), compatissante_ADJ (f=57), bondée_ADJ (f=68), accroche_NOM (f=69), soucoupe_NOM (f=100), excitation_NOM (f=423),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.4335664
+
+
+vivant_NOM (f=4955) : domicilié_VER (f=1820), domiciliée_VER (f=1404), résidant_VER (f=2008), vivant_VER (f=3777), vivant_ADJ (f=628), demeurant_ADJ (f=167), demeurant_VER (f=643), rivant_VER (f=120), résidé_VER (f=95), feue_ADJ (f=245),
+vivante_ADJ (f=2211) : fraîche_ADJ (f=1221), singulière_ADJ (f=942), vibrante_ADJ (f=435), vivifiante_ADJ (f=74), colorée_VER (f=586), sereine_ADJ (f=494), fascinante_ADJ (f=927), mystérieuse_ADJ (f=921), vivant_ADJ (f=628), réconfortante_ADJ (f=126),
+
+score de similarité pure : 1
+score de similarité lemmatisée : 1
+distance:0.31731167
+
+
+voisin_NOM (f=3147) : voisin_ADJ (f=1709), voisins_NOM (f=4566), cousin_NOM (f=910), voisine_NOM (f=838), copain_NOM (f=797), voisinage_NOM (f=730), oncle_NOM (f=1529), vis-à-vis_NOM (f=892), père_NOM (f=22943), ami_NOM (f=8706),
+voisine_NOM (f=838) : copine_NOM (f=591), mère_NOM (f=15333), fille_NOM (f=13723), amie_NOM (f=2268), grand-mère_NOM (f=1907), cousine_NOM (f=402), voisine_ADJ (f=1450), voisin_NOM (f=3147), blonde_NOM (f=1097), maman_NOM (f=2382),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 3
+distance:0.5123428
+
+
+voyageur_NOM (f=1071) : voyageur_ADJ (f=1386), touriste_NOM (f=1026), lecteur_NOM (f=6336), voyage_NOM (f=17209), visiteur_NOM (f=1573), marcheur_NOM (f=117), narrateur_NOM (f=1567), citoyen_NOM (f=6656), aventurier_ADJ (f=208), poète_NOM (f=3933),
+voyageuse_NOM (f=194) : voyageuse_ADJ (f=144), retraitée_NOM (f=460), raffinee_NOM (f=52), épicurienne_NOM (f=50), ricaneuse_ADJ (f=62), 55-62_NUM (f=127), divorcée_NOM (f=63), amoureuse_ADJ (f=3978), amoureuse_NOM (f=439), rouquine_NOM (f=59),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 1
+distance:0.33582753
+
+
+voyant_NOM (f=195) : voyant_VER (f=2041), écoutant_VER (f=687), regardant_VER (f=1263), entendant_VER (f=375), lisant_VER (f=1306), apercevant_VER (f=88), écoutant_NOM (f=78), là-haut_ADV (f=222), soudain_ADV (f=1605), disant_VER (f=6031),
+voyante_ADJ (f=61) : idiote_ADJ (f=68), aguichante_ADJ (f=52), surannée_ADJ (f=83), névrosée_ADJ (f=58), hystérique_ADJ (f=237), souffrante_ADJ (f=106), évanescente_ADJ (f=90), coquetterie_NOM (f=109), confuse_ADJ (f=345), pieuse_ADJ (f=73),
+
+score de similarité pure : 0
+score de similarité lemmatisée : 0
+distance:0.3345032
+
