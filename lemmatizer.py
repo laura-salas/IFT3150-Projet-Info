@@ -1,6 +1,8 @@
 # Noms : Thalie St-Jacques et Laura Salas
 # Date : 25-01-2022
 import pandas as pd
+import spacy
+
 
 def read_src(src_path):
     lines = open(src_path, "r", encoding="utf-8").read().splitlines()
@@ -14,7 +16,7 @@ def read_src(src_path):
         treated_txt.append('\t'.join(split_line))
 
 #TODO : améliorer le code car un peu redondant
-def lemmatize(word_pos):
+def lex_lemmatize(word_pos):
     # Source : http://www.lexique.org/?page_id=76
     word_pos_tab = word_pos.split("_")
     word = word_pos_tab[0]
@@ -36,13 +38,20 @@ def lemmatize(word_pos):
         lemma = word
     return (lemma_pos,lemma)
 
+def lemmatize(words):
+    nlp = spacy.load("fr_core_news_sm")
+    lemmatizer = nlp.get_pipe("lemmatizer")
+    tokens = nlp(words)
+    lemmas = [token.lemma_ for token in tokens]
+    return lemmas
+
+
 
 
 def main():
 
     src_path = ""
     #read_src(src_path)
-    lemmatize('absentes_ADJ')
 
     # pseudocode lemmatizer
     # lire input
@@ -51,6 +60,8 @@ def main():
         # si non, lemmatiser
     # après avoir tout lu et traité le input, produire vecteurs
     # (pas une mince tâche tout de même)
+    # lemmatize("Je suis malade")
+    lemmatize(["Je","suis","malade"])
 
 
 

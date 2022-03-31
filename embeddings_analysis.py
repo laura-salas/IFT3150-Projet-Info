@@ -115,7 +115,7 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
     # TODO: verifier si la frequence c'est le count ou le %
     word_count = model.wv.get_vecattr(word_key, "count")
-    write_file(RESULT_PATH, "\n" + word_key +" (f="+str(word_count)+") : ", "a")
+    write_file(RESULT_PATH, "\n\n" + word_key +" (f="+str(word_count)+") : ", "a")
 
     # words used in a similar context as the target
     write_file(RESULT_PATH, " ".join(sim[0]+" (f="+str(model.wv.get_vecattr(sim[0], "count")) + ")," for sim in similar_neighbours), "a")
@@ -138,7 +138,6 @@ def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, i
     write_file(RESULT_PATH, '\ndistance:' + str(dist) + '\n', "a")
     return dist
 
-
 def get_similarity_score(model, complete_key_masc, complete_key_fem):
     """
     Get the similarity score between the masculine and feminine of a word (sharing same
@@ -150,50 +149,27 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     :param complete_key_fem:
     :return:
     """
-    sims_m = set([s[0] for s in find_similar_neighbours(model, complete_key_masc)])
+
+    sims_m = [s[0] for s in find_similar_neighbours(model, complete_key_masc)]
     sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
 
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
-    score1 = sum([1 if sim_f in sims_m else 0 for sim_f in sims_f])
+    score1 = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
     write_file(RESULT_PATH, '\n\nscore de similarité pure : ' + str(score1) + '\n', "a")
 
-    # score de similarité basé sur l'équivalence "lemmatique" entre les sims_f et les sims_m
-    # pseudocode
-    # faire un set de lemmes associés aux sims_m et un set de lemmes associés aux sims_f
     score2 = 0
-    l_s_m = []
-    for sim_m in sims_m:
-        l_s_m.append(lemmatize(sim_m))
-    lemmes_sims_m = Counter(l[0] for l in l_s_m)
-    l_s_f = []
-    for sim_f in sims_f:
-        l_s_f.append(lemmatize(sim_f))
-    lemmes_sims_m = Counter(l[0] for l in l_s_m)
-    lemmes_sims_f = Counter(l[0] for l in l_s_f)
-    for lemme_sims_m in lemmes_sims_m.keys():
+    raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
+    raw_sims_f = [sim_f.split("_")[0] for sim_f in sims_f]
+
+    lemmas_sims_m = Counter(lemmatize(' '.join(raw_sims_m)))
+    lemmas_sims_f = Counter(lemmatize(' '.join(raw_sims_f)))
+    for lemma_sims_m in lemmas_sims_m.keys():
         # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
-        if lemme_sims_m in lemmes_sims_f.keys():
+        if lemma_sims_m in lemmas_sims_f.keys():
             # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
-            score2+=min(lemmes_sims_m[lemme_sims_m],lemmes_sims_f[lemme_sims_m])
-
-    # ex. de noms problematiques :  absent_NOM vs absent_ADJ lemme de favorite = favorite
-    # todo : choisir quoi faire avec ca; peut-etre score3
-    write_file(RESULT_PATH, '\nscore de similarité lemmatisé (avec pos) :' + str(score2) + '\n', "a")
-
-    score3 = 0
-    lemmes_sims_m = Counter(l[1] for l in l_s_m)
-    lemmes_sims_f = Counter(l[1] for l in l_s_f)
-    for lemme_sims_m in lemmes_sims_m.keys():
-        # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
-        if lemme_sims_m in lemmes_sims_f.keys():
-            # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
-            score3+=min(lemmes_sims_m[lemme_sims_m],lemmes_sims_f[lemme_sims_m])
-
-    # ex. de noms problematiques :  absent_NOM vs absent_ADJ lemme de favorite = favorite
-    # todo : choisir quoi faire avec ca; peut-etre score3
-    write_file(RESULT_PATH, '\nscore de similarité lemmatisé :' + str(score3) + '\n', "a")
-
-    return score
+            score2+=min(lemmas_sims_m[lemma_sims_m],lemmas_sims_f[lemma_sims_m])
+    write_file(RESULT_PATH, '\nscore de similarité lemmatisée : ' + str(score2) + '\n', "a")
+    return score1
 
 
 def process_pairs(model, pairs, vocab):
@@ -231,7 +207,7 @@ def process_pairs(model, pairs, vocab):
     dist_avg = sum(distances) / len(distances)
     print("distance moyenne:", dist_avg)
     similarity_score_avg = sum(similarity_scores) / len(similarity_scores)
-    print("score sim moyen:", similarity_score_avg)
+    print("score1 moyen:", similarity_score_avg)
 
 
 def main():
@@ -248,6 +224,7 @@ def main():
     process_pairs(model, find_nouns(lines_reference), vocab)
     # appel de fonctions pour étudier des paires d'adjectifs
     # process_pairs(model, find_adjs(lines_reference), vocab)
+    # todo : faire un top10 des noms avec le plus de distance
 
 
 if __name__ == '__main__':
