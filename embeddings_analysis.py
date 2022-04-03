@@ -1,10 +1,15 @@
 import sys
-#import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
+
+from nltk.stem.snowball import SnowballStemmer
+
+#NLTK stemmer
+stemmer = SnowballStemmer(language='french')
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -90,6 +95,7 @@ def assign_POS_key(key: str, vocab: str):
         else key + '_ADJ' if key + '_ADJ' in vocab \
         else None
 
+
 def lemme(word):
     lemme = ""
     # voir code assign_infos.py
@@ -115,10 +121,11 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
     # TODO: verifier si la frequence c'est le count ou le %
     word_count = model.wv.get_vecattr(word_key, "count")
-    write_file(RESULT_PATH, "\n" + word_key +" (f="+str(word_count)+") : ", "a")
+    write_file(RESULT_PATH, "\n" + word_key + " (f=" + str(word_count) + ") : ", "a")
 
     # words used in a similar context as the target
-    write_file(RESULT_PATH, " ".join(sim[0]+" (f="+str(model.wv.get_vecattr(sim[0], "count")) + ")," for sim in similar_neighbours), "a")
+    write_file(RESULT_PATH, " ".join(
+        sim[0] + " (f=" + str(model.wv.get_vecattr(sim[0], "count")) + ")," for sim in similar_neighbours), "a")
 
     return similar_neighbours
 
@@ -138,6 +145,7 @@ def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, i
     write_file(RESULT_PATH, '\ndistance:' + str(dist) + '\n\n', "a")
     return dist
 
+
 def get_similarity_score(model, complete_key_masc, complete_key_fem):
     """
     Get the similarity score between the masculine and feminine of a word (sharing same
@@ -154,22 +162,49 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
 
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
-    score1 = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
-    write_file(RESULT_PATH, '\n\nscore de similarité pure : ' + str(score1), "a")
+    scoreSimPure = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
+    write_file(RESULT_PATH, '\n\nscore de similarité pure : ' + str(scoreSimPure), "a")
 
-    score2 = 0
+    scoreSimLemma = 0
     raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
     raw_sims_f = [sim_f.split("_")[0] for sim_f in sims_f]
 
+    #todo: je comprends pas comment ceci est un dictionnaire ;-;
     lemmas_sims_m = Counter(lemmatize(' '.join(raw_sims_m)))
     lemmas_sims_f = Counter(lemmatize(' '.join(raw_sims_f)))
     for lemma_sims_m in lemmas_sims_m.keys():
         # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
         if lemma_sims_m in lemmas_sims_f.keys():
             # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
-            score2+=min(lemmas_sims_m[lemma_sims_m],lemmas_sims_f[lemma_sims_m])
-    write_file(RESULT_PATH, '\nscore de similarité lemmatisée : ' + str(score2), "a")
-    return score1
+            scoreSimLemma += min(lemmas_sims_m[lemma_sims_m], lemmas_sims_f[lemma_sims_m])
+
+    write_file(RESULT_PATH, '\nscore de similarité lemmatisée : ' + str(scoreSimLemma), "a")
+
+    scoreSimStemmed = 0
+    raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
+    raw_sims_f = [sim_f.split("_")[0] for sim_f in sims_f]
+
+    stemmed_sims_m = []
+    stemmed_sims_f = []
+
+    for sim_idx in range(len(raw_sims_m)):
+        a = raw_sims_m[sim_idx]
+        b = stemmer.stem(a)
+        stemmed_sims_m.append(stemmer.stem(raw_sims_m[sim_idx]))
+        stemmed_sims_f.append(stemmer.stem(raw_sims_f[sim_idx]))
+
+    stemmed_sims_m = Counter(stemmed_sims_m)
+    stemmed_sims_f = Counter(stemmed_sims_f)
+
+    for stemmed_sim_m in stemmed_sims_m.keys():
+        # pour chaque lemme, s'il est présent dans les sets de lemmes de sims_m et de sims_f:
+        if stemmed_sim_m in stemmed_sims_f.keys():
+            # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
+            scoreSimStemmed += min(stemmed_sims_m[stemmed_sim_m], stemmed_sims_f[stemmed_sim_m])
+
+    write_file(RESULT_PATH, '\nscore de similarité stemmed : ' + str(scoreSimStemmed), "a")
+
+    return scoreSimPure
 
 
 def process_pairs(model, pairs, vocab):
@@ -204,7 +239,6 @@ def process_pairs(model, pairs, vocab):
 
 
 def main():
-
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
     model = Word2Vec.load(MODEL_PATH)

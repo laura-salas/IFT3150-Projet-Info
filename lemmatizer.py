@@ -3,6 +3,8 @@
 import pandas as pd
 import spacy
 
+nlp = spacy.load("fr_core_news_sm")
+lemmatizer = nlp.get_pipe("lemmatizer")
 
 def read_src(src_path):
     lines = open(src_path, "r", encoding="utf-8").read().splitlines()
@@ -38,9 +40,8 @@ def lex_lemmatize(word_pos):
         lemma = word
     return (lemma_pos,lemma)
 
+
 def lemmatize(words):
-    nlp = spacy.load("fr_core_news_sm")
-    lemmatizer = nlp.get_pipe("lemmatizer")
     tokens = nlp(words)
     lemmas = [token.lemma_ for token in tokens]
     return lemmas
