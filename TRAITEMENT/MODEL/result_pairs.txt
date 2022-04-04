@@ -1,0 +1,3 @@
+global_ref	paire (m)	paire (f)	
+0	danceur	danceuse	
+1	chanteur	chanteuse	
