@@ -8,7 +8,7 @@ from collections import Counter
 
 from nltk.stem.snowball import SnowballStemmer
 
-#NLTK stemmer
+# NLTK stemmer
 stemmer = SnowballStemmer(language='french')
 
 # PATHS #
@@ -16,14 +16,103 @@ stemmer = SnowballStemmer(language='french')
 WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
 # The path to the current Gensym model
 MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
-# The ouput path
+# The output paths
 RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
+# note, the paths below require the output to be specified like so:
+# PAIRS_PATH % "txt" , or PAIRS_PATH % "csv", etc
+PAIRS_PATH = "TRAITEMENT/MODEL/result_pairs.%s"
+NEIGHBORS_PATH = "TRAITEMENT/MODEL/result_neighbours.%s"
+PUR_SIM_PATH = "TRAITEMENT/MODEL/result_sim_pure.%s"
+LEM_SIM_PATH = "TRAITEMENT/MODEL/result_sim_lemm.%s"
+STE_SIM_PATH = "TRAITEMENT/MODEL/result_sim_stem.%s"
 # Sample vocabulary to provide
 SAMPLE_VOCAB = "sample_vocab.txt"
 
 # CONSTANTS #
 VOCAB_N = 1000
 SIMILAR_WORDS_TO_GET = 10
+
+
+class dataType:
+    def __init__(self, name, headers, output_path):
+        self.name = name
+        self.headers = headers
+        self.output_path = output_path
+        self.content = []
+
+    def __add__(self, new_data: [any]):
+        self.content.append([item for item in line] for line in new_data)
+
+    def get_output(self):
+        # each sub-array of output will be a line
+        output = [self.headers]
+        for data in self.content:
+            for item in data:
+                new_line = []
+                for elem in item:
+                    new_line.append(str(elem))
+                output.append(new_line)
+        return output
+
+    def __str__(self):
+        master_str = ""
+        for line in self.get_output():
+            currLine = ""
+            for item in line:
+                currLine += item + "\t"
+            master_str += currLine + "\n"
+        return master_str
+
+    def output_as_txt(self):
+        master_str = ""
+        for line in self.get_output():
+            currLine = ""
+            for item in line:
+                currLine += item + "\t"
+            master_str += currLine + "\n"
+        write_file(self.output_path % "txt", master_str, "w")
+
+    # todo: use python lib for this haha
+    # def output_as_json(self):
+    #     output = self.get_output()
+    #     master_str = "{\n"
+    #
+    #     for line in output[1:]:
+    #         master_str += "\t{\n"
+    #         for header_idx, header in enumerate(self.headers):
+    #             master_str += '\t\t"%s": ' % header
+    #
+    #             if type(line[header_idx]) is str:
+    #                 master_str += '"%s",\n' % line[header_idx]
+    #             elif type(line[header_idx]) is int:
+    #                 master_str += '%d,\n' % line[header_idx]
+    #             elif type(line[header_idx]) is float:
+    #                 master_str += ' %6.3f,\n' % line[header_idx]
+    #         master_str += "\t},\n"
+    #     master_str += "}"
+    #     write_file(self.output_path % "json", master_str, "w")
+
+    def output_as_csv(self):
+        """
+        Note: CSVs follow the following convention
+        "header1","header2",...
+        "data1","data2",...
+        """
+        master_str = ""
+        for line in self.get_output():
+            currLine = ""
+            for item in line:
+                currLine += '"%s",' % item
+            master_str += currLine + "\n"
+        write_file(self.output_path % "csv", master_str, "w")
+
+    def output_all(self):
+        self.output_as_txt()
+        self.output_as_csv()
+        # self.output_as_json()
+
+
+
 
 
 def write_file(file_name: str, content: str, mode="w") -> None:
@@ -169,7 +258,7 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
     raw_sims_f = [sim_f.split("_")[0] for sim_f in sims_f]
 
-    #todo: je comprends pas comment ceci est un dictionnaire ;-;
+    # todo: je comprends pas comment ceci est un dictionnaire ;-;
     lemmas_sims_m = Counter(lemmatize(' '.join(raw_sims_m)))
     lemmas_sims_f = Counter(lemmatize(' '.join(raw_sims_f)))
     for lemma_sims_m in lemmas_sims_m.keys():
@@ -207,7 +296,7 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     return scoreSimPure
 
 
-def process_pairs(model, pairs, vocab):
+def process_pairs(model, pairs, vocab, dataRef):
     """
     model
     :param model:
@@ -230,6 +319,7 @@ def process_pairs(model, pairs, vocab):
 
         # TODO : vérifier que les deux clés sont dans la meme POS aussi
         if word_key_masc is not None and word_key_fem is not None:
+            dataRef += [key_fem, key_masc]
             # TODO : lemmatiser le key fem pour comparer le string avec le key masc
             similarity_score = get_similarity_score(model, word_key_masc, word_key_fem)
             distance = calculate_distance(model, word_key_masc, word_key_fem)
@@ -239,6 +329,13 @@ def process_pairs(model, pairs, vocab):
 
 
 def main():
+    # OUR DATA TYPES
+    pairss = dataType("paires", ["global_ref", "paire (m)", "paire (f)"], PAIRS_PATH)
+    neighbours_ = dataType("voisins", ["ref_id", "voisins"], PAIRS_PATH)
+    pureSimScore_ = dataType("score similarité pure", ["ref_id", "score"], PAIRS_PATH)
+    stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score"], PAIRS_PATH)
+    lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score"], PAIRS_PATH)
+
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
     model = Word2Vec.load(MODEL_PATH)
@@ -248,10 +345,10 @@ def main():
 
     # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
-    process_pairs(model, find_nouns(lines_reference), vocab)
+    process_pairs(model, find_nouns(lines_reference), vocab, pairss)
     # appel de fonctions pour étudier des paires d'adjectifs
     # process_pairs(model, find_adjs(lines_reference), vocab)
-    # todo : faire un top10 des noms avec le plus de distance
+    # # todo : faire un top10 des noms avec le plus de distance
 
 
 if __name__ == '__main__':
