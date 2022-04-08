@@ -22,6 +22,7 @@ RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
 # PAIRS_PATH % "txt" , or PAIRS_PATH % "csv", etc
 PAIRS_PATH = "TRAITEMENT/MODEL/result_pairs.%s"
 NEIGHBORS_PATH = "TRAITEMENT/MODEL/result_neighbours.%s"
+DISTANCES_PATH = "TRAITEMENT/MODEL/result_distances.%s"
 PUR_SIM_PATH = "TRAITEMENT/MODEL/result_sim_pure.%s"
 LEM_SIM_PATH = "TRAITEMENT/MODEL/result_sim_lemm.%s"
 STE_SIM_PATH = "TRAITEMENT/MODEL/result_sim_stem.%s"
@@ -40,18 +41,17 @@ class dataType:
         self.output_path = output_path
         self.content = []
 
-    def __add__(self, new_data: [any]):
-        self.content.append([item for item in line] for line in new_data)
+    def add_data(self, new_data: [any]):
+        self.content.append([line for line in new_data])
 
     def get_output(self):
         # each sub-array of output will be a line
         output = [self.headers]
         for data in self.content:
+            new_line = []
             for item in data:
-                new_line = []
-                for elem in item:
-                    new_line.append(str(elem))
-                output.append(new_line)
+                new_line.append(item)
+            output.append(new_line)
         return output
 
     def __str__(self):
@@ -59,17 +59,12 @@ class dataType:
         for line in self.get_output():
             currLine = ""
             for item in line:
-                currLine += item + "\t"
+                currLine += str(item) + "\t"
             master_str += currLine + "\n"
         return master_str
 
     def output_as_txt(self):
-        master_str = ""
-        for line in self.get_output():
-            currLine = ""
-            for item in line:
-                currLine += item + "\t"
-            master_str += currLine + "\n"
+        master_str = str(self)
         write_file(self.output_path % "txt", master_str, "w")
 
     # todo: use python lib for this haha
@@ -235,7 +230,8 @@ def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, i
     return dist
 
 
-def get_similarity_score(model, complete_key_masc, complete_key_fem):
+def get_similarity_score(model, complete_key_masc, complete_key_fem,
+                         pureSimScore, stemSimScore, lemSimScore, neighbours_, pairNo):
     """
     Get the similarity score between the masculine and feminine of a word (sharing same
     root lemma)
@@ -250,9 +246,12 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
     sims_m = [s[0] for s in find_similar_neighbours(model, complete_key_masc)]
     sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
 
+    neighbours_.add_data([pairNo, sims_m, sims_f])
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
     scoreSimPure = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
+
     write_file(RESULT_PATH, '\n\nscore de similarité pure : ' + str(scoreSimPure), "a")
+    pureSimScore.add_data([pairNo, scoreSimPure])
 
     scoreSimLemma = 0
     raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
@@ -268,6 +267,7 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
             scoreSimLemma += min(lemmas_sims_m[lemma_sims_m], lemmas_sims_f[lemma_sims_m])
 
     write_file(RESULT_PATH, '\nscore de similarité lemmatisée : ' + str(scoreSimLemma), "a")
+    lemSimScore.add_data([pairNo, scoreSimLemma])
 
     scoreSimStemmed = 0
     raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
@@ -290,15 +290,18 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem):
         if stemmed_sim_m in stemmed_sims_f.keys():
             # examiner le nombre de sims_m/sims_f associés au lemme et prendre le plus petit des deux
             scoreSimStemmed += min(stemmed_sims_m[stemmed_sim_m], stemmed_sims_f[stemmed_sim_m])
-
+    stemSimScore.add_data([pairNo, scoreSimStemmed])
     write_file(RESULT_PATH, '\nscore de similarité stemmed : ' + str(scoreSimStemmed), "a")
 
     return scoreSimPure
 
 
-def process_pairs(model, pairs, vocab, dataRef):
+def process_pairs(model, pairs, vocab, pairs_,
+                  pureSimScore_, stemSimScore_,
+                  lemSimScore_, neighbours_, distances_):
     """
     model
+    :param pairs_:
     :param model:
     :param pairs:
     :param vocab:
@@ -319,22 +322,29 @@ def process_pairs(model, pairs, vocab, dataRef):
 
         # TODO : vérifier que les deux clés sont dans la meme POS aussi
         if word_key_masc is not None and word_key_fem is not None:
-            dataRef += [key_fem, key_masc]
+            pairs_.add_data([str(pairs_amount), str(key_fem), str(key_masc)])
             # TODO : lemmatiser le key fem pour comparer le string avec le key masc
-            similarity_score = get_similarity_score(model, word_key_masc, word_key_fem)
+            similarity_score = get_similarity_score(model, word_key_masc,
+                                                    word_key_fem, pureSimScore_,
+                                                    stemSimScore_, lemSimScore_,
+                                                    neighbours_,
+                                                    pairs_amount)
             distance = calculate_distance(model, word_key_masc, word_key_fem)
-            pairs_amount += 1
+
             distances.append(distance)
+            distances_.add_data([pairs_amount, distance])
             similarity_scores.append(similarity_score)
+            pairs_amount += 1
 
 
 def main():
     # OUR DATA TYPES
-    pairss = dataType("paires", ["global_ref", "paire (m)", "paire (f)"], PAIRS_PATH)
-    neighbours_ = dataType("voisins", ["ref_id", "voisins"], PAIRS_PATH)
-    pureSimScore_ = dataType("score similarité pure", ["ref_id", "score"], PAIRS_PATH)
-    stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score"], PAIRS_PATH)
-    lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score"], PAIRS_PATH)
+    pairs_ = dataType("paires", ["global_ref", "paire (m)", "paire (f)"], PAIRS_PATH)
+    neighbours_ = dataType("voisins", ["ref_id", "voisins_m", "voisins_f"], NEIGHBORS_PATH)
+    distances_ = dataType("voisins", ["ref_id", "distance"], DISTANCES_PATH)
+    pureSimScore_ = dataType("score similarité pure", ["ref_id", "score"], PUR_SIM_PATH)
+    stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score"], STE_SIM_PATH)
+    lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score"], LEM_SIM_PATH)
 
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
@@ -345,10 +355,18 @@ def main():
 
     # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
-    process_pairs(model, find_nouns(lines_reference), vocab, pairss)
+    process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
+                  pureSimScore_, stemSimScore_, lemSimScore_, neighbours_, distances_)
     # appel de fonctions pour étudier des paires d'adjectifs
     # process_pairs(model, find_adjs(lines_reference), vocab)
     # # todo : faire un top10 des noms avec le plus de distance
+    pairs_.output_all()
+    # neighbours_.output_all()
+    pureSimScore_.output_all()
+    stemSimScore_.output_all()
+    lemSimScore_.output_all()
+    distances_.output_all()
+    neighbours_.output_all()
 
 
 if __name__ == '__main__':
