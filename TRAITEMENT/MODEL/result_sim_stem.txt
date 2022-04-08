@@ -1,4 +1,4 @@
-ref_id	score	
+ref_id	score_sim_stemm	
 0	3	
 1	1	
 2	3	

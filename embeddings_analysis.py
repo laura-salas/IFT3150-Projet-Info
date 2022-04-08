@@ -23,6 +23,8 @@ RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
 PAIRS_PATH = "TRAITEMENT/MODEL/result_pairs.%s"
 NEIGHBORS_PATH = "TRAITEMENT/MODEL/result_neighbours.%s"
 DISTANCES_PATH = "TRAITEMENT/MODEL/result_distances.%s"
+FREQUENCES_PATH = "TRAITEMENT/MODEL/result_frequences.%s"
+NEIGHBOURS_FREQUENCES_PATH = "TRAITEMENT/MODEL/result_neighbours_frequences.%s"
 PUR_SIM_PATH = "TRAITEMENT/MODEL/result_sim_pure.%s"
 LEM_SIM_PATH = "TRAITEMENT/MODEL/result_sim_lemm.%s"
 STE_SIM_PATH = "TRAITEMENT/MODEL/result_sim_stem.%s"
@@ -205,13 +207,15 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
     # TODO: verifier si la frequence c'est le count ou le %
     word_count = model.wv.get_vecattr(word_key, "count")
+
     write_file(RESULT_PATH, "\n" + word_key + " (f=" + str(word_count) + ") : ", "a")
 
     # words used in a similar context as the target
     write_file(RESULT_PATH, " ".join(
         sim[0] + " (f=" + str(model.wv.get_vecattr(sim[0], "count")) + ")," for sim in similar_neighbours), "a")
 
-    return similar_neighbours
+    similar_neighbours_info = (similar_neighbours, word_count, [str(model.wv.get_vecattr(sim[0], "count"))  for sim in similar_neighbours])
+    return similar_neighbours_info
 
 
 def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, int)]:
@@ -231,7 +235,9 @@ def calculate_distance(model, word_key_masc: str, word_key_fem: str) -> [(str, i
 
 
 def get_similarity_score(model, complete_key_masc, complete_key_fem,
-                         pureSimScore, stemSimScore, lemSimScore, neighbours_, pairNo):
+                         pureSimScore, stemSimScore, lemSimScore, neighbours_,
+                         word_frequencies, neighbours_frequencies,
+                         pairNo):
     """
     Get the similarity score between the masculine and feminine of a word (sharing same
     root lemma)
@@ -243,9 +249,16 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
     :return:
     """
 
-    sims_m = [s[0] for s in find_similar_neighbours(model, complete_key_masc)]
-    sims_f = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
+    sims_m_info = [s for s in find_similar_neighbours(model, complete_key_masc)]
+    sims_f_info = [s for s in find_similar_neighbours(model, complete_key_fem)]
 
+    # sims_m_info = [s[0] for s in find_similar_neighbours(model, complete_key_masc)]
+    # sims_f_info = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
+    sims_m = [s[0] for s in sims_m_info[0]]
+    sims_f = [s[0] for s in sims_f_info[0]]
+
+    word_frequencies.add_data([pairNo, sims_m_info[1], sims_f_info[1]])
+    neighbours_frequencies.add_data([pairNo, sims_m_info[2], sims_f_info[2]])
     neighbours_.add_data([pairNo, sims_m, sims_f])
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
     scoreSimPure = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
@@ -298,7 +311,8 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
 
 def process_pairs(model, pairs, vocab, pairs_,
                   pureSimScore_, stemSimScore_,
-                  lemSimScore_, neighbours_, distances_):
+                  lemSimScore_, neighbours_, distances_,
+                  frequences_, neighbour_frequency_data_):
     """
     model
     :param pairs_:
@@ -328,6 +342,8 @@ def process_pairs(model, pairs, vocab, pairs_,
                                                     word_key_fem, pureSimScore_,
                                                     stemSimScore_, lemSimScore_,
                                                     neighbours_,
+                                                    frequences_,
+                                                    neighbour_frequency_data_,
                                                     pairs_amount)
             distance = calculate_distance(model, word_key_masc, word_key_fem)
 
@@ -342,9 +358,13 @@ def main():
     pairs_ = dataType("paires", ["global_ref", "paire (m)", "paire (f)"], PAIRS_PATH)
     neighbours_ = dataType("voisins", ["ref_id", "voisins_m", "voisins_f"], NEIGHBORS_PATH)
     distances_ = dataType("voisins", ["ref_id", "distance"], DISTANCES_PATH)
-    pureSimScore_ = dataType("score similarité pure", ["ref_id", "score"], PUR_SIM_PATH)
-    stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score"], STE_SIM_PATH)
-    lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score"], LEM_SIM_PATH)
+    pureSimScore_ = dataType("score similarité pure", ["ref_id", "score_sim_pure"], PUR_SIM_PATH)
+    stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score_sim_stemm"], STE_SIM_PATH)
+    lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score_sim_lemm"], LEM_SIM_PATH)
+    frequence_ = dataType("score frequences", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCES_PATH)
+    neighbour_frequency_data = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
+                                                             "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCES_PATH)
+
 
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
 
@@ -356,7 +376,8 @@ def main():
     # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
-                  pureSimScore_, stemSimScore_, lemSimScore_, neighbours_, distances_)
+                  pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
+                  distances_, frequence_, neighbour_frequency_data)
     # appel de fonctions pour étudier des paires d'adjectifs
     # process_pairs(model, find_adjs(lines_reference), vocab)
     # # todo : faire un top10 des noms avec le plus de distance
@@ -367,7 +388,8 @@ def main():
     lemSimScore_.output_all()
     distances_.output_all()
     neighbours_.output_all()
-
+    frequence_.output_all()
+    neighbour_frequency_data.output_all()
 
 if __name__ == '__main__':
     main()
