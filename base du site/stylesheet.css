@@ -1,0 +1,30 @@
+* {
+    --vermilion: #c84b31ff;
+    --terra-cotta: #e1806cff;
+    --glaucous: #6381afff;
+    --indigo-dye: #2d4263ff;
+    --cultured: #eeeeeeff;
+    --white: #ffffffff;
+}
+
+body {
+    color: var(--vermilion);
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+.accent-rouge {
+    color: var(--vermilion);
+}
+
+.footer-logos svg {
+    fill: var(--white);
+    width: 60%;
+    max-width: 200px;
+    margin-bottom: 40px;
+}
+
+#code1, #code2 {
+    padding: 40px;
+}
