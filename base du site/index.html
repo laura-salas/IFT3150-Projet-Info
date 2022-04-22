@@ -14,7 +14,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-dark.min.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <!-- <link href="typora.css" rel="stylesheet" /> -->
@@ -44,10 +44,130 @@
         <header id="presentation" class="masthead" >
             <img src="assets/banner.png" class="img-fluid" alt="" />
         </header>
-        <!-- Portfolio Section-->
+        <!-- Rapport, uncomment quand on a fini! -->
+
+        <!-- <iframe id="rapport" src="rapport.html" height="1000px" width="100%" frameborder="0"></iframe> -->
+        <div class="container">
+            <div class="row" >
+              <div class="col-4">
+                <div class="container" style="max-height: 100vh;overflow:scroll;
+                -webkit-overflow-scrolling: touch;">
+                  <div class="list-group" id="wordlist">
+                    <button type="button" class="list-group-item list-group-item-action active bg-secondary active disabled text-center border-0" aria-current="true">
+                      Word List
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="container" style="overflow:scroll;
+                -webkit-overflow-scrolling: touch;">
+                    <div class="d-flex">
+                        <input id="word" class="form-control me-2" type="search" placeholder="Chercher un mot" aria-label="Search">
+                        <button class="btn btn-outline-secondary" onclick="searchWord()">Chercher</button>
+                    </div>
+                    <br>
+                </div>
+                <div id="alerty" class="container">
+                </div>
+                <div class="container">
+                    <blockquote class="blockquote border text-center" style="padding: 20px; border-radius: 10px;">
+                        <h6 class="text-secondary">Word #<span id="global_ref">354</span></h6>
+                        <h2 class="text-secondary"><span id="paire (m)">Rieur</span> | <span id="paire (f)">Rieuse</span></h2>
+                        <h5 class="">M | F</span></h5>
+                        <hr />
+                        <h5 class="text-secondary">Occurrences in text:</h5>
+                        <h5 class=""><span id="frequence_m">46</span> | <span id="frequence_f">46</span></h5>
+                        <hr />
+                        <h5><span class="text-secondary">Similarity score:</span> <span id="similarite"></span></h5>
+                        <hr />
+                        <h5><span class="text-secondary">Pure score:</span> <span id="pure_score"></span></h5>
+                        <h5><span class="text-secondary">Lemmatized score:</span> <span id="lemma_score"></span></h5>
+                        <h5><span class="text-secondary">Stemmed score:</span> <span id="stemmed_score"></span></h5>
+                    </blockquote>
+                </div>
         
-        <iframe id="rapport" src="rapport.html" height="1000px" width="100%" frameborder="0"></iframe>
+                <div class="container">
+                    <div class="row d-flex justify-content-between align-items-start">
+                        <div class=" col-6">
+                            <div id="m-neighbours" class="list-group">
+                                <button type="button" class="list-group-item list-group-item-action bg-secondary active disabled text-center border-0" aria-current="true">
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 1)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 2)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 3)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 4)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 5)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 6)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 7)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 8)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 9)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('m-neighbours', 10)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class=" col-6">
+                            <div id="f-neighbours" class="list-group">
+                                <button type="button" class="list-group-item list-group-item-action bg-secondary active disabled text-center border-0" aria-current="true">
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 1)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 2)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 3)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 4)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 5)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 6)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 7)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 8)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 9)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start" onclick="searchWordByNeighbourIdx('f-neighbours', 10)">
+                                    <span class="badge bg-danger rounded-pill"></span>
+                                </button>
+                            </div>
+                        </div>
         
+                    </div>
+        
+                </div>
+            </div>
+            </div>
+          </div>
         <section class="page-section portfolio" id="code-repo">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -60,7 +180,7 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    
+
                     <!-- Portfolio Item 6-->
                     <h4 class=" text-center text-secondary mb-0"" style="color: #2d4263ff;">
                         Voici un aperçu de nos deux fichiers principaux. <br>
@@ -71,20 +191,20 @@
                     <br>
                     <br>
                     <div>
-                        
+
                     <p style="color: #2d4263ff;">assign-infos.py (<a style="text-decoration: none;" href="https://github.com/laura-salas/IFT3150-Projet-Info/blob/2375d41e8e33a0a9f3bb5c2cd9af9e495e817c47/assign_infos.py" target="_blank">github</a>)</p>
                     <pre style="min-height: 200px; max-height: 500px; border-radius: 10px;"><code id="code1" class="language-py">
-                        
+
                     </code></pre>
                     <p style="color: #2d4263ff;">embeddings-analysis.py (<a style="text-decoration: none;"href="https://github.com/laura-salas/IFT3150-Projet-Info/blob/2375d41e8e33a0a9f3bb5c2cd9af9e495e817c47/embeddings_analysis.py" target="_blank">github</a>)</p>
                     <pre style="min-height: 200px; max-height: 500px; border-radius: 10px;"><code id="code2" class="language-py">
-                        
+
                     </code></pre>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -342,11 +462,13 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
         <script>
             hljs.highlightAll();
         </script>
         <script src="loadcode.js"></script>
+        <script type="text/javascript" src="resultats.json"></script>
+        <script src="projet.js"></script>
 
     </body>
 </html>
