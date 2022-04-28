@@ -1,10 +1,12 @@
 import sys
+import pandas
 #import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
+from nltk.stem.snowball import SnowballStemmer
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -29,6 +31,9 @@ SAMPLE_VOCAB = "sample_vocab.txt"
 # CONSTANTS #
 VOCAB_N = 1000
 SIMILAR_WORDS_TO_GET = 10
+
+# NLTK stemmer
+stemmer = SnowballStemmer(language='french')
 
 
 class dataType:
@@ -102,9 +107,6 @@ class dataType:
         self.output_as_txt()
         self.output_as_csv()
         # self.output_as_json()
-
-
-
 
 
 def write_file(file_name: str, content: str, mode="w") -> None:
@@ -362,7 +364,7 @@ def main():
     stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score_sim_stemm"], STE_SIM_PATH)
     lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score_sim_lemm"], LEM_SIM_PATH)
     frequence_ = dataType("score frequences", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCES_PATH)
-    neighbour_frequency_data = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
+    neighbour_frequency_data_ = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
                                                              "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCES_PATH)
 
 
@@ -377,7 +379,7 @@ def main():
     # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
                   pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
-                  similarities_, frequence_, neighbour_frequency_data)
+                  similarities_, frequence_, neighbour_frequency_data_)
     # appel de fonctions pour étudier des paires d'adjectifs
     # process_pairs(model, find_adjs(lines_reference), vocab)
     # # todo : faire un top10 des noms avec le plus de distance
@@ -389,7 +391,19 @@ def main():
     similarities_.output_all()
     neighbours_.output_all()
     frequence_.output_all()
-    neighbour_frequency_data.output_all()
+    neighbour_frequency_data_.output_all()
+
+    whole_table = pandas.merge(pd.DataFrame(pairs_.get_output()),
+                            pd.DataFrame(neighbours_.get_output()),
+                            pd.DataFrame(pureSimScore_.get_output()),
+                            pd.DataFrame(stemSimScore_.get_output()),
+                            pd.DataFrame(lemSimScore_.get_output()),
+                            pd.DataFrame(similarities_.get_output()),
+                            pd.DataFrame(neighbours_.get_output()),
+                            pd.DataFrame(frequence_.get_output()),
+                            pd.DataFrame(neighbour_frequency_data_.get_output()))
+    return whole_table
+
 
 if __name__ == '__main__':
     main()
