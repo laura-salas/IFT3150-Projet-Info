@@ -1,0 +1,13 @@
+{ "a":
+	{
+		"global_ref": "0",
+		"paire (m)": "danceur",
+		"paire (f)": "danceuse"
+	},
+	"b":
+	{
+		"global_ref": "1",
+		"paire (m)": "chanteur",
+		"paire (f)": "chanteuse"
+	}
+}
