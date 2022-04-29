@@ -6,6 +6,7 @@ from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
+import json
 #TODO : fix import
 #from nltk.stem.snowball import SnowballStemmer
 
@@ -359,7 +360,7 @@ def main():
     stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score_sim_stemm"], STE_SIM_PATH)
     lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score_sim_lemm"], LEM_SIM_PATH)
     nbOccurrences_ = dataType("score nombre d'ocurrance", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCIES_PATH)
-    neighbour_frequency_data = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
+    neighbour_frequency_data_ = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
                                                              "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCIES_PATH)
     calculatedBias_ = dataType("calculated bias", ["ref_id", "bias (m)",
                                                              "bias (f)", ], CALCULATED_BIAS_OUTPUT_PATH)
@@ -383,7 +384,7 @@ def main():
     # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
                   pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
-                  similarities_, nbOccurrences_, neighbour_frequency_data)
+                  similarities_, nbOccurrences_, neighbour_frequency_data_)
 
     # appel de fonctions pour étudier des paires d'adjectifs
     pairs_.output_all()
@@ -395,19 +396,25 @@ def main():
     similarities_.output_all()
     neighbours_.output_all()
     nbOccurrences_.output_all()
-    neighbour_frequency_data.output_all()
     calculatedBias_.output_all()
-    frequence_.output_all()
+    nbOccurrences_.output_all()
     neighbour_frequency_data_.output_all()
 
+    '''
     df_pairs = pd.DataFrame(pairs_.get_output())
     df_pure_score = pd.DataFrame(pureSimScore_.get_output())
     df_lem_score = pd.DataFrame(lemSimScore_.get_output())
     df_stem_score = pd.DataFrame(stemSimScore_.get_output())
 
-    scores_table = df_pairs.merge(df_pure_score).merge(df_lem_score).merge(df_stem_score)
+    pure_scores_table = df_pairs.merge(df_pure_score)
+    lem_scores_table = df_pairs.merge(df_lem_score)
+    stem_scores_table = df_pairs.merge(df_stem_score)
+    '''
+    pure_scores_table = pairs_.get_output().extend(pureSimScore_.get_output())
+    lem_scores_table = pairs_.get_output().extend(lemSimScore_.get_output())
+    stem_scores_table = pairs_.get_output().extend(stemSimScore_.get_output())
 
-    return scores_table
+    return pure_scores_table,lem_scores_table,stem_scores_table
 
 
 if __name__ == '__main__':
