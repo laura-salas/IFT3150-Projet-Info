@@ -1,12 +1,13 @@
 import sys
-import pandas
+import pandas as pd
 #import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
-from nltk.stem.snowball import SnowballStemmer
+#TODO : fix import
+#from nltk.stem.snowball import SnowballStemmer
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -33,7 +34,8 @@ VOCAB_N = 1000
 SIMILAR_WORDS_TO_GET = 10
 
 # NLTK stemmer
-stemmer = SnowballStemmer(language='french')
+#TODO : fix import
+#stemmer = SnowballStemmer(language='french')
 
 
 class dataType:
@@ -292,10 +294,16 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
     stemmed_sims_f = []
 
     for sim_idx in range(len(raw_sims_m)):
+        #TODO : fix nltk import
+        '''
         a = raw_sims_m[sim_idx]
         b = stemmer.stem(a)
         stemmed_sims_m.append(stemmer.stem(raw_sims_m[sim_idx]))
         stemmed_sims_f.append(stemmer.stem(raw_sims_f[sim_idx]))
+        '''
+        #TODO : remove the two following lines and replace with lines above
+        stemmed_sims_m.append(raw_sims_m[sim_idx])
+        stemmed_sims_f.append(raw_sims_f[sim_idx])
 
     stemmed_sims_m = Counter(stemmed_sims_m)
     stemmed_sims_f = Counter(stemmed_sims_f)
@@ -326,7 +334,8 @@ def process_pairs(model, pairs, vocab, pairs_,
     pairs_amount = 0
     # array of distances for each pair
     distances = []
-    # array of similarity scores for each pair
+    # array of simila
+    # rity scores for each pair
     similarity_scores = []
 
     for pair in pairs:
@@ -393,16 +402,14 @@ def main():
     frequence_.output_all()
     neighbour_frequency_data_.output_all()
 
-    whole_table = pandas.merge(pd.DataFrame(pairs_.get_output()),
-                            pd.DataFrame(neighbours_.get_output()),
-                            pd.DataFrame(pureSimScore_.get_output()),
-                            pd.DataFrame(stemSimScore_.get_output()),
-                            pd.DataFrame(lemSimScore_.get_output()),
-                            pd.DataFrame(similarities_.get_output()),
-                            pd.DataFrame(neighbours_.get_output()),
-                            pd.DataFrame(frequence_.get_output()),
-                            pd.DataFrame(neighbour_frequency_data_.get_output()))
-    return whole_table
+    df_pairs = pd.DataFrame(pairs_.get_output())
+    df_pure_score = pd.DataFrame(pureSimScore_.get_output())
+    df_lem_score = pd.DataFrame(lemSimScore_.get_output())
+    df_stem_score = pd.DataFrame(stemSimScore_.get_output())
+
+    scores_table = df_pairs.merge(df_pure_score).merge(df_lem_score).merge(df_stem_score)
+
+    return scores_table
 
 
 if __name__ == '__main__':
