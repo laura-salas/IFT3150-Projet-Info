@@ -297,7 +297,6 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
 
     return scoreSimPure
 
-
 def process_pairs(model, pairs, vocab, pairs_,
                   pureSimScore_, stemSimScore_,
                   lemSimScore_, neighbours_, similarities_,
@@ -375,6 +374,7 @@ def main():
                   pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
                   similarities_, nbOccurrences_, neighbour_frequency_data)
 
+
     # appel de fonctions pour étudier des paires d'adjectifs
     pairs_.output_all()
     pureSimScore_.output_as_json()
@@ -383,10 +383,37 @@ def main():
     stemSimScore_.output_all()
     lemSimScore_.output_all()
     similarities_.output_all()
-    neighbours_.output_all()
     nbOccurrences_.output_all()
     neighbour_frequency_data.output_all()
     calculatedBias_.output_all()
+
+    unmergedOutput = []
+
+    for data in [pairs_,
+        similarities_,
+        pureSimScore_,
+        stemSimScore_,
+        lemSimScore_,
+        nbOccurrences_,
+        calculatedBias_]:
+        currDataArr = []
+        for line in data.get_output():
+            currLine = []
+            for item in line:
+                currLine.append(item)
+            currDataArr.append(currLine)
+        unmergedOutput.append(currDataArr)
+
+    mergedOutput = []
+
+    for i, object in enumerate(unmergedOutput):
+        for idx, line in enumerate(object):
+            if i == 0:
+                mergedOutput.append([])
+            for item in line:
+                mergedOutput[idx].append(item)
+
+
 
 
 if __name__ == '__main__':
