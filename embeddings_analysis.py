@@ -1,18 +1,9 @@
-import sys
-# import matplotlib.pyplot as plt
-from gensim.test.utils import common_texts
+import pandas
 from gensim.models import Word2Vec
-from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
-
-from nltk.stem.snowball import SnowballStemmer
 import json
-
-import pandas
-
-# NLTK stemmer
-stemmer = SnowballStemmer(language='french')
+from nltk.stem.snowball import SnowballStemmer
 
 # PATHS #
 # Contains the reference words along with their POS and other info about each of them
@@ -40,6 +31,9 @@ SAMPLE_VOCAB = "sample_vocab.txt"
 
 VOCAB_N = 1000
 SIMILAR_WORDS_TO_GET = 10
+
+# NLTK stemmer
+stemmer = SnowballStemmer(language='french')
 
 
 class dataType:
@@ -109,9 +103,6 @@ class dataType:
         # self.output_as_json()
 
 
-
-
-
 def write_file(file_name: str, content: str, mode="w") -> None:
     """
     Write string to a file
@@ -176,6 +167,11 @@ def assign_POS_key(key: str, vocab: str):
     return key + '_NOM' if key + '_NOM' in vocab \
         else key + '_ADJ' if key + '_ADJ' in vocab \
         else None
+
+def lemme(word):
+    lemme = ""
+    # voir code assign_infos.py
+    return lemme
 
 
 def lemme(word):
@@ -286,6 +282,7 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
         stemmed_sims_m.append(stemmer.stem(raw_sims_m[sim_idx]))
         stemmed_sims_f.append(stemmer.stem(raw_sims_f[sim_idx]))
 
+
     stemmed_sims_m = Counter(stemmed_sims_m)
     stemmed_sims_f = Counter(stemmed_sims_f)
 
@@ -301,7 +298,7 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
 
 def process_pairs(model, pairs, vocab, pairs_,
                   pureSimScore_, stemSimScore_,
-                  lemSimScore_, neighbours_, similarities_,
+                  lemSimScore_, neighbours_, distance_,
                   frequences_, neighbour_frequency_data_):
     """
     model
@@ -314,7 +311,8 @@ def process_pairs(model, pairs, vocab, pairs_,
     pairs_amount = 0
     # array of distances for each pair
     distances = []
-    # array of similarity scores for each pair
+    # array of simila
+    # rity scores for each pair
     similarity_scores = []
 
     for pair in pairs:
@@ -336,7 +334,7 @@ def process_pairs(model, pairs, vocab, pairs_,
             distance = calculate_similarity(model, word_key_masc, word_key_fem)
 
             distances.append(distance)
-            similarities_.add_data([pairs_amount, distance])
+            distance_.add_data([pairs_amount, distance])
             similarity_scores.append(similarity_score)
             pairs_amount += 1
 
@@ -345,12 +343,12 @@ def main():
     # OUR DATA TYPES
     pairs_ = dataType("paires", ["global_ref", "paire (f)", "paire (m)"], PAIRS_PATH)
     neighbours_ = dataType("voisins", ["ref_id", "voisins_m", "voisins_f"], NEIGHBORS_PATH)
-    similarities_ = dataType("voisins", ["ref_id", "distance"], SIMILARITIES_PATH)
+    distance_ = dataType("voisins", ["ref_id", "distance"], SIMILARITIES_PATH)
     pureSimScore_ = dataType("score similarité pure", ["ref_id", "score_sim_pure"], PUR_SIM_PATH)
     stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score_sim_stemm"], STE_SIM_PATH)
     lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score_sim_lemm"], LEM_SIM_PATH)
     nbOccurrences_ = dataType("score nombre d'ocurrance", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCIES_PATH)
-    neighbour_frequency_data = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
+    neighbour_frequency_data_ = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
                                                              "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCIES_PATH)
     calculatedBias_ = dataType("calculated bias", ["ref_id", "bias (m)",
                                                              "bias (f)", ], CALCULATED_BIAS_OUTPUT_PATH)
@@ -370,11 +368,9 @@ def main():
     vocab = model.wv.index_to_key
     write_vocab()
 
-    # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
-    # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
                   pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
-                  similarities_, nbOccurrences_, neighbour_frequency_data)
+                  distance_, nbOccurrences_, neighbour_frequency_data_)
 
 
     # appel de fonctions pour étudier des paires d'adjectifs
@@ -384,15 +380,17 @@ def main():
     pureSimScore_.output_all()
     stemSimScore_.output_all()
     lemSimScore_.output_all()
-    similarities_.output_all()
+    distance_.output_all()
     nbOccurrences_.output_all()
-    neighbour_frequency_data.output_all()
     calculatedBias_.output_all()
+    nbOccurrences_.output_all()
+    neighbour_frequency_data_.output_all()
 
+    # Merge all columns in one place
     unmergedOutput = []
 
     for data in [pairs_,
-        similarities_,
+        distance_,
         pureSimScore_,
         stemSimScore_,
         lemSimScore_,
