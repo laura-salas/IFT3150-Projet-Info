@@ -79,7 +79,9 @@ def generate_plot(k, precision, recall, size_of_data, score_type):
     plt.title("Qualité de score: " + score_type)
     plt.grid(True)
     plt.xlim([1, size_of_data])
-    plt.show()
+    # uncomment the following to show the interactive graph
+    # plt.show()
     plt.savefig('graphique-%s.jpg' % score_type)
+    # comment the following to "stack" the curves
     plt.clf()
 
