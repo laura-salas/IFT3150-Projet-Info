@@ -30,7 +30,7 @@ def extract_pairs_scores(results, score_type):
 
 def perfo_top_k(res,k):
 	res = res().iloc[:k]
-	'''
+
 	# Pour chaque valeur de k, on calcule rappel et precision
 
 	perfo = 0
@@ -51,7 +51,7 @@ def perfo_top_k(res,k):
 
 	precision = tp/(tp+fp)
 	recall = tp/(tp+fn)
-	'''
+
 
 	return precision, recall
 
@@ -66,6 +66,7 @@ def generate_plot(k,precision,recall):
 	plt.title("Qualité de score: "+score_type)
 	plt.grid(True)
 	plt.show()
+	plt.savefig('graphique.pdf')
 
 
 def main():

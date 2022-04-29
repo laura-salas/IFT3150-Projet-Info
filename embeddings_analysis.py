@@ -1,5 +1,5 @@
 import sys
-import pandas as pd
+import pandas
 #import matplotlib.pyplot as plt
 from gensim.test.utils import common_texts
 from gensim.models import Word2Vec
@@ -7,7 +7,7 @@ from gensim.models import KeyedVectors
 from lemmatizer import lemmatize
 from collections import Counter
 import json
-#TODO : fix import
+#import nltk
 #from nltk.stem.snowball import SnowballStemmer
 
 # PATHS #
@@ -420,7 +420,7 @@ def main():
     for data in [pairs_,
         similarities_,
         pureSimScore_,
-        stemSimScore_,
+        #stemSimScore_,
         lemSimScore_,
         nbOccurrences_,
         calculatedBias_]:
