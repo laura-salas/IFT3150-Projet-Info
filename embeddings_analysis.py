@@ -7,6 +7,7 @@ from lemmatizer import lemmatize
 from collections import Counter
 
 from nltk.stem.snowball import SnowballStemmer
+import json
 
 # NLTK stemmer
 stemmer = SnowballStemmer(language='french')
@@ -18,25 +19,31 @@ WORDS_ASSIGNED_PATH = "TRAITEMENT/MODEL/words_assigned.txt"
 MODEL_PATH = "TRAITEMENT/SAMPLES/CLEANED/models2/2000.txt.tt.formes.model"
 # The output paths
 RESULT_PATH = "TRAITEMENT/MODEL/result.txt"
-# note, the paths below require the output to be specified like so:
+
+# Note, the paths below require the format to be specified like so:
 # PAIRS_PATH % "txt" , or PAIRS_PATH % "csv", etc
 PAIRS_PATH = "TRAITEMENT/MODEL/result_pairs.%s"
 NEIGHBORS_PATH = "TRAITEMENT/MODEL/result_neighbours.%s"
 SIMILARITIES_PATH = "TRAITEMENT/MODEL/result_distances.%s"
-FREQUENCES_PATH = "TRAITEMENT/MODEL/result_frequences.%s"
-NEIGHBOURS_FREQUENCES_PATH = "TRAITEMENT/MODEL/result_neighbours_frequences.%s"
+FREQUENCIES_PATH = "TRAITEMENT/MODEL/result_frequences.%s"
+NEIGHBOURS_FREQUENCIES_PATH = "TRAITEMENT/MODEL/result_neighbours_frequences.%s"
 PUR_SIM_PATH = "TRAITEMENT/MODEL/result_sim_pure.%s"
 LEM_SIM_PATH = "TRAITEMENT/MODEL/result_sim_lemm.%s"
 STE_SIM_PATH = "TRAITEMENT/MODEL/result_sim_stem.%s"
+CALCULATED_BIAS_OUTPUT_PATH = "TRAITEMENT/MODEL/result_calculated_bias.%s"
+CALCULATED_BIAS_PATH = "TRAITEMENT/MODEL/result_calculated_bias.json"
+
 # Sample vocabulary to provide
 SAMPLE_VOCAB = "sample_vocab.txt"
 
-# CONSTANTS #
 VOCAB_N = 1000
 SIMILAR_WORDS_TO_GET = 10
 
 
 class dataType:
+    """
+    Object to classify data
+    """
     def __init__(self, name, headers, output_path):
         self.name = name
         self.headers = headers
@@ -69,25 +76,16 @@ class dataType:
         master_str = str(self)
         write_file(self.output_path % "txt", master_str, "w")
 
-    # todo: use python lib for this haha
-    # def output_as_json(self):
-    #     output = self.get_output()
-    #     master_str = "{\n"
-    #
-    #     for line in output[1:]:
-    #         master_str += "\t{\n"
-    #         for header_idx, header in enumerate(self.headers):
-    #             master_str += '\t\t"%s": ' % header
-    #
-    #             if type(line[header_idx]) is str:
-    #                 master_str += '"%s",\n' % line[header_idx]
-    #             elif type(line[header_idx]) is int:
-    #                 master_str += '%d,\n' % line[header_idx]
-    #             elif type(line[header_idx]) is float:
-    #                 master_str += ' %6.3f,\n' % line[header_idx]
-    #         master_str += "\t},\n"
-    #     master_str += "}"
-    #     write_file(self.output_path % "json", master_str, "w")
+    def output_as_json(self):
+        jsonObject = []
+        for line in self.get_output()[1:]:
+            curr_item = {}
+            for idx, item in enumerate(line):
+                curr_item[self.headers[idx]] = item
+            jsonObject.append(curr_item)
+        output = json.dumps(jsonObject)
+
+        write_file(self.output_path % "json", output, "w")
 
     def output_as_csv(self):
         """
@@ -157,9 +155,6 @@ def write_vocab(vocab: [str] = None) -> None:
     :return:
     """
 
-    # TODO: régler le bug de pourquoi ca réécrit par dessus le fichier si on re-roule le code\
-    #  sans vider le fichier de result: peut-être le vider\
-    #  a chaque fois?
     write_file(RESULT_PATH, "", "w")
 
     write_file(SAMPLE_VOCAB,
@@ -171,7 +166,6 @@ def write_vocab(vocab: [str] = None) -> None:
 def assign_POS_key(key: str, vocab: str):
     """
     Find key in vocabulary and assign POS (either ADJ or NOM (noun))
-    #TODO: est-ce qu'on peut renommer NOM à NOUN?
 
     :param key: word to find
     :param vocab: vocabulary to look through
@@ -200,12 +194,10 @@ def find_similar_neighbours(model, word_key: str) -> (str, [str], int):
     # Source :
     # https://radimrehurek.com/gensim/models/word2vec.html
     """
-
-    vector = model.wv[word_key]
-
-    # get other similar words
+    # get neighbours
     similar_neighbours = model.wv.most_similar(word_key, topn=SIMILAR_WORDS_TO_GET)
-    # TODO: verifier si la frequence c'est le count ou le %
+
+
     word_count = model.wv.get_vecattr(word_key, "count")
 
     write_file(RESULT_PATH, "\n" + word_key + " (f=" + str(word_count) + ") : ", "a")
@@ -241,7 +233,6 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
     """
     Get the similarity score between the masculine and feminine of a word (sharing same
     root lemma)
-    TODO: better define the similarity score and ask ourselves if this is the best method
 
     :param model:
     :param complete_key_masc:
@@ -252,14 +243,13 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
     sims_m_info = [s for s in find_similar_neighbours(model, complete_key_masc)]
     sims_f_info = [s for s in find_similar_neighbours(model, complete_key_fem)]
 
-    # sims_m_info = [s[0] for s in find_similar_neighbours(model, complete_key_masc)]
-    # sims_f_info = [s[0] for s in find_similar_neighbours(model, complete_key_fem)]
     sims_m = [s[0] for s in sims_m_info[0]]
     sims_f = [s[0] for s in sims_f_info[0]]
 
     word_frequencies.add_data([pairNo, sims_m_info[1], sims_f_info[1]])
     neighbours_frequencies.add_data([pairNo, sims_m_info[2], sims_f_info[2]])
     neighbours_.add_data([pairNo, sims_m, sims_f])
+
     # score de similarité basé sur l'équivalence pure entre les sims_f et les sims_m
     scoreSimPure = sum([1 if sim_f in set(sims_m) else 0 for sim_f in sims_f])
 
@@ -270,7 +260,6 @@ def get_similarity_score(model, complete_key_masc, complete_key_fem,
     raw_sims_m = [sim_m.split("_")[0] for sim_m in sims_m]
     raw_sims_f = [sim_f.split("_")[0] for sim_f in sims_f]
 
-    # todo: je comprends pas comment ceci est un dictionnaire ;-;
     lemmas_sims_m = Counter(lemmatize(' '.join(raw_sims_m)))
     lemmas_sims_f = Counter(lemmatize(' '.join(raw_sims_f)))
     for lemma_sims_m in lemmas_sims_m.keys():
@@ -334,10 +323,8 @@ def process_pairs(model, pairs, vocab, pairs_,
         word_key_masc = assign_POS_key(key_masc, vocab)
         word_key_fem = assign_POS_key(key_fem, vocab)
 
-        # TODO : vérifier que les deux clés sont dans la meme POS aussi
         if word_key_masc is not None and word_key_fem is not None:
             pairs_.add_data([str(pairs_amount), str(key_fem), str(key_masc)])
-            # TODO : lemmatiser le key fem pour comparer le string avec le key masc
             similarity_score = get_similarity_score(model, word_key_masc,
                                                     word_key_fem, pureSimScore_,
                                                     stemSimScore_, lemSimScore_,
@@ -355,41 +342,52 @@ def process_pairs(model, pairs, vocab, pairs_,
 
 def main():
     # OUR DATA TYPES
-    pairs_ = dataType("paires", ["global_ref", "paire (m)", "paire (f)"], PAIRS_PATH)
+    pairs_ = dataType("paires", ["global_ref", "paire (f)", "paire (m)"], PAIRS_PATH)
     neighbours_ = dataType("voisins", ["ref_id", "voisins_m", "voisins_f"], NEIGHBORS_PATH)
     similarities_ = dataType("voisins", ["ref_id", "distance"], SIMILARITIES_PATH)
     pureSimScore_ = dataType("score similarité pure", ["ref_id", "score_sim_pure"], PUR_SIM_PATH)
     stemSimScore_ = dataType("score similarité stemmed", ["ref_id", "score_sim_stemm"], STE_SIM_PATH)
     lemSimScore_ = dataType("score similarité lemmatisée", ["ref_id", "score_sim_lemm"], LEM_SIM_PATH)
-    frequence_ = dataType("score frequences", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCES_PATH)
+    nbOccurrences_ = dataType("score nombre d'ocurrance", ["ref_id", "frequence_m", "frequence_f", ], FREQUENCIES_PATH)
     neighbour_frequency_data = dataType("score frequences", ["ref_id", "neighbours_frequences_m",
-                                                             "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCES_PATH)
-
+                                                             "neighbours_frequences_f", ], NEIGHBOURS_FREQUENCIES_PATH)
+    calculatedBias_ = dataType("calculated bias", ["ref_id", "bias (m)",
+                                                             "bias (f)", ], CALCULATED_BIAS_OUTPUT_PATH)
 
     lines_reference = open(WORDS_ASSIGNED_PATH, "r").read().splitlines()
+
+    calculated_bias = json.loads(open(CALCULATED_BIAS_PATH, "r").read())
+
+    for idx, line in enumerate(calculated_bias):
+        arr = []
+        arr.append(idx)
+        for key in line:
+             arr.append(line[key])
+        calculatedBias_.add_data(arr)
 
     model = Word2Vec.load(MODEL_PATH)
     vocab = model.wv.index_to_key
     write_vocab()
-    # write_vocab(vocab)
 
     # IMPORTANT : choisir la ligne appropriée selon étude de noms ou adj.s
     # appel de fonctions pour étudier des paires de noms
     process_pairs(model, find_nouns(lines_reference), vocab, pairs_,
                   pureSimScore_, stemSimScore_, lemSimScore_, neighbours_,
-                  similarities_, frequence_, neighbour_frequency_data)
+                  similarities_, nbOccurrences_, neighbour_frequency_data)
+
     # appel de fonctions pour étudier des paires d'adjectifs
-    # process_pairs(model, find_adjs(lines_reference), vocab)
-    # # todo : faire un top10 des noms avec le plus de distance
     pairs_.output_all()
-    # neighbours_.output_all()
+    pureSimScore_.output_as_json()
+    neighbours_.output_all()
     pureSimScore_.output_all()
     stemSimScore_.output_all()
     lemSimScore_.output_all()
     similarities_.output_all()
     neighbours_.output_all()
-    frequence_.output_all()
+    nbOccurrences_.output_all()
     neighbour_frequency_data.output_all()
+    calculatedBias_.output_all()
+
 
 if __name__ == '__main__':
     main()
