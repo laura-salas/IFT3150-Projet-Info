@@ -9,6 +9,8 @@ from collections import Counter
 from nltk.stem.snowball import SnowballStemmer
 import json
 
+import pandas
+
 # NLTK stemmer
 stemmer = SnowballStemmer(language='french')
 
@@ -413,6 +415,12 @@ def main():
             for item in line:
                 mergedOutput[idx].append(item)
 
+    df = pandas.DataFrame(
+        [line for line in mergedOutput[1:]],
+        index=[idx for idx in range(len(mergedOutput[1:]))],
+        columns=[header for header in mergedOutput[0]]
+    )
+    return df
 
 
 
