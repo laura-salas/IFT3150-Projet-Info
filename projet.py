@@ -21,15 +21,9 @@ def main():
 	lemmatize.main()
 	'''
 	scores_results = embeddings_analysis.main()
-	print("scores_results:",scores_results)
-	pure_scores_results = scores_results[0]
-	plot_results.extract_pairs_scores(pure_scores_results, "pure_score")
-
-	lem_scores_results = scores_results[1]
-	plot_results.extract_pairs_scores(lem_scores_results, "lemma_score")
-
-	stem_scores_results = scores_results[2]
-	plot_results.extract_pairs_scores(stem_scores_results, "stem_score")
+	plot_results.extract_pairs_scores(scores_results, "score_sim_pure")
+	plot_results.extract_pairs_scores(scores_results, "score_sim_lemm")
+	plot_results.extract_pairs_scores(scores_results, "score_sim_stemm")
 
 if __name__ == '__main__':
     main()

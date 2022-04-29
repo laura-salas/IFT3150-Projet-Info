@@ -408,13 +408,13 @@ def main():
     pure_scores_table = df_pairs.merge(df_pure_score)
     lem_scores_table = df_pairs.merge(df_lem_score)
     stem_scores_table = df_pairs.merge(df_stem_score)
-    '''
+    
     pure_scores_table = pairs_.get_output().extend(pureSimScore_.get_output())
     lem_scores_table = pairs_.get_output().extend(lemSimScore_.get_output())
     stem_scores_table = pairs_.get_output().extend(stemSimScore_.get_output())
 
     return pure_scores_table,lem_scores_table,stem_scores_table
-
+    '''
     unmergedOutput = []
 
     for data in [pairs_,
@@ -440,6 +440,8 @@ def main():
                 mergedOutput.append([])
             for item in line:
                 mergedOutput[idx].append(item)
+
+    return mergedOutput
 
 
 
